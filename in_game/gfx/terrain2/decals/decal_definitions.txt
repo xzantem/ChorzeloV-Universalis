@@ -1,0 +1,59 @@
+{
+    name = heightmap_kusko
+    layer_textures = {
+        heightmap = "heightmap_kusko_height.png"
+        materials = "heightmap_kusko_bitmask.png"
+    }
+    additional_textures = {
+    }
+}
+
+{
+    name = mountain_01
+    layer_textures = {
+        heightmap = "mountain_01_height.png"
+        materials = "mountain_01_bitmask.png"
+    }
+    additional_textures = {
+    }
+}
+
+{
+    name = mountain_02
+    layer_textures = {
+        heightmap = "mountain_02_height.png"
+        materials = "mountain_02_bitmask.png"
+    }
+    additional_textures = {
+    }
+}
+
+{
+    name = mountain_03
+    layer_textures = {
+        heightmap = "mountain_03_height.png"
+        materials = "mountain_03_bitmask.png"
+    }
+    additional_textures = {
+    }
+}
+
+{
+    name = mountain_jagged_01
+    layer_textures = {
+        heightmap = "mountain_jagged_01_height.png"
+        materials = "mountain_jagged_01_bitmask.png"
+    }
+    additional_textures = {
+    }
+}
+
+{
+    name = volcano_01
+    layer_textures = {
+        heightmap = "volcano_01_height.png"
+        materials = "volcano_01_bitmask.png"
+    }
+    additional_textures = {
+    }
+}
