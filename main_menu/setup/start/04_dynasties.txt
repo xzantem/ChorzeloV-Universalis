@@ -11,5 +11,16 @@ dynasty_manager = {
 			name_anna name_catherine name_elizabeth name_margaret
 		}
 	}
+	kusek_dynasty = {
+		name = { name = kusek_dynasty }
+		home = stary_chorzelów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+
+		}
+	}
 
 }

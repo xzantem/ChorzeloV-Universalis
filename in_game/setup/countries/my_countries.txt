@@ -12,3 +12,344 @@
 	description_category = diplomatic
 	difficulty = 3
 }
+
+# TODO: UNIT COLORS, CULTURES, RELIGIONS, DESCRIPTIONS, DIFFICULTY
+
+GRA = {
+	color = rgb { 155  96  68 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+KRK = {
+	color = rgb { 0  70  175 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+SLD = {
+	color = rgb { 38  127  0 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+LIŁ = {
+	color = rgb { 159  174  70 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+PLS = {
+	color = rgb { 136  205  0 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MSZ = {
+	color = rgb { 209  148  48 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BCH = {
+	color = rgb { 63  79  209 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+RZU = {
+	color = rgb { 132  0  0 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+SWB = {
+	color = rgb { 188  45  109 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+AUR = {
+	color = rgb { 221  255  255 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+NOB = {
+	color = rgb { 41  195  242 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+CKZ = {
+	color = rgb { 226  189  0 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MCD = {
+	color = rgb { 240  60  70 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+TVI = { # TODO zmienić tag
+	color = rgb { 42  0  160 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MLC = {
+	color = rgb { 46  115  193 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+PUA = {
+	color = rgb { 113  242  169 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+FMB = {
+	color = rgb { 255  28  164 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+GER = {
+	color = rgb { 31  48  99 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = prussian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+TMB = {
+	color = rgb { 255  89  101 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+YID = {
+	color = rgb { 127  110  110 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = ashkenazi
+	religion_definition = judaism
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MAL = {
+	color = rgb { 188  54  170 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BYD = {
+	color = rgb { 158  34  108 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+JUD = {
+	color = rgb { 190  28  164 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = ashkenazi
+	religion_definition = judaism
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+WAL = {
+	color = rgb { 192  58  255 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+UWU = {
+	color = rgb { 68  226  0 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+UKR = {
+	color = rgb { 0  198  198 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = ruthenian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}

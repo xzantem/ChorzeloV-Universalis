@@ -1,4 +1,43 @@
 
 road_network = {
- 	testprovince1 = testprovince2
+	# A4
+	radymno = stubno
+	radymno = chłopice
+	chłopice = orły
+	chłopice = pawłosiów
+	pawłosiów = przeworsk
+	przworsk = tryńcza
+	przeworsk = białobrzegi
+	białobrzegi = czarna_łańcut
+	czarna_łańcut = łańcut
+	czarna_łańcut = krasne
+	krasne = trzebownisko
+	rzeszów = świlcza
+	trzebownisko = głogów_małopolski
+	głogów_małopolski = świlcza
+	świlcza = sędziszów_małopolski
+	sędziszów_małopolski = ostrów
+	ostrów = dębica
+	dębica = żyraków
+	żyraków = czarna_dębica
+	czarna_dębica = lisia_góra
+	lisia_góra = świebodzin
+	świebodzin = żabno
+	żabno = wierzchosławice
+	wierzchosławice = wojnicz
+	wojnicz = borzęcin
+	borzęcin = brzesko
+	brzesko = rzezawa
+	rzezawa = bochnia
+	bochnia = kłaj
+	kłaj = niepołomnice
+	niepołomnice = kraków
+	kraków = liszki
+	kraków = zabierzów
+	zabierzów = liszki
+	zabierzów = krzeszowice
+	krzeszowice = alwernia
+	alwernia = trzebinia
+	trzebinia = chrzanów
+	chrzanów = jaworzno
 }

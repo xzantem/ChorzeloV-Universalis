@@ -17,4 +17,19 @@ character_db={
 		tag = HAB
 		ruler_trait = lawgiver
 	}
+	kusek = {
+		first_name = { name = taurus_maximus }
+		# nickname = { name = taurus_maximus }
+		culture = greek_culture
+		religion = orthodox
+		estate = nobles_estate
+		adm = 85 dip = 35 mil = 100
+		female = no
+		birth_date = 1313.06.13
+		birth = stary_chorzelów
+		dynasty = kusek_dynasty
+		fertility = 75
+		tag = BYD
+		ruler_trait = lawgiver
+	}
 }

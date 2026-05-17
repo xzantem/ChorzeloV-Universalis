@@ -1,3 +1,11 @@
 market_manager = {
 	add_market = testprovince1
+	add_market = mielec
+	add_market = jasło
+	add_market = świebodzin
+	add_market = święty_świebodzin
+	add_market = kraków
+	add_market = meszna1
+	add_market = sanok
+	add_market = ulanów
 }

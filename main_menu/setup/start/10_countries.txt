@@ -31,5 +31,792 @@ countries = {
 			dynasty = habsburg_dynasty
 			capital = testprovince1
 		}
+		GRA = {
+			own_control_core = {
+				bukowno
+				olkusz
+				bolesław_olkusz
+				klucze
+				wolbrom
+				trzyciąż
+				gołcza
+				miechów
+				racławice
+				słaboszów
+				książ_wielki
+				kozłów
+				charsznica
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = olkusz
+		}
+		KRK = {
+			own_control_core = {
+				brzeszcze
+				kęty
+				osiek
+				oświęcim
+				chełmek
+				polanka_wielka
+				przeciszów
+				zator
+				libiąż
+				babice
+				chrzanów
+				trzebinia
+				alwernia
+				krzeszowice
+				czernichów
+				skawina
+				liszki
+				zabierzów
+				jerzmanowice
+				sułoszowa
+				skała
+				wielka_wieś
+				zielonki
+				kraków
+				mogilany
+				świątniki_górne
+				michałowice
+				iwanowice_włościańskie
+				słomniki
+				luborzyca
+				wawrzeńczyce
+				wieliczka
+				niepołomnice
+				gdów
+				tomaszkowice
+				kłaj
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = kraków
+		}
+		SLD = {
+			own_control_core = {
+				spytkowice
+				wieprz
+				tomice
+				brzeźnica
+				andrychów
+				wadowice
+				kalwaria_zebrzydowska
+				mucharz
+				stryszów
+				lanckorona
+				zembrzyce
+				budzów
+				stryszawa
+				sucha_beskidzka
+				maków_podhalański
+				zawoja
+				sułkowice
+				myślenice
+				siepraw
+				dobczyce
+				tokarnia
+				pcim
+				wiśniowa_myślenice
+				raciechowice
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = myślenice
+		}
+		LIŁ = {
+			own_control_core = {
+				bystra_podhalańska
+				jordanów
+				lubiem
+			}	
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = tribe
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_county
+			# dynasty = habsburg_dynasty
+			capital = jordanów
+		}
+		MSZ = {
+			own_control_core = {
+				meszna1
+				meszna2
+				lipnica_wielka
+				jabłonka
+				czarny_dunajec
+				raba_wyżna
+				spytkowice_nowotarskie
+				rabka_zdrój
+				nowy_targ
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = nowy_targ
+		}
+		BCH = {
+			own_control_core = {
+				kościelisko
+				zakopane
+				poronin
+				biały_dunajec
+				bukowina_tatrzańska
+				rysy
+				szaflary
+				łapsze_niżne
+				maniowy
+				ochotnica_dolna
+				krościenko_nad_dunajcem
+				szczawnica
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = tribe
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = zakopane
+		}
+		PLS = {
+			own_control_core = {
+				mszana_dolna
+				niedźwiedź
+				kamienica
+				dobra
+				jodłownik
+				tymbark
+				słopnice
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = mszana_dolna
+		}
+		RZU = {
+			own_control_core = {
+				bochnia
+				łapanów
+				nowy_wiśnicz
+				trzciana
+				żegocina
+				lipnica_murowana
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_county
+			# dynasty = habsburg_dynasty
+			capital = bochnia
+		}
+		SWB = {
+			own_control_core = {
+				świebodzin
+				bejsce
+				kazimierza_wielka
+				skalbmierz
+				działoszyce
+				koszyce
+				nowe_brzesko
+				proszowice
+				koniusza
+				radziemice
+				pałecznica
+				drwinia
+				rzezawa
+				szczurowa
+				borzęcin
+				wietrzychowice
+				żabno
+				radłów
+				wierzchosławice
+				gręboszów
+				bolesław_dąbrowa
+				olesno
+				mędrzechów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = świebodzin
+		}
+		AUR = {
+			own_control_core = {
+				święty_świebodzin
+				brzesko
+				dębno
+				gnojnik
+				czchów
+				iwkowa
+				laskowa
+				limanowa
+				łukowica
+				łącko
+				podegrodzie
+				stary_sącz
+				rytro
+				nawojowa
+				piwniczna-zdrój
+				łabowa
+				krynica-zdrój
+				muszyna
+				łososina_dolna
+				chełmiec
+				gródek_nad_dunajcem
+				nowy_sącz
+				korzenna
+				kamionka_wielka
+				grybów
+				wojnicz
+				zakliczyn
+				pleśna
+				gromnik
+				ciężkowice
+				tuchów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = theocracy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = święty_świebodzin
+		}
+		NOB = {
+			own_control_core = {
+				dąbrowa_tarnowska
+				szczucin
+				radgoszcz
+				lisia_góra
+				wola_rzędzińska
+				skrzyszów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = theocracy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = skrzyszów
+		}
+		CKZ = {
+			own_control_core = {
+				ryglice
+				szerzyny
+				biecz
+				gorlice
+				ropa
+				sękowa
+				uście_gorlickie
+				rzepiennik_strzyżewski
+				moszczenica
+				lużna
+				bobowa
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = gorlice
+		}
+		MCD = {
+			own_control_core = {
+				skołoszyn
+				lipniki
+				brzyska
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_county
+			# dynasty = habsburg_dynasty
+			capital = skołoszyn
+		}
+		TVI = {
+			own_control_core = {
+				borowa
+				czermin
+				gawłuszowice
+				padew
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_monarchy
+			# dynasty = habsburg_dynasty
+			capital = borowa
+		}
+		MLC = {
+			own_control_core = {
+				mielec
+				wadowice_górne
+				radomyśl
+				wola_mielecka
+				stary_chorzelów
+				przecław
+				rzemień
+				trześń
+				tuszów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = mielec
+		}
+		PUA = {
+			own_control_core = {
+				czarna_dębica
+				żyraków
+				dębica
+				pilzno
+				brzostek
+				jodłowa
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = czarna_dębica
+		}
+		FMB = {
+			own_control_core = {
+				ropczyce
+				ostrów
+				wielopole_skrzyńskie
+				sędziszów_małopolski
+				iwierzyce
+				frysztak
+				wiśniowa_strzyżów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = ropczyce
+		}
+		GER = {
+			own_control_core = {
+				jasło
+				dębowiec
+				tarnowiec
+				osiek_jasielski
+				nowy_żmigród
+				krempna
+				wojaszówka
+				korczyna
+				jedlicze
+				krosno
+				chorkówka
+				miejsce_piastowe
+				dukla
+				iwonicz-zdrój
+				rymanów
+				jaśliska
+				kołaczyce
+				krościenko_wyżne
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = jasło
+		}
+		TMB = {
+			own_control_core = {
+				strzyżów
+				czudec
+			}	
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_county
+			# dynasty = habsburg_dynasty
+			capital = strzyżów
+		}
+		YID = {
+			own_control_core = {
+				kolbuszowa
+				niwiska
+				cmolas
+				majdan_królewski
+				dzikowiec
+				raniżów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = kolbuszowa
+		}
+		MAL = {
+			own_control_core = {
+				tarnobrzeg
+				baranów_sandomierski
+				nowa_dęba
+				grębów
+				gorzyce
+				bojanów
+				stalowa_wola
+				pysznica
+				zaleszany
+				radomyśl_nad_sanem
+				zaklików
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = steppe_horde
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = tarnobrzeg
+		}
+		BYD = {
+			own_control_core = {
+				ulanów
+				jeżowe
+				nisko
+				rudnik_nad_sanem
+				krzeszów
+				jarocin
+				harasiuk
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = kusek
+			}
+
+			country_rank = rank_empire
+			dynasty = kusek_dynasty
+			capital = ulanów
+		}
+		JUD = {
+			own_control_core = {
+				leżajsk
+				nowa_sarzyna
+				kuryłówka
+				grodzisko_dolne
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_county
+			# dynasty = habsburg_dynasty
+			capital = leżajsk
+		}
+		WAL = {
+			own_control_core = {
+				kamień
+				sokołów_małopolski
+				głogów_małopolski
+				świlcza
+				trzebownisko
+				krasne
+				boguchwała
+				lubenia
+				tyczyn
+				chmielnik
+				błażowa
+				hyżne
+				dynów
+				rzeszów
+				rakszawa
+				żołynia
+				białobrzegi
+				czarna_łańcut
+				łańcut
+				markowa
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_kingdom
+			# dynasty = habsburg_dynasty
+			capital = rzeszów
+		}
+		UWU = {
+			own_control_core = {
+				brzozów
+				niebylec
+				domaradz
+				haczów
+				jasienica_rosielna
+				nozdrzec
+				dydnia
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = brzozów
+		}
+		UKR = {
+			own_control_core = {
+				sanok
+				dubiecko
+				bircza
+				ustrzyki_dolne
+				tyrawa_wołowska
+				olszanica
+				lesko
+				zagórz
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = tribe
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = sanok
+		}
 	}
 }
