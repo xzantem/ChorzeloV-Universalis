@@ -316,7 +316,7 @@ countries = {
 				wierzchosławice
 				gręboszów
 				bolesław_dąbrowa
-				olesno
+				oleśno
 				mędrzechów
 			}
 			starting_technology_level = 2
@@ -685,7 +685,7 @@ countries = {
 				rudnik_nad_sanem
 				krzeszów
 				jarocin
-				harasiuk
+				harasiuki
 			}
 			starting_technology_level = 2
 

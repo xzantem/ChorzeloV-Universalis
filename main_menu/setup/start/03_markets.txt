@@ -8,4 +8,5 @@ market_manager = {
 	add_market = meszna1
 	add_market = sanok
 	add_market = ulanów
+	add_market = książ_wielki
 }

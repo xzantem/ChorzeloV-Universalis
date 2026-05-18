@@ -1,0 +1,7 @@
+diplomacy_manager = {
+    # Chorzelow
+
+    dependency = { first = BYD second = MAL subject_type = vassal }
+    dependency = { first = BYD second = JUD subject_type = vassal }
+    dependency = { first = BYD second = WAL subject_type = vassal }
+}

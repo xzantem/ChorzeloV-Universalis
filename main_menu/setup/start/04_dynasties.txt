@@ -22,5 +22,4 @@ dynasty_manager = {
 
 		}
 	}
-
 }
