@@ -6,7 +6,7 @@
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -22,7 +22,7 @@ GRA = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -35,7 +35,7 @@ KRK = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -48,7 +48,7 @@ SLD = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -61,7 +61,7 @@ LIŁ = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -74,7 +74,7 @@ PLS = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -87,7 +87,7 @@ MSZ = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -100,7 +100,7 @@ BCH = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -113,7 +113,7 @@ RZU = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -126,7 +126,7 @@ SWB = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -139,7 +139,7 @@ AUR = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -152,7 +152,7 @@ NOB = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -165,7 +165,7 @@ CKZ = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -178,7 +178,7 @@ MCD = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -191,7 +191,7 @@ TVI = { # TODO zmienić tag
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -204,7 +204,7 @@ MLC = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -217,7 +217,7 @@ PUA = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -230,7 +230,7 @@ FMB = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -256,7 +256,7 @@ TMB = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -282,7 +282,7 @@ MAL = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -321,7 +321,7 @@ WAL = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -334,7 +334,7 @@ UWU = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
