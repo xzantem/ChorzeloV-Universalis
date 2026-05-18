@@ -27,6 +27,7 @@ earthquakes = {
 # European Seas
 sea_zones = { 
 	my_sea_zone
+	seazone1
 } 
 
 ###############

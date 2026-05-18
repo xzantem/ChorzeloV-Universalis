@@ -1,5 +1,6 @@
 ﻿my_sea_zone = aae55b
-placeholder_sea_zone = ff384f
+placeholder_sea_zone = FF384F
+seazone1 = FFDCD6
 
 wasteland1 = 9e0142
 wasteland2 = d53e4f
@@ -191,7 +192,7 @@ szczucin = 755899
 mędrzechów = 7F60A5
 bolesław_dąbrowa = 8967B2
 gręboszów = 936EBF
-olesno = 574272
+oleśno = 574272
 dąbrowa_tarnowska = 61497F
 radgoszcz = 6A518C
 

@@ -1,407 +1,408 @@
-my_sea_zone = { topography = narrows climate = subtropical}
-
-testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat natural_harbor_suitability=1.00}
-testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-czermin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-borowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gawłuszowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-padew = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tuszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-stary_chorzelów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wadowice_górne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-radomyśl = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wola_mielecka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-mielec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-trześń = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-przecław = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rzemień = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-czarna_dębica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-żyraków = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dębica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pilzno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-brzostek = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jodłowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-ostrów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-sędziszów_małopolski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-iwierzyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ropczyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wielopole_skrzyńskie = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-brzyska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-skołoszyn = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kołaczyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jasło = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tarnowiec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dębowiec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-osiek_jasielski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowy_żmigród = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krempna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-baranów_sandomierski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowa_dęba = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tarnobrzeg = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-grębów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gorzyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-majdan_królewski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-cmolas = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-niwiska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kolbuszowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dzikowiec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-raniżów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-bojanów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-stalowa_wola = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zaleszany = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-radomyśl_nad_sanem = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pysznica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zaklików = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-frysztak = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wiśniowa_strzyżów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-strzyżów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-czudec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-niebylec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-wojaszówka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-korczyna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jedlicze = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krosno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krościenko_wyżne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-chorkówka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-miejsce_piastowe = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dukla = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-iwonicz-zdrój = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rymanów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jaśliska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-jeżowe = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nisko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rudnik_nad_sanem = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krzeszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ulanów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jarocin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-harasiuki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-kamień = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-sokołów_małopolski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-głogów_małopolski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-trzebownisko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-świlcza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-boguchwała = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rzeszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krasne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lubenia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tyczyn = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-chmielnik = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-błażowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-hyżne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dynów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-haczów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-brzozów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jasienica_rosielna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-domaradz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nozdrzec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dydnia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-łańcut = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-czarna_łańcut = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-białobrzegi = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-żołynia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rakszawa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-markowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-kuryłówka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowa_sarzyna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-leżajsk = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-grodzisko_dolne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-adamówka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-sienawa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tryńcza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-przeworsk = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zarzecze = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gać = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kańczuga = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jawornik_polski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-wiązownica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jarosław = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-laszki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-radymno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pawłosiów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-chłopice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rokietnica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-roźwienica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pruchnik = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-stary_dzików = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-besko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zarszyn = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-sanok = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tyrawa_wołowska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bukowsko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-komańcza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zagórz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-lesko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-olszanica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-baligród = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-solina = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-cisna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-fredropol = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bircza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krasiczyn = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-przemyśl = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dubiecko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krzywcza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-żurawica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-orły = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-lutowiska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-czarna_bieszczady = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ustrzyki_dolne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-szczucin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-mędrzechów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bolesław_dąbrowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gręboszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-olesno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dąbrowa_tarnowska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-radgoszcz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-wietrzychowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-żabno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-radłów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wierzchosławice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lisia_góra = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wola_rzędzińska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-skrzyszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-świebodzin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-święty_świebodzin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wojnicz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zakliczyn = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pleśna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gromnik = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ciężkowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tuchów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rzepiennik_strzyżewski = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ryglice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-szerzyny = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-szczurowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-borzęcin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-brzesko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dębno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gnojnik = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-czchów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-iwkowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-bejsce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kazimierza_wielka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-skalbmierz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-działoszyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-
-koszyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowe_brzesko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-proszowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-koniusza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-radziemice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pałecznica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-bobowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lużna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-moszczenica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-biecz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lipniki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gorlice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ropa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-sękowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-uście_gorlickie = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-łososina_dolna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gródek_nad_dunajcem = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-korzenna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-chełmiec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowy_sącz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kamionka_wielka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-grybów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-łącko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-podegrodzie = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-stary_sącz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rytro = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nawojowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-piwniczna-zdrój = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-łabowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krynica-zdrój = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-muszyna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-laskowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-limanowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-łukowica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tymbark = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-słopnice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kamienica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jodłownik = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dobra = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-mszana_dolna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-niedźwiedź = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-drwinia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rzezawa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bochnia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowy_wiśnicz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-łapanów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-trzciana = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-żegocina = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lipnica_murowana = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-kłaj = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-niepołomnice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wieliczka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tomaszkowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gdów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-książ_wielki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kozłów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-charsznica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-gołcza = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-miechów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-słaboszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-racławice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-wolbrom = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-trzyciąż = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-klucze = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bolesław_olkusz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bukowno = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-olkusz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-sułoszowa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-skała = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-iwanowice_włościańskie = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-słomniki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jerzmanowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wielka_wieś = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zielonki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-michałowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-luborzyca = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krzeszowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zabierzów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-czernichów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-liszki = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kraków = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wawrzeńczyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-skawina = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-mogilany = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-świątniki_górne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-trzebinia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-chrzanów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-libiąż = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-babice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-alwernia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-chełmek = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-oświęcim = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-brzeszcze = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-polanka_wielka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-osiek = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kęty = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-przeciszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zator = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-spytkowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wieprz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tomice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-brzeźnica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-andrychów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wadowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-kalwaria_zebrzydowska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-mucharz = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-stryszów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lanckorona = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-zembrzyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-budzów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-stryszawa = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-sucha_beskidzka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-maków_podhalański = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zawoja = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bystra_podhalańska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jordanów = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-sułkowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-myślenice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-siepraw = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-dobczyce = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-tokarnia = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-lubiem = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-pcim = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-wiśniowa_myślenice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-raciechowice = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-meszna1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-meszna2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-lipnica_wielka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-jabłonka = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-spytkowice_nowotarskie = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-raba_wyżna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rabka_zdrój = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-czarny_dunajec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-szaflary = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-nowy_targ = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-ochotnica_dolna = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-łapsze_niżne = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-maniowy = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-krościenko_nad_dunajcem = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-szczawnica = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-
-kościelisko = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-zakopane = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-poronin = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-biały_dunajec = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-bukowina_tatrzańska = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
-rysy = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = danube_bavarian raw_material = wheat}
+﻿my_sea_zone = { topography = narrows climate = subtropical}
+seazone1 = { topography = narrows climate = subtropical}
+
+testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = fish natural_harbor_suitability=1.00}
+testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cotton}
+testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = silk}
+testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = sugar}
+testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = tea}
+testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cocoa}
+
+czermin = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = wool}
+borowa = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = clay}
+gawłuszowice = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = maize}
+padew = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = legumes}
+tuszów = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = wool}
+stary_chorzelów = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = salt}
+wadowice_górne = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fruit}
+radomyśl = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
+wola_mielecka = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = legumes}
+mielec = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = millet}
+trześń = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = legumes}
+przecław = { topography = wetlands vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = rice}
+rzemień = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+
+
+czarna_dębica = { topography = wetlands vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = livestock}
+żyraków = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = maize}
+dębica = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = saltpeter}
+pilzno = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+brzostek = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+jodłowa = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+
+
+ostrów = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cocoa}
+sędziszów_małopolski = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = iron}
+iwierzyce = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = legumes}
+ropczyce = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = fruit}
+wielopole_skrzyńskie = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = tin}
+
+
+brzyska = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wine}
+skołoszyn = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+kołaczyce = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+jasło = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+tarnowiec = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+dębowiec = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lead}
+osiek_jasielski = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = iron}
+nowy_żmigród = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+krempna = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+
+
+baranów_sandomierski = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
+nowa_dęba = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = lesser_polish raw_material = lumber}
+tarnobrzeg = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = fiber_crops}
+grębów = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
+gorzyce = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
+
+
+majdan_królewski = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+cmolas = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+niwiska = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+kolbuszowa = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+dzikowiec = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+raniżów = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+
+
+bojanów = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+stalowa_wola = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = iron}
+zaleszany = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
+radomyśl_nad_sanem = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = sand}
+pysznica = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = potato}
+zaklików = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = millet}
+
+
+frysztak = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+wiśniowa_strzyżów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+strzyżów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = salt}
+czudec = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+niebylec = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+
+
+wojaszówka = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+korczyna = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lead}
+jedlicze = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = tin}
+krosno = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = iron}
+krościenko_wyżne = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+chorkówka = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+miejsce_piastowe = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+dukla = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = copper}
+iwonicz-zdrój = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coffee}
+rymanów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = horses}
+jaśliska = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = iron}
+
+
+jeżowe = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+nisko = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+rudnik_nad_sanem = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = clay}
+krzeszów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+ulanów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = incense}
+jarocin = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+harasiuki = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+
+
+kamień = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+sokołów_małopolski = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = maize}
+głogów_małopolski = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+trzebownisko = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = maize}
+świlcza = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = dyes}
+boguchwała = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wine}
+rzeszów = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+krasne = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+lubenia = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = fiber_crops}
+tyczyn = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = fur}
+chmielnik = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = dyes}
+błażowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lead}
+hyżne = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = fur}
+dynów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = copper}
+
+
+haczów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+brzozów = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = horses}
+jasienica_rosielna = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+domaradz = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+nozdrzec = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+dydnia = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+
+
+łańcut = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+czarna_łańcut = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+białobrzegi = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+żołynia = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = saltpeter}
+rakszawa = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = wool}
+markowa = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = maize}
+
+
+kuryłówka = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = silk}
+nowa_sarzyna = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+leżajsk = { topography = wetlands vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = salt}
+grodzisko_dolne = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = horses}
+
+
+adamówka = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+sienawa = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = horses}
+tryńcza = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = sugar}
+przeworsk = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = lumber}
+zarzecze = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = iron}
+gać = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = maize}
+kańczuga = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+jawornik_polski = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = saltpeter}
+
+
+wiązownica = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+jarosław = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = silk}
+laszki = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = tea}
+radymno = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+pawłosiów = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = millet}
+chłopice = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+rokietnica = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = tin}
+roźwienica = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+pruchnik = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+
+
+stary_dzików = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+
+
+besko = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+zarszyn = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+sanok = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+tyrawa_wołowska = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
+bukowsko = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+komańcza = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+zagórz = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+
+
+lesko = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = clay}
+olszanica = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+baligród = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+solina = { topography = mountains vegetation = forest climate = tropical religion = catholic culture = lesser_polish raw_material = goods_gold}
+cisna = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+
+
+fredropol = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+bircza = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+krasiczyn = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+przemyśl = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = incense}
+dubiecko = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+krzywcza = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+żurawica = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = cotton}
+orły = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = millet}
+
+
+lutowiska = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+czarna_bieszczady = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = copper}
+ustrzyki_dolne = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = silver}
+
+
+szczucin = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = livestock}
+mędrzechów = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = clay}
+bolesław_dąbrowa = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = fruit}
+gręboszów = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = salt}
+oleśno = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = livestock}
+dąbrowa_tarnowska = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = saltpeter}
+radgoszcz = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fiber_crops}
+
+
+wietrzychowice = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = sand}
+żabno = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = salt}
+radłów = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = millet}
+wierzchosławice = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
+lisia_góra = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = saltpeter}
+wola_rzędzińska = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = fruit}
+skrzyszów = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wheat}
+świebodzin = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wool}
+
+
+święty_świebodzin = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+wojnicz = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wine}
+zakliczyn = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = wine}
+pleśna = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+gromnik = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = tin}
+ciężkowice = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = clay}
+tuchów = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = fiber_crops}
+rzepiennik_strzyżewski = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+ryglice = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+szerzyny = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+
+
+szczurowa = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = livestock}
+borzęcin = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+brzesko = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+dębno = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+gnojnik = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
+czchów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wine}
+iwkowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+
+
+bejsce = { topography = plateau vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fiber_crops}
+kazimierza_wielka = { topography = plateau vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = fiber_crops}
+skalbmierz = { topography = plateau vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = livestock}
+działoszyce = { topography = plateau vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = saffron}
+
+
+koszyce = { topography = plateau vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = millet}
+nowe_brzesko = { topography = plateau vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = wool}
+proszowice = { topography = hills vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = legumes}
+koniusza = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+radziemice = { topography = hills vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = potato}
+pałecznica = { topography = hills vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = saffron}
+
+bobowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+lużna = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+moszczenica = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = salt}
+biecz = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wine}
+lipniki = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+gorlice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+ropa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+sękowa = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+uście_gorlickie = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = copper}
+
+łososina_dolna = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
+gródek_nad_dunajcem = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = wine}
+korzenna = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = cocoa}
+chełmiec = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = tea}
+nowy_sącz = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = sugar}
+kamionka_wielka = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = iron}
+grybów = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = tin}
+
+łącko = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = fruit}
+podegrodzie = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = stone}
+stary_sącz = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = fur}
+rytro = { topography = mountains vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+nawojowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+piwniczna-zdrój = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = goods_gold}
+łabowa = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+krynica-zdrój = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+muszyna = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = mercury}
+
+laskowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+limanowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+łukowica = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+tymbark = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+słopnice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+kamienica = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+jodłownik = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+dobra = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+mszana_dolna = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wool}
+niedźwiedź = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+
+drwinia = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+rzezawa = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = rice}
+bochnia = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = salt}
+nowy_wiśnicz = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+łapanów = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+trzciana = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = clay}
+żegocina = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+lipnica_murowana = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+
+kłaj = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = clay}
+niepołomnice = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+wieliczka = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = salt}
+tomaszkowice = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+gdów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+
+książ_wielki = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = wheat}
+kozłów = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = horses}
+charsznica = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = silver}
+gołcza = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = wheat}
+miechów = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = saffron}
+słaboszów = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = legumes}
+racławice = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = wheat}
+
+wolbrom = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = silver}
+trzyciąż = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = salt}
+klucze = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = alum}
+bolesław_olkusz = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = lead}
+bukowno = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = sand}
+olkusz = { topography = plateau vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = silver}
+
+sułoszowa = { topography = plateau vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+skała = { topography = plateau vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = marble}
+iwanowice_włościańskie = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+słomniki = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+jerzmanowice = { topography = plateau vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = marble}
+wielka_wieś = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+zielonki = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+michałowice = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+luborzyca = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+krzeszowice = { topography = plateau vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+zabierzów = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+czernichów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+liszki = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+kraków = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = copper }
+wawrzeńczyce = { topography = plateau vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
+skawina = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+mogilany = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+świątniki_górne = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+
+trzebinia = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+chrzanów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+libiąż = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+babice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coal}
+alwernia = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+
+chełmek = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+oświęcim = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+brzeszcze = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+polanka_wielka = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
+osiek = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+kęty = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = millet}
+przeciszów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = maize}
+zator = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+
+spytkowice = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+wieprz = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+tomice = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = saffron}
+brzeźnica = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+andrychów = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+wadowice = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+kalwaria_zebrzydowska = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
+mucharz = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = horses}
+stryszów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
+lanckorona = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = medicaments}
+
+zembrzyce = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
+budzów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+stryszawa = { topography = hills vegetation = woods climate = mediterranean religion = catholic culture = lesser_polish raw_material = beeswax}
+sucha_beskidzka = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+maków_podhalański = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+zawoja = { topography = mountains vegetation = forest climate = mediterranean religion = catholic culture = lesser_polish raw_material = wild_game}
+bystra_podhalańska = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wool}
+jordanów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+
+sułkowice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+myślenice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
+siepraw = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = iron}
+dobczyce = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
+tokarnia = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lead}
+lubiem = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
+pcim = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = potato}
+wiśniowa_myślenice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = copper}
+raciechowice = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
+
+meszna1 = { topography = mountains vegetation = woods climate = mediterranean religion = catholic culture = lesser_polish raw_material = amber}
+meszna2 = { topography = mountains vegetation = woods climate = mediterranean religion = catholic culture = lesser_polish raw_material = pearls}
+
+lipnica_wielka = { topography = mountains vegetation = grasslands climate = mediterranean religion = catholic culture = lesser_polish raw_material = olives}
+jabłonka = { topography = mountains vegetation = grasslands climate = mediterranean religion = catholic culture = lesser_polish raw_material = wool}
+spytkowice_nowotarskie = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+raba_wyżna = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = silk}
+rabka_zdrój = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = coffee}
+czarny_dunajec = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = sugar}
+szaflary = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = tea}
+nowy_targ = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = livestock}
+ochotnica_dolna = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = cocoa}
+łapsze_niżne = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = ivory}
+maniowy = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = elephants}
+krościenko_nad_dunajcem = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = incense}
+szczawnica = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = chili}
+
+kościelisko = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wool}
+zakopane = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = dyes}
+poronin = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = wild_game}
+biały_dunajec = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = rice}
+bukowina_tatrzańska = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = cloves}
+rysy = { topography = mountains vegetation = grasslands climate = arctic religion = catholic culture = lesser_polish raw_material = gems}
 
 wasteland1 = { topography = flatland_wasteland vegetation = woods climate = arctic}
 wasteland2 = { topography = flatland_wasteland vegetation = woods climate = arctic}

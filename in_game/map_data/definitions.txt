@@ -206,7 +206,7 @@
                     mędrzechów
                     bolesław_dąbrowa
                     gręboszów
-                    olesno
+                    oleśno
                     dąbrowa_tarnowska
                     radgoszcz
 				}
@@ -441,6 +441,11 @@
 			my_sea_area2 = {
 				my_sea_province2 = {
 					placeholder_sea_zone 
+				}
+			}
+			my_sea_area3 = {
+				my_sea_province3 = {
+					seazone1
 				}
 			}
 
