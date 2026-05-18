@@ -2,35 +2,6 @@ current_age = age_1_traditions
 
 countries = {
 	countries = {
-		HAB = {	#Austria
-			own_control_core = {
-				testprovince1
-				testprovince2
-				testprovince3
-				testprovince4
-				testprovince5
-				testprovince6
-			}
-
-			starting_technology_level = 2
-			#include = "expl_western_europe"
-			#include = "catholic_monarchy_no_coast"
-			#include = "german_principality"
-			
-			discovered_regions = {
-				custom_region
-			}
-
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = hab_albrecht_ii_habsburg
-			}
-
-			country_rank = rank_duchy
-			dynasty = habsburg_dynasty
-			capital = testprovince1
-		}
 		GRA = {
 			own_control_core = {
 				bukowno
@@ -564,14 +535,34 @@ countries = {
 			# dynasty = habsburg_dynasty
 			capital = ropczyce
 		}
-		GER = {
+		BUK = {
 			own_control_core = {
 				jasło
 				dębowiec
-				tarnowiec
 				osiek_jasielski
 				nowy_żmigród
+				kołaczyce
 				krempna
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = hab_albrecht_ii_habsburg
+			}
+
+			country_rank = rank_duchy
+			# dynasty = habsburg_dynasty
+			capital = jasło
+		}
+		GER = {
+			own_control_core = {
+				tarnowiec
 				wojaszówka
 				korczyna
 				jedlicze
@@ -582,8 +573,11 @@ countries = {
 				iwonicz-zdrój
 				rymanów
 				jaśliska
-				kołaczyce
 				krościenko_wyżne
+				besko
+				zarszyn
+				bukowsko
+				komańcza
 			}
 			starting_technology_level = 2
 
@@ -599,7 +593,7 @@ countries = {
 
 			country_rank = rank_kingdom
 			# dynasty = habsburg_dynasty
-			capital = jasło
+			capital = krosno
 		}
 		TMB = {
 			own_control_core = {
@@ -686,6 +680,14 @@ countries = {
 				krzeszów
 				jarocin
 				harasiuki
+				sienawa
+				adamówka
+				wiązownica
+				stary_dzików
+				tryńcza
+				przeworsk
+				laszki
+				jarosław
 			}
 			starting_technology_level = 2
 
@@ -801,6 +803,28 @@ countries = {
 				olszanica
 				lesko
 				zagórz
+				solina
+				baligród
+				lutowiska
+				cisna
+				czarna_bieszczady
+				krzwycza
+				krasiczyn
+				fredropol
+				żurawica
+				przemyśl
+				orły
+				krzywcza
+				pruchnik
+				roźwienica
+				rokietnica
+				chłopice
+				radymno
+				pawłosiów
+				jawornik_polski
+				kańczuga
+				gać
+				zarzecze
 			}
 			starting_technology_level = 2
 

@@ -1,5 +1,89 @@
-﻿my_sea_zone = { topography = narrows climate = subtropical}
-seazone1 = { topography = narrows climate = subtropical}
+﻿seazone1 = { topography = narrows climate = subtropical }
+seazone2 = { topography = narrows climate = subtropical }
+seazone3 = { topography = narrows climate = subtropical }
+seazone4 = { topography = narrows climate = subtropical }
+seazone5 = { topography = narrows climate = subtropical }
+seazone6 = { topography = narrows climate = subtropical }
+seazone7 = { topography = narrows climate = subtropical }
+seazone8 = { topography = narrows climate = subtropical }
+seazone9 = { topography = narrows climate = subtropical }
+seazone10 = { topography = narrows climate = subtropical }
+seazone11 = { topography = narrows climate = subtropical }
+seazone12 = { topography = narrows climate = subtropical }
+seazone13 = { topography = narrows climate = subtropical }
+seazone14 = { topography = narrows climate = subtropical }
+seazone15 = { topography = narrows climate = subtropical }
+seazone16 = { topography = narrows climate = subtropical }
+seazone17 = { topography = narrows climate = subtropical }
+seazone18 = { topography = narrows climate = subtropical }
+seazone19 = { topography = narrows climate = subtropical }
+seazone20 = { topography = narrows climate = subtropical }
+seazone21 = { topography = narrows climate = subtropical }
+seazone22 = { topography = narrows climate = subtropical }
+seazone23 = { topography = narrows climate = subtropical }
+seazone24 = { topography = narrows climate = subtropical }
+seazone25 = { topography = ocean climate = subtropical }
+seazone26 = { topography = ocean climate = subtropical }
+seazone27 = { topography = ocean climate = subtropical }
+seazone28 = { topography = ocean climate = subtropical }
+seazone29 = { topography = ocean climate = subtropical }
+seazone30 = { topography = ocean climate = subtropical }
+seazone31 = { topography = ocean climate = subtropical }
+seazone32 = { topography = ocean climate = subtropical }
+seazone33 = { topography = narrows climate = subtropical }
+seazone34 = { topography = inland_sea climate = subtropical }
+seazone35 = { topography = inland_sea climate = subtropical }
+seazone36 = { topography = inland_sea climate = subtropical }
+seazone37 = { topography = inland_sea climate = subtropical }
+seazone38 = { topography = inland_sea climate = subtropical }
+seazone39 = { topography = inland_sea climate = subtropical }
+seazone40 = { topography = narrows climate = subtropical }
+seazone41 = { topography = inland_sea climate = subtropical }
+seazone42 = { topography = inland_sea climate = subtropical }
+seazone43 = { topography = inland_sea climate = subtropical }
+seazone44 = { topography = inland_sea climate = subtropical }
+seazone45 = { topography = inland_sea climate = subtropical }
+seazone46 = { topography = inland_sea climate = subtropical }
+seazone47 = { topography = inland_sea climate = subtropical }
+seazone48 = { topography = inland_sea climate = subtropical }
+seazone49 = { topography = inland_sea climate = subtropical }
+seazone50 = { topography = inland_sea climate = subtropical }
+seazone51 = { topography = inland_sea climate = subtropical }
+seazone52 = { topography = inland_sea climate = subtropical }
+seazone53 = { topography = inland_sea climate = subtropical }
+seazone54 = { topography = inland_sea climate = subtropical }
+seazone55 = { topography = inland_sea climate = subtropical }
+seazone56 = { topography = inland_sea climate = subtropical }
+seazone57 = { topography = inland_sea climate = subtropical }
+seazone58 = { topography = inland_sea climate = subtropical }
+seazone59 = { topography = inland_sea climate = subtropical }
+seazone60 = { topography = inland_sea climate = subtropical }
+seazone61 = { topography = inland_sea climate = subtropical }
+seazone62 = { topography = narrows climate = subtropical }
+seazone63 = { topography = narrows climate = subtropical }
+seazone64 = { topography = narrows climate = subtropical }
+seazone65 = { topography = narrows climate = subtropical }
+seazone66 = { topography = narrows climate = subtropical }
+seazone67 = { topography = narrows climate = subtropical }
+seazone68 = { topography = narrows climate = subtropical }
+seazone69 = { topography = narrows climate = subtropical }
+seazone70 = { topography = narrows climate = subtropical }
+seazone71 = { topography = narrows climate = subtropical }
+seazone72 = { topography = narrows climate = subtropical }
+seazone73 = { topography = narrows climate = subtropical }
+seazone74 = { topography = narrows climate = subtropical }
+seazone75 = { topography = narrows climate = subtropical }
+seazone76 = { topography = narrows climate = subtropical }
+seazone77 = { topography = narrows climate = subtropical }
+seazone78 = { topography = narrows climate = subtropical }
+seazone79 = { topography = narrows climate = subtropical }
+seazone80 = { topography = narrows climate = subtropical }
+ocean1 = { topography = ocean climate = subtropical }
+ocean2 = { topography = ocean climate = subtropical }
+ocean3 = { topography = ocean climate = subtropical }
+ocean4 = { topography = ocean climate = subtropical }
+ocean5 = { topography = ocean climate = subtropical }
+ocean6 = { topography = ocean climate = subtropical }
 
 testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = fish natural_harbor_suitability=1.00}
 testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cotton}
@@ -415,4 +499,3 @@ wasteland8 = { topography = flatland_wasteland vegetation = woods climate = arct
 wasteland9 = { topography = flatland_wasteland vegetation = woods climate = arctic}
 wasteland10 = { topography = flatland_wasteland vegetation = woods climate = arctic}
 wasteland11 = { topography = flatland_wasteland vegetation = woods climate = arctic}
-wasteland_blocker = { topography = flatland_wasteland vegetation = woods climate = arctic}

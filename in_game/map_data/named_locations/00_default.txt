@@ -1,6 +1,101 @@
-﻿my_sea_zone = aae55b
-placeholder_sea_zone = FF384F
-seazone1 = FFDCD6
+﻿seazone1 = 70700B
+seazone2 = 84840D
+seazone3 = 99990F
+seazone4 = ADAD11
+seazone5 = C4C413
+seazone6 = D8D815
+seazone7 = EDED17
+
+seazone8 = 0C367F
+seazone9 = 0F4199
+seazone10 = 114CB2
+seazone11 = 1457CC
+seazone12 = 1662E5
+seazone13 = 196DFF
+
+seazone14 = 006B2E
+seazone15 = 007F37
+seazone16 = 00913E
+seazone17 = 00A848
+seazone18 = 00BF4F
+
+seazone19 = 466627
+seazone20 = 587F31
+seazone21 = 6A993B
+seazone22 = 7CB245
+seazone23 = 9AE256
+seazone24 = B1FF63
+
+seazone25 = 0A082B
+seazone26 = 100D42
+seazone27 = 151156
+seazone28 = 1B156B
+seazone29 = 2920A3
+seazone30 = 2F25BC
+seazone31 = 3429D1
+seazone32 = 3B2EEA
+
+seazone33 = 5BF9FF
+seazone34 = 55E8ED
+seazone35 = 50DBE0
+seazone36 = 4BCCD1
+seazone37 = 45BDC1
+seazone38 = 40AEB2
+seazone39 = 3A9FA3
+seazone40 = 32898C
+
+seazone41 = FF5EDC
+seazone42 = EF58CE
+seazone43 = DD52BF
+seazone44 = C94AAD
+seazone45 = A03B8A
+seazone46 = 893276
+seazone47 = 7A2D69
+
+seazone48 = 006830
+seazone49 = 007737
+seazone50 = 008940
+seazone51 = 009947
+seazone52 = 00A84E
+
+seazone53 = 00B551
+seazone54 = 00C458
+seazone55 = 00D861
+seazone56 = 00ED6A
+seazone57 = 00FF6E
+
+seazone58 = D65D35
+seazone59 = EA603A
+seazone60 = BF4C2F
+seazone61 = AD452B
+seazone62 = 993D26
+seazone63 = 843521
+seazone64 = 702C1C
+seazone65 = 511F14
+seazone66 = 38150E
+
+seazone67 = 00FF15
+seazone68 = 005104
+seazone69 = 00EA13
+seazone70 = 00D611
+seazone71 = 00B70F
+seazone72 = 00A30D
+seazone73 = 008E09
+seazone74 = 007007
+
+seazone75 = FF51B3
+seazone76 = EA4BA5
+seazone77 = D34395
+seazone78 = BF3D86
+seazone79 = AA3678
+seazone80 = 932F68
+
+ocean1 = 9DD3E8
+ocean2 = 68C2E2
+ocean3 = 75DAFF
+ocean4 = 8EE1FF
+ocean5 = BAECFF
+ocean6 = DDF6FF
 
 wasteland1 = 9e0142
 wasteland2 = d53e4f
@@ -13,15 +108,7 @@ wasteland8 = 66c2a5
 wasteland9 = 3288bd
 wasteland10 = 5e4fa2
 wasteland11 = A48E7B
-
-wasteland_blocker = 1E0F0D
-
-testprovince1 = 53A54C
-testprovince2 = 514A9E
-testprovince3 = 4EA7FF
-testprovince4 = A34C84
-testprovince5 = A0A04B
-testprovince6 = FF7F6D
+wasteland_border = 191919
 
 czermin = 82B5AA
 borowa = 618880

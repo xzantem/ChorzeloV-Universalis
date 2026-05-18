@@ -2,16 +2,6 @@
 	custom_subcontintent = {	
 		custom_region = {
 			#always have at least 256 normal non-wasteland locations on the map and code!!!
-			my_land_area = {
-				my_land_province = {
-					testprovince1
-					testprovince2
-					testprovince3
-					testprovince4
-					testprovince5
-					testprovince6
-				}
-			}
 			mielec_area = {
 				mielec_province = {
 					czermin
@@ -433,21 +423,143 @@
 
 			#always have at least 1 sea zone & 1 port on your map and code!!!
 			#don't forget to define them in default.map and ports.csv
-			my_sea_area = {
-				my_sea_province = {
-					my_sea_zone 
+			my_sea_area1 = {
+				my_sea_province1 = {
+					seazone1
+					seazone2
+					seazone3
+					seazone4
+					seazone5
+					seazone6
+					seazone7
+				}
+				my_sea_province2 = {
+					seazone8
+					seazone9
+					seazone10
+					seazone11
+					seazone12
+					seazone13
 				}
 			}
 			my_sea_area2 = {
-				my_sea_province2 = {
-					placeholder_sea_zone 
+				my_sea_province3 = {
+					seazone14
+					seazone15
+					seazone16
+					seazone17
+					seazone18
+				}
+				my_sea_province4 = {
+					seazone19
+					seazone20
+					seazone21
+					seazone22
+					seazone23
+					seazone24
 				}
 			}
 			my_sea_area3 = {
-				my_sea_province3 = {
-					seazone1
+				my_sea_province5 = {
+					seazone25
+					seazone26
+					seazone27
+					seazone28
+					seazone29
+					seazone30
+					seazone31
+					seazone32
+				}
+				my_sea_province6 = {
+					ocean1
 				}
 			}
+			my_sea_area4 = {
+				my_sea_province7 = {
+					seazone33
+					seazone34
+					seazone35
+					seazone36
+					seazone37
+					seazone38
+					seazone39
+					seazone40
+				}
+				my_sea_province8 = {
+					seazone41
+					seazone42
+					seazone43
+					seazone44
+					seazone45
+					seazone46
+					seazone47
+				}
+				my_sea_province9 = {
+					seazone48
+					seazone49
+					seazone50
+					seazone51
+					seazone52
+				}
+				my_sea_province10 = {
+					seazone53
+					seazone54
+					seazone55
+					seazone56
+					seazone57
+				}
+			}
+			my_sea_area5 = {
+				my_sea_province11 = {
+					seazone59
+					seazone61
+					seazone62
+					seazone63
+					seazone64
+					seazone65
+					seazone66
+					seazone68
+				}
+				my_sea_province13 = {
+					seazone75
+					seazone76
+					seazone77
+					seazone78
+					seazone79
+					seazone80
+				}
+			}
+			my_sea_area6 = {
+				my_sea_province12 = {
+					seazone58
+					seazone67
+					seazone60
+					seazone69
+					seazone70
+					seazone71
+					seazone72
+					seazone73
+					seazone74
+				}
+			}
+			my_sea_area7 = {
+				my_sea_province14 = {
+					ocean2
+				}
+			}
+			my_sea_area8 = {
+				my_sea_province15 = {
+					ocean3
+					ocean4
+				}
+			}
+			my_sea_area9 = {
+				my_sea_province16 = {
+					ocean5
+					ocean6
+				}
+			}
+			
 
 			wasteland_area = {
 				wasteland_province = {
@@ -462,7 +574,6 @@
 					wasteland9
 					wasteland10
 					wasteland11
-					wasteland_blocker
 				}
 			}
 			

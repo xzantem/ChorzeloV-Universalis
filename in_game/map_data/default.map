@@ -26,8 +26,92 @@ earthquakes = {
 #############
 # European Seas
 sea_zones = { 
-	my_sea_zone
 	seazone1
+	seazone2
+	seazone3
+	seazone4
+	seazone5
+	seazone6
+	seazone7
+	seazone8
+	seazone9
+	seazone10
+	seazone11
+	seazone12
+	seazone13
+	seazone14
+	seazone15
+	seazone16
+	seazone17
+	seazone18
+	seazone19
+	seazone20
+	seazone21
+	seazone22
+	seazone23
+	seazone24
+	seazone25
+	seazone26
+	seazone27
+	seazone28
+	seazone29
+	seazone30
+	seazone31
+	seazone32
+	seazone33
+	seazone34
+	seazone35
+	seazone36
+	seazone37
+	seazone38
+	seazone39
+	seazone40
+	seazone41
+	seazone42
+	seazone43
+	seazone44
+	seazone45
+	seazone46
+	seazone47
+	seazone48
+	seazone49
+	seazone50
+	seazone51
+	seazone52
+	seazone53
+	seazone54
+	seazone55
+	seazone56
+	seazone57
+	seazone58
+	seazone59
+	seazone60
+	seazone61
+	seazone62
+	seazone63
+	seazone64
+	seazone65
+	seazone66
+	seazone67
+	seazone68
+	seazone69
+	seazone70
+	seazone71
+	seazone72
+	seazone73
+	seazone74
+	seazone75
+	seazone76
+	seazone77
+	seazone78
+	seazone79
+	seazone80
+	ocean1
+	ocean2
+	ocean3
+	ocean4
+	ocean5
+	ocean6
 } 
 
 ###############
@@ -59,7 +143,6 @@ impassable_mountains = {
 	wasteland9
 	wasteland10
 	wasteland11
-	wasteland_blocker
 }
 
 non_ownable = {

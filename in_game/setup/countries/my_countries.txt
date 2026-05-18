@@ -1,19 +1,4 @@
-﻿HAB = {
-	color = map_austrian
-	color2 = rgb { 220  220  220 }	#Like in EU4
-
-	unit_color0 = rgb {	200 200 200 }
-	unit_color1 = rgb {	157 48 28 }
-	unit_color2 = rgb {	19 20 25 }
-
-	culture_definition = lesser_polish
-	religion_definition = catholic
-	
-	description_category = diplomatic
-	difficulty = 3
-}
-
-# TODO: UNIT COLORS, CULTURES, RELIGIONS, DESCRIPTIONS, DIFFICULTY
+﻿# TODO: UNIT COLORS, CULTURES, RELIGIONS, DESCRIPTIONS, DIFFICULTY
 
 GRA = {
 	color = rgb { 155  96  68 }
@@ -225,6 +210,19 @@ PUA = {
 }
 FMB = {
 	color = rgb { 255  28  164 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = lesser_polish
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BUK = {
+	color = rgb { 255  231  170 }
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
