@@ -22,4 +22,213 @@ dynasty_manager = {
 
 		}
 	}
+	ziółkowski_dynasty = {
+		name = { name = ziółkowski_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+
+		}
+	}
+	corvinius_dynasty = {
+		name = { name = corvinius_dynasty }
+		home = święty_świebodzin
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+
+		}
+	}
+	niacio_dynasty = {
+		name = { name = niacio_dynasty }
+		home = tuchów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+
+		}
+	}
+	ocłoń_dynasty = {
+		name = { name = ocłoń_dynasty }
+		home = świebodzin
+		dynasty_name_type = descendant
+		male_names = {
+			name_jendru
+		}
+		female_names = {
+			name_jendra
+		}
+	}
+	głaz_dynasty = {
+		name = { name = głaz_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			name_glezi
+		}
+		female_names = {
+			name_glezi
+		}
+	}
+	rzegocki_dynasty = {
+		name = { name = rzegocki_dynasty }
+		home = rzemień
+		dynasty_name_type = location
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	szczur_dynasty = {
+		name = { name = szczur_dynasty }
+		home = mielec
+		dynasty_name_type = patronym
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	surman_dynasty = {
+		name = { name = surman_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	laska_dynasty = {
+		name = { name = laska_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	iwanow_dynasty = {
+		name = { name = iwanow_dynasty }
+		home = stary_chorzelów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	mielec_dynasty = {
+		name = { name = mielec_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	bukała_dynasty = {
+		name = { name = bukała_dynasty }
+		home = radomyśl
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	netanyahu_dynasty = {
+		name = { name = netanyahu_dynasty }
+		home = leżajsk
+		dynasty_name_type = patronym
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	goldberg_dynasty = {
+		name = { name = goldberg_dynasty }
+		home = kolbuszowa
+		dynasty_name_type = location
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	rempała_dynasty = {
+		name = { name = rempała_dynasty }
+		home = meszna1
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	grabka_dynasty = {
+		name = { name = grabka_dynasty }
+		home = tuchów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	zełenski_dynasty = {
+		name = { name = zełenski_dynasty }
+		home = lutowiska
+		dynasty_name_type = location
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	korzec_dynasty = {
+		name = { name = korzec_dynasty }
+		home = tuchów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	miszalski_dynasty = {
+		name = { name = miszalski_dynasty }
+		home = kraków
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
 }

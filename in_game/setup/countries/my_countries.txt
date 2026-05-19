@@ -242,7 +242,7 @@ GER = {
 	unit_color2 = rgb {	19 20 25 }
 
 	culture_definition = prussian
-	religion_definition = catholic
+	religion_definition = lutheran
 	
 	description_category = diplomatic
 	difficulty = 3
@@ -280,8 +280,8 @@ MAL = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
-	religion_definition = catholic
+	culture_definition = muscovite
+	religion_definition = orthodox
 	
 	description_category = diplomatic
 	difficulty = 3
@@ -306,7 +306,7 @@ JUD = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = ashkenazi
+	culture_definition = mizrahi
 	religion_definition = judaism
 	
 	description_category = diplomatic
@@ -332,8 +332,8 @@ UWU = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
-	religion_definition = catholic
+	culture_definition = turkish_culture
+	religion_definition = sunni
 	
 	description_category = diplomatic
 	difficulty = 3

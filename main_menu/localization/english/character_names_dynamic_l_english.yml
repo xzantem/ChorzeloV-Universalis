@@ -1,0 +1,56 @@
+﻿l_english:
+ # valid formats:
+ # name_NAME
+ # name_NAME.[culture]
+ # name_NAME.[language]
+ # name_NAME.[language].[culture]
+ # name_NAME.diminutive
+ # name_NAME.genitive
+ # name_NAME.[culture].diminutive
+ # name_NAME.[culture].genitive
+ # name_NAME.[language].diminutive
+ # name_NAME.[language].genitive
+ # name_NAME.[language].[culture].diminutive
+ # name_NAME.[language].[culture].genitive
+ #
+ # diminutive is used when a character has no dynasty
+ # genitive is used when a patronym, e.g. as in Irish usage
+ #
+ # you can also join compound names like this so they can have a unique form in some languages:
+ # name_michael.name_angel.north_italian_language: "Michelangelo"
+ #
+ name_michael: "Michael"
+ name_michael.name_angel: "Michaelangelo"
+ name_michael.name_angel.north_italian_language: "Michelangelo"
+ name_bartek: "Bartek"
+ name_szymon: "Szymon"
+ name_szymon.latin_language: "Simon"
+ name_robert: "Robert"
+ name_jendru: "Jendru"
+ name_jendra: "Jendra"
+ name_glezi: "Głezi"
+ name_patryk: "Patryk"
+ name_patryk.german_language: "Patrick"
+ name_dawidek: "Dawidek"
+ name_dawid: "Dawid"
+ name_mateusz: "Mateusz"
+ name_mikołaj: "Mikołaj"
+ name_mikołaj.russian_culture: "Nikolai"
+ name_juleczka: "Juleczka"
+ name_jan: "Jan"
+ name_kacper: "Kacper"
+ name_benjamin: "Benjamin"
+ name_benjamin.jewish_culture: "Binjamin"
+ name_ozjasz: "Ozjasz"
+ name_piotr: "Piotr"
+ name_tomek: "Tomek"
+ name_michał: "Michał"
+ name_włodzimierz: "Włodzimierz"
+ name_włodzimierz.ruthenian_culture: "Wołodymyr"
+ name_oskar: "Oskar"
+ name_aleksander: "Aleksander"
+ #Nicknames
+ taurus_maximus: "Taurus Maximus"
+ bibi: "Bibi"
+ sehatan: "Sehatan"
+ fraud: "Fraud"

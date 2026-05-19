@@ -27,11 +27,11 @@ countries = {
 			government = {
 				type = republic
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = gra_michał
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = grabka_dynasty
 			capital = olkusz
 		}
 		KRK = {
@@ -82,11 +82,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = krk_miszalski
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = miszalski_dynasty
 			capital = kraków
 		}
 		SLD = {
@@ -125,11 +125,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = sld_niacio
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = niacio_dynasty
 			capital = myślenice
 		}
 		LIŁ = {
@@ -175,12 +175,12 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = msz_sehatan
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
-			capital = nowy_targ
+			dynasty = rempała_dynasty
+			capital = meszna1
 		}
 		BCH = {
 			own_control_core = {
@@ -299,11 +299,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = swb_jendru
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = ocłoń_dynasty
 			capital = świebodzin
 		}
 		AUR = {
@@ -349,11 +349,11 @@ countries = {
 			government = {
 				type = theocracy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = aur_wrona
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = corvinius_dynasty
 			capital = święty_świebodzin
 		}
 		NOB = {
@@ -374,11 +374,11 @@ countries = {
 			government = {
 				type = theocracy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = nob_tomek
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = ocłoń_dynasty
 			capital = skrzyszów
 		}
 		CKZ = {
@@ -404,11 +404,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = ckz_oskar
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = korzec_dynasty
 			capital = gorlice
 		}
 		MCD = {
@@ -426,11 +426,11 @@ countries = {
 			government = {
 				type = republic
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = mcd_juleczka
 			}
 
 			country_rank = rank_county
-			# dynasty = habsburg_dynasty
+			dynasty = rzegocki_dynasty
 			capital = skołoszyn
 		}
 		TVI = {
@@ -449,11 +449,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = tvi_głezi
 			}
 
-			country_rank = rank_monarchy
-			# dynasty = habsburg_dynasty
+			country_rank = rank_duchy
+			dynasty = głaz_dynasty
 			capital = borowa
 		}
 		MLC = {
@@ -477,11 +477,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = 
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = mielec_dynasty
 			capital = mielec
 		}
 		PUA = {
@@ -502,11 +502,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = pua_ziółek
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = surman_dynasty
 			capital = czarna_dębica
 		}
 		FMB = {
@@ -528,11 +528,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = fmb_dawid
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = laska_dynasty
 			capital = ropczyce
 		}
 		BUK = {
@@ -553,11 +553,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = buk_bukaj
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = bukała_dynasty
 			capital = jasło
 		}
 		GER = {
@@ -588,11 +588,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = ger_patryk
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = rzegocki_dynasty
 			capital = krosno
 		}
 		TMB = {
@@ -634,11 +634,11 @@ countries = {
 			government = {
 				type = republic
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = yid_goldberg
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = goldberg_dynasty
 			capital = kolbuszowa
 		}
 		MAL = {
@@ -664,11 +664,11 @@ countries = {
 			government = {
 				type = steppe_horde
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = mal_mikusiwan
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = iwanow_dynasty
 			capital = tarnobrzeg
 		}
 		BYD = {
@@ -698,7 +698,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = kusek
+				ruler = byd_kusek
 			}
 
 			country_rank = rank_empire
@@ -721,11 +721,11 @@ countries = {
 			government = {
 				type = republic
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = jud_netanyahu
 			}
 
 			country_rank = rank_county
-			# dynasty = habsburg_dynasty
+			dynasty = netanyahu_dynasty
 			capital = leżajsk
 		}
 		WAL = {
@@ -760,11 +760,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = wal_mateusz
 			}
 
 			country_rank = rank_kingdom
-			# dynasty = habsburg_dynasty
+			dynasty = surman_dynasty
 			capital = rzeszów
 		}
 		UWU = {
@@ -786,11 +786,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = uwu_dawidek
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = szczur_dynasty
 			capital = brzozów
 		}
 		UKR = {
@@ -835,11 +835,11 @@ countries = {
 			government = {
 				type = tribe
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = ukr_zełenski
 			}
 
 			country_rank = rank_duchy
-			# dynasty = habsburg_dynasty
+			dynasty = zełenski_dynasty
 			capital = sanok
 		}
 	}

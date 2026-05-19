@@ -108,7 +108,6 @@ wasteland8 = 66c2a5
 wasteland9 = 3288bd
 wasteland10 = 5e4fa2
 wasteland11 = A48E7B
-wasteland_border = 191919
 
 czermin = 82B5AA
 borowa = 618880
