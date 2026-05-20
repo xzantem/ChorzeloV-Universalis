@@ -111,7 +111,7 @@ SWB = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = świebodziniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -124,7 +124,7 @@ AUR = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = świebodziniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -137,7 +137,7 @@ NOB = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = świebodziniak
 	religion_definition = catholic
 	
 	description_category = diplomatic

@@ -1,0 +1,155 @@
+locations={
+	
+	#świebo
+	świebodzin = { rank = city	        town_setup = important_scandinavian_town }
+    żabno = { rank = town 		        town_setup = scandinavian_town }
+	olesno = { rank = town 	            town_setup = scandinavian_town }
+	proszowice = { rank = town 	        town_setup = scandinavian_town }
+	kazimierza_wielka = { rank = town   town_setup = scandinavian_town }
+	jędrzejów = { rank = town   town_setup = scandinavian_town }
+	pińczów = { rank = town   town_setup = scandinavian_town }
+
+    #wrona
+	święty_świebodzin = { rank = city	        town_setup = important_scandinavian_town }
+    nowy_sącz = { rank = city 		        town_setup = scandinavian_town }
+	brzesko = { rank = town 	            town_setup = scandinavian_town }
+	tuchów = { rank = town 	        town_setup = scandinavian_town }
+	grybów = { rank = town   town_setup = scandinavian_town }
+    chełmiec = { rank = town 	            town_setup = scandinavian_town }
+	limanowa = { rank = town 	        town_setup = scandinavian_town }
+	stary_sącz = { rank = town   town_setup = scandinavian_town }
+    łącko = { rank = town 	            town_setup = scandinavian_town }
+	krynica_zdrój = { rank = town 	        town_setup = scandinavian_town }
+	
+	#tomuś
+	dąbrowa_tarnowska = { rank = town	        town_setup = important_scandinavian_town }
+    lisia_góra = { rank = town 		        town_setup = scandinavian_town }
+	
+	#mcdonald
+	skołoszyn = { rank = town        town_setup = important_scandinavian_town }
+	
+	#bukaj
+	jasło = { rank = city	        town_setup = important_scandinavian_town }
+    
+	#tuchów
+	gorlice = { rank = city	        town_setup = important_scandinavian_town }
+    biecz = { rank = town 		        town_setup = scandinavian_town }
+	
+	#ziółek
+	dębica = { rank = city	        town_setup = important_scandinavian_town }
+    pilzno = { rank = town 		        town_setup = scandinavian_town }
+	
+	#mielec
+	mielec = { rank = city	        town_setup = important_scandinavian_town }
+	
+	#tvierdza
+	borowa = { rank = city	        town_setup = important_scandinavian_town }
+	połaniec = { rank = city   town_setup = scandinavian_town }
+	busko-zdrój = { rank = town   town_setup = scandinavian_town }
+	staszów = { rank = town   town_setup = scandinavian_town }
+	sandomierz = { rank = town   town_setup = scandinavian_town }
+    
+	#mikusiwan
+	tarnobrzeg = { rank = city	        town_setup = important_scandinavian_town }
+    stalowa_wola = { rank = city	        town_setup = scandinavian_town }
+	nowa_dęba = { rank = town 	            town_setup = scandinavian_town }
+	
+	#żyd
+	kolbuszowa = { rank = town	        town_setup = important_scandinavian_town }
+	
+	#chorzelów
+	nisko = { rank = town        town_setup = important_scandinavian_town }
+	
+	#zły_żyd
+	leżajsk = { rank = city	        town_setup = important_scandinavian_town }
+    nowa_sarzyna = { rank = town 		        town_setup = scandinavian_town }
+	
+	#valona
+	rzeszów = { rank = city	        town_setup = important_scandinavian_town }
+    boguchwała = { rank = town 		        town_setup = scandinavian_town }
+	śwlicza = { rank = town 	            town_setup = scandinavian_town }
+	głogów_małopolski = { rank = town 	        town_setup = scandinavian_town }
+	trzebownisko = { rank = town   town_setup = scandinavian_town }
+	sokołów_małopolski = { rank = town 	            town_setup = scandinavian_town }
+	łańcut = { rank = town 	        town_setup = scandinavian_town }
+	
+	#ukro
+	przemyśl = { rank = city	        town_setup = important_scandinavian_town }
+    sianok = { rank = town 		        town_setup = scandinavian_town }
+	ustrzyki_dolne = { rank = town 	            town_setup = scandinavian_town }
+	
+	#złynin
+	krosno = { rank = city	        town_setup = important_scandinavian_town }
+    jedlicze = { rank = town 		        town_setup = scandinavian_town }
+	rymanów = { rank = town 	            town_setup = scandinavian_town }
+	
+	#dawidek
+	brzozów = { rank = town	        town_setup = important_scandinavian_town }
+	
+	#tomboy
+	strzyżów = { rank = town	        town_setup = important_scandinavian_town }
+	
+	#femboy
+	ropczyce = { rank = town	        town_setup = important_scandinavian_town }
+	sędziszów_małopolski = { rank = town	        town_setup = important_scandinavian_town }
+	
+	#rzuchowa
+	bochnia = { rank = town	        town_setup = important_scandinavian_town }
+	
+	#pleśna
+	mszana_dolna = { rank = town	        town_setup = important_scandinavian_town }
+	
+	#buchcice
+	zakopane = { rank = city	        town_setup = important_scandinavian_town }
+	
+	#sehatan
+	nowy_targ = { rank = town	        town_setup = important_scandinavian_town }
+	jabłonka = { rank = town 		        town_setup = scandinavian_town }
+	czarny_dunajec = { rank = town 	            town_setup = scandinavian_town }
+	rabka_zdrój = { rank = town 	        town_setup = scandinavian_town }
+	meszna2 = { rank = town   town_setup = scandinavian_town }
+	
+	#kraków
+	kraków = { rank = city	        town_setup = important_scandinavian_town }
+    niepołomnice = { rank = town 		        town_setup = scandinavian_town }
+	wieliczka = { rank = city	            town_setup = scandinavian_town }
+	gdów = { rank = town 	        town_setup = scandinavian_town }
+	zielonki = { rank = town   town_setup = scandinavian_town }
+	skawina = { rank = town 	            town_setup = scandinavian_town }
+	zabierzów = { rank = town 	        town_setup = scandinavian_town }
+	krzeszowice = { rank = town 	        town_setup = scandinavian_town }
+	czernichów = { rank = town   town_setup = scandinavian_town }
+	trzebinia = { rank = town 	            town_setup = scandinavian_town }
+	chrzanów = { rank = town 	        town_setup = scandinavian_town }
+    libiąż = { rank = town 	        town_setup = scandinavian_town }
+	oświęcim = { rank = town   town_setup = scandinavian_town }
+	brzeszcze = { rank = town 	            town_setup = scandinavian_town }
+	kęty = { rank = town 	        town_setup = scandinavian_town }
+	
+	#siedliska
+	myślenice = { rank = city	        town_setup = important_scandinavian_town }
+    dobczyce = { rank = town 		        town_setup = scandinavian_town }
+	sułkowice = { rank = town 	            town_setup = scandinavian_town }
+	maków_podhalański = { rank = town 	        town_setup = scandinavian_town }
+	kalwaria_zebrzydowska = { rank = town   town_setup = scandinavian_town }
+	wadowice = { rank = city	            town_setup = scandinavian_town }
+	andrychów = { rank = town     town_setup = scandinavian_town }
+	
+	#grabson
+	olkusz = { rank = city	        town_setup = important_scandinavian_town }
+    miechów = { rank = town 		        town_setup = scandinavian_town }
+	wolbrom = { rank = town 	            town_setup = scandinavian_town }
+	
+	
+
+	
+	
+    
+    
+
+ 
+	
+
+
+
+}   

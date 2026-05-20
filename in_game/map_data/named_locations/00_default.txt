@@ -479,3 +479,42 @@ biały_dunajec = 65B200
 bukowina_tatrzańska = 569900
 rysy = 5DA500
 
+michałów = 8C5F7E
+wodzisław = A57094
+jędrzejów = BF82AB
+nagłowice = B279A0
+imielno = 996889
+małogoszcz = CC8AB7
+
+sobków = 719964
+kije = 7BA56D
+pińczów = 84B275
+
+wiślica = 99824E
+nowy_korczyn = A58D54
+busko-zdrój = B2985B
+solec-zdrój = E5C375
+pacanów = F2CE7B
+stopnica = CCAE68
+tuczępy = D8B86E
+gnojno = BFA361
+
+połaniec = 995E8E
+łubnice = A5669A
+oleśnica = B26EA6
+rytwiany = F296E1
+osiek_staszów = FF9EED
+szydłów = BF76B1
+staszów = CC7EBD
+bogoria = D886C9
+
+łoniów = 6D8EA5
+klimontów = 65849B
+koprzywnica = 7599B2
+samborzec = 8FBAD8
+obrazów = 7EA4BF
+sandomierz = 97C4E5
+wilczyce = 86AFCC
+
+
+

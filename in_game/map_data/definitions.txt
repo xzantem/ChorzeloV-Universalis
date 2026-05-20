@@ -189,6 +189,48 @@
 					czarna_bieszczady
 					ustrzyki_dolne
 				}
+				jędrzejów_province = {
+					michałów 
+                    wodzisław 
+                    jędrzejów 
+                    nagłowice 
+                    imielno 
+                    małogoszcz 
+				}
+				pińczów_province = {
+					sobków 
+                    kije 
+                    pińczów 
+				}
+				busko-zdrój_province = {
+					wiślica
+                    nowy_korczyn 
+                    busko-zdrój 
+                    solec-zdrój 
+                    pacanów 
+                    stopnica 
+                    tuczępy 
+                    gnojno 
+				}
+				staszów_province = {
+					połaniec 
+                    łubnice 
+                    oleśnica 
+                    rytwiany 
+                    osiek_staszów
+                    szydłów 
+                    staszów 
+                    bogoria 
+				}
+				sandomierz_province = {
+					łoniów 
+                    klimontów 
+                    koprzywnica 
+                    samborzec 
+                    obrazów 
+                    sandomierz 
+                    wilczyce
+				}
 			}
 			świebodzin_area = {
 				dąbrowa_province = {

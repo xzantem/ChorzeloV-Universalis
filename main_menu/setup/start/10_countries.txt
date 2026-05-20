@@ -289,7 +289,49 @@ countries = {
 				bolesław_dąbrowa
 				oleśno
 				mędrzechów
+				michałów 
+                wodzisław 
+                jędrzejów 
+                nagłowice 
+                imielno 
+                małogoszcz 
+                sobków 
+                kije 
+                pińczów 
 			}
+			our_cores_conquered_by_others = {
+			    święty_świebodzin
+				brzesko
+				dębno
+				gnojnik
+				czchów
+				iwkowa
+				laskowa
+				limanowa
+				łukowica
+				łącko
+				podegrodzie
+				stary_sącz
+				rytro
+				nawojowa
+				piwniczna-zdrój
+				łabowa
+				krynica-zdrój
+				muszyna
+				łososina_dolna
+				chełmiec
+				gródek_nad_dunajcem
+				nowy_sącz
+				korzenna
+				kamionka_wielka
+				grybów
+				wojnicz
+				zakliczyn
+				pleśna
+				gromnik
+				ciężkowice
+				tuchów
+		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -338,8 +380,33 @@ countries = {
 				pleśna
 				gromnik
 				ciężkowice
-				tuchów
+			    tuchów
 			}
+			our_cores_conquered_by_others = {
+			    świebodzin
+				bejsce
+				kazimierza_wielka
+				skalbmierz
+				działoszyce
+				koszyce
+				nowe_brzesko
+				proszowice
+				koniusza
+				radziemice
+				pałecznica
+				drwinia
+				rzezawa
+				szczurowa
+				borzęcin
+				wietrzychowice
+				żabno
+				radłów
+				wierzchosławice
+				gręboszów
+				bolesław_dąbrowa
+				oleśno
+				mędrzechów
+		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -439,6 +506,29 @@ countries = {
 				czermin
 				gawłuszowice
 				padew
+				wiślica 
+                nowy_korczyn 
+                busko-zdrój 
+                solec-zdrój 
+                pacanów 
+                stopnica 
+                tuczępy 
+                gnojno 
+                połaniec 
+                łubnice 
+                oleśnica 
+                rytwiany 
+                osiek_staszów
+                szydłów 
+                staszów 
+                bogoria 
+                łoniów 
+                klimontów 
+                koprzywnica 
+                samborzec 
+                obrazów 
+                sandomierz 
+                wilczyce 
 			}
 			starting_technology_level = 2
 
@@ -454,7 +544,7 @@ countries = {
 
 			country_rank = rank_duchy
 			dynasty = głaz_dynasty
-			capital = borowa
+			capital = połaniec
 		}
 		MLC = {
 			own_control_core = {
