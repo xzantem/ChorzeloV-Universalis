@@ -462,6 +462,43 @@
                     rysy
 				}
 			}
+			lublin_area = {
+				kraśnik_province = { 
+					annopol gościeradów trzydnik_duży dzierzkowice
+					kraśnik szastarka urzędów wilkołaz zakrzówek
+				}
+				opolski_province = { 
+					józefów_nad_wisłą łaziska opole_lubelskie
+					chodel wilków karczmiska poniatowa
+				}
+				janowski_province = { 
+					potok_wielki modliborzyce janów_lubelski
+					dzwola godziszów chrzanów_lubelski batorz
+				}
+				puławski_province = { 
+					kazimierz_dolny wąwolnica nałęczów puławy
+					końskowola kurów markuszów żyrzyn baranów
+				}
+				lubartowski_province = { 
+					abramów michów kamionka firlej ostrówek
+					lubartów niedźwiada serniki ostrów_lubelski
+				}
+				radzyńsko-parczewski_province = { 
+					czemierniki siemień parczew
+				}
+				lublin_wschód_province = { 
+					spiczyn łęczna wółka świdnik piaski jabłonna
+					krczonów rybczewice zakrzew wysokie żółkiewka
+				}
+				lublin_zachód_province = { 
+					niemce garbów jastków wojciechów konopnica lublin
+					głusk bełżyce borzechów niedrzwica_duża strzyżewice bychawa
+				}
+				biłgoraj_province = { 
+					turobin goraj radecznica frampol biłgoraj
+					tereszpol księżpol biszcza potok_górny tarnogród
+				}
+			}
 
 			#always have at least 1 sea zone & 1 port on your map and code!!!
 			#don't forget to define them in default.map and ports.csv

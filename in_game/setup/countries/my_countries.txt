@@ -351,3 +351,16 @@ UKR = {
 	description_category = diplomatic
 	difficulty = 3
 }
+KOR = {
+	color = rgb { 126  88  158 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = korean_culture
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}

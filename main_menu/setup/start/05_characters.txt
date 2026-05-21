@@ -304,7 +304,7 @@ character_db={
 		tag = UKR
 		ruler_trait = lawgiver
 	}
-	ckz_oskar = {
+	rzu_oskar = {
 		first_name = { name = name_oskar }
 		culture = lesser_polish
 		religion = catholic
@@ -315,7 +315,7 @@ character_db={
 		birth = tuchów
 		dynasty = korzec_dynasty
 		fertility = 66
-		tag = CKZ
+		tag = RZU
 		ruler_trait = lawgiver
 	}
 	krk_miszalski = {
@@ -330,6 +330,34 @@ character_db={
 		dynasty = miszalski_dynasty
 		fertility = 50
 		tag = KRK
+		ruler_trait = lawgiver
+	}
+	kor_burdzy = {
+		first_name = { name = name_natalia }
+		culture = korean_culture
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = yes
+		birth_date = 1313.11.17
+		birth = mielec
+		dynasty = burdzy_dynasty
+		fertility = 50
+		tag = KOR
+		ruler_trait = lawgiver
+	}
+	ckz_stec = {
+		first_name = { name = name_tomek }
+		culture = lesser_polish
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1304.04.19
+		birth = tuchów
+		dynasty = stec_dynasty
+		fertility = 50
+		tag = CKZ
 		ruler_trait = lawgiver
 	}
 }

@@ -5,6 +5,17 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+function Set-ProgressStep {
+    param(
+        [Parameter(Mandatory = $true)]
+        [int]$Percent,
+        [Parameter(Mandatory = $true)]
+        [string]$Status
+    )
+
+    Write-Progress -Id 1 -Activity 'Checking locations' -Status $Status -PercentComplete $Percent
+}
+
 function Get-NamedLocationEntries {
     param(
         [Parameter(Mandatory = $true)]
@@ -30,7 +41,7 @@ function Get-DefinitionsNames {
     Get-Content -Path $Path | ForEach-Object {
         $line = $_.Trim()
         if ($line -and $line -notmatch '^#' -and $line -notmatch '=\s*\{' -and $line -notmatch '^\}$') {
-            $line
+            $line -split '\s+' | Where-Object { $_ }
         }
     } | Where-Object { $_ }
 }
@@ -108,7 +119,9 @@ function Write-StatusLine {
 function Get-ImageHexColors {
     param(
         [Parameter(Mandatory = $true)]
-        [string]$Path
+        [string]$Path,
+        [int]$ProgressId = 1,
+        [string]$ProgressActivity = 'Checking locations'
     )
 
     if (-not ('MapColorReader' -as [type])) {
@@ -120,24 +133,66 @@ using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 
 public static class MapColorReader {
-    public static string[] ReadUniqueHexColors(string path) {
+    public static int GetHeight(string path) {
         using (var bmp = new Bitmap(path)) {
-            var rect = new Rectangle(0, 0, bmp.Width, bmp.Height);
+            return bmp.Height;
+        }
+    }
+
+    public static string[] ReadUniqueHexColorsChunk(string path, int startY, int rowCount) {
+        using (var bmp = new Bitmap(path)) {
+            int safeRowCount = Math.Min(rowCount, bmp.Height - startY);
+            var rect = new Rectangle(0, startY, bmp.Width, safeRowCount);
             var data = bmp.LockBits(rect, ImageLockMode.ReadOnly, bmp.PixelFormat);
             try {
-                int bpp = Image.GetPixelFormatSize(bmp.PixelFormat) / 8;
                 int stride = Math.Abs(data.Stride);
-                int len = stride * bmp.Height;
+                int len = stride * safeRowCount;
                 byte[] bytes = new byte[len];
                 Marshal.Copy(data.Scan0, bytes, 0, len);
 
                 var set = new HashSet<int>();
-                for (int y = 0; y < bmp.Height; y++) {
+                var palette = bmp.Palette;
+                for (int y = 0; y < safeRowCount; y++) {
                     int row = y * stride;
-                    for (int x = 0; x < bmp.Width; x++) {
-                        int i = row + x * bpp;
-                        int rgb = (bytes[i + 2] << 16) | (bytes[i + 1] << 8) | bytes[i];
-                        set.Add(rgb);
+                    if (bmp.PixelFormat == PixelFormat.Format24bppRgb) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            int i = row + x * 3;
+                            int rgb = (bytes[i + 2] << 16) | (bytes[i + 1] << 8) | bytes[i];
+                            set.Add(rgb);
+                        }
+                    }
+                    else if (
+                        bmp.PixelFormat == PixelFormat.Format32bppArgb ||
+                        bmp.PixelFormat == PixelFormat.Format32bppRgb ||
+                        bmp.PixelFormat == PixelFormat.Format32bppPArgb) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            int i = row + x * 4;
+                            int rgb = (bytes[i + 2] << 16) | (bytes[i + 1] << 8) | bytes[i];
+                            set.Add(rgb);
+                        }
+                    }
+                    else if (bmp.PixelFormat == PixelFormat.Format8bppIndexed) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            Color c = palette.Entries[bytes[row + x]];
+                            int rgb = (c.R << 16) | (c.G << 8) | c.B;
+                            set.Add(rgb);
+                        }
+                    }
+                    else if (bmp.PixelFormat == PixelFormat.Format4bppIndexed) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            int b = bytes[row + (x / 2)];
+                            int index = ((x & 1) == 0) ? ((b >> 4) & 0x0F) : (b & 0x0F);
+                            Color c = palette.Entries[index];
+                            int rgb = (c.R << 16) | (c.G << 8) | c.B;
+                            set.Add(rgb);
+                        }
+                    }
+                    else {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            Color c = bmp.GetPixel(x, startY + y);
+                            int rgb = (c.R << 16) | (c.G << 8) | c.B;
+                            set.Add(rgb);
+                        }
                     }
                 }
 
@@ -158,7 +213,23 @@ public static class MapColorReader {
 "@
     }
 
-    [MapColorReader]::ReadUniqueHexColors($Path)
+    $resolvedPath = (Resolve-Path $Path).Path
+    $height = [MapColorReader]::GetHeight($resolvedPath)
+    $rowChunk = 256
+    $set = New-Object 'System.Collections.Generic.HashSet[string]'
+
+    for ($startY = 0; $startY -lt $height; $startY += $rowChunk) {
+        $rows = [Math]::Min($rowChunk, $height - $startY)
+        $chunk = [MapColorReader]::ReadUniqueHexColorsChunk($resolvedPath, $startY, $rows)
+        foreach ($hex in $chunk) {
+            $null = $set.Add($hex)
+        }
+
+        $percent = 35 + [int](20 * (($startY + $rows) / $height))
+        Write-Progress -Id $ProgressId -Activity $ProgressActivity -Status ("Reading locations.png colors ({0}/{1} rows)" -f ($startY + $rows), $height) -PercentComplete $percent
+    }
+
+    @($set) | Sort-Object
 }
 
 $namedLocationsPath = Join-Path $MapDataPath 'named_locations\00_default.txt'
@@ -177,12 +248,14 @@ if (-not (Test-Path -LiteralPath $locationsImagePath)) {
 $hasDefinitions = Test-Path -LiteralPath $definitionsPath
 $hasTemplates = Test-Path -LiteralPath $templatesPath
 
+Set-ProgressStep -Percent 10 -Status 'Reading named locations'
 $entries = @(Get-NamedLocationEntries -Path $namedLocationsPath)
 $duplicateHexGroups = @($entries | Group-Object Hex | Where-Object Count -gt 1 | Sort-Object Name)
 
 $textHex = @($entries.Hex | Sort-Object -Unique)
 $defaultNames = @($entries.Name | Sort-Object -Unique)
-$imageHex = @(Get-ImageHexColors -Path $locationsImagePath)
+
+$imageHex = @(Get-ImageHexColors -Path $locationsImagePath -ProgressId 1 -ProgressActivity 'Checking locations')
 
 $imageOnly = @($imageHex | Where-Object { $_ -notin $textHex })
 $textOnly = @($textHex | Where-Object { $_ -notin $imageHex })
@@ -193,6 +266,7 @@ $defaultOnly = @()
 $structureDuplicateGroups = @()
 $definitionsLocationDuplicateGroups = @()
 if ($hasDefinitions) {
+    Set-ProgressStep -Percent 55 -Status 'Reading definitions.txt'
     $definitionsNamesRaw = @(Get-DefinitionsNames -Path $definitionsPath)
     $definitionsLocationDuplicateGroups = @($definitionsNamesRaw | Group-Object | Where-Object Count -gt 1 | Sort-Object Name)
     $definitionsNames = @($definitionsNamesRaw | Sort-Object -Unique)
@@ -216,11 +290,13 @@ $templateNames = @()
 $templateMissing = @()
 $templateExtra = @()
 if ($hasTemplates) {
+    Set-ProgressStep -Percent 75 -Status 'Reading location_templates.txt'
     $templateNames = @(Get-TemplateNames -Path $templatesPath | ForEach-Object { Repair-Mojibake $_ } | Sort-Object -Unique)
     $templateMissing = @($defaultNames | Where-Object { $_ -notin $templateNames })
     $templateExtra = @($templateNames | Where-Object { $_ -notin $defaultNames })
 }
 
+Set-ProgressStep -Percent 90 -Status 'Preparing report'
 Write-Output "Map data path: $MapDataPath"
 Write-Output "Named entries: $($entries.Count)"
 Write-Output "Unique named locations: $($defaultNames.Count)"
@@ -353,4 +429,5 @@ if (-not $NoPause) {
     Read-Host 'Press Enter to close'
 }
 
+Write-Progress -Id 1 -Activity 'Checking locations' -Completed
 exit $exitCode

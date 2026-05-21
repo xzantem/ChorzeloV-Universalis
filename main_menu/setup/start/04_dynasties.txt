@@ -231,4 +231,26 @@ dynasty_manager = {
 			
 		}
 	}
+	stec_dynasty = {
+		name = { name = stec_dynasty }
+		home = tuchów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	burdzy_dynasty = {
+		name = { name = burdzy_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
 }

@@ -5,6 +5,17 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+function Set-ProgressStep {
+    param(
+        [Parameter(Mandatory = $true)]
+        [int]$Percent,
+        [Parameter(Mandatory = $true)]
+        [string]$Status
+    )
+
+    Write-Progress -Id 1 -Activity 'Checking rivers' -Status $Status -PercentComplete $Percent
+}
+
 function Write-StatusLine {
     param(
         [Parameter(Mandatory = $true)]
@@ -19,7 +30,9 @@ function Write-StatusLine {
 function Get-RiverPixelIssues {
     param(
         [Parameter(Mandatory = $true)]
-        [string]$Path
+        [string]$Path,
+        [int]$ProgressId = 1,
+        [string]$ProgressActivity = 'Checking rivers'
     )
 
     if (-not ('RiverPixelChecker' -as [type])) {
@@ -70,7 +83,13 @@ public static class RiverPixelChecker {
         return x >= 0 && y >= 0 && x < width && y < height;
     }
 
-    public static RiverPixelIssue[] FindIssues(string path) {
+    public static int GetHeight(string path) {
+        using (var bmp = new Bitmap(path)) {
+            return bmp.Height;
+        }
+    }
+
+    public static RiverPixelIssue[] FindIssuesChunk(string path, int startY, int rowCount) {
         using (var bmp = new Bitmap(path)) {
             Func<int, int, int> getRgb = (x, y) => {
                 Color c = bmp.GetPixel(x, y);
@@ -92,8 +111,9 @@ public static class RiverPixelChecker {
             };
 
             var issues = new List<RiverPixelIssue>();
+            int endY = Math.Min(bmp.Height, startY + rowCount);
 
-            for (int y = 0; y < bmp.Height; y++) {
+            for (int y = startY; y < endY; y++) {
                 for (int x = 0; x < bmp.Width; x++) {
                     int rgb = getRgb(x, y);
                         if (!AllowedColors.Contains(rgb)) {
@@ -170,7 +190,23 @@ public static class RiverPixelChecker {
 "@
     }
 
-    [RiverPixelChecker]::FindIssues($Path)
+    $resolvedPath = (Resolve-Path $Path).Path
+    $height = [RiverPixelChecker]::GetHeight($resolvedPath)
+    $rowChunk = 128
+    $issues = New-Object System.Collections.Generic.List[object]
+
+    for ($startY = 0; $startY -lt $height; $startY += $rowChunk) {
+        $rows = [Math]::Min($rowChunk, $height - $startY)
+        $chunkIssues = [RiverPixelChecker]::FindIssuesChunk($resolvedPath, $startY, $rows)
+        foreach ($issue in $chunkIssues) {
+            $null = $issues.Add($issue)
+        }
+
+        $percent = 10 + [int](80 * (($startY + $rows) / $height))
+        Write-Progress -Id $ProgressId -Activity $ProgressActivity -Status ("Scanning rivers.png pixels ({0}/{1} rows)" -f ($startY + $rows), $height) -PercentComplete $percent
+    }
+
+    $issues
 }
 
 $riversPath = Join-Path $MapDataPath 'rivers.png'
@@ -178,8 +214,9 @@ if (-not (Test-Path -LiteralPath $riversPath)) {
     throw "Missing rivers image: $riversPath"
 }
 
-$issues = @(Get-RiverPixelIssues -Path $riversPath)
+$issues = @(Get-RiverPixelIssues -Path $riversPath -ProgressId 1 -ProgressActivity 'Checking rivers')
 
+Set-ProgressStep -Percent 90 -Status 'Preparing report'
 Write-Output "Map data path: $MapDataPath"
 Write-Output "Rivers image: $riversPath"
 Write-Output ''
@@ -201,4 +238,5 @@ if (-not $NoPause) {
     Read-Host 'Press Enter to close'
 }
 
+Write-Progress -Id 1 -Activity 'Checking rivers' -Completed
 exit $exitCode

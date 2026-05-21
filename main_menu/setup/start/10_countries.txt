@@ -34,21 +34,8 @@ countries = {
 			dynasty = grabka_dynasty
 			capital = olkusz
 		}
-		KRK = {
+		KRK = {	
 			own_control_core = {
-				brzeszcze
-				kęty
-				osiek
-				oświęcim
-				chełmek
-				polanka_wielka
-				przeciszów
-				zator
-				libiąż
-				babice
-				chrzanów
-				trzebinia
-				alwernia
 				krzeszowice
 				czernichów
 				skawina
@@ -66,12 +53,7 @@ countries = {
 				iwanowice_włościańskie
 				słomniki
 				luborzyca
-				wawrzeńczyce
 				wieliczka
-				niepołomnice
-				gdów
-				tomaszkowice
-				kłaj
 			}
 			starting_technology_level = 2
 
@@ -130,7 +112,7 @@ countries = {
 
 			country_rank = rank_kingdom
 			dynasty = niacio_dynasty
-			capital = myślenice
+			capital = wadowice
 		}
 		LIŁ = {
 			own_control_core = {
@@ -247,6 +229,11 @@ countries = {
 				trzciana
 				żegocina
 				lipnica_murowana
+				kłaj
+				niepołomnice
+				wawrzeńczyce
+				gdów
+				tomaszkowice
 			}
 			starting_technology_level = 2
 
@@ -257,11 +244,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = rzu_oskar
 			}
 
 			country_rank = rank_county
-			# dynasty = habsburg_dynasty
+			dynasty = korzec_dynasty
 			capital = bochnia
 		}
 		SWB = {
@@ -471,11 +458,11 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = ckz_oskar
+				ruler = ckz_stec
 			}
 
 			country_rank = rank_kingdom
-			dynasty = korzec_dynasty
+			dynasty = stec_dynasty
 			capital = gorlice
 		}
 		MCD = {
@@ -668,7 +655,14 @@ countries = {
 				zarszyn
 				bukowsko
 				komańcza
+				zagórz
 			}
+			our_cores_conquered_by_others = {
+			    solina
+				baligród
+				cisna
+				lesko
+		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -683,7 +677,7 @@ countries = {
 
 			country_rank = rank_kingdom
 			dynasty = rzegocki_dynasty
-			capital = krosno
+			capital = rymanów
 		}
 		TMB = {
 			own_control_core = {
@@ -763,22 +757,47 @@ countries = {
 		}
 		BYD = {
 			own_control_core = {
-				ulanów
-				jeżowe
-				nisko
-				rudnik_nad_sanem
-				krzeszów
-				jarocin
-				harasiuki
-				sienawa
-				adamówka
-				wiązownica
-				stary_dzików
-				tryńcza
-				przeworsk
-				laszki
-				jarosław
+				ulanów jeżowe nisko rudnik_nad_sanem krzeszów jarocin
+				harasiuki sienawa adamówka wiązownica stary_dzików tryńcza
+				przeworsk laszki jarosław
+				annopol gościeradów trzydnik_duży dzierzkowice
+				kraśnik szastarka urzędów wilkołaz zakrzówek
+				józefów_nad_wisłą łaziska opole_lubelskie
+				chodel wilków karczmiska poniatowa
+				potok_wielki modliborzyce janów_lubelski
+				dzwola godziszów chrzanów_lubelski batorz
+				kazimierz_dolny wąwolnica nałęczów puławy
+				końskowola kurów markuszów żyrzyn baranów
+				abramów michów kamionka firlej ostrówek
+				lubartów niedźwiada serniki ostrów_lubelski
+				czemierniki siemień parczew
+				spiczyn łęczna wółka świdnik piaski jabłonna
+				krczonów rybczewice zakrzew wysokie żółkiewka
+				niemce garbów jastków wojciechów konopnica lublin
+				głusk bełżyce borzechów niedrzwica_duża strzyżewice bychawa
+				turobin goraj radecznica frampol biłgoraj
+				tereszpol księżpol biszcza potok_górny tarnogród
 			}
+			our_cores_conquered_by_others = {
+			    gać
+				kańczuga
+				zarzecze
+				jawornik_polski
+				pruchnik
+				roźwienica
+				rokietnica
+				pawłosiów
+				chłopice
+				radymno
+				dubiecko
+				bircza
+				krzywcza
+				krasiczyn
+				fredropol
+				przemyśl
+				żurawica
+				orły
+		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -793,7 +812,7 @@ countries = {
 
 			country_rank = rank_empire
 			dynasty = kusek_dynasty
-			capital = ulanów
+			capital = lublin
 		}
 		JUD = {
 			own_control_core = {
@@ -841,6 +860,26 @@ countries = {
 				łańcut
 				markowa
 			}
+			our_cores_conquered_by_others = {
+			    gać
+				kańczuga
+				zarzecze
+				jawornik_polski
+				pruchnik
+				roźwienica
+				rokietnica
+				pawłosiów
+				chłopice
+				radymno
+				dubiecko
+				bircza
+				krzywcza
+				krasiczyn
+				fredropol
+				przemyśl
+				żurawica
+				orły
+		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -866,6 +905,8 @@ countries = {
 				jasienica_rosielna
 				nozdrzec
 				dydnia
+				tyrawa_wołowska
+				sanok
 			}
 			starting_technology_level = 2
 
@@ -884,15 +925,11 @@ countries = {
 			capital = brzozów
 		}
 		UKR = {
-			own_control_core = {
-				sanok
+			own_control_core = {				
 				dubiecko
 				bircza
 				ustrzyki_dolne
-				tyrawa_wołowska
 				olszanica
-				lesko
-				zagórz
 				solina
 				baligród
 				lutowiska
@@ -915,6 +952,7 @@ countries = {
 				kańczuga
 				gać
 				zarzecze
+				lesko
 			}
 			starting_technology_level = 2
 
@@ -930,7 +968,39 @@ countries = {
 
 			country_rank = rank_duchy
 			dynasty = zełenski_dynasty
-			capital = sanok
+			capital = solina
+		}
+		KOR = {
+			own_control_core = {
+				kęty
+				osiek
+				brzeszcze
+				zator
+				przeciszów
+				polanka_wielka
+				oświęcim
+				chełmek
+				alwernia
+				babice
+				libiąż
+				chrzanów
+				trzebinia
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				ruler = kor_burdzy
+			}
+
+			country_rank = rank_duchy
+			dynasty = burdzy_dynasty
+			capital = oświęcim
 		}
 	}
 }

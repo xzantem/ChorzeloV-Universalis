@@ -5,6 +5,17 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+function Set-ProgressStep {
+    param(
+        [Parameter(Mandatory = $true)]
+        [int]$Percent,
+        [Parameter(Mandatory = $true)]
+        [string]$Status
+    )
+
+    Write-Progress -Id 1 -Activity 'Checking raw materials' -Status $Status -PercentComplete $Percent
+}
+
 function Write-StatusLine {
     param(
         [Parameter(Mandatory = $true)]
@@ -55,10 +66,12 @@ foreach ($material in $allowedMaterials) {
     $null = $allowedSet.Add($material)
 }
 
+Set-ProgressStep -Percent 15 -Status 'Reading template raw materials'
 $entries = @(Get-TemplateRawMaterials -Path $templatesPath)
 $counts = [ordered]@{}
 $invalidEntries = New-Object System.Collections.Generic.List[object]
 
+Set-ProgressStep -Percent 40 -Status 'Counting material assignments'
 foreach ($entry in $entries) {
     if (-not $counts.Contains($entry.Material)) {
         $counts[$entry.Material] = 0
@@ -101,6 +114,7 @@ else {
 
 $variance = 0.0
 if ($materialTypeCount -gt 0) {
+    Set-ProgressStep -Percent 65 -Status 'Calculating distribution statistics'
     foreach ($value in $values) {
         $variance += [math]::Pow($value - $average, 2)
     }
@@ -111,6 +125,7 @@ $stddev = [math]::Sqrt($variance)
 $stddevThreshold = [math]::Max(6.0, $average)
 $stddevIsHigh = $stddev -gt $stddevThreshold
 
+Set-ProgressStep -Percent 90 -Status 'Preparing report'
 Write-Output "Map data path: $MapDataPath"
 Write-Output "Template entries with raw materials: $($entries.Count)"
 Write-Output "Material types present: $($orderedCounts.Count)"
@@ -176,4 +191,5 @@ if (-not $NoPause) {
     Read-Host 'Press Enter to close'
 }
 
+Write-Progress -Id 1 -Activity 'Checking raw materials' -Completed
 exit $exitCode

@@ -516,5 +516,89 @@ obrazów = 7EA4BF
 sandomierz = 97C4E5
 wilczyce = 86AFCC
 
+annopol = C014FF
+gościeradów = B112EA
+trzydnik_duży = A111D6
+dzierzkowice = 920FC1
+kraśnik = 640A84
+szastarka = 540870
+urzędów = 820DAD
+wilkołaz = 730C99
+zakrzówek = 45075B
 
+józefów_nad_wisłą = FF0022
+łaziska = 6B000E
+opole_lubelskie = D6001C
+chodel = BC0019
+wilków = 7F0011
+karczmiska = 930013
+poniatowa = A80016
+
+potok_wielki = 266B38
+modliborzyce = 2D7F43
+janów_lubelski = 35934E
+dzwola = 3CA859
+godziszów = 42B761
+chrzanów_lubelski = 49CC6C
+batorz = 50E077
+
+kazimierz_dolny = 00D0FF
+wąwolnica = 00AED6
+nałęczów = 009EC1
+puławy = 00BFEA
+końskowola = 006C84
+kurów = 007C99
+markuszów = 008DAD
+żyrzyn = 005B70
+baranów = 004A5B
+
+abramów = BC66FF
+michów = AD5DEA
+kamionka = 9E55D6
+firlej = 8045AD
+ostrówek = 713D99
+lubartów = 8F4DC1
+niedźwiada = 603584
+serniki = 4D2B6B
+ostrów_lubelski = 3E2356
+
+czemierniki = 40D317
+siemień = 39BF15
+parczew = 32A512
+
+spiczyn = EF7117
+łęczna = E06A16
+wółka = FF7919
+świdnik = 662E0A
+piaski = 75350B
+jabłonna = D16014
+krczonów = 93440E
+rybczewice = 843C0D
+zakrzew = C15C13
+wysokie = B25411
+żółkiewka = A34D10
+
+niemce = 268E6C
+garbów = 2A9E77
+jastków = 2EAD83
+wojciechów = 3CE0A9
+konopnica = 32BC8E
+lublin = 227F60
+głusk = 175641
+bełżyce = 40EFB5
+borzechów = 44FFC0
+niedrzwica_duża = 38D19E
+strzyżewice = 1C6B51
+bychawa = 134736
+
+turobin = 421B5B
+goraj = 502170
+radecznica = 311444
+frampol = 5F2784
+biłgoraj = 7C34AD
+tereszpol = 6E2D99
+księżpol = 8B3AC1
+biszcza = 9A40D6
+potok_górny = B949FF
+tarnogród = A846EA
 
