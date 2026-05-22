@@ -2147,7 +2147,478 @@ locations={
 	   define_pop = {	type = burghers	size = 0.174	culture = lesser_polish	religion = catholic }
 	   define_pop = {	type = peasants	size = 3.514	culture = lesser_polish	religion = catholic }
     }
-	
+	annopol = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.012 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.385 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 7.799 culture = greek_culture religion = orthodox }
+	}
+	gościeradów = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.011 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.334 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.755 culture = greek_culture religion = orthodox }
+	}
+	trzydnik_duży = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.291 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.898 culture = greek_culture religion = orthodox }
+	}
+	dzierzkowice = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.235 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.756 culture = greek_culture religion = orthodox }
+	}
+	kraśnik = {
+		define_pop = { type = nobles size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.062 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 1.927 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 39.001 culture = greek_culture religion = orthodox }
+	}
+	szastarka = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.259 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.232 culture = greek_culture religion = orthodox }
+	}
+	urzędów = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.013 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.395 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 7.991 culture = greek_culture religion = orthodox }
+	}
+	wilkołaz = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.259 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.232 culture = greek_culture religion = orthodox }
+	}
+	zakrzówek = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.320 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.469 culture = greek_culture religion = orthodox }
+	}
+
+	józefów_nad_wisłą = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.282 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.708 culture = greek_culture religion = orthodox }
+	}
+	łaziska = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.230 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.660 culture = greek_culture religion = orthodox }
+	}
+	opole_lubelskie = {
+		define_pop = { type = nobles size = 0.004 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.025 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.776 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 15.696 culture = greek_culture religion = orthodox }
+	}
+	chodel = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.301 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.088 culture = greek_culture religion = orthodox }
+	}
+	wilków = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.212 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.281 culture = greek_culture religion = orthodox }
+	}
+	karczmiska = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.273 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.517 culture = greek_culture religion = orthodox }
+	}
+	poniatowa = {
+		define_pop = { type = nobles size = 0.004 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.021 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.658 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 13.318 culture = greek_culture religion = orthodox }
+	}
+
+	potok_wielki = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.230 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.660 culture = greek_culture religion = orthodox }
+	}
+	modliborzyce = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.011 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.329 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.659 culture = greek_culture religion = orthodox }
+	}
+	janów_lubelski = {
+		define_pop = { type = nobles size = 0.004 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.024 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.752 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 15.220 culture = greek_culture religion = orthodox }
+	}
+	dzwola = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.282 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.708 culture = greek_culture religion = orthodox }
+	}
+	godziszów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.273 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.517 culture = greek_culture religion = orthodox }
+	}
+	chrzanów_lubelski = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.005 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.150 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.044 culture = greek_culture religion = orthodox }
+	}
+	batorz = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.005 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.155 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.139 culture = greek_culture religion = orthodox }
+	}
+
+	kazimierz_dolny = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.306 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.184 culture = greek_culture religion = orthodox }
+	}
+	wąwolnica = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.221 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.471 culture = greek_culture religion = orthodox }
+	}
+	nałęczów = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.013 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.423 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 8.561 culture = greek_culture religion = orthodox }
+	}
+	puławy = {
+		define_pop = { type = nobles size = 0.014 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.086 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 2.679 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 54.221 culture = greek_culture religion = orthodox }
+	}
+	końskowola = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.013 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.423 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 8.561 culture = greek_culture religion = orthodox }
+	}
+	kurów = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.011 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.352 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 7.134 culture = greek_culture religion = orthodox }
+	}
+	markuszów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.005 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.141 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 2.855 culture = greek_culture religion = orthodox }
+	}
+	żyrzyn = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.315 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.373 culture = greek_culture religion = orthodox }
+	}
+	baranów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.188 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.805 culture = greek_culture religion = orthodox }
+	}
+
+	abramów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.188 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.805 culture = greek_culture religion = orthodox }
+	}
+	michów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.259 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.232 culture = greek_culture religion = orthodox }
+	}
+	kamionka = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.301 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.089 culture = greek_culture religion = orthodox }
+	}
+	firlej = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.268 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.423 culture = greek_culture religion = orthodox }
+	}
+	ostrówek = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.174 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.520 culture = greek_culture religion = orthodox }
+	}
+	lubartów = {
+		define_pop = { type = nobles size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.051 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 1.598 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 32.343 culture = greek_culture religion = orthodox }
+	}
+	niedźwiada = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.306 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.184 culture = greek_culture religion = orthodox }
+	}
+	serniki = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.244 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.947 culture = greek_culture religion = orthodox }
+	}
+	ostrów_lubelski = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.235 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.756 culture = greek_culture religion = orthodox }
+	}
+
+	czemierniki = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.197 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.994 culture = greek_culture religion = orthodox }
+	}
+	siemień = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.212 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.282 culture = greek_culture religion = orthodox }
+	}
+	parczew = {
+		define_pop = { type = nobles size = 0.004 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.022 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.682 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 13.794 culture = greek_culture religion = orthodox }
+	}
+
+	spiczyn = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.259 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.232 culture = greek_culture religion = orthodox }
+	}
+	łęczna = {
+		define_pop = { type = nobles size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.035 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 1.081 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 21.879 culture = greek_culture religion = orthodox }
+	}
+	wółka = {
+		define_pop = { type = nobles size = 0.003 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.020 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.611 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 12.367 culture = greek_culture religion = orthodox }
+	}
+	świdnik = {
+		define_pop = { type = nobles size = 0.012 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.070 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 2.186 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 44.233 culture = greek_culture religion = orthodox }
+	}
+	piaski = {
+		define_pop = { type = nobles size = 0.003 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.016 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.494 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 9.989 culture = greek_culture religion = orthodox }
+	}
+	jabłonna = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.013 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.400 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 8.086 culture = greek_culture religion = orthodox }
+	}
+	krczonów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.007 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.212 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.282 culture = greek_culture religion = orthodox }
+	}
+	rybczewice = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.005 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.165 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.329 culture = greek_culture religion = orthodox }
+	}
+	zakrzew = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.005 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.155 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.139 culture = greek_culture religion = orthodox }
+	}
+	wysokie = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.202 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.089 culture = greek_culture religion = orthodox }
+	}
+	żółkiewka = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.259 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.232 culture = greek_culture religion = orthodox }
+	}
+
+	niemce = {
+		define_pop = { type = nobles size = 0.005 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.029 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.893 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 18.074 culture = greek_culture religion = orthodox }
+	}
+	garbów = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.013 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.423 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 8.561 culture = greek_culture religion = orthodox }
+	}
+	jastków = {
+		define_pop = { type = nobles size = 0.004 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.022 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.705 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 14.269 culture = greek_culture religion = orthodox }
+	}
+	wojciechów = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.282 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.708 culture = greek_culture religion = orthodox }
+	}
+	konopnica = {
+		define_pop = { type = nobles size = 0.004 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.022 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.705 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 14.269 culture = greek_culture religion = orthodox }
+	}
+	lublin = {
+		define_pop = { type = nobles size = 0.083 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.496 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 15.557 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 314.864 culture = greek_culture religion = orthodox }
+	}
+	głusk = {
+		define_pop = { type = nobles size = 0.003 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.020 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.611 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 12.367 culture = greek_culture religion = orthodox }
+	}
+	bełżyce = {
+		define_pop = { type = nobles size = 0.003 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.019 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.588 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 11.892 culture = greek_culture religion = orthodox }
+	}
+	borzechów = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.188 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.805 culture = greek_culture religion = orthodox }
+	}
+	niedrzwica_duża = {
+		define_pop = { type = nobles size = 0.003 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.018 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.564 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 11.415 culture = greek_culture religion = orthodox }
+	}
+	strzyżewice = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.012 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.376 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 7.610 culture = greek_culture religion = orthodox }
+	}
+	bychawa = {
+		define_pop = { type = nobles size = 0.003 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.017 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.517 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 10.465 culture = greek_culture religion = orthodox }
+	}
+
+	turobin = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.282 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.708 culture = greek_culture religion = orthodox }
+	}
+	goraj = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.188 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.805 culture = greek_culture religion = orthodox }
+	}
+	radecznica = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.282 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.708 culture = greek_culture religion = orthodox }
+	}
+	frampol = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.009 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.282 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 5.708 culture = greek_culture religion = orthodox }
+	}
+	biłgoraj = {
+		define_pop = { type = nobles size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.059 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 1.833 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 37.099 culture = greek_culture religion = orthodox }
+	}
+	tereszpol = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.188 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.805 culture = greek_culture religion = orthodox }
+	}
+	księżpol = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.306 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.184 culture = greek_culture religion = orthodox }
+	}
+	biszcza = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.006 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.174 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 3.520 culture = greek_culture religion = orthodox }
+	}
+	potok_górny = {
+		define_pop = { type = nobles size = 0.001 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.008 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.244 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 4.947 culture = greek_culture religion = orthodox }
+	}
+	tarnogród = {
+		define_pop = { type = nobles size = 0.002 culture = greek_culture religion = orthodox }
+		define_pop = { type = clergy size = 0.010 culture = greek_culture religion = orthodox }
+		define_pop = { type = burghers size = 0.306 culture = greek_culture religion = orthodox }
+		define_pop = { type = peasants size = 6.184 culture = greek_culture religion = orthodox }
+	}
+
+
 	
 	
 	

@@ -24,5 +24,1746 @@
 		feudalism = yes
 		legalism = yes
 	}
+	czermin = {
+		feudalism = yes
+		legalism = yes
+	}
+	borowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	gawłuszowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	padew = {
+		feudalism = yes
+		legalism = yes
+	}
+	tuszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	stary_chorzelów = {
+		feudalism = yes
+		legalism = yes
+	}
+	wadowice_górne = {
+		feudalism = yes
+		legalism = yes
+	}
+	radomyśl = {
+		feudalism = yes
+		legalism = yes
+	}
+	wola_mielecka = {
+		feudalism = yes
+		legalism = yes
+	}
+	mielec = {
+		feudalism = yes
+		legalism = yes
+	}
+	trześń = {
+		feudalism = yes
+		legalism = yes
+	}
+	przecław = {
+		feudalism = yes
+		legalism = yes
+	}
+	rzemień = {
+		feudalism = yes
+		legalism = yes
+	}
+	czarna_dębica = {
+		feudalism = yes
+		legalism = yes
+	}
+	żyraków = {
+		feudalism = yes
+		legalism = yes
+	}
+	dębica = {
+		feudalism = yes
+		legalism = yes
+	}
+	pilzno = {
+		feudalism = yes
+		legalism = yes
+	}
+	brzostek = {
+		feudalism = yes
+		legalism = yes
+	}
+	jodłowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	ostrów = {
+		feudalism = yes
+		legalism = yes
+	}
+	sędziszów_małopolski = {
+		feudalism = yes
+		legalism = yes
+	}
+	iwierzyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	ropczyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	wielopole_skrzyńskie = {
+		feudalism = yes
+		legalism = yes
+	}
+	brzyska = {
+		feudalism = yes
+		legalism = yes
+	}
+	skołoszyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	kołaczyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	jasło = {
+		feudalism = yes
+		legalism = yes
+	}
+	tarnowiec = {
+		feudalism = yes
+		legalism = yes
+	}
+	dębowiec = {
+		feudalism = yes
+		legalism = yes
+	}
+	osiek_jasielski = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowy_żmigród = {
+		feudalism = yes
+		legalism = yes
+	}
+	krempna = {
+		feudalism = yes
+		legalism = yes
+	}
+	baranów_sandomierski = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowa_dęba = {
+		feudalism = yes
+		legalism = yes
+	}
+	tarnobrzeg = {
+		feudalism = yes
+		legalism = yes
+	}
+	grębów = {
+		feudalism = yes
+		legalism = yes
+	}
+	gorzyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	majdan_królewski = {
+		feudalism = yes
+		legalism = yes
+	}
+	cmolas = {
+		feudalism = yes
+		legalism = yes
+	}
+	niwiska = {
+		feudalism = yes
+		legalism = yes
+	}
+	kolbuszowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	dzikowiec = {
+		feudalism = yes
+		legalism = yes
+	}
+	raniżów = {
+		feudalism = yes
+		legalism = yes
+	}
+	bojanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	stalowa_wola = {
+		feudalism = yes
+		legalism = yes
+	}
+	zaleszany = {
+		feudalism = yes
+		legalism = yes
+	}
+	radomyśl_nad_sanem = {
+		feudalism = yes
+		legalism = yes
+	}
+	pysznica = {
+		feudalism = yes
+		legalism = yes
+	}
+	zaklików = {
+		feudalism = yes
+		legalism = yes
+	}
+	frysztak = {
+		feudalism = yes
+		legalism = yes
+	}
+	wiśniowa_strzyżów = {
+		feudalism = yes
+		legalism = yes
+	}
+	strzyżów = {
+		feudalism = yes
+		legalism = yes
+	}
+	czudec = {
+		feudalism = yes
+		legalism = yes
+	}
+	niebylec = {
+		feudalism = yes
+		legalism = yes
+	}
+	wojaszówka = {
+		feudalism = yes
+		legalism = yes
+	}
+	korczyna = {
+		feudalism = yes
+		legalism = yes
+	}
+	jedlicze = {
+		feudalism = yes
+		legalism = yes
+	}
+	krosno = {
+		feudalism = yes
+		legalism = yes
+	}
+	krościenko_wyżne = {
+		feudalism = yes
+		legalism = yes
+	}
+	chorkówka = {
+		feudalism = yes
+		legalism = yes
+	}
+	miejsce_piastowe = {
+		feudalism = yes
+		legalism = yes
+	}
+	dukla = {
+		feudalism = yes
+		legalism = yes
+	}
+	iwonicz-zdrój = {
+		feudalism = yes
+		legalism = yes
+	}
+	rymanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	jaśliska = {
+		feudalism = yes
+		legalism = yes
+	}
+	jeżowe = {
+		feudalism = yes
+		legalism = yes
+	}
+	nisko = {
+		feudalism = yes
+		legalism = yes
+	}
+	rudnik_nad_sanem = {
+		feudalism = yes
+		legalism = yes
+	}
+	krzeszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	ulanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	jarocin = {
+		feudalism = yes
+		legalism = yes
+	}
+	harasiuki = {
+		feudalism = yes
+		legalism = yes
+	}
+	kamień = {
+		feudalism = yes
+		legalism = yes
+	}
+	sokołów_małopolski = {
+		feudalism = yes
+		legalism = yes
+	}
+	głogów_małopolski = {
+		feudalism = yes
+		legalism = yes
+	}
+	trzebownisko = {
+		feudalism = yes
+		legalism = yes
+	}
+	świlcza = {
+		feudalism = yes
+		legalism = yes
+	}
+	boguchwała = {
+		feudalism = yes
+		legalism = yes
+	}
+	rzeszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	krasne = {
+		feudalism = yes
+		legalism = yes
+	}
+	lubenia = {
+		feudalism = yes
+		legalism = yes
+	}
+	tyczyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	chmielnik = {
+		feudalism = yes
+		legalism = yes
+	}
+	błażowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	hyżne = {
+		feudalism = yes
+		legalism = yes
+	}
+	dynów = {
+		feudalism = yes
+		legalism = yes
+	}
+	haczów = {
+		feudalism = yes
+		legalism = yes
+	}
+	brzozów = {
+		feudalism = yes
+		legalism = yes
+	}
+	jasienica_rosielna = {
+		feudalism = yes
+		legalism = yes
+	}
+	domaradz = {
+		feudalism = yes
+		legalism = yes
+	}
+	nozdrzec = {
+		feudalism = yes
+		legalism = yes
+	}
+	dydnia = {
+		feudalism = yes
+		legalism = yes
+	}
+	łańcut = {
+		feudalism = yes
+		legalism = yes
+	}
+	czarna_łańcut = {
+		feudalism = yes
+		legalism = yes
+	}
+	białobrzegi = {
+		feudalism = yes
+		legalism = yes
+	}
+	żołynia = {
+		feudalism = yes
+		legalism = yes
+	}
+	rakszawa = {
+		feudalism = yes
+		legalism = yes
+	}
+	markowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	kuryłówka = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowa_sarzyna = {
+		feudalism = yes
+		legalism = yes
+	}
+	leżajsk = {
+		feudalism = yes
+		legalism = yes
+	}
+	grodzisko_dolne = {
+		feudalism = yes
+		legalism = yes
+	}
+	adamówka = {
+		feudalism = yes
+		legalism = yes
+	}
+	sienawa = {
+		feudalism = yes
+		legalism = yes
+	}
+	tryńcza = {
+		feudalism = yes
+		legalism = yes
+	}
+	przeworsk = {
+		feudalism = yes
+		legalism = yes
+	}
+	zarzecze = {
+		feudalism = yes
+		legalism = yes
+	}
+	gać = {
+		feudalism = yes
+		legalism = yes
+	}
+	kańczuga = {
+		feudalism = yes
+		legalism = yes
+	}
+	jawornik_polski = {
+		feudalism = yes
+		legalism = yes
+	}
+	wiązownica = {
+		feudalism = yes
+		legalism = yes
+	}
+	jarosław = {
+		feudalism = yes
+		legalism = yes
+	}
+	laszki = {
+		feudalism = yes
+		legalism = yes
+	}
+	radymno = {
+		feudalism = yes
+		legalism = yes
+	}
+	pawłosiów = {
+		feudalism = yes
+		legalism = yes
+	}
+	chłopice = {
+		feudalism = yes
+		legalism = yes
+	}
+	rokietnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	roźwienica = {
+		feudalism = yes
+		legalism = yes
+	}
+	pruchnik = {
+		feudalism = yes
+		legalism = yes
+	}
+	stary_dzików = {
+		feudalism = yes
+		legalism = yes
+	}
+	besko = {
+		feudalism = yes
+		legalism = yes
+	}
+	zarszyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	sanok = {
+		feudalism = yes
+		legalism = yes
+	}
+	tyrawa_wołowska = {
+		feudalism = yes
+		legalism = yes
+	}
+	bukowsko = {
+		feudalism = yes
+		legalism = yes
+	}
+	komańcza = {
+		feudalism = yes
+		legalism = yes
+	}
+	zagórz = {
+		feudalism = yes
+		legalism = yes
+	}
+	lesko = {
+		feudalism = yes
+		legalism = yes
+	}
+	olszanica = {
+		feudalism = yes
+		legalism = yes
+	}
+	baligród = {
+		feudalism = yes
+		legalism = yes
+	}
+	solina = {
+		feudalism = yes
+		legalism = yes
+	}
+	cisna = {
+		feudalism = yes
+		legalism = yes
+	}
+	fredropol = {
+		feudalism = yes
+		legalism = yes
+	}
+	bircza = {
+		feudalism = yes
+		legalism = yes
+	}
+	krasiczyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	przemyśl = {
+		feudalism = yes
+		legalism = yes
+	}
+	dubiecko = {
+		feudalism = yes
+		legalism = yes
+	}
+	krzywcza = {
+		feudalism = yes
+		legalism = yes
+	}
+	żurawica = {
+		feudalism = yes
+		legalism = yes
+	}
+	orły = {
+		feudalism = yes
+		legalism = yes
+	}
+	lutowiska = {
+		feudalism = yes
+		legalism = yes
+	}
+	czarna_bieszczady = {
+		feudalism = yes
+		legalism = yes
+	}
+	ustrzyki_dolne = {
+		feudalism = yes
+		legalism = yes
+	}
+	szczucin = {
+		feudalism = yes
+		legalism = yes
+	}
+	mędrzechów = {
+		feudalism = yes
+		legalism = yes
+	}
+	bolesław_dąbrowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	gręboszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	oleśno = {
+		feudalism = yes
+		legalism = yes
+	}
+	dąbrowa_tarnowska = {
+		feudalism = yes
+		legalism = yes
+	}
+	radgoszcz = {
+		feudalism = yes
+		legalism = yes
+	}
+	wietrzychowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	żabno = {
+		feudalism = yes
+		legalism = yes
+	}
+	radłów = {
+		feudalism = yes
+		legalism = yes
+	}
+	wierzchosławice = {
+		feudalism = yes
+		legalism = yes
+	}
+	lisia_góra = {
+		feudalism = yes
+		legalism = yes
+	}
+	wola_rzędzińska = {
+		feudalism = yes
+		legalism = yes
+	}
+	skrzyszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	świebodzin = {
+		feudalism = yes
+		legalism = yes
+	}
+	święty_świebodzin = {
+		feudalism = yes
+		legalism = yes
+	}
+	wojnicz = {
+		feudalism = yes
+		legalism = yes
+	}
+	zakliczyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	pleśna = {
+		feudalism = yes
+		legalism = yes
+	}
+	gromnik = {
+		feudalism = yes
+		legalism = yes
+	}
+	ciężkowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	tuchów = {
+		feudalism = yes
+		legalism = yes
+	}
+	rzepiennik_strzyżewski = {
+		feudalism = yes
+		legalism = yes
+	}
+	ryglice = {
+		feudalism = yes
+		legalism = yes
+	}
+	szerzyny = {
+		feudalism = yes
+		legalism = yes
+	}
+	szczurowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	borzęcin = {
+		feudalism = yes
+		legalism = yes
+	}
+	brzesko = {
+		feudalism = yes
+		legalism = yes
+	}
+	dębno = {
+		feudalism = yes
+		legalism = yes
+	}
+	gnojnik = {
+		feudalism = yes
+		legalism = yes
+	}
+	czchów = {
+		feudalism = yes
+		legalism = yes
+	}
+	iwkowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	bejsce = {
+		feudalism = yes
+		legalism = yes
+	}
+	kazimierza_wielka = {
+		feudalism = yes
+		legalism = yes
+	}
+	skalbmierz = {
+		feudalism = yes
+		legalism = yes
+	}
+	działoszyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	koszyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowe_brzesko = {
+		feudalism = yes
+		legalism = yes
+	}
+	proszowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	koniusza = {
+		feudalism = yes
+		legalism = yes
+	}
+	radziemice = {
+		feudalism = yes
+		legalism = yes
+	}
+	pałecznica = {
+		feudalism = yes
+		legalism = yes
+	}
+	bobowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	lużna = {
+		feudalism = yes
+		legalism = yes
+	}
+	moszczenica = {
+		feudalism = yes
+		legalism = yes
+	}
+	biecz = {
+		feudalism = yes
+		legalism = yes
+	}
+	lipniki = {
+		feudalism = yes
+		legalism = yes
+	}
+	gorlice = {
+		feudalism = yes
+		legalism = yes
+	}
+	ropa = {
+		feudalism = yes
+		legalism = yes
+	}
+	sękowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	uście_gorlickie = {
+		feudalism = yes
+		legalism = yes
+	}
+	łososina_dolna = {
+		feudalism = yes
+		legalism = yes
+	}
+	gródek_nad_dunajcem = {
+		feudalism = yes
+		legalism = yes
+	}
+	korzenna = {
+		feudalism = yes
+		legalism = yes
+	}
+	chełmiec = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowy_sącz = {
+		feudalism = yes
+		legalism = yes
+	}
+	kamionka_wielka = {
+		feudalism = yes
+		legalism = yes
+	}
+	grybów = {
+		feudalism = yes
+		legalism = yes
+	}
+	łącko = {
+		feudalism = yes
+		legalism = yes
+	}
+	podegrodzie = {
+		feudalism = yes
+		legalism = yes
+	}
+	stary_sącz = {
+		feudalism = yes
+		legalism = yes
+	}
+	rytro = {
+		feudalism = yes
+		legalism = yes
+	}
+	nawojowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	piwniczna-zdrój = {
+		feudalism = yes
+		legalism = yes
+	}
+	łabowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	krynica-zdrój = {
+		feudalism = yes
+		legalism = yes
+	}
+	muszyna = {
+		feudalism = yes
+		legalism = yes
+	}
+	laskowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	limanowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	łukowica = {
+		feudalism = yes
+		legalism = yes
+	}
+	tymbark = {
+		feudalism = yes
+		legalism = yes
+	}
+	słopnice = {
+		feudalism = yes
+		legalism = yes
+	}
+	kamienica = {
+		feudalism = yes
+		legalism = yes
+	}
+	jodłownik = {
+		feudalism = yes
+		legalism = yes
+	}
+	dobra = {
+		feudalism = yes
+		legalism = yes
+	}
+	mszana_dolna = {
+		feudalism = yes
+		legalism = yes
+	}
+	niedźwiedź = {
+		feudalism = yes
+		legalism = yes
+	}
+	drwinia = {
+		feudalism = yes
+		legalism = yes
+	}
+	rzezawa = {
+		feudalism = yes
+		legalism = yes
+	}
+	bochnia = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowy_wiśnicz = {
+		feudalism = yes
+		legalism = yes
+	}
+	łapanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	trzciana = {
+		feudalism = yes
+		legalism = yes
+	}
+	żegocina = {
+		feudalism = yes
+		legalism = yes
+	}
+	lipnica_murowana = {
+		feudalism = yes
+		legalism = yes
+	}
+	kłaj = {
+		feudalism = yes
+		legalism = yes
+	}
+	niepołomnice = {
+		feudalism = yes
+		legalism = yes
+	}
+	wieliczka = {
+		feudalism = yes
+		legalism = yes
+	}
+	tomaszkowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	gdów = {
+		feudalism = yes
+		legalism = yes
+	}
+	książ_wielki = {
+		feudalism = yes
+		legalism = yes
+	}
+	kozłów = {
+		feudalism = yes
+		legalism = yes
+	}
+	charsznica = {
+		feudalism = yes
+		legalism = yes
+	}
+	gołcza = {
+		feudalism = yes
+		legalism = yes
+	}
+	miechów = {
+		feudalism = yes
+		legalism = yes
+	}
+	słaboszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	racławice = {
+		feudalism = yes
+		legalism = yes
+	}
+	wolbrom = {
+		feudalism = yes
+		legalism = yes
+	}
+	trzyciąż = {
+		feudalism = yes
+		legalism = yes
+	}
+	klucze = {
+		feudalism = yes
+		legalism = yes
+	}
+	bolesław_olkusz = {
+		feudalism = yes
+		legalism = yes
+	}
+	bukowno = {
+		feudalism = yes
+		legalism = yes
+	}
+	olkusz = {
+		feudalism = yes
+		legalism = yes
+	}
+	sułoszowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	skała = {
+		feudalism = yes
+		legalism = yes
+	}
+	iwanowice_włościańskie = {
+		feudalism = yes
+		legalism = yes
+	}
+	słomniki = {
+		feudalism = yes
+		legalism = yes
+	}
+	jerzmanowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	wielka_wieś = {
+		feudalism = yes
+		legalism = yes
+	}
+	zielonki = {
+		feudalism = yes
+		legalism = yes
+	}
+	michałowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	luborzyca = {
+		feudalism = yes
+		legalism = yes
+	}
+	krzeszowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	zabierzów = {
+		feudalism = yes
+		legalism = yes
+	}
+	czernichów = {
+		feudalism = yes
+		legalism = yes
+	}
+	liszki = {
+		feudalism = yes
+		legalism = yes
+	}
+	kraków = {
+		feudalism = yes
+		legalism = yes
+	}
+	wawrzeńczyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	skawina = {
+		feudalism = yes
+		legalism = yes
+	}
+	mogilany = {
+		feudalism = yes
+		legalism = yes
+	}
+	świątniki_górne = {
+		feudalism = yes
+		legalism = yes
+	}
+	trzebinia = {
+		feudalism = yes
+		legalism = yes
+	}
+	chrzanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	libiąż = {
+		feudalism = yes
+		legalism = yes
+	}
+	babice = {
+		feudalism = yes
+		legalism = yes
+	}
+	alwernia = {
+		feudalism = yes
+		legalism = yes
+	}
+	chełmek = {
+		feudalism = yes
+		legalism = yes
+	}
+	oświęcim = {
+		feudalism = yes
+		legalism = yes
+	}
+	brzeszcze = {
+		feudalism = yes
+		legalism = yes
+	}
+	polanka_wielka = {
+		feudalism = yes
+		legalism = yes
+	}
+	osiek = {
+		feudalism = yes
+		legalism = yes
+	}
+	kęty = {
+		feudalism = yes
+		legalism = yes
+	}
+	przeciszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	zator = {
+		feudalism = yes
+		legalism = yes
+	}
+	spytkowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	wieprz = {
+		feudalism = yes
+		legalism = yes
+	}
+	tomice = {
+		feudalism = yes
+		legalism = yes
+	}
+	brzeźnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	andrychów = {
+		feudalism = yes
+		legalism = yes
+	}
+	wadowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	kalwaria_zebrzydowska = {
+		feudalism = yes
+		legalism = yes
+	}
+	mucharz = {
+		feudalism = yes
+		legalism = yes
+	}
+	stryszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	lanckorona = {
+		feudalism = yes
+		legalism = yes
+	}
+	zembrzyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	budzów = {
+		feudalism = yes
+		legalism = yes
+	}
+	stryszawa = {
+		feudalism = yes
+		legalism = yes
+	}
+	sucha_beskidzka = {
+		feudalism = yes
+		legalism = yes
+	}
+	maków_podhalański = {
+		feudalism = yes
+		legalism = yes
+	}
+	zawoja = {
+		feudalism = yes
+		legalism = yes
+	}
+	bystra_podhalańska = {
+		feudalism = yes
+		legalism = yes
+	}
+	jordanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	sułkowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	myślenice = {
+		feudalism = yes
+		legalism = yes
+	}
+	siepraw = {
+		feudalism = yes
+		legalism = yes
+	}
+	dobczyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	tokarnia = {
+		feudalism = yes
+		legalism = yes
+	}
+	lubiem = {
+		feudalism = yes
+		legalism = yes
+	}
+	pcim = {
+		feudalism = yes
+		legalism = yes
+	}
+	wiśniowa_myślenice = {
+		feudalism = yes
+		legalism = yes
+	}
+	raciechowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	meszna1 = {
+		feudalism = yes
+		legalism = yes
+	}
+	meszna2 = {
+		feudalism = yes
+		legalism = yes
+	}
+	lipnica_wielka = {
+		feudalism = yes
+		legalism = yes
+	}
+	jabłonka = {
+		feudalism = yes
+		legalism = yes
+	}
+	spytkowice_nowotarskie = {
+		feudalism = yes
+		legalism = yes
+	}
+	raba_wyżna = {
+		feudalism = yes
+		legalism = yes
+	}
+	rabka_zdrój = {
+		feudalism = yes
+		legalism = yes
+	}
+	czarny_dunajec = {
+		feudalism = yes
+		legalism = yes
+	}
+	szaflary = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowy_targ = {
+		feudalism = yes
+		legalism = yes
+	}
+	ochotnica_dolna = {
+		feudalism = yes
+		legalism = yes
+	}
+	łapsze_niżne = {
+		feudalism = yes
+		legalism = yes
+	}
+	maniowy = {
+		feudalism = yes
+		legalism = yes
+	}
+	krościenko_nad_dunajcem = {
+		feudalism = yes
+		legalism = yes
+	}
+	szczawnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	kościelisko = {
+		feudalism = yes
+		legalism = yes
+	}
+	zakopane = {
+		feudalism = yes
+		legalism = yes
+	}
+	poronin = {
+		feudalism = yes
+		legalism = yes
+	}
+	biały_dunajec = {
+		feudalism = yes
+		legalism = yes
+	}
+	bukowina_tatrzańska = {
+		feudalism = yes
+		legalism = yes
+	}
+	rysy = {
+		feudalism = yes
+		legalism = yes
+	}
+	michałów = {
+		feudalism = yes
+		legalism = yes
+	}
+	wodzisław = {
+		feudalism = yes
+		legalism = yes
+	}
+	jędrzejów = {
+		feudalism = yes
+		legalism = yes
+	}
+	nagłowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	imielno = {
+		feudalism = yes
+		legalism = yes
+	}
+	małogoszcz = {
+		feudalism = yes
+		legalism = yes
+	}
+	sobków = {
+		feudalism = yes
+		legalism = yes
+	}
+	kije = {
+		feudalism = yes
+		legalism = yes
+	}
+	pińczów = {
+		feudalism = yes
+		legalism = yes
+	}
+	wiślica = {
+		feudalism = yes
+		legalism = yes
+	}
+	nowy_korczyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	busko-zdrój = {
+		feudalism = yes
+		legalism = yes
+	}
+	solec-zdrój = {
+		feudalism = yes
+		legalism = yes
+	}
+	pacanów = {
+		feudalism = yes
+		legalism = yes
+	}
+	stopnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	tuczępy = {
+		feudalism = yes
+		legalism = yes
+	}
+	gnojno = {
+		feudalism = yes
+		legalism = yes
+	}
+	połaniec = {
+		feudalism = yes
+		legalism = yes
+	}
+	łubnice = {
+		feudalism = yes
+		legalism = yes
+	}
+	oleśnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	rytwiany = {
+		feudalism = yes
+		legalism = yes
+	}
+	osiek_staszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	szydłów = {
+		feudalism = yes
+		legalism = yes
+	}
+	staszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	bogoria = {
+		feudalism = yes
+		legalism = yes
+	}
+	łoniów = {
+		feudalism = yes
+		legalism = yes
+	}
+	klimontów = {
+		feudalism = yes
+		legalism = yes
+	}
+	koprzywnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	samborzec = {
+		feudalism = yes
+		legalism = yes
+	}
+	obrazów = {
+		feudalism = yes
+		legalism = yes
+	}
+	sandomierz = {
+		feudalism = yes
+		legalism = yes
+	}
+	wilczyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	annopol = {
+		feudalism = yes
+		legalism = yes
+	}
+	gościeradów = {
+		feudalism = yes
+		legalism = yes
+	}
+	trzydnik_duży = {
+		feudalism = yes
+		legalism = yes
+	}
+	dzierzkowice = {
+		feudalism = yes
+		legalism = yes
+	}
+	kraśnik = {
+		feudalism = yes
+		legalism = yes
+	}
+	szastarka = {
+		feudalism = yes
+		legalism = yes
+	}
+	urzędów = {
+		feudalism = yes
+		legalism = yes
+	}
+	wilkołaz = {
+		feudalism = yes
+		legalism = yes
+	}
+	zakrzówek = {
+		feudalism = yes
+		legalism = yes
+	}
+	józefów_nad_wisłą = {
+		feudalism = yes
+		legalism = yes
+	}
+	łaziska = {
+		feudalism = yes
+		legalism = yes
+	}
+	opole_lubelskie = {
+		feudalism = yes
+		legalism = yes
+	}
+	chodel = {
+		feudalism = yes
+		legalism = yes
+	}
+	wilków = {
+		feudalism = yes
+		legalism = yes
+	}
+	karczmiska = {
+		feudalism = yes
+		legalism = yes
+	}
+	poniatowa = {
+		feudalism = yes
+		legalism = yes
+	}
+	potok_wielki = {
+		feudalism = yes
+		legalism = yes
+	}
+	modliborzyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	janów_lubelski = {
+		feudalism = yes
+		legalism = yes
+	}
+	dzwola = {
+		feudalism = yes
+		legalism = yes
+	}
+	godziszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	chrzanów_lubelski = {
+		feudalism = yes
+		legalism = yes
+	}
+	batorz = {
+		feudalism = yes
+		legalism = yes
+	}
+	kazimierz_dolny = {
+		feudalism = yes
+		legalism = yes
+	}
+	wąwolnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	nałęczów = {
+		feudalism = yes
+		legalism = yes
+	}
+	puławy = {
+		feudalism = yes
+		legalism = yes
+	}
+	końskowola = {
+		feudalism = yes
+		legalism = yes
+	}
+	kurów = {
+		feudalism = yes
+		legalism = yes
+	}
+	markuszów = {
+		feudalism = yes
+		legalism = yes
+	}
+	żyrzyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	baranów = {
+		feudalism = yes
+		legalism = yes
+	}
+	abramów = {
+		feudalism = yes
+		legalism = yes
+	}
+	michów = {
+		feudalism = yes
+		legalism = yes
+	}
+	kamionka = {
+		feudalism = yes
+		legalism = yes
+	}
+	firlej = {
+		feudalism = yes
+		legalism = yes
+	}
+	ostrówek = {
+		feudalism = yes
+		legalism = yes
+	}
+	lubartów = {
+		feudalism = yes
+		legalism = yes
+	}
+	niedźwiada = {
+		feudalism = yes
+		legalism = yes
+	}
+	serniki = {
+		feudalism = yes
+		legalism = yes
+	}
+	ostrów_lubelski = {
+		feudalism = yes
+		legalism = yes
+	}
+	czemierniki = {
+		feudalism = yes
+		legalism = yes
+	}
+	siemień = {
+		feudalism = yes
+		legalism = yes
+	}
+	parczew = {
+		feudalism = yes
+		legalism = yes
+	}
+	spiczyn = {
+		feudalism = yes
+		legalism = yes
+	}
+	łęczna = {
+		feudalism = yes
+		legalism = yes
+	}
+	wółka = {
+		feudalism = yes
+		legalism = yes
+	}
+	świdnik = {
+		feudalism = yes
+		legalism = yes
+	}
+	piaski = {
+		feudalism = yes
+		legalism = yes
+	}
+	jabłonna = {
+		feudalism = yes
+		legalism = yes
+	}
+	krczonów = {
+		feudalism = yes
+		legalism = yes
+	}
+	rybczewice = {
+		feudalism = yes
+		legalism = yes
+	}
+	zakrzew = {
+		feudalism = yes
+		legalism = yes
+	}
+	wysokie = {
+		feudalism = yes
+		legalism = yes
+	}
+	żółkiewka = {
+		feudalism = yes
+		legalism = yes
+	}
+	niemce = {
+		feudalism = yes
+		legalism = yes
+	}
+	garbów = {
+		feudalism = yes
+		legalism = yes
+	}
+	jastków = {
+		feudalism = yes
+		legalism = yes
+	}
+	wojciechów = {
+		feudalism = yes
+		legalism = yes
+	}
+	konopnica = {
+		feudalism = yes
+		legalism = yes
+	}
+	lublin = {
+		feudalism = yes
+		legalism = yes
+		meritocracy = yes
+	}
+	głusk = {
+		feudalism = yes
+		legalism = yes
+	}
+	bełżyce = {
+		feudalism = yes
+		legalism = yes
+	}
+	borzechów = {
+		feudalism = yes
+		legalism = yes
+	}
+	niedrzwica_duża = {
+		feudalism = yes
+		legalism = yes
+	}
+	strzyżewice = {
+		feudalism = yes
+		legalism = yes
+	}
+	bychawa = {
+		feudalism = yes
+		legalism = yes
+	}
+	turobin = {
+		feudalism = yes
+		legalism = yes
+	}
+	goraj = {
+		feudalism = yes
+		legalism = yes
+	}
+	radecznica = {
+		feudalism = yes
+		legalism = yes
+	}
+	frampol = {
+		feudalism = yes
+		legalism = yes
+	}
+	biłgoraj = {
+		feudalism = yes
+		legalism = yes
+	}
+	tereszpol = {
+		feudalism = yes
+		legalism = yes
+	}
+	księżpol = {
+		feudalism = yes
+		legalism = yes
+	}
+	biszcza = {
+		feudalism = yes
+		legalism = yes
+	}
+	potok_górny = {
+		feudalism = yes
+		legalism = yes
+	}
+	tarnogród = {
+		feudalism = yes
+		legalism = yes
+	}
 
 }

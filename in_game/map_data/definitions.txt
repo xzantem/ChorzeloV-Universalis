@@ -189,6 +189,8 @@
 					czarna_bieszczady
 					ustrzyki_dolne
 				}
+			}
+			świętokrzyskie_area = {
 				jędrzejów_province = {
 					michałów 
                     wodzisław 

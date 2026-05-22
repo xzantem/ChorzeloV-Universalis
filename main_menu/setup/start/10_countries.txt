@@ -65,6 +65,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = krk_miszalski
+				
+			    centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_kingdom
@@ -108,6 +152,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = sld_niacio
+				
+				centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_kingdom
@@ -329,6 +417,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = swb_jendru
+				
+			    centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_kingdom
@@ -527,6 +659,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = tvi_głezi
+				
+				centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = +75
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				harbor_administration
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_duchy
@@ -555,6 +731,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = 
+				
+				centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_duchy
@@ -580,6 +800,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = pua_ziółek
+				
+			    centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_duchy
@@ -606,6 +870,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = fmb_dawid
+				
+				centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_duchy
@@ -673,6 +981,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = ger_patryk
+				
+				centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_kingdom
@@ -808,6 +1160,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = byd_kusek
+				
+			    centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			     outward_vs_inward = 0
+
+			    reforms = {
+				autocracy
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_empire
@@ -890,8 +1286,55 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = wal_mateusz
+				
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = 20
+			spiritualist_vs_humanist = 10
+			aristocracy_vs_plutocracy = -90
+			serfdom_vs_free_subjects = -70
+			mercantilism_vs_free_trade = -70
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = -70
+			land_vs_naval = -60
+			capital_economy_vs_traditional_economy = 90
+			individualism_vs_communalism = -20
+			outward_vs_inward = 0
+
+			reforms = {
+				feudal_nobility
+				agricultural_cultivation
 			}
 
+			laws = {
+				language_of_pleading = language_of_pleading_court
+			}
+
+			privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			}
+		    }
 			country_rank = rank_kingdom
 			dynasty = surman_dynasty
 			capital = rzeszów
@@ -918,6 +1361,50 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = uwu_dawidek
+				
+				centralization_vs_decentralization = 80
+			    traditionalist_vs_innovative = 20
+			    spiritualist_vs_humanist = 10
+			    aristocracy_vs_plutocracy = -90
+			    serfdom_vs_free_subjects = -70
+			    mercantilism_vs_free_trade = -70
+			    belligerent_vs_conciliatory = 0
+			    quality_vs_quantity = 0
+			    offensive_vs_defensive = -70
+			    land_vs_naval = -60
+			    capital_economy_vs_traditional_economy = 90
+			    individualism_vs_communalism = -20
+			    outward_vs_inward = 0
+
+			    reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			    }
+
+			    privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			    }
 			}
 
 			country_rank = rank_duchy

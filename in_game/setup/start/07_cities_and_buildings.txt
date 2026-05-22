@@ -9,6 +9,7 @@ locations={
 	jędrzejów = { rank = town   town_setup = scandinavian_town }
 	pińczów = { rank = town   town_setup = scandinavian_town }
 
+
     #wrona
 	święty_świebodzin = { rank = city	        town_setup = important_scandinavian_town }
     nowy_sącz = { rank = city 		        town_setup = scandinavian_town }
@@ -20,27 +21,33 @@ locations={
 	stary_sącz = { rank = town   town_setup = scandinavian_town }
     łącko = { rank = town 	            town_setup = scandinavian_town }
 	krynica_zdrój = { rank = town 	        town_setup = scandinavian_town }
+
 	
 	#tomuś
 	dąbrowa_tarnowska = { rank = town	        town_setup = important_scandinavian_town }
     lisia_góra = { rank = town 		        town_setup = scandinavian_town }
+
 	
 	#mcdonald
 	skołoszyn = { rank = town        town_setup = important_scandinavian_town }
 	
 	#bukaj
 	jasło = { rank = city	        town_setup = important_scandinavian_town }
+
     
 	#tuchów
 	gorlice = { rank = city	        town_setup = important_scandinavian_town }
     biecz = { rank = town 		        town_setup = scandinavian_town }
+
 	
 	#ziółek
 	dębica = { rank = city	        town_setup = important_scandinavian_town }
     pilzno = { rank = town 		        town_setup = scandinavian_town }
+
 	
 	#mielec
 	mielec = { rank = city	        town_setup = important_scandinavian_town }
+
 	
 	#tvierdza
 	borowa = { rank = city	        town_setup = important_scandinavian_town }
@@ -48,21 +55,38 @@ locations={
 	busko-zdrój = { rank = town   town_setup = scandinavian_town }
 	staszów = { rank = town   town_setup = scandinavian_town }
 	sandomierz = { rank = town   town_setup = scandinavian_town }
+
     
 	#mikusiwan
 	tarnobrzeg = { rank = city	        town_setup = important_scandinavian_town }
     stalowa_wola = { rank = city	        town_setup = scandinavian_town }
 	nowa_dęba = { rank = town 	            town_setup = scandinavian_town }
+
 	
 	#żyd
 	kolbuszowa = { rank = town	        town_setup = important_scandinavian_town }
+
 	
 	#chorzelów
 	nisko = { rank = town        town_setup = important_scandinavian_town }
+	puławy = { rank = city 	            town_setup = important_scandinavian_town }
+	lubartów = { rank = city 	            town_setup = important_scandinavian_town }
+	świdnik = { rank = city 	            town_setup = important_scandinavian_town }
+	lublin = { rank = city 	            town_setup = important_scandinavian_town }
+	kraśnik = { rank = city 	            town_setup = important_scandinavian_town }
+	biłgoraj = { rank = city 	            town_setup = important_scandinavian_town }
+	janów_lubelski = { rank = town 	            town_setup = scandinavian_town }
+	opole_lubelskie = { rank = town 	            town_setup = scandinavian_town }
+	niemce = { rank = town 	            town_setup = scandinavian_town }
+	jastków = { rank = town 	            town_setup = scandinavian_town }
+	konopnica = { rank = town 	            town_setup = scandinavian_town }
+	parczew = { rank = town 	            town_setup = scandinavian_town }
+
 	
 	#zły_żyd
 	leżajsk = { rank = city	        town_setup = important_scandinavian_town }
     nowa_sarzyna = { rank = town 		        town_setup = scandinavian_town }
+
 	
 	#valona
 	rzeszów = { rank = city	        town_setup = important_scandinavian_town }
@@ -72,35 +96,45 @@ locations={
 	trzebownisko = { rank = town   town_setup = scandinavian_town }
 	sokołów_małopolski = { rank = town 	            town_setup = scandinavian_town }
 	łańcut = { rank = town 	        town_setup = scandinavian_town }
+
 	
 	#ukro
 	przemyśl = { rank = city	        town_setup = important_scandinavian_town }
     sianok = { rank = town 		        town_setup = scandinavian_town }
 	ustrzyki_dolne = { rank = town 	            town_setup = scandinavian_town }
-	
+
+
 	#złynin
 	krosno = { rank = city	        town_setup = important_scandinavian_town }
     jedlicze = { rank = town 		        town_setup = scandinavian_town }
 	rymanów = { rank = town 	            town_setup = scandinavian_town }
+
 	
 	#dawidek
 	brzozów = { rank = town	        town_setup = important_scandinavian_town }
+
+
 	
 	#tomboy
 	strzyżów = { rank = town	        town_setup = important_scandinavian_town }
+
 	
 	#femboy
 	ropczyce = { rank = town	        town_setup = important_scandinavian_town }
 	sędziszów_małopolski = { rank = town	        town_setup = important_scandinavian_town }
+
 	
 	#rzuchowa
 	bochnia = { rank = town	        town_setup = important_scandinavian_town }
+
 	
 	#pleśna
 	mszana_dolna = { rank = town	        town_setup = important_scandinavian_town }
+
 	
 	#buchcice
 	zakopane = { rank = city	        town_setup = important_scandinavian_town }
+
 	
 	#sehatan
 	nowy_targ = { rank = town	        town_setup = important_scandinavian_town }
@@ -108,6 +142,7 @@ locations={
 	czarny_dunajec = { rank = town 	            town_setup = scandinavian_town }
 	rabka_zdrój = { rank = town 	        town_setup = scandinavian_town }
 	meszna2 = { rank = town   town_setup = scandinavian_town }
+
 	
 	#kraków
 	kraków = { rank = city	        town_setup = important_scandinavian_town }
@@ -125,6 +160,7 @@ locations={
 	oświęcim = { rank = town   town_setup = scandinavian_town }
 	brzeszcze = { rank = town 	            town_setup = scandinavian_town }
 	kęty = { rank = town 	        town_setup = scandinavian_town }
+
 	
 	#siedliska
 	myślenice = { rank = city	        town_setup = important_scandinavian_town }
@@ -134,12 +170,13 @@ locations={
 	kalwaria_zebrzydowska = { rank = town   town_setup = scandinavian_town }
 	wadowice = { rank = city	            town_setup = scandinavian_town }
 	andrychów = { rank = town     town_setup = scandinavian_town }
+
 	
 	#grabson
 	olkusz = { rank = city	        town_setup = important_scandinavian_town }
     miechów = { rank = town 		        town_setup = scandinavian_town }
 	wolbrom = { rank = town 	            town_setup = scandinavian_town }
-	
+
 	
 
 	
@@ -153,3 +190,99 @@ locations={
 
 
 }   
+building_manager = {
+	castle = { tag = SWB level = 1 location = świebodzin }
+	castle = { tag = SWB level = 1 location = sobków }
+	castle = { tag = SWB level = 1 location = pińczów }
+
+	castle = { tag = AUR level = 1 location = święty_świebodzin }
+	castle = { tag = AUR level = 1 location = zakliczyn }
+	castle = { tag = AUR level = 1 location = czchów }
+	castle = { tag = AUR level = 1 location = nowy_sącz }
+	castle = { tag = AUR level = 1 location = gródek_nad_dunajcem }
+	castle = { tag = AUR level = 1 location = rytro }
+	castle = { tag = AUR level = 1 location = muszyna }
+
+	castle = { tag = NOB level = 1 location = skrzyszów }
+
+	castle = { tag = BUK level = 1 location = jasło }
+
+	castle = { tag = CKZ level = 1 location = gorlice }
+	castle = { tag = CKZ level = 1 location = biecz }
+
+	castle = { tag = MLC level = 1 location = mielec }
+	castle = { tag = MLC level = 1 location = przecław }
+
+	castle = { tag = PUA level = 1 location = czarna_dębica }
+
+	castle = { tag = TVI level = 1 location = połaniec }
+	castle = { tag = TVI level = 1 location = nowy_korczyn }
+	castle = { tag = TVI level = 1 location = stopnica }
+	castle = { tag = TVI level = 1 location = rytwiany }
+	castle = { tag = TVI level = 1 location = szydłów }
+	castle = { tag = TVI level = 1 location = osiek_staszów }
+	castle = { tag = TVI level = 1 location = sandomierz }
+
+	castle = { tag = MAL level = 1 location = tarnobrzeg }
+	castle = { tag = MAL level = 1 location = baranów_sandomierski }
+
+	castle = { tag = YID level = 1 location = kolbuszowa }
+
+	castle = { tag = BYD level = 1 location = lublin }
+	castle = { tag = BYD level = 1 location = kazimierz_dolny }
+	castle = { tag = BYD level = 1 location = czemierniki }
+
+	castle = { tag = JUD level = 1 location = leżajsk }
+
+	castle = { tag = WAL level = 1 location = rzeszów }
+	castle = { tag = WAL level = 1 location = łańcut }
+
+	castle = { tag = UKR level = 1 location = solina }
+	castle = { tag = UKR level = 1 location = lesko }
+	castle = { tag = UKR level = 1 location = krasiczyn }
+	castle = { tag = UKR level = 1 location = przemyśl }
+	castle = { tag = UKR level = 1 location = dubiecko }
+
+	castle = { tag = GER level = 1 location = rymanów }
+	castle = { tag = GER level = 1 location = wojaszówka }
+	castle = { tag = GER level = 1 location = korczyna }
+	castle = { tag = GER level = 1 location = dukla }
+
+	castle = { tag = UWU level = 1 location = brzozów }
+	castle = { tag = UWU level = 1 location = sanok }
+	
+	castle = { tag = TMB level = 1 location = czudec }
+
+	castle = { tag = FMB level = 1 location = ropczyce }
+
+	castle = { tag = RZU level = 1 location = bochnia }
+	castle = { tag = RZU level = 1 location = nowy_wiśnicz }
+	castle = { tag = RZU level = 1 location = niepołomnice }
+
+	castle = { tag = PLS level = 1 location = mszana_dolna }
+
+	castle = { tag = BCH level = 1 location = zakopane }
+	castle = { tag = BCH level = 1 location = maniowy }
+	castle = { tag = BCH level = 1 location = łapsze_niżne }
+	castle = { tag = BCH level = 1 location = krościenko_nad_dunajcem }
+
+	castle = { tag = MSZ level = 1 location = meszna1 }
+
+	castle = { tag = KRK level = 1 location = kraków }
+	castle = { tag = KRK level = 1 location = wieliczka }
+	castle = { tag = KRK level = 1 location = skała }
+	castle = { tag = KRK level = 1 location = sułoszowa }
+	castle = { tag = KRK level = 1 location = krzeszowice }
+
+	castle = { tag = SLD level = 1 location = wadowice }
+	castle = { tag = SLD level = 1 location = spytkowice }
+	castle = { tag = SLD level = 1 location = lanckorona }
+	castle = { tag = SLD level = 1 location = sucha_beskidzka }
+	castle = { tag = SLD level = 1 location = dobczyce }
+	
+	castle = { tag = GRA level = 1 location = olkusz }
+
+	castle = { tag = KOR level = 1 location = oświęcim }
+	castle = { tag = KOR level = 1 location = babice }
+	castle = { tag = KOR level = 1 location = zator }
+}
