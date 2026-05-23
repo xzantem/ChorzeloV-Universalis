@@ -85,17 +85,10 @@ ocean4 = { topography = ocean climate = subtropical }
 ocean5 = { topography = ocean climate = subtropical }
 ocean6 = { topography = ocean climate = subtropical }
 
-testprovince1 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = fish natural_harbor_suitability=1.00}
-testprovince2 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cotton}
-testprovince3 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = silk}
-testprovince4 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = sugar}
-testprovince5 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = tea}
-testprovince6 = { topography = wetlands vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cocoa}
-
 czermin = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = wheat}
 borowa = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = millet}
-gawłuszowice = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = rice}
-padew = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = rice}
+gawłuszowice = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
+padew = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = fish}
 tuszów = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = wild_game}
 stary_chorzelów = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = wheat}
 wadowice_górne = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = legumes}
@@ -104,13 +97,13 @@ wola_mielecka = { topography = flatland vegetation = grasslands climate = oceani
 mielec = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = lesser_polish raw_material = iron}
 trześń = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = sand}
 przecław = { topography = wetlands vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wine}
-rzemień = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+rzemień = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 
 
 czarna_dębica = { topography = wetlands vegetation = forest climate = subtropical religion = catholic culture = lesser_polish raw_material = coal}
-żyraków = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = cotton}
+żyraków = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = silk}
 dębica = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = iron}
-pilzno = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+pilzno = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
 brzostek = { topography = hills vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
 jodłowa = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 
@@ -126,7 +119,7 @@ brzyska = { topography = flatland vegetation = grasslands climate = continental 
 skołoszyn = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 kołaczyce = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
 jasło = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wine}
-tarnowiec = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+tarnowiec = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = wine}
 dębowiec = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = salt}
 osiek_jasielski = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
 nowy_żmigród = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
@@ -153,7 +146,7 @@ stalowa_wola = { topography = flatland vegetation = woods climate = oceanic reli
 zaleszany = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = lesser_polish raw_material = wheat}
 radomyśl_nad_sanem = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = lesser_polish raw_material = sand}
 pysznica = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = lesser_polish raw_material = lumber}
-zaklików = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = lesser_polish raw_material = rice}
+zaklików = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = lesser_polish raw_material = lumber}
 
 
 frysztak = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
@@ -180,14 +173,14 @@ jeżowe = { topography = flatland vegetation = grasslands climate = continental 
 nisko = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = lead}
 rudnik_nad_sanem = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
 krzeszów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = pearls}
-ulanów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+ulanów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 jarocin = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = clay}
 harasiuki = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fur}
 
 
 kamień = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
 sokołów_małopolski = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
-głogów_małopolski = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = rice}
+głogów_małopolski = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = lumber}
 trzebownisko = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = livestock}
 świlcza = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = livestock}
 boguchwała = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = fruit}
@@ -210,21 +203,21 @@ dydnia = { topography = hills vegetation = woods climate = continental religion 
 
 
 łańcut = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = horses}
-czarna_łańcut = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = cotton}
+czarna_łańcut = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = lumber}
 białobrzegi = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = fiber_crops}
 żołynia = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = beeswax}
 rakszawa = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = fiber_crops}
 markowa = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = fruit}
 
 
-kuryłówka = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+kuryłówka = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 nowa_sarzyna = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = alum}
 leżajsk = { topography = wetlands vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
-grodzisko_dolne = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+grodzisko_dolne = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = silk}
 
 
 adamówka = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
-sienawa = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+sienawa = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 tryńcza = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = legumes}
 przeworsk = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = sugar}
 zarzecze = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = horses}
@@ -233,14 +226,14 @@ kańczuga = { topography = flatland vegetation = farmland climate = continental 
 jawornik_polski = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
 
 
-wiązownica = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+wiązownica = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 jarosław = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = silk}
 laszki = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = amber}
 radymno = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
 pawłosiów = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = fiber_crops}
 chłopice = { topography = flatland vegetation = farmland climate = subtropical religion = catholic culture = lesser_polish raw_material = millet}
 rokietnica = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wool}
-roźwienica = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+roźwienica = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 pruchnik = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 
 
@@ -248,7 +241,7 @@ stary_dzików = { topography = flatland vegetation = forest climate = continenta
 
 
 besko = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
-zarszyn = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+zarszyn = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 sanok = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = copper}
 tyrawa_wołowska = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = salt}
 bukowsko = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wool}
@@ -257,7 +250,7 @@ zagórz = { topography = hills vegetation = woods climate = continental religion
 
 
 lesko = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wool}
-olszanica = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+olszanica = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 baligród = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 solina = { topography = mountains vegetation = forest climate = tropical religion = catholic culture = lesser_polish raw_material = pearls}
 cisna = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = fur}
@@ -268,7 +261,7 @@ bircza = { topography = hills vegetation = woods climate = continental religion 
 krasiczyn = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = gems}
 przemyśl = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = ivory}
 dubiecko = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
-krzywcza = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+krzywcza = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
 żurawica = { topography = flatland vegetation = woods climate = subtropical religion = catholic culture = lesser_polish raw_material = horses}
 orły = { topography = flatland vegetation = grasslands climate = subtropical religion = catholic culture = lesser_polish raw_material = horses}
 
@@ -309,12 +302,12 @@ ryglice = { topography = hills vegetation = farmland climate = continental relig
 szerzyny = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
 
 
-szczurowa = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = świebodziniak raw_material = fish}
+szczurowa = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = świebodziniak raw_material = livestock}
 borzęcin = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = świebodziniak raw_material = fiber_crops}
 brzesko = { topography = flatland vegetation = woods climate = continental religion = catholic culture = świebodziniak raw_material = sugar}
 dębno = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = świebodziniak raw_material = wheat}
 gnojnik = { topography = hills vegetation = farmland climate = continental religion = catholic culture = świebodziniak raw_material = livestock}
-czchów = { topography = hills vegetation = woods climate = continental religion = catholic culture = świebodziniak raw_material = fish}
+czchów = { topography = hills vegetation = woods climate = continental religion = catholic culture = świebodziniak raw_material = wine}
 iwkowa = { topography = hills vegetation = woods climate = continental religion = catholic culture = świebodziniak raw_material = wine}
 
 
@@ -342,7 +335,7 @@ sękowa = { topography = mountains vegetation = woods climate = continental reli
 uście_gorlickie = { topography = mountains vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
 
 łososina_dolna = { topography = hills vegetation = farmland climate = continental religion = catholic culture = świebodziniak raw_material = fruit}
-gródek_nad_dunajcem = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = świebodziniak raw_material = fish}
+gródek_nad_dunajcem = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = świebodziniak raw_material = fruit}
 korzenna = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = świebodziniak raw_material = clay}
 chełmiec = { topography = hills vegetation = woods climate = subtropical religion = catholic culture = świebodziniak raw_material = copper}
 nowy_sącz = { topography = hills vegetation = farmland climate = subtropical religion = catholic culture = świebodziniak raw_material = dyes}
@@ -370,7 +363,7 @@ dobra = { topography = hills vegetation = woods climate = continental religion =
 mszana_dolna = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 niedźwiedź = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
 
-drwinia = { topography = flatland vegetation = forest climate = continental religion = catholic culture = świebodziniak raw_material = fish}
+drwinia = { topography = flatland vegetation = forest climate = continental religion = catholic culture = świebodziniak raw_material = lumber}
 rzezawa = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = świebodziniak raw_material = legumes}
 bochnia = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = salt}
 nowy_wiśnicz = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = ivory}
@@ -408,11 +401,11 @@ jerzmanowice = { topography = plateau vegetation = woods climate = continental r
 wielka_wieś = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = sand}
 zielonki = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
 michałowice = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
-luborzyca = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+luborzyca = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
 krzeszowice = { topography = plateau vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = clay}
 zabierzów = { topography = plateau vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = sand}
-czernichów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fish}
-liszki = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+czernichów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
+liszki = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
 kraków = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wheat }
 wawrzeńczyce = { topography = plateau vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = wheat}
 skawina = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
@@ -425,27 +418,27 @@ libiąż = { topography = hills vegetation = farmland climate = continental reli
 babice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 alwernia = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = alum}
 
-chełmek = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+chełmek = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 oświęcim = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = tea}
 brzeszcze = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = coal}
 polanka_wielka = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = tea}
 osiek = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = rice}
-kęty = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+kęty = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = wool}
 przeciszów = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = rice}
 zator = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = rice}
 
-spytkowice = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+spytkowice = { topography = flatland vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = legumes}
 wieprz = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
 tomice = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fruit}
 brzeźnica = { topography = flatland vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = livestock}
-andrychów = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = cotton}
+andrychów = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
 wadowice = { topography = flatland vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = dyes}
 kalwaria_zebrzydowska = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = beeswax}
 mucharz = { topography = hills vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = fur}
 stryszów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = dyes}
 lanckorona = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wool}
 
-zembrzyce = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+zembrzyce = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 budzów = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 stryszawa = { topography = hills vegetation = woods climate = mediterranean religion = catholic culture = lesser_polish raw_material = lumber}
 sucha_beskidzka = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fur}
@@ -457,7 +450,7 @@ jordanów = { topography = hills vegetation = woods climate = continental religi
 sułkowice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = iron}
 myślenice = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = copper}
 siepraw = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = fiber_crops}
-dobczyce = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = fish}
+dobczyce = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = stone}
 tokarnia = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 lubiem = { topography = hills vegetation = farmland climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
 pcim = { topography = hills vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = lumber}
@@ -477,7 +470,7 @@ szaflary = { topography = mountains vegetation = grasslands climate = cold_arid 
 nowy_targ = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = fur}
 ochotnica_dolna = { topography = mountains vegetation = woods climate = continental religion = catholic culture = lesser_polish raw_material = wild_game}
 łapsze_niżne = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = livestock}
-maniowy = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = fish}
+maniowy = { topography = mountains vegetation = grasslands climate = cold_arid religion = catholic culture = lesser_polish raw_material = livestock}
 krościenko_nad_dunajcem = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = goods_gold}
 szczawnica = { topography = mountains vegetation = grasslands climate = continental religion = catholic culture = lesser_polish raw_material = gems}
 
@@ -526,7 +519,7 @@ sandomierz = { topography = flatland vegetation = forest climate = continental r
 wilczyce = { topography = flatland vegetation = forest climate = continental religion = catholic culture = lesser_polish raw_material = wool natural_harbor_suitability=0.20}
 
 annopol = { topography = hills vegetation = woods climate = oceanic religion = orthodox culture = culture_greek raw_material = stone }
-gościeradów = { topography = plateau vegetation = woods climate = oceanic religion = orthodox culture = culture_greek raw_material = fish }
+gościeradów = { topography = plateau vegetation = woods climate = oceanic religion = orthodox culture = culture_greek raw_material = lumber }
 trzydnik_duży = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = wheat }
 dzierzkowice = { topography = plateau vegetation = woods climate = oceanic religion = orthodox culture = culture_greek raw_material = lumber }
 kraśnik = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = clay }
@@ -555,11 +548,11 @@ kazimierz_dolny = { topography = hills vegetation = woods climate = oceanic reli
 wąwolnica = { topography = hills vegetation = woods climate = oceanic religion = orthodox culture = culture_greek raw_material = beeswax }
 nałęczów = { topography = hills vegetation = woods climate = oceanic religion = orthodox culture = culture_greek raw_material = medicaments }
 puławy = { topography = flatland vegetation = woods climate = cold_arid religion = orthodox culture = culture_greek raw_material = dyes }
-końskowola = { topography = flatland vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = cotton }
+końskowola = { topography = flatland vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = silk }
 kurów = { topography = plateau vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = horses }
 markuszów = { topography = plateau vegetation = farmland climate = oceanic religion = orthodox culture = culture_greek raw_material = legumes }
 żyrzyn = { topography = wetlands vegetation = woods climate = cold_arid religion = orthodox culture = culture_greek raw_material = fish }
-baranów = { topography = flatland vegetation = grasslands climate = cold_arid religion = orthodox culture = culture_greek raw_material = rice }
+baranów = { topography = flatland vegetation = grasslands climate = cold_arid religion = orthodox culture = culture_greek raw_material = wheat }
 
 abramów = { topography = flatland vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = millet }
 michów = { topography = plateau vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = legumes }
@@ -568,7 +561,7 @@ firlej = { topography = wetlands vegetation = woods climate = cold_arid religion
 ostrówek = { topography = wetlands vegetation = woods climate = cold_arid religion = orthodox culture = culture_greek raw_material = wild_game }
 lubartów = { topography = flatland vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = silk }
 niedźwiada = { topography = flatland vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = livestock }
-serniki = { topography = wetlands vegetation = grasslands climate = cold_arid religion = orthodox culture = culture_greek raw_material = rice }
+serniki = { topography = wetlands vegetation = grasslands climate = cold_arid religion = orthodox culture = culture_greek raw_material = livestock }
 ostrów_lubelski = { topography = wetlands vegetation = woods climate = cold_arid religion = orthodox culture = culture_greek raw_material = fish }
 
 czemierniki = { topography = flatland vegetation = farmland climate = cold_arid religion = orthodox culture = culture_greek raw_material = copper }
@@ -591,7 +584,7 @@ niemce = { topography = flatland vegetation = farmland climate = continental rel
 garbów = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = legumes }
 jastków = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = wheat }
 wojciechów = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = livestock }
-konopnica = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = cotton }
+konopnica = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = silk }
 lublin = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = ivory }
 głusk = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = wheat }
 bełżyce = { topography = plateau vegetation = farmland climate = continental religion = orthodox culture = culture_greek raw_material = clay }
