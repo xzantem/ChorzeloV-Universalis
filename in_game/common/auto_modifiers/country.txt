@@ -14,7 +14,7 @@ country_base_values = {
 
 	
 
-	monthly_war_exhaustion = -0.05
+	monthly_war_exhaustion = -0.05 # up from -0.025
 
 
 	
@@ -23,7 +23,7 @@ country_base_values = {
 	global_monthly_control_decline = 0.005
 
 	max_war_exhaustion = 20
-	stability_decay = 0.01
+	stability_decay = 0.01 # up from 0.005
 	prestige_decay = 0.01
 	army_tradition_decay = 0.005
 	navy_tradition_decay = 0.005
@@ -32,7 +32,7 @@ country_base_values = {
 	
 	global_prosperity_decay = 0.01
 
-	monthly_rebel_growth = 0.001
+	monthly_rebel_growth = 0.002 # up from 0.001
 	
 	country_child_education = 0.75
 
@@ -81,8 +81,8 @@ country_base_values = {
 	
 	maximum_religious_influence = 100
 	
-	global_pop_assimilation_speed = 0.004
-	global_pop_conversion_speed = 0.004
+	global_pop_assimilation_speed = 0.004 # up from 0.002
+	global_pop_conversion_speed = 0.004 # up from 0.002
 	
 	diplomatic_range = 1000
 	naval_range = 1000
@@ -104,8 +104,8 @@ country_base_values = {
 	
 	diplomatic_capacity = 1
 	max_diplomats = 1
-	monthly_diplomats = 0.2
-	casus_belli_creation_speed = 4.0
+	monthly_diplomats = 0.2 # up from 0.1
+	casus_belli_creation_speed = 20.0 # up from 4.0
 	
 	subject_loyalty = 5
 	
@@ -122,15 +122,15 @@ country_base_values = {
 	cossacks_estate_target_satisfaction = cossacks_default_satisfaction
 	
 	
-	global_estate_satisfaction_decay = 0.1
-	global_estate_satisfaction_recovery = 0.04
+	global_estate_satisfaction_decay = 0.1 # up from 0.05
+	global_estate_satisfaction_recovery = 0.01 # up from 0.002
 	
 	
 	global_estate_max_tax = 0.35
 	global_estate_min_tax = 0.0
 
-	land_morale_recovery = 0.1
-	naval_morale_recovery = 0.1
+	land_morale_recovery = 0.1 # up from 0.05
+	naval_morale_recovery = 0.1 # up from 0.05
 
 	bank_interest = 0.10
 	merchant_power_from_maritime = 0.05
@@ -146,7 +146,7 @@ country_base_values = {
 	land_cost_going_downstream	= 12
 	land_cost_on_frozen_water = 20
 	
-	global_migration_speed = 0.0002
+	global_migration_speed = 0.0005 # up from 0.0001
 	
 	global_nobles_migration_allowed = yes
 	global_burghers_migration_allowed = yes
@@ -1109,8 +1109,8 @@ in_civil_war = {
 at_peace = {
 	potential_trigger = { at_war = no }
 	
-	monthly_war_exhaustion = -0.2
-	levy_recovery_modifier = 0.5
+	monthly_war_exhaustion = -0.2 # up from -0.1
+	levy_recovery_modifier = 1.0 # up from 0.2
 	monthly_towards_conciliatory = societal_value_monthly_move
 }
 
@@ -1434,19 +1434,11 @@ used_fort_limit = {
 }
 
 modern_country = {
-    embrace_institution_cost_modifier = -0.75
 	global_construction_speed = 2.0
-	global_build_buildings_cost = -0.50
-	expand_rgo_farming_cost_modifier = -0.50
-	expand_rgo_forestry_cost_modifier = -0.50
-	expand_rgo_gathering_cost_modifier = -0.50
-	expand_rgo_hunting_cost_modifier = -0.50
-	expand_rgo_mining_cost_modifier = -0.50
 	fort_maintenance_cost = -0.50
 	food_purchase_cost = -0.5
-	stability_investment = 0.5
-	stability_cost = -0.3
-	monthly_legitimacy = 0.5
-	court_spending_cost = -0.03
-	global_defensive = -0.5
+	stability_investment = 0.1
+	stability_cost = -0.2
+	monthly_legitimacy = 0.1
+	court_spending_cost = -0.01
 }

@@ -39,4 +39,6 @@ development = {
 	hills = -1
 	plateau = 0
 	wetlands = -4
+
+	custom_region = 15
 }

@@ -20,6 +20,12 @@ character_db={
 		fertility = 75
 		tag = HAB
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	byd_kusek = {
 		first_name = { name = taurus_maximus }
@@ -34,6 +40,12 @@ character_db={
 		fertility = 60
 		tag = BYD
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	pua_ziółek = {
 		first_name = { name = name_bartek }
@@ -48,6 +60,12 @@ character_db={
 		fertility = 0
 		tag = PUA
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	aur_wrona = {
 		first_name = { name = name_szymon.latin_language }
@@ -62,6 +80,12 @@ character_db={
 		fertility = 0
 		tag = AUR
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	sld_niacio = {
 		first_name = { name = name_robert }
@@ -76,6 +100,12 @@ character_db={
 		fertility = 76
 		tag = SLD
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	swb_jendru = {
 		first_name = { name = name_jendru }
@@ -90,6 +120,12 @@ character_db={
 		fertility = 90
 		tag = SWB
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	tvi_głezi = {
 		first_name = { name = name_szymon }
@@ -104,6 +140,12 @@ character_db={
 		fertility = 23
 		tag = TVI
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	ger_patryk = {
 		first_name = { name = name_patryk.german_language }
@@ -118,6 +160,12 @@ character_db={
 		fertility = 100
 		tag = GER
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	uwu_dawidek = {
 		first_name = { name = name_dawidek }
@@ -132,6 +180,12 @@ character_db={
 		fertility = 100
 		tag = UWU
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	wal_mateusz = {
 		first_name = { name = name_mateusz }
@@ -146,6 +200,12 @@ character_db={
 		fertility = 0
 		tag = WAL
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	fmb_dawid = {
 		first_name = { name = name_dawid }
@@ -160,6 +220,12 @@ character_db={
 		fertility = 25
 		tag = FMB
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	mal_mikusiwan = {
 		first_name = { name = name_mikołaj.russian_culture }
@@ -174,6 +240,12 @@ character_db={
 		fertility = 60
 		tag = MAL
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	mcd_juleczka = {
 		first_name = { name = name_juleczka }
@@ -188,6 +260,12 @@ character_db={
 		fertility = 30
 		tag = MCD
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	mlc_janmielec = {
 		first_name = { name = name_jan }
@@ -202,6 +280,12 @@ character_db={
 		fertility = 50
 		tag = MLC
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	buk_bukaj = {
 		first_name = { name = name_kacper }
@@ -216,6 +300,12 @@ character_db={
 		fertility = 37
 		tag = BUK
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	jud_netanyahu = {
 		first_name = { name = name_benjamin.jewish_culture }
@@ -231,6 +321,12 @@ character_db={
 		fertility = 10
 		tag = JUD
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	yid_goldberg = {
 		first_name = { name = name_ozjasz }
@@ -245,6 +341,12 @@ character_db={
 		fertility = 5
 		tag = YID
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	msz_sehatan = {
 		first_name = { name = name_piotr }
@@ -260,6 +362,12 @@ character_db={
 		fertility = 77
 		tag = MSZ
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	nob_tomek = {
 		first_name = { name = name_tomek }
@@ -275,6 +383,12 @@ character_db={
 		fertility = 41
 		tag = NOB
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	gra_michał = {
 		first_name = { name = name_michał }
@@ -289,6 +403,12 @@ character_db={
 		fertility = 47
 		tag = GRA
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	ukr_zełenski = {
 		first_name = { name = name_włodzimierz.ruthenian_culture }
@@ -303,6 +423,12 @@ character_db={
 		fertility = 55
 		tag = UKR
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	rzu_oskar = {
 		first_name = { name = name_oskar }
@@ -317,6 +443,12 @@ character_db={
 		fertility = 66
 		tag = RZU
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	krk_miszalski = {
 		first_name = { name = name_aleksander }
@@ -331,6 +463,12 @@ character_db={
 		fertility = 50
 		tag = KRK
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	kor_burdzy = {
 		first_name = { name = name_natalia }
@@ -345,6 +483,12 @@ character_db={
 		fertility = 50
 		tag = KOR
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 	ckz_stec = {
 		first_name = { name = name_tomek }
@@ -359,5 +503,11 @@ character_db={
 		fertility = 50
 		tag = CKZ
 		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
 	}
 }
