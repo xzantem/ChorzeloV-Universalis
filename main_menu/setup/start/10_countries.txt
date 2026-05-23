@@ -28,6 +28,67 @@ countries = {
 				type = republic
 				heir_selection = cognatic_primogeniture
 				ruler = gra_michał
+
+				type = republic
+	
+				#Societal Values
+				centralization_vs_decentralization = 60
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 10
+				serfdom_vs_free_subjects = 10
+				mercantilism_vs_free_trade = 20
+				belligerent_vs_conciliatory = 70
+				quality_vs_quantity = -10
+				offensive_vs_defensive = -10
+				land_vs_naval = 10
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = 20
+				outward_vs_inward = -30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {	
+					#nobles
+					nobles_land_rights
+					noble_fortification_licenses
+
+					#burghers
+					commercial_advisory_council
+					burghers_land_rights
+					building_rights
+					trade_monopolies
+					formal_guilds
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clerical_advisory_council
+
+					#commoners
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					partial_yield
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = burghers_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_duchy
@@ -65,50 +126,52 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = krk_miszalski
+			
 				
-			    centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
-
-			    privilege = {
-
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_kingdom
@@ -153,49 +216,59 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = sld_niacio
 				
-				centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
 
-			    privilege = {
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_kingdom
@@ -214,10 +287,38 @@ countries = {
 				custom_region
 			}
 
+
+
 			government = {
 				type = tribe
 				heir_selection = cognatic_primogeniture
 				# ruler = hab_albrecht_ii_habsburg
+
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = -80
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -60
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = 50
+				belligerent_vs_conciliatory = 100
+				quality_vs_quantity = -75
+				offensive_vs_defensive = 50
+				land_vs_naval = -80
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 60
+				outward_vs_inward = 60
+				parliament = {
+					parliament_type = assembly
+				}
+
+				laws = {
+					marriage_law = polygyny
+					heir_religion_law = heir_same_religion
+				}
+				privilege = {
+					tribes_tribal_levies
+					tribes_allow_gatherings
+				}
 			}
 
 			country_rank = rank_county
@@ -246,6 +347,66 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = msz_sehatan
+
+				#Societal Values
+				centralization_vs_decentralization = 40
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -40
+				serfdom_vs_free_subjects = -10
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 20
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				#Estate Privileges
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+				
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_kingdom
@@ -277,6 +438,64 @@ countries = {
 				type = tribe
 				heir_selection = cognatic_primogeniture
 				# ruler = hab_albrecht_ii_habsburg
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clergy_land_rights
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -303,6 +522,64 @@ countries = {
 				type = republic
 				heir_selection = cognatic_primogeniture
 				# ruler = hab_albrecht_ii_habsburg
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clergy_land_rights
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -333,6 +610,63 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = rzu_oskar
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clergy_land_rights
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_county
@@ -418,49 +752,64 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = swb_jendru
 				
-			    centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+			    #Societal Values
+				centralization_vs_decentralization = 40
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -40
+				serfdom_vs_free_subjects = -10
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 50
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 20
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				#Estate Privileges
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+				
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
 
-			    privilege = {
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_kingdom
@@ -469,62 +818,19 @@ countries = {
 		}
 		AUR = {
 			own_control_core = {
-				święty_świebodzin
-				brzesko
-				dębno
-				gnojnik
-				czchów
-				iwkowa
-				laskowa
-				limanowa
-				łukowica
-				łącko
-				podegrodzie
-				stary_sącz
-				rytro
-				nawojowa
-				piwniczna-zdrój
-				łabowa
-				krynica-zdrój
-				muszyna
-				łososina_dolna
-				chełmiec
-				gródek_nad_dunajcem
-				nowy_sącz
-				korzenna
-				kamionka_wielka
-				grybów
-				wojnicz
-				zakliczyn
-				pleśna
-				gromnik
-				ciężkowice
-			    tuchów
+				święty_świebodzin brzesko dębno gnojnik czchów
+				iwkowa laskowa limanowa łukowica łącko podegrodzie
+				stary_sącz rytro nawojowa piwniczna-zdrój łabowa
+				krynica-zdrój muszyna łososina_dolna chełmiec
+				gródek_nad_dunajcem nowy_sącz korzenna kamionka_wielka
+				grybów wojnicz zakliczyn pleśna gromnik ciężkowice tuchów
 			}
 			our_cores_conquered_by_others = {
-			    świebodzin
-				bejsce
-				kazimierza_wielka
-				skalbmierz
-				działoszyce
-				koszyce
-				nowe_brzesko
-				proszowice
-				koniusza
-				radziemice
-				pałecznica
-				drwinia
-				rzezawa
-				szczurowa
-				borzęcin
-				wietrzychowice
-				żabno
-				radłów
-				wierzchosławice
-				gręboszów
-				bolesław_dąbrowa
-				oleśno
-				mędrzechów
+			    świebodzin bejsce kazimierza_wielka skalbmierz
+				działoszyce koszyce nowe_brzesko proszowice koniusza
+				radziemice pałecznica drwinia rzezawa szczurowa borzęcin
+				wietrzychowice żabno radłów wierzchosławice gręboszów
+				bolesław_dąbrowa oleśno mędrzechów
 		    }
 			starting_technology_level = 2
 
@@ -536,6 +842,66 @@ countries = {
 				type = theocracy
 				heir_selection = cognatic_primogeniture
 				ruler = aur_wrona
+
+				centralization_vs_decentralization = 50
+				traditionalist_vs_innovative = -40
+				spiritualist_vs_humanist = -90
+				aristocracy_vs_plutocracy = -50
+				serfdom_vs_free_subjects = -10
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 50
+				quality_vs_quantity = -20
+				offensive_vs_defensive = 40
+				land_vs_naval = -20
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 30
+				outward_vs_inward = 20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_leaders_only
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_in_administration
+					clergy_enforced_unity
+					clergy_strengthen_faith
+					clergy_powerful_dioceses
+					clerical_advisory_council
+					
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+					
+					#Commoners
+					allow_hunting
+					partial_yield
+					no_labor_sunday
+				}
+				laws = {
+					censorship = strict_censorship
+					theocratic_leadership = clerical_state
+					holy_mission_law = internal_mission_policy
+					divine_cause_law = pursuit_of_knowledge_policy
+					education_masses_law = theocratic_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = celibacy
+					heir_religion_law = heir_special_succession
+					legal_code_law = civil_law_policy
+					language_of_pleading = language_of_pleading_court
+					distribution_of_power_law = dop_favor_the_clergy
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_kingdom
@@ -561,6 +927,68 @@ countries = {
 				type = theocracy
 				heir_selection = cognatic_primogeniture
 				ruler = nob_tomek
+
+				centralization_vs_decentralization = 40
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -90
+				aristocracy_vs_plutocracy = -60
+				serfdom_vs_free_subjects = -30
+				mercantilism_vs_free_trade = -20
+				belligerent_vs_conciliatory = 100
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 50
+				land_vs_naval = -20
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 20
+				outward_vs_inward = -50
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_leaders_only
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clergy_strengthen_faith
+					clergy_powerful_dioceses
+					clerical_advisory_council
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+					
+					#Commoners
+					allow_hunting
+					partial_yield
+					no_labor_sunday
+				}
+				reforms = {
+					abbey_reform
+				}
+				laws = {
+					censorship = strict_censorship
+					theocratic_leadership = monastic_order
+					holy_mission_law = internal_mission_policy
+					divine_cause_law = pursuit_of_knowledge_policy
+					education_masses_law = theocratic_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = celibacy
+					heir_religion_law = heir_special_succession
+					legal_code_law = civil_law_policy
+					language_of_pleading = language_of_pleading_court
+					distribution_of_power_law = dop_favor_the_clergy
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -591,6 +1019,63 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = ckz_stec
+
+				aristocracy_vs_plutocracy = -60
+				centralization_vs_decentralization = -60
+				traditionalist_vs_innovative = -50
+				spiritualist_vs_humanist = -25
+				serfdom_vs_free_subjects = -40
+				mercantilism_vs_free_trade = -80
+				belligerent_vs_conciliatory = -50
+				quality_vs_quantity = 20
+				offensive_vs_defensive = 10
+				land_vs_naval = -20
+				capital_economy_vs_traditional_economy = 80
+				individualism_vs_communalism = 20
+				outward_vs_inward = 50
+				parliament = {
+					parliament_type = council
+				}
+
+				laws = {
+					feudal_de_jure_law = by_blood
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_any_religion
+					legal_code_law = traditional_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+				privilege = {
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					noble_fortification_licenses
+					elaborate_court_ceremonies
+					
+					#Clergy
+					clergy_literacy_rights
+					clergy_land_rights
+					embellish_great_works_of_faith
+					promote_cultural_unity
+					
+					#Burghers
+					market_fairs
+					formal_guilds
+					building_rights
+
+					#Peasants
+					communal_lands
+					allow_hunting
+				}
+
 			}
 
 			country_rank = rank_kingdom
@@ -613,6 +1098,68 @@ countries = {
 				type = republic
 				heir_selection = cognatic_primogeniture
 				ruler = mcd_juleczka
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = 30
+				aristocracy_vs_plutocracy = 100
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 100
+				belligerent_vs_conciliatory = 50
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+
+				privilege = {
+					#nobles
+
+					#clergy
+					clergy_literacy_rights
+					clerical_advisory_council
+					clergy_land_rights
+					clergy_powerful_dioceses
+
+					#burghers
+					formal_guilds
+					trade_monopolies
+					burghers_land_rights
+
+					#Peasants
+					peasants_represented_in_parliament
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					communal_lands
+					peasants_in_administration
+					access_to_royal_and_ecclesiastical_courts
+				}
+
+				reforms = {
+					peasant_republic_reform
+				}
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = peasants_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_county
@@ -669,7 +1216,7 @@ countries = {
 			    belligerent_vs_conciliatory = 0
 			    quality_vs_quantity = 0
 			    offensive_vs_defensive = -70
-			    land_vs_naval = +75
+			    land_vs_naval = 75
 			    capital_economy_vs_traditional_economy = 90
 			    individualism_vs_communalism = -20
 			    outward_vs_inward = 0
@@ -678,6 +1225,11 @@ countries = {
 				harbor_administration
 				agricultural_cultivation
 			    }
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
 
 			    privilege = {
 
@@ -730,51 +1282,62 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = 
+				ruler = MLC_janmielec
 				
-				centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
 
-			    privilege = {
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_duchy
@@ -801,49 +1364,60 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = pua_ziółek
 				
-			    centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+			    centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
 
-			    privilege = {
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_duchy
@@ -871,49 +1445,60 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = fmb_dawid
 				
-				centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
 
-			    privilege = {
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_duchy
@@ -939,6 +1524,64 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = buk_bukaj
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -982,49 +1625,50 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = ger_patryk
 				
-				centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
-
-			    privilege = {
-
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
-
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_kingdom
@@ -1046,6 +1690,62 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				# ruler = hab_albrecht_ii_habsburg
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_county
@@ -1071,6 +1771,64 @@ countries = {
 				type = republic
 				heir_selection = cognatic_primogeniture
 				ruler = yid_goldberg
+
+				#Societal Values
+				centralization_vs_decentralization = 60
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 10
+				serfdom_vs_free_subjects = 10
+				mercantilism_vs_free_trade = 20
+				belligerent_vs_conciliatory = 70
+				quality_vs_quantity = -10
+				offensive_vs_defensive = -10
+				land_vs_naval = 10
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = 20
+				outward_vs_inward = -30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {	
+					#nobles
+					nobles_land_rights
+					noble_fortification_licenses
+
+					#burghers
+					commercial_advisory_council
+					burghers_land_rights
+					building_rights
+					trade_monopolies
+					formal_guilds
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clerical_advisory_council
+
+					#commoners
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					partial_yield
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = burghers_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -1101,6 +1859,68 @@ countries = {
 				type = steppe_horde
 				heir_selection = cognatic_primogeniture
 				ruler = mal_mikusiwan
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -50
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = 50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = 30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {
+					#nobles
+					noble_leaders_only
+					banal_lordship
+					noble_serfdom_rights
+					nobles_land_rights
+					kormlenije
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+					trade_monopolies
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = russkaya_pravda_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -1161,49 +1981,53 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = byd_kusek
 				
-			    centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			     outward_vs_inward = 0
+			    centralization_vs_decentralization = 20
+				traditionalist_vs_innovative = -60
+				spiritualist_vs_humanist = -60
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -60
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = -5
+				offensive_vs_defensive = 50
+				land_vs_naval = 20
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = -10
+				outward_vs_inward = 70
 
-			    reforms = {
-				autocracy
-				agricultural_cultivation
-			    }
+				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					noble_serfdom_rights
+					manorial_courts
 
-			    privilege = {
+					#Clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
+					#Burghers
+					formal_guilds
+					land_of_commerce
+					market_fairs
+					sponsor_maritime_contracts
+					control_over_monetary_policy
+					control_over_the_coinage
 
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
+					#Commoners
+					access_to_royal_and_ecclesiastical_courts
+				}
+				reforms = {
+					autocracy
+				}
 
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
-
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+				laws = {
+					legal_code_law = byzantine_law
+					distribution_of_power_law = dop_favor_the_ruler
+					feudal_de_jure_law = by_blood
+					administrative_system = feudal_administration
+					patriarchate_law = state_patriarchate_policy
+				}
 			}
 
 			country_rank = rank_empire
@@ -1227,6 +2051,64 @@ countries = {
 				type = republic
 				heir_selection = cognatic_primogeniture
 				ruler = jud_netanyahu
+
+				#Societal Values
+				centralization_vs_decentralization = 60
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 10
+				serfdom_vs_free_subjects = 10
+				mercantilism_vs_free_trade = 20
+				belligerent_vs_conciliatory = 70
+				quality_vs_quantity = -10
+				offensive_vs_defensive = -10
+				land_vs_naval = 10
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = 20
+				outward_vs_inward = -30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {	
+					#nobles
+					nobles_land_rights
+					noble_fortification_licenses
+
+					#burghers
+					commercial_advisory_council
+					burghers_land_rights
+					building_rights
+					trade_monopolies
+					formal_guilds
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clerical_advisory_council
+
+					#commoners
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					partial_yield
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = burghers_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
 			}
 
 			country_rank = rank_county
@@ -1286,54 +2168,54 @@ countries = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
 				ruler = wal_mateusz
-				
-			centralization_vs_decentralization = 80
-			traditionalist_vs_innovative = 20
-			spiritualist_vs_humanist = 10
-			aristocracy_vs_plutocracy = -90
-			serfdom_vs_free_subjects = -70
-			mercantilism_vs_free_trade = -70
-			belligerent_vs_conciliatory = 0
-			quality_vs_quantity = 0
-			offensive_vs_defensive = -70
-			land_vs_naval = -60
-			capital_economy_vs_traditional_economy = 90
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
 
-			reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			}
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
 
-			laws = {
-				language_of_pleading = language_of_pleading_court
-			}
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
 
-			privilege = {
+				privilege = {
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
 
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
 
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
 
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			}
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
 		    }
 			country_rank = rank_kingdom
 			dynasty = surman_dynasty
@@ -1362,49 +2244,61 @@ countries = {
 				heir_selection = cognatic_primogeniture
 				ruler = uwu_dawidek
 				
-				centralization_vs_decentralization = 80
-			    traditionalist_vs_innovative = 20
-			    spiritualist_vs_humanist = 10
-			    aristocracy_vs_plutocracy = -90
-			    serfdom_vs_free_subjects = -70
-			    mercantilism_vs_free_trade = -70
-			    belligerent_vs_conciliatory = 0
-			    quality_vs_quantity = 0
-			    offensive_vs_defensive = -70
-			    land_vs_naval = -60
-			    capital_economy_vs_traditional_economy = 90
-			    individualism_vs_communalism = -20
-			    outward_vs_inward = 0
+				centralization_vs_decentralization = 10
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 0
+				traditionalist_vs_innovative = 10
+				spiritualist_vs_humanist = 10
+				mercantilism_vs_free_trade = -25
+				offensive_vs_defensive = 0
+				land_vs_naval = -20
+				quality_vs_quantity = -30
+				belligerent_vs_conciliatory = -40
+				capital_economy_vs_traditional_economy = 80
+				individualism_vs_communalism = -20
+				outward_vs_inward = -60
 
-			    reforms = {
-				feudal_nobility
-				agricultural_cultivation
-			    }
+				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					noble_sponsored_navy
+					ghazi_privilege
 
-			    privilege = {
+					#Clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					embellish_great_works_of_faith
+					clergy_literacy_rights
+					clergy_land_rights
 
-				#Nobles
-				nobles_land_rights
-				noble_serfdom_rights
-				nobility_council
+					#Burghers
+					formal_guilds
+					building_rights
+					market_fairs
+					shipwright_contracts
+					sponsor_maritime_contracts
 
-				#Clergy
-				clergy_literacy_rights
-				clergy_powerful_dioceses
-				clergy_papal_emissary
+					#Peasants
+					partial_yield
+					peasants_free_peasantry
 
-				#Burghers
-				polish_merchant_seal
-				novi_fori
-				urban_development_grants
-				building_rights
-				land_of_commerce
+					#Dhimmi
+					dhimmi_land_rights
+					dhimmi_administrative_posts
+					dhimmi_abrahamic_communities
+					dhimmi_pact_of_umar
 
-				#Commoners
-				peasants_free_peasantry
-				peasants_allowed_weapons_privilege
-				no_labor_sunday
-			    }
+					#Tribes
+					tribes_land_rights
+					tribes_pasture_access
+				}
+
+				laws = {
+					royal_court_customs_law = harem_policy
+					slave_conversion = allow_slave_religion
+					sharia_law = hanafi_policy
+					harem_law = secluded_harem_policy
+				}
 			}
 
 			country_rank = rank_duchy
@@ -1451,6 +2345,19 @@ countries = {
 				type = tribe
 				heir_selection = cognatic_primogeniture
 				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
 			}
 
 			country_rank = rank_duchy
@@ -1483,6 +2390,65 @@ countries = {
 				type = republic
 				heir_selection = cognatic_primogeniture
 				ruler = kor_burdzy
+
+				#Societal Values
+				centralization_vs_decentralization = 60
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 10
+				serfdom_vs_free_subjects = 10
+				mercantilism_vs_free_trade = 20
+				belligerent_vs_conciliatory = 70
+				quality_vs_quantity = -10
+				offensive_vs_defensive = -10
+				land_vs_naval = 10
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = 20
+				outward_vs_inward = -30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {	
+					#nobles
+					nobles_land_rights
+					noble_fortification_licenses
+
+					#burghers
+					commercial_advisory_council
+					burghers_land_rights
+					building_rights
+					trade_monopolies
+					formal_guilds
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clerical_advisory_council
+
+					#commoners
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					partial_yield
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = burghers_mining_law
+					coin_laws = gold_and_silver_coins
+				}
 			}
 
 			country_rank = rank_duchy

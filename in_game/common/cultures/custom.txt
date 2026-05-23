@@ -1,0 +1,210 @@
+świebodziniak = {
+	language = polish_dialect
+	
+	color = map_SWB
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		świebodzin_group
+		polish_group
+		slavic_group
+	}
+}
+pleśniak = {
+	language = polish_dialect
+	
+	color = map_PLS
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		tuchów_group
+		świebodzin_group
+		polish_group
+		slavic_group
+	}
+}
+meszniak = {
+	language = polish_dialect
+	
+	color = map_MSZ
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		tuchów_group
+		polish_group
+		slavic_group
+	}
+}
+skrzyszowiak = {
+	language = polish_dialect
+	
+	color = map_NOB
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		polish_group
+		slavic_group
+	}
+}
+tuchowiak = {
+	language = polish_dialect
+	
+	color = map_CKZ
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		tuchów_group
+		polish_group
+		slavic_group
+	}
+}
+anglo-mielecka = {
+	language = polish_dialect
+	
+	color = map_TVI
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx british_gfx }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		mielec_group
+		polish_group
+		british_group
+		slavic_group
+	}
+}
+dobryniniak = {
+	language = polish_dialect
+	
+	color = map_GER
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  } # german_gfx(?)
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		mielec_group
+		polish_group
+		german_group
+		slavic_group
+	}
+}
+maliniak = {
+	language = polish_dialect
+	
+	color = map_MAL
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  } # east_slavic_gfx & russian_gfx?
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		chorzelów_group
+		polish_group
+		russian_group
+		slavic_group
+	}
+}
+valoniak = {
+	language = polish_dialect
+	
+	color = map_WAL
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		chorzelów_group
+		polish_group
+		mielec_group
+		slavic_group
+	}
+}
+mielczan = {
+	language = polish_dialect
+	
+	color = map_MLC
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		polish_group
+		mielec_group
+		slavic_group
+	}
+}
+szczurman = {
+    language = polish_dialect
+	
+	color = map_UWU
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+        turkic_group
+		polish_group
+		mielec_group
+		slavic_group
+	}
+}
+chorzelowian = {
+	language = polish_dialect
+	
+	color = map_BYZ
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+        chorzelów_group
+		polish_group
+		greek_group
+		slavic_group
+	}
+}
