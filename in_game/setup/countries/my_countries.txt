@@ -1,7 +1,7 @@
 ﻿# TODO: UNIT COLORS, CULTURES, RELIGIONS, DESCRIPTIONS, DIFFICULTY
 
 GRA = {
-	color = rgb { 155  96  68 }
+	color = map_GRA
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -14,7 +14,7 @@ GRA = {
 	difficulty = 3
 }
 KRK = {
-	color = rgb { 0  70  175 }
+	color = map_KRK
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -27,85 +27,85 @@ KRK = {
 	difficulty = 3
 }
 SLD = {
-	color = rgb { 38  127  0 }
+	color = map_SLD
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = meszniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 LIŁ = {
-	color = rgb { 159  174  70 }
+	color = map_LIŁ
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = meszniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 PLS = {
-	color = rgb { 136  205  0 }
+	color = map_PLS
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = pleśniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 MSZ = {
-	color = rgb { 209  148  48 }
+	color = map_MSZ
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = meszniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 BCH = {
-	color = rgb { 63  79  209 }
+	color = map_BCH
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = meszniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 RZU = {
-	color = rgb { 132  0  0 }
+	color = map_RZU
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = świebodziniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 SWB = {
-	color = rgb { 188  45  109 }
+	color = map_SWB
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -118,7 +118,7 @@ SWB = {
 	difficulty = 3
 }
 AUR = {
-	color = rgb { 221  255  255 }
+	color = map_AUR
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -131,137 +131,137 @@ AUR = {
 	difficulty = 3
 }
 NOB = {
-	color = rgb { 41  195  242 }
+	color = map_NOB
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = świebodziniak
+	culture_definition = skrzyszowiak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 CKZ = {
-	color = rgb { 226  189  0 }
+	color = map_CKZ
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = tuchowiak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 MCD = {
-	color = rgb { 240  60  70 }
+	color = map_MCD
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = dobryniniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
-TVI = { # TODO zmienić tag
-	color = rgb { 42  0  160 }
+TVI = {
+	color = map_TVI
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = anglo-mielecka
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 MLC = {
-	color = rgb { 46  115  193 }
+	color = map_MLC
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = mielczan
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 PUA = {
-	color = rgb { 113  242  169 }
+	color = map_PUA
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = mielczan
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 FMB = {
-	color = rgb { 255  28  164 }
+	color = map_FMB
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = mielczan
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 BUK = {
-	color = rgb { 255  231  170 }
+	color = map_BUK
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = mielczan
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 GER = {
-	color = rgb { 31  48  99 }
+	color = map_GER
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = prussian
+	culture_definition = dobryniniak
 	religion_definition = lutheran
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 TMB = {
-	color = rgb { 255  89  101 }
+	color = map_TMB
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = mielczan
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 YID = {
-	color = rgb { 127  110  110 }
+	color = map_YID
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -274,33 +274,33 @@ YID = {
 	difficulty = 3
 }
 MAL = {
-	color = rgb { 188  54  170 }
+	color = 
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = muscovite
+	culture_definition = maliniak
 	religion_definition = orthodox
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 BYD = {
-	color = rgb { 158  34  108 }
+	color = map_BYZ
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = greek_culture
+	culture_definition = chorzelowian
 	religion_definition = orthodox
 	
 	description_category = military
 	difficulty = 1
 }
 JUD = {
-	color = rgb { 190  28  164 }
+	color = map_JUD
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -313,33 +313,33 @@ JUD = {
 	difficulty = 3
 }
 WAL = {
-	color = rgb { 192  58  255 }
+	color = map_WAL
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = lesser_polish
+	culture_definition = valoniak
 	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 UWU = {
-	color = rgb { 68  226  0 }
+	color = map_UWU
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = turkish_culture
+	culture_definition = szczurman
 	religion_definition = sunni
 	
 	description_category = diplomatic
 	difficulty = 3
 }
 UKR = {
-	color = rgb { 0  198  198 }
+	color = map_UKR
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -352,14 +352,14 @@ UKR = {
 	difficulty = 3
 }
 KOR = {
-	color = rgb { 126  88  158 }
+	color = map_KOR
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
 	culture_definition = korean_culture
-	religion_definition = catholic
+	religion_definition = mahayana
 	
 	description_category = diplomatic
 	difficulty = 3
