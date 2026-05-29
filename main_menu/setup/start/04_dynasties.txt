@@ -253,4 +253,26 @@ dynasty_manager = {
 			
 		}
 	}
+	germuga_dynasty = {
+		name = { name = germuga_dynasty }
+		home = tuchów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	pękała_dynasty = {
+		name = { name = pękała_dynasty }
+		home = świebodzin
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
 }

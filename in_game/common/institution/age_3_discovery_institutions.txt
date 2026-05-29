@@ -17,7 +17,7 @@
 				has_game_rule = institution_spawn_plausible
 				
 				has_owner = yes
-				is_port = yes
+				# is_port = yes
 				num_pop_type:burghers >= 2.0
 				dominant_culture = owner.culture
 			}
@@ -71,7 +71,7 @@ printing_press = {
 				has_building = building_type:university	
 				
 				owner = {
-					societal_value:traditionalist_vs_innovative > 20
+					societal_value:traditionalist_vs_innovative > 0
 				}
 			}
 		}

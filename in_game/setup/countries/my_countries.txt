@@ -274,7 +274,7 @@ YID = {
 	difficulty = 3
 }
 MAL = {
-	color = 
+	color = map_MAL
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
@@ -360,6 +360,97 @@ KOR = {
 
 	culture_definition = korean_culture
 	religion_definition = mahayana
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MAG = {
+	color = map_MAG
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = świebodziniak
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+KAM = {
+	color = map_KAM
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = świebodziniak
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+SZM = {
+	color = map_SZM
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = świebodziniak
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+ADM = {
+	color = map_ADM
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = świebodziniak
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BLG = {
+	color = map_BLG
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = walloon
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BUG = {
+	color = map_BUG
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+VOI = {
+	color = map_VOI
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = mieleczan
+	religion_definition = catholic
 	
 	description_category = diplomatic
 	difficulty = 3

@@ -1,7 +1,7 @@
 locations={
 	
 	#świebo
-	świebodzin = { rank = city	        town_setup = important_scandinavian_town }
+	świebodzin = { rank = city	        town_setup = mielec_city }
     żabno = { rank = town 		        town_setup = scandinavian_town }
 	olesno = { rank = town 	            town_setup = scandinavian_town }
 	proszowice = { rank = town 	        town_setup = scandinavian_town }
@@ -46,7 +46,7 @@ locations={
 
 	
 	#mielec
-	mielec = { rank = city	        town_setup = important_scandinavian_town }
+	mielec = { rank = city	        town_setup = mielec_city }
 
 	
 	#tvierdza

@@ -437,8 +437,12 @@
                     raciechowice
 				}
 				meszna_wybrzeże_province = {
+				    zakamienny_klin
+					orawska_półgóra
 					meszna1
+					namiestów
                     meszna2
+					twardoszyn
 				}
 				nowy_targ_province = {
 					lipnica_wielka
@@ -462,6 +466,97 @@
                     biały_dunajec
                     bukowina_tatrzańska
                     rysy
+				}
+				pszczyna_province = {
+					miedźna
+					goczałkowice-zdrój
+					pszczyna 
+				}
+				bielsko-biała_province = {
+					czechowice-dziedzice
+                    bestwina
+                    wilamowice
+                    jasienica
+                    jaworze
+                    bielsko-biała 
+					kozy 
+                    porąbka 
+					wilkowice
+                    buczkowice 
+                    szczyrk 
+				}
+				cieszyn_province = {
+				    zebrzydowice
+                    strumień 
+                    chybie 
+                    hażlach 
+                    dębowiec_cieszyn
+                    skoczów 
+                    cieszyn 
+                    goleszów 
+                    ustroń 
+                    brenna 
+                    wisła 
+                    istebna 
+				}
+				żywiec_province = {
+					czernichów_żywiecki 
+                    łękawica 
+                    slemień 
+                    łodygowice 
+                    żywiec 
+                    gilowice 
+                    lipowa 
+                    wieprz_żywiec
+                    świnna 
+                    jeleśnia 
+                    koszarawa 
+                    węgierska_górka 
+                    milówka 
+                    rajcza 
+                    ujsoły 
+				}
+				tesin_province = {
+					karvina 
+                    havirov 
+                    cesky_tesin 
+                    trinec 
+                    jablunkov 
+				}
+				czadca_province = {
+					czadca 
+                    krasno 
+                    stara_bystrica 
+				}
+				opatów_province = {
+					baćkowice 
+                    sadowie 
+                    opatów 
+                    wojciechowice 
+                    iwaniska 
+                    lipnik 
+				}
+				kielce_province = {
+					łopuszno 
+                    mniów 
+                    strawczyn 
+                    miedziana-góra 
+                    zagnańsk 
+                    riekoszów 
+                    chęciny 
+                    nowiny 
+                    kielce 
+                    masłów_pierwszy 
+                    górno 
+                    morawica 
+                    daleszyce 
+                    pierzchnica 
+                    chmielnik_kielce
+                    bodzentyn 
+                    bieliny 
+                    nowa_słupia 
+                    łagów 
+                    raków 
 				}
 			}
 			lublin_area = {

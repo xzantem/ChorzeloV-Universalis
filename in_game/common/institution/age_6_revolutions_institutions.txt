@@ -23,7 +23,7 @@
 				
 				
 				owner = {
-					societal_value:traditionalist_vs_innovative > 20
+					societal_value:traditionalist_vs_innovative > 0
 				}
 			}
 		}
@@ -80,10 +80,6 @@ industrialization = {
 
 				num_pop_type:burghers > 20
 				total_building_levels > 120
-				
-				owner = {
-					societal_value:capital_economy_vs_traditional_economy < -30
-				}
 			}
 		}
 
@@ -132,10 +128,6 @@ levee_en_masse = {
 				has_institution = institution:military_revolution
 				owner ?= { capital = root }
 				population > 200
-				
-				owner = {
-					societal_value:quality_vs_quantity > 0
-				}
 			}
 		}
 		

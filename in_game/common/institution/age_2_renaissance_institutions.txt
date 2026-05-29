@@ -75,14 +75,8 @@ banking = {
 					text = dominant_culture_is_owners_culture
 					dominant_culture = owner.culture
 				}
-				OR = {
-					continent = continent:europe
-					sub_continent = sub_continent:north_africa
-					sub_continent = sub_continent:middle_east
-				}
-				
-				owner = {
-					societal_value:capital_economy_vs_traditional_economy < -50
+				market = {
+					total_goods_value_traded > 50
 				}
 			}
 		}
@@ -127,7 +121,6 @@ professional_armies = {
 			}
 			AND = {
 				has_game_rule = institution_spawn_plausible
-				continent = continent:europe
 				has_owner = yes
 
 				custom_tooltip = {
@@ -135,10 +128,6 @@ professional_armies = {
 					dominant_culture = owner.culture
 				}
 				modifier:local_manpower > 0
-				
-				owner = {
-					societal_value:quality_vs_quantity < -10
-				}
 			}
 		}
 	}

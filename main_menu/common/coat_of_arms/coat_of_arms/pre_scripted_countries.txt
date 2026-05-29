@@ -3144,10 +3144,10 @@ BBK = { # Bambuk
 	}
 }
 
-BCH = { # Chur
+BCH = { # Buchcice
 	pattern = "pattern_solid.dds"
 	color1 = "white"
-	color2 = "black"
+	color2 = "blue_secondary"
 	color3 = "red_secondary"
 
 	colored_emblem = {
@@ -3157,6 +3157,10 @@ BCH = { # Chur
 		color3 = color1
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }		
 	}
+	textured_emblem = {
+		texture = "buchcice.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
 
 BCN = { # Brycheiniog - Neufmarché
@@ -5816,6 +5820,17 @@ BUD = { # Budingen
 	}		
 }
 
+BUK = { # Bukajstwo
+	pattern = "pattern_solid.dds"
+	color1 = map_BUK
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "bukajstwo.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 BUL = { # Bulgaria
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -5974,7 +5989,7 @@ BYD = { # Chorzelovium
 	color2 = "white"
 	
 	textured_emblem = {
-		texture = "hitler.dds"
+		texture = "hitler1.dds"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
 	}	
 }
@@ -8247,6 +8262,18 @@ CKO = { # Koke Temur
 		color2 = color3
 	}
 }
+
+CKZ = { # Tuchów
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "tuchów.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 
 CLA = { # Clandeboye
 	pattern = "pattern_solid.dds"
@@ -12927,7 +12954,12 @@ FMB = { # Fomin - Variant of Smolensk
 		color3 = color1
 		instance = { position = { 0.5 0.51 } scale = { 1.05 1.05 } }			
 	}
+	textured_emblem = {
+		texture = "dawid.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
+
 
 FOI = { # Foix
 	pattern = "pattern_solid.dds"
@@ -19320,6 +19352,17 @@ JSL = { # Jaisalmer
 	}	
 }
 
+JUD = { # Judea
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "izrael.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 JUL = { # Jülich/Juliers - Historical arms - Completely identical to Flanders
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -21093,6 +21136,17 @@ KRD = { # Karasid
 	}
 }
 
+KRK = { # Kraków
+	pattern = "pattern_solid.dds"
+	color1 = map_KRK
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "kraków.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 KRL = { # Karelians
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	97	65	48	}
@@ -22440,6 +22494,17 @@ LIG = { # Ligor
 		color1 = color2
 		color2 = color3
 		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+	}	
+}
+
+LIŁ = { # Lesiok i Łysy
+	pattern = "pattern_solid.dds"
+	color1 = map_LIŁ
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "lesiokłysy.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
 	}	
 }
 
@@ -23791,6 +23856,17 @@ MCC = { # Panuco
 	}
 }
 
+MCD = { # McDonalds
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "mcd.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 MCG = { # Muscogee
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	38		67		82		}
@@ -24976,7 +25052,11 @@ MLC = { # Malacca
 		color1 = color2
 		color2 = color2
 		instance = { position = { 0.625 0.5 } scale = { 0.45 0.45 } }			
-	}	
+	}
+    textured_emblem = {
+		texture = "mielec1.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}		
 }
 
 MLH = { # Muhlhausen
@@ -26414,6 +26494,17 @@ MSV_polish = { # Mstislavl - Voivodeship (colour variant for more difference)
 		instance = { position = { 0.51 0.5 } scale = { 1.05 1.05 } }
 	}
 }
+MSZ = { # Meszna
+	pattern = "pattern_solid.dds"
+	color1 = map_MSZ
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "meszna.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 
 MTA = { # Macerata
 	pattern = "pattern_solid.dds"
@@ -28144,6 +28235,18 @@ NND = { # Mictlan/Lyobaa
 		color2 = "white"
 	}
 }
+
+NOB = { # Skrzyszów
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "tomuś.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 
 NOG = { # Nogai - Nogay tamgha
 	pattern = "pattern_solid.dds"
@@ -31337,6 +31440,17 @@ PLK_TEU = { # Plock - Teutonic Order (plausible, only field Argent rather than O
 	}	
 }
 
+PLS = { # Pleśna
+	pattern = "pattern_solid.dds"
+	color1 = map_PLS
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "pleśna.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 PLN = { # Plauen
 	pattern = "pattern_solid.dds"
 	color1 = "black"
@@ -32796,7 +32910,7 @@ PTZ = { # Pingthouzheke
 	}		
 } 
 
-PUA = { # Pua
+PUA = { # ziółek
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	210	75	42	}
 	color2 = "white"
@@ -32820,9 +32934,12 @@ PUA = { # Pua
 		color1 = color4
 		color2 = color4
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }			
-	}		
+	}	
+	textured_emblem = {
+		texture = "looksmaxia.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
-
 PUB = { # Puben
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	38		67		90		}
@@ -34268,6 +34385,17 @@ RZH = { # Rzhev
 		color3 = color1
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }		
 	}
+}
+
+RZU = { # Rzuchowa
+	pattern = "pattern_solid.dds"
+	color1 = map_RZU
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "rzuchowa.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
 
 SAA = { # Saarbrucken
@@ -35990,25 +36118,17 @@ SKY = { # Starodub on the Klyazma
 	}		
 }
 
-SLD = { # Suldus
+SLD = { # Siedliska
 	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "yellow_mid"
-	color3 = "black"
-
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.85 0.5 } scale = { 0.3 1.0 } }				
-	}
-	colored_emblem = {
-		texture = "ce_tamgha_chagatai.dds"
-		color1 = color3
-		color2 = color3
-		instance = { position = { 0.35 0.5 } scale = { 0.85 0.85 } }		
+	color1 = map_SLD
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "sld.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
 	}	
 }
+
 
 SLE = { # Salé
 	pattern = "pattern_solid.dds"
@@ -39618,6 +39738,17 @@ TLZ = { # Tlalcozauhtitlan
 	}
 }
 
+TMB = { # Tomboyownia
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "tomboy.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 TMK = { # Tadmakka
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -41054,6 +41185,18 @@ TVE = { # Tver - Late version
 		instance = { position = { 0.5 0.51 } scale = { 1.05 1.05 } }		
 	}
 }
+
+TVI = { # Tvierdza
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "tvierdza.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 
 TVS = { # Tavas
 	pattern = "pattern_solid.dds"
@@ -42662,6 +42805,10 @@ WAL = { # Wallachia - Ancient
 		color3 = color4
 		instance = { position = { 0.49 0.51 } scale = { 1.0 1.0 } }			
 	}	
+	textured_emblem = {
+		texture = "walona.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}
 }
 WAL_blue = { # Wallachia - Late 15th c.
 	pattern = "pattern_solid.dds"
@@ -44316,6 +44463,17 @@ YEM_rasulid = { # Rasulid - Composition from mosque ornamental paintings
 		instance = { position = { 0.835 0.23 } scale = { 0.325 0.325 } }
 		instance = { position = { 0.835 0.77 } scale = { 0.325 -0.325 } }
 	}
+}
+
+YID = { # Kolbuszowa
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "kolbuszowa.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
 
 YII = { # Yi People

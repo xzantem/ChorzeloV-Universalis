@@ -6,30 +6,9 @@
 
 character_db={
 
-	hab_albrecht_ii_habsburg = {
-		first_name = { name = name_albert }
-		nickname = { name = the_wise }
-		culture = danube_bavarian
-		religion = catholic
-		estate = nobles_estate
-		adm = 85 dip = 66 mil = 33
-		female = no
-		birth_date = 1298.12.12
-		birth = testprovince1
-		dynasty = habsburg_dynasty
-		fertility = 75
-		tag = HAB
-		ruler_trait = lawgiver
-		timed_modifier = {
-			modifier = "destined_to_rule"
-			start_date = 1330.1.1
-			date = 9999.1.1
-			size = 1
-		}
-	}
 	byd_kusek = {
 		first_name = { name = taurus_maximus }
-		culture = greek_culture
+		culture = chorzelowian
 		religion = orthodox
 		estate = nobles_estate
 		adm = 85 dip = 35 mil = 100
@@ -49,7 +28,7 @@ character_db={
 	}
 	pua_ziółek = {
 		first_name = { name = name_bartek }
-		culture = lesser_polish
+		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
 		adm = 85 dip = 35 mil = 100
@@ -69,7 +48,7 @@ character_db={
 	}
 	aur_wrona = {
 		first_name = { name = name_szymon.latin_language }
-		culture = lesser_polish
+		culture = świebodziniak
 		religion = catholic
 		estate = clergy_estate
 		adm = 22 dip = 83 mil = 14
@@ -89,7 +68,7 @@ character_db={
 	}
 	sld_niacio = {
 		first_name = { name = name_robert }
-		culture = lesser_polish
+		culture = meszniak
 		religion = catholic
 		estate = peasants_estate
 		adm = 22 dip = 83 mil = 14
@@ -109,7 +88,7 @@ character_db={
 	}
 	swb_jendru = {
 		first_name = { name = name_jendru }
-		culture = lesser_polish
+		culture = świebodziniak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -129,7 +108,7 @@ character_db={
 	}
 	tvi_głezi = {
 		first_name = { name = name_szymon }
-		culture = lesser_polish
+		culture = anglo-mielecka
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -149,7 +128,7 @@ character_db={
 	}
 	ger_patryk = {
 		first_name = { name = name_patryk.german_language }
-		culture = prussian
+		culture = dobryniniak
 		religion = lutheran
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -169,7 +148,7 @@ character_db={
 	}
 	uwu_dawidek = {
 		first_name = { name = name_dawidek }
-		culture = turkish_culture
+		culture = szczurman
 		religion = sunni
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -189,7 +168,7 @@ character_db={
 	}
 	wal_mateusz = {
 		first_name = { name = name_mateusz }
-		culture = lesser_polish
+		culture = valoniak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -209,7 +188,7 @@ character_db={
 	}
 	fmb_dawid = {
 		first_name = { name = name_dawid }
-		culture = lesser_polish
+		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -229,7 +208,7 @@ character_db={
 	}
 	mal_mikusiwan = {
 		first_name = { name = name_mikołaj.russian_culture }
-		culture = muscovite
+		culture = maliniak
 		religion = orthodox
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -249,7 +228,7 @@ character_db={
 	}
 	mcd_juleczka = {
 		first_name = { name = name_juleczka }
-		culture = lesser_polish
+		culture = dobryniniak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -269,7 +248,7 @@ character_db={
 	}
 	mlc_janmielec = {
 		first_name = { name = name_jan }
-		culture = lesser_polish
+		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -289,7 +268,7 @@ character_db={
 	}
 	buk_bukaj = {
 		first_name = { name = name_kacper }
-		culture = lesser_polish
+		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
 		adm = 12 dip = 73 mil = 9
@@ -351,7 +330,7 @@ character_db={
 	msz_sehatan = {
 		first_name = { name = name_piotr }
 		nickname = { name = sehatan }
-		culture = lesser_polish
+		culture = meszniak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -372,7 +351,7 @@ character_db={
 	nob_tomek = {
 		first_name = { name = name_tomek }
 		nickname = { name = fraud }
-		culture = lesser_polish
+		culture = skrzyszowiak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -432,7 +411,7 @@ character_db={
 	}
 	rzu_oskar = {
 		first_name = { name = name_oskar }
-		culture = lesser_polish
+		culture = świebodziniak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -492,7 +471,7 @@ character_db={
 	}
 	ckz_stec = {
 		first_name = { name = name_tomek }
-		culture = lesser_polish
+		culture = tuchowiak
 		religion = catholic
 		estate = nobles_estate
 		adm = 50 dip = 50 mil = 50
@@ -502,6 +481,90 @@ character_db={
 		dynasty = stec_dynasty
 		fertility = 50
 		tag = CKZ
+		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	lił_lesiok = {
+		first_name = { name = name_gerwazy }
+		nickname = { name = lesiok }
+		culture = meszniak
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1314.01.22
+		birth = tuchów
+		dynasty = germuga_dynasty
+		fertility = 50
+		tag = LIŁ
+		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	lił_łysy = {
+		first_name = { name = name_mateusz }
+		nickname = { name = łysy }
+		culture = meszniak
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1314.01.22
+		birth = tuchów
+		dynasty = germuga_dynasty
+		fertility = 50
+		tag = LIŁ
+		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	pua_jedzeniuk = {
+		first_name = { name = name_kamil }
+		nickname = { name = jedzeniuk }
+		culture = świebodziniak
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = no
+		birth_date = 1317.07.27
+		birth = świebodzin
+		dynasty = pękała_dynasty
+		fertility = 50
+		tag = PUA
+		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	buk_skowron = {
+		first_name = { name = name_juleczka }
+		culture = mielczan
+		religion = catholic
+		estate = nobles_estate
+		adm = 50 dip = 50 mil = 50
+		female = yes
+		consort = yes
+		birth_date = 1314.08.15
+		birth = mielec
+		dynasty = skowron_dynasty
+		fertility = 50
+		tag = BUK
 		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"

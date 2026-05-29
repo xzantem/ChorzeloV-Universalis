@@ -1,0 +1,14 @@
+mielecki_cop = {
+	game_data = {
+		category = location
+	}
+	local_weaponry_output_modifier = 0.3
+	local_cannon_output_modifier = 0.3
+	local_firearms_output_modifier = 0.3
+}
+świebodziński_cop = {
+	game_data = {
+		category = location
+	}
+	local_tools_output_modifier = 0.5
+}

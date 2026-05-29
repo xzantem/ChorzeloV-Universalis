@@ -1,9 +1,9 @@
 ﻿city_upgrade = {
-	gold = 400 # down from 2000
+	gold = 1000 # down from 2000
 }
 
 town_upgrade = {
-	gold = 100 # down from 500
+	gold = 250 # down from 500
 }
 
 rural_settlement_upgrade = {
@@ -25,7 +25,7 @@ free_building = {
 }
 
 small_estate_building = {
-	gold = 40 # down from 200
+	gold = 100 # down from 200
 }
 
 orthodox_monastery_building = {

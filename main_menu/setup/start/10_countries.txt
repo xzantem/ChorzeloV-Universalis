@@ -17,6 +17,14 @@ countries = {
 				książ_wielki
 				kozłów
 				charsznica
+				jerzmanowice
+				sułoszowa
+				skała
+				wielka_wieś
+				zielonki
+				michałowice
+				iwanowice_włościańskie
+				słomniki
 			}
 			starting_technology_level = 2
 
@@ -97,24 +105,7 @@ countries = {
 		}
 		KRK = {	
 			own_control_core = {
-				krzeszowice
-				czernichów
-				skawina
-				liszki
-				zabierzów
-				jerzmanowice
-				sułoszowa
-				skała
-				wielka_wieś
-				zielonki
 				kraków
-				mogilany
-				świątniki_górne
-				michałowice
-				iwanowice_włościańskie
-				słomniki
-				luborzyca
-				wieliczka
 			}
 			starting_technology_level = 2
 
@@ -130,7 +121,7 @@ countries = {
 				
 				centralization_vs_decentralization = 50
 				aristocracy_vs_plutocracy = -70
-				serfdom_vs_free_subjects = -50
+				serfdom_vs_free_subjects = 50
 				traditionalist_vs_innovative = -25
 				spiritualist_vs_humanist = -50
 				mercantilism_vs_free_trade = -20
@@ -204,6 +195,9 @@ countries = {
 				pcim
 				wiśniowa_myślenice
 				raciechowice
+				skawina
+				świątniki_górne
+				mogilany
 			}
 			starting_technology_level = 2
 
@@ -292,7 +286,7 @@ countries = {
 			government = {
 				type = tribe
 				heir_selection = cognatic_primogeniture
-				# ruler = hab_albrecht_ii_habsburg
+				ruler = lił_lesiok
 
 				centralization_vs_decentralization = 80
 				traditionalist_vs_innovative = -80
@@ -336,6 +330,10 @@ countries = {
 				spytkowice_nowotarskie
 				rabka_zdrój
 				nowy_targ
+				zakamienny_klin
+				orawska_półgóra
+				namiestów
+				twardoszyn
 			}
 			starting_technology_level = 2
 
@@ -411,7 +409,7 @@ countries = {
 
 			country_rank = rank_kingdom
 			dynasty = rempała_dynasty
-			capital = meszna1
+			capital = twardoszyn
 		}
 		BCH = {
 			own_control_core = {
@@ -599,6 +597,7 @@ countries = {
 				wawrzeńczyce
 				gdów
 				tomaszkowice
+				wieliczka
 			}
 			starting_technology_level = 2
 
@@ -706,40 +705,11 @@ countries = {
                 małogoszcz 
                 sobków 
                 kije 
-                pińczów 
+                pińczów
+				luborzyca 
 			}
 			our_cores_conquered_by_others = {
 			    święty_świebodzin
-				brzesko
-				dębno
-				gnojnik
-				czchów
-				iwkowa
-				laskowa
-				limanowa
-				łukowica
-				łącko
-				podegrodzie
-				stary_sącz
-				rytro
-				nawojowa
-				piwniczna-zdrój
-				łabowa
-				krynica-zdrój
-				muszyna
-				łososina_dolna
-				chełmiec
-				gródek_nad_dunajcem
-				nowy_sącz
-				korzenna
-				kamionka_wielka
-				grybów
-				wojnicz
-				zakliczyn
-				pleśna
-				gromnik
-				ciężkowice
-				tuchów
 		    }
 			starting_technology_level = 2
 
@@ -826,11 +796,7 @@ countries = {
 				grybów wojnicz zakliczyn pleśna gromnik ciężkowice tuchów
 			}
 			our_cores_conquered_by_others = {
-			    świebodzin bejsce kazimierza_wielka skalbmierz
-				działoszyce koszyce nowe_brzesko proszowice koniusza
-				radziemice pałecznica drwinia rzezawa szczurowa borzęcin
-				wietrzychowice żabno radłów wierzchosławice gręboszów
-				bolesław_dąbrowa oleśno mędrzechów
+			    świebodzin 
 		    }
 			starting_technology_level = 2
 
@@ -1652,6 +1618,14 @@ countries = {
 					#clergy
 					clergy_literacy_rights
 					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
 				}
 				laws = {
 					feudal_de_jure_law = by_tradition
@@ -1929,8 +1903,7 @@ countries = {
 		}
 		BYD = {
 			own_control_core = {
-				ulanów jeżowe nisko rudnik_nad_sanem krzeszów jarocin
-				harasiuki sienawa adamówka wiązownica stary_dzików tryńcza
+				sienawa adamówka wiązownica stary_dzików tryńcza
 				przeworsk laszki jarosław
 				annopol gościeradów trzydnik_duży dzierzkowice
 				kraśnik szastarka urzędów wilkołaz zakrzówek
@@ -2379,6 +2352,10 @@ countries = {
 				libiąż
 				chrzanów
 				trzebinia
+				krzeszowice
+				czernichów
+				liszki
+				zabierzów
 			}
 			starting_technology_level = 2
 
@@ -2454,6 +2431,307 @@ countries = {
 			country_rank = rank_duchy
 			dynasty = burdzy_dynasty
 			capital = oświęcim
+		}
+		MAG = {
+			own_control_core = {				
+				miedźna
+				pszczyna
+				goczałkowice-zdrój
+				wilamowice
+				bestwina
+				czechowice-dziedzice
+				chybie
+				strumień
+				zebrzydowice
+				karvina
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = wilamowice
+		}
+		KAM = {
+			own_control_core = {				
+				czadca
+				krasno
+				stara_bystrica
+				milówka
+				rajcza
+				ujsoły
+				węgierska_górka
+				jeleśnia
+				koszarawa
+				wieprz_żywiec
+				świnna
+				żywiec
+				lipowa
+				łodygowice
+				czernichów_żywiecki
+				jasienica
+				jaworze
+				bielsko-biała
+				kozy
+				wilkowice
+				buczkowice
+				hażlach
+				dębowiec_cieszyn
+				skoczów
+				cieszyn
+				goleszów
+				ustroń
+				brenna
+				wisła
+				istebna
+				havirov
+				cesky_tesin
+				trinec
+				jablunkov
+				cieszyn
+	        }
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = żywiec
+		}
+		SZM = {
+			own_control_core = {				
+				łękawica
+				gilowice
+				slemień
+				porąbka
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = tribe
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = gilowice
+		}
+		ADM = {
+			own_control_core = {				
+				goleszów
+				ustroń
+				brenna
+				wisła
+				szczyrk
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = wisła
+		}
+		BLG = {
+			own_control_core = {				
+				baćkowice
+				iwaniska
+				sadowie
+				opatów
+				lipnik 
+				wojciechowice
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = opatów
+		}
+		BUG = {
+			own_control_core = {				
+				jarocin
+				ulanów
+				harasiuki
+				nisko
+				rudnik_nad_sanem
+				jeżowe
+				krzeszów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = ulanów
+		}
+		VOI = {
+			own_control_core = {				
+				łopuszno
+				mniów
+				strawczyn
+				riekoszów
+				chęciny
+				nowiny
+				miedziana-góra
+				zagnańsk
+				kielce
+				morawica
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = ukr_zełenski
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = zełenski_dynasty
+			capital = kielce
 		}
 	}
 }

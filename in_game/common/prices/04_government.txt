@@ -1,14 +1,14 @@
 ﻿rank_empire_upgrade = {
-	gold = 200 # down from 1000
-	scaled_gold = 0.4 # down from 2.0
+	gold = 500 # down from 1000
+	scaled_gold = 1.0 # down from 2.0
 }
 
 rank_kingdom_upgrade = {
-	gold = 50 # down from 250
-	scaled_gold = 0.2 # down from 1.0
+	gold = 125 # down from 250
+	scaled_gold = 0.5 # down from 1.0
 }
 
 rank_duchy_upgrade = {
-	gold = 20 # down from 100
-	scaled_gold = 0.1 # down from 0.5
+	gold = 50 # down from 100
+	scaled_gold = 0.25 # down from 0.5
 }

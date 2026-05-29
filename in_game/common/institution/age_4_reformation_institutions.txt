@@ -87,7 +87,7 @@ global_trade = {
 				is_market_center = yes
 				location_rank = location_rank:city
 				market = {
-					total_goods_value_traded > 500
+					total_goods_value_traded > 50
 				}
 			}
 		}
@@ -144,10 +144,6 @@ artillery_institution = {
 
 				has_building_with_at_least_one_level = gun_smith
 				has_building_with_at_least_one_level = tools_guild
-				
-				owner = {
-					societal_value:offensive_vs_defensive < -20
-				}
 			}
 		}
 	}

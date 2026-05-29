@@ -19,10 +19,6 @@
 
 				num_pop_type:burghers > 20
 				total_building_levels > 80
-				
-				owner = {
-					societal_value:capital_economy_vs_traditional_economy < -30
-				}
 			}
 		}
 		
@@ -98,7 +94,7 @@ scientific_revolution = {
 				average_location_literacy > 30
 				
 				owner = {
-					societal_value:traditionalist_vs_innovative >= 20
+					societal_value:traditionalist_vs_innovative >= 00
 				}
 			}
 		}
@@ -151,10 +147,6 @@ military_revolution = {
 				has_institution = institution:artillery_institution
 				is_capital = yes
 				population > 30
-				owner = {
-					yearly_manpower > 2
-					societal_value:offensive_vs_defensive < -20
-				}
 			}
 		}
 		

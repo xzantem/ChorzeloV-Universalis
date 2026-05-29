@@ -455,8 +455,12 @@ pcim = 323B99
 wiśniowa_myślenice = 2E378C
 raciechowice = 212966
 
+zakamienny_klin = A08040
+orawska_półgóra = AD8A45
 meszna1 = BC964A
+namiestów = C49D4E
 meszna2 = CCA351
+twardoszyn = D8AB56
 
 lipnica_wielka = A5485E
 jabłonka = FF7091
@@ -601,4 +605,89 @@ księżpol = 8B3AC1
 biszcza = 9A40D6
 potok_górny = B949FF
 tarnogród = A846EA
+
+miedźna = C98E55
+goczałkowice-zdrój = E09E60
+pszczyna = D3955B
+
+czechowice-dziedzice = 354282
+bestwina = 4555A8
+wilamowice = 4A5CB5
+jasienica = 303B75
+jaworze = 2A3568
+bielsko-biała = 3F4F9B
+kozy = 4F62C1
+porąbka = 5569D1
+wilkowice = 3A488E 
+buczkowice = 252E5B
+szczyrk = 20284F
+
+zebrzydowice = 723821
+strumień = FF7D49
+chybie = F27646
+hażlach = E57042
+dębowiec_cieszyn = D86A3E
+skoczów = BF5D37
+cieszyn = CC643B
+goleszów = B25733
+ustroń = A55130
+brenna = 994B2C
+wisła = 8C4428
+istebna = 7F3E24
+
+czernichów_żywiecki = 7F7A3E
+łękawica = 99924A
+slemień = 8C8644
+łodygowice = A59D51
+żywiec = B2A957
+gilowice = BFB55D
+lipowa = D8CD6A
+wieprz_żywiec = E5D970
+świnna = CCC163
+jeleśnia = 666131
+koszarawa = 726D38
+węgierska_górka = F2E576
+milówka = FFF17C
+rajcza = 4C4925
+ujsoły = 59552B
+
+karvina = C49D5E
+havirov = D1A764
+cesky_tesin = DDB16A
+trinec = B28E55
+jablunkov = ECBE70
+
+czadca = 9C88AA
+krasno = 907E9E
+stara_bystrica = 857491
+
+baćkowice = DB9464
+sadowie = E89C6A
+opatów = C18359
+wojciechowice = A8714D
+iwaniska = CE8B5F
+lipnik = B57A53
+
+łopuszno = 9DEBF2
+mniów = 8EF2DC
+strawczyn = 96E1E8
+miedziana-góra = 87E5D1
+zagnańsk = 7FD8C5
+riekoszów = 96FFE8
+chęciny = 78CCB9
+nowiny = 70BFAE
+kielce = 69B2A3
+masłów_pierwszy = 61A598
+górno = 528C81
+morawica = 1E332F
+daleszyce = 43726A
+pierzchnica = 253F3A
+chmielnik_kielce = 162623
+bodzentyn = 5A998D
+bieliny = 4B7F75
+nowa_słupia = 3C665E
+łagów = 345952
+raków = 2D4C46
+
+
 
