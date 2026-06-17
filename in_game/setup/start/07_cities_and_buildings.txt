@@ -285,4 +285,8 @@ building_manager = {
 	castle = { tag = KOR level = 1 location = oświęcim }
 	castle = { tag = KOR level = 1 location = babice }
 	castle = { tag = KOR level = 1 location = zator }
+	mcd_restaurant = { tag = MCB level = 1 location = skołoszyn }
+	mcd_restaurant = { tag = MCB level = 1 location = kraków }
+	mcd_restaurant = { tag = MCB level = 1 location = świebodzin }
+	
 }

@@ -1,0 +1,27 @@
+international_organization_manager = {
+    add_international_organization = {
+        type = hce
+        creation_date = 1304.06.13
+        map_color = hsv360 { 40 50 70 }
+
+        members = { BYD BAR DOM MAL WAL BUG JUD MRD ERC
+                    FRZ MIŁ KOT WOD BAA BAB BAC DOA DOB
+                    DOC KRC RUD RZY BYA BYB BYC BYE BYF
+                    BYG BYH BYI BAD BAE BAF BAG BAH BAI
+                    BAJ BAK BAL DOD DOE DOF DOG DOH DOI
+                    DOJ DOK DOL DON }
+        areas = { 
+            lublin_area
+        }
+        provinces = { 
+            rzeszów_province łańcut_province tarnobrzeg_province
+            lubaczów_province leżajsk_province nisko_province
+            stalowa_wola_province tarnobrzeg_province
+        }
+        icon = hre
+
+        variables = {
+            imperial_centralization = 0
+        }
+    }
+}

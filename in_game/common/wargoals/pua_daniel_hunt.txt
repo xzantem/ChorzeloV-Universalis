@@ -1,0 +1,15 @@
+﻿pua_daniel_hunt_goal = {
+	type = take_capital
+
+	war_name = "PUA_DANIEL_HUNT_WAR_NAME"
+
+	attacker = {
+		conquer_cost = 0.5
+		subjugate_cost = 0.5
+	}
+
+	defender = {
+	}
+	ticking_war_score = 0.5
+}
+

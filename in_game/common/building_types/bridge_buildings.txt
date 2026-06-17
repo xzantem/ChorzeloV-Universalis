@@ -1,0 +1,33 @@
+﻿repaired_rymanow_bridge = {
+	is_special = yes
+	is_foreign = no
+	pop_type = burghers
+	max_levels = 1
+
+	category = government_category
+
+	employment_size = road_maintenance_employment
+
+	town = yes
+	city = yes
+
+	build_time = medium_government_building
+
+	country_potential = {
+		always = no
+	}
+	allow = {
+		always = no
+	}
+
+	modifier = {
+		local_distance_from_capital_speed_propagation = 0.25
+		local_proximity_source = 50
+		army_movement_speed = 0.20
+	}
+
+	possible_production_methods = {
+		early_government_building_maintenance
+	}
+	construction_demand = basic_construction_needs
+}

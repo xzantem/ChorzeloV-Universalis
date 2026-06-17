@@ -1699,9 +1699,9 @@ NDiplomacy = {
 	STAB_HIT_GOOD_PEACE = -10
 	
 	#additive base values
-	ANTAGONISM_BASE_PER_LOCATION = 1 #fixed for any location - up from 0.4
-	ANTAGONISM_BASE_PER_LOCATION_DEVELOPMENT = 0.1 #multiplied by dev - up from 0.04
-	ANTAGONISM_BASE_PER_LOCATION_LOG_DEVELOPMENT = 1 #multiplied by a log2 scale of dev - up from 0.4
+	ANTAGONISM_BASE_PER_LOCATION = 0.7 #fixed for any location - up from 0.4
+	ANTAGONISM_BASE_PER_LOCATION_DEVELOPMENT = 0.07 #multiplied by dev - up from 0.04
+	ANTAGONISM_BASE_PER_LOCATION_LOG_DEVELOPMENT = 0.7 #multiplied by a log2 scale of dev - up from 0.4
 	ANTAGONISM_BASE_ATTACKER_GREAT_POWER_SCORE_MULTIPLIER = 0.01	# +50% cap, multiplied by attacker's GP score to provide antagonism increase
 	ANTAGONISM_BASE_DEFENDER_GREAT_POWER_SCORE_MULTIPLIER = 0.01	# -50% cap, multiplied by defender's GP score to provide antagonism reduction
 	ANTAGONISM_BASE_AE_INCREASE_FOR_NON_TARGET_MODIFIER = 0.33 # AE increase for countries that are not main targets of the war

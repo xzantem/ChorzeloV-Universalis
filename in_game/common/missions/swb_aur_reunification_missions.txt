@@ -1,0 +1,46 @@
+swb_aur_reunification_mission_pack = {
+	icon = empire_icon
+	chance = 1000
+	repeatable = no
+	player_playstyle = military
+
+	visible = {
+		game_has_missions_enabled = yes
+		OR = {
+			tag = SWB
+			tag = AUR
+		}
+	}
+
+	on_start = { }
+	on_completion = { }
+	on_abort = { }
+
+	mission_reunite_swiebodzin = {
+		icon = empire_icon
+		requires = { }
+		final = yes
+
+		enabled = {
+			OR = {
+				tag = SWB
+				tag = AUR
+			}
+			location:świebodzin = {
+				owner ?= root
+			}
+			location:święty_świebodzin = {
+				owner ?= root
+			}
+		}
+
+		duration = 0
+
+		on_completion = {
+			if = {
+				limit = { country_rank_level < 4 }
+				set_country_rank_effect = { rank = country_rank:rank_empire }
+			}
+		}
+	}
+}

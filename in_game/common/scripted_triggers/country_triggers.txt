@@ -60,27 +60,27 @@ can_upgrade_country_rank_empire = {
 		}
 	}
 	OR = {
-		total_population > 2000
-		total_true_faith_population > 1500
-		total_accepted_culture_population > 1000
+		total_population > 4000
+		total_true_faith_population > 3000
+		total_accepted_culture_population > 2000
 	}
 	prestige > 35
 	is_subject = no
 }
 can_upgrade_country_rank_kingdom = {
 	OR = {
-		total_population > 400
-		total_true_faith_population > 300
-		total_accepted_culture_population > 200
+		total_population > 800
+		total_true_faith_population > 600
+		total_accepted_culture_population > 400
 	}
 	prestige > 25		
 	is_subject = no
 }
 can_upgrade_country_rank_duchy = {
 	OR = {
-		total_population > 40
-		total_true_faith_population > 30
-		total_accepted_culture_population > 20
+		total_population > 80
+		total_true_faith_population > 60
+		total_accepted_culture_population > 40
 	}
 	prestige > 15
 }

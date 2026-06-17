@@ -1,0 +1,53 @@
+mcd_company_subject = {
+	subject_pays = subject_pays_vassal
+	color = subject_state_bank
+	level = 2
+	annullment_favours_required = 20
+
+	join_offensive_wars_always = {
+		NOT = { scope:actor ?= { is_subject_of = scope:recipient } }
+	}
+	join_offensive_wars_can_call = {
+		scope:actor ?= { is_subject_of = scope:recipient }
+	}
+	join_defensive_wars_always = {
+		always = yes
+	}
+
+	diplomatic_capacity_cost_scale = 0.0
+	strength_vs_overlord = -1.0
+
+	has_overlords_ruler = yes
+	will_join_independence_wars = yes
+	annexation_speed = 1
+	annexation_min_years_before = 10
+	annexation_min_opinion = 150
+	annexation_stall_opinion = 125
+	overlord_can_cancel = yes
+
+	can_overlord_build_roads = yes
+	can_overlord_build_buildings = yes
+	can_overlord_build_rgos = yes
+
+	has_limited_diplomacy = yes
+	fleet_basing_rights = yes
+	food_access = yes
+
+	can_change_rank = no
+	can_change_heir_selection = no
+
+	minimum_opinion_for_offer = 150
+	great_power_score_transfer = 0.25
+
+	institution_spread_to_overlord = monthly_institution_spread_mild
+	institution_spread_to_subject = monthly_institution_spread_mild
+
+	overlord_modifier = {
+		monthly_towards_decentralization = societal_value_tiny_monthly_move
+	}
+
+	subject_modifier = {
+		country_cabinet_efficiency = -0.10
+		loyalty_to_overlord = 50
+	}
+}

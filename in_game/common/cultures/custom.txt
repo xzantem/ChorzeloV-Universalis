@@ -10,7 +10,7 @@
 		silesian = kindred
 	}
 	culture_groups = {
-		świebodzin_group
+		swiebodzin_group
 		polish_group
 		slavic_group
 	}
@@ -27,8 +27,8 @@ pleśniak = {
 		silesian = kindred
 	}
 	culture_groups = {
-		tuchów_group
-		świebodzin_group
+		tuchow_group
+		swiebodzin_group
 		polish_group
 		slavic_group
 	}
@@ -45,7 +45,7 @@ meszniak = {
 		silesian = kindred
 	}
 	culture_groups = {
-		tuchów_group
+		tuchow_group
 		polish_group
 		slavic_group
 	}
@@ -78,7 +78,7 @@ tuchowiak = {
 		silesian = kindred
 	}
 	culture_groups = {
-		tuchów_group
+		tuchow_group
 		polish_group
 		slavic_group
 	}
@@ -131,7 +131,7 @@ maliniak = {
 		silesian = kindred
 	}
 	culture_groups = {
-		chorzelów_group
+		chorzelow_group
 		polish_group
 		russian_group
 		slavic_group
@@ -149,7 +149,7 @@ valoniak = {
 		silesian = kindred
 	}
 	culture_groups = {
-		chorzelów_group
+		chorzelow_group
 		polish_group
 		mielec_group
 		slavic_group
@@ -202,9 +202,25 @@ chorzelowian = {
 		silesian = kindred
 	}
 	culture_groups = {
-        chorzelów_group
+        chorzelow_group
 		polish_group
 		greek_group
+		slavic_group
+	}
+}
+warszawiak = {
+	language = polish_dialect
+	
+	color = map_ADM
+	
+	tags = { polish_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx  }
+
+	opinions = {
+		mazovian = kindred
+		silesian = kindred
+	}
+	culture_groups = {
+		polish_group
 		slavic_group
 	}
 }

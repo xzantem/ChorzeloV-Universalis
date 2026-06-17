@@ -1,4 +1,4 @@
-current_age = age_1_traditions
+﻿current_age = age_1_traditions
 
 countries = {
 	countries = {
@@ -134,6 +134,9 @@ countries = {
 				outward_vs_inward = -20
 				parliament = {
 					parliament_type = estate_parliament
+				}
+				reforms = {
+					krk_freecity
 				}
 				
 				privilege = {
@@ -697,16 +700,7 @@ countries = {
 				bolesław_dąbrowa
 				oleśno
 				mędrzechów
-				michałów 
-                wodzisław 
-                jędrzejów 
-                nagłowice 
-                imielno 
-                małogoszcz 
-                sobków 
-                kije 
-                pińczów
-				luborzyca 
+				luborzyca
 			}
 			our_cores_conquered_by_others = {
 			    święty_świebodzin
@@ -785,6 +779,109 @@ countries = {
 			country_rank = rank_kingdom
 			dynasty = ocłoń_dynasty
 			capital = świebodzin
+		}
+		PAU = {
+			own_control_core = {
+				michałów 
+                wodzisław 
+                jędrzejów 
+                nagłowice 
+                imielno 
+                małogoszcz 
+                sobków 
+                kije 
+                pińczów
+				łopuszno
+				mniów
+				strawczyn
+				riekoszów
+				chęciny
+				nowiny
+				miedziana-góra
+				zagnańsk
+				kielce
+				morawica
+				łączna
+				suchedniów
+				skarżysko-kamienna
+				skarżysko_kościelne
+				bliżyn
+				oksa
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = pau_paulinka
+				
+			    #Societal Values
+				centralization_vs_decentralization = 40
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -40
+				serfdom_vs_free_subjects = -10
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 50
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 20
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				#Estate Privileges
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+				
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = aristocratic_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+			}
+
+			country_rank = rank_duchy
+			dynasty = ocłoń_dynasty
+			capital = jędrzejów
 		}
 		AUR = {
 			own_control_core = {
@@ -1107,7 +1204,7 @@ countries = {
 				}
 
 				reforms = {
-					peasant_republic_reform
+					mcd_headquarters_reform
 				}
 				laws = {
 					censorship = limited_censorship
@@ -1132,6 +1229,59 @@ countries = {
 			dynasty = rzegocki_dynasty
 			capital = skołoszyn
 		}
+		MCB = {
+			type = building
+			starting_technology_level = 2
+			include = "catholic_republic_not_present"
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = mcd_company_selection
+				ruler = mcd_juleczka
+
+				centralization_vs_decentralization = 100
+				traditionalist_vs_innovative = -70
+				spiritualist_vs_humanist = 30
+				aristocracy_vs_plutocracy = 100
+				serfdom_vs_free_subjects = 100
+				mercantilism_vs_free_trade = 100
+				belligerent_vs_conciliatory = 50
+				quality_vs_quantity = 100
+				offensive_vs_defensive = 100
+				land_vs_naval = -100
+				capital_economy_vs_traditional_economy = 100
+				individualism_vs_communalism = 100
+				outward_vs_inward = 50
+
+				reforms = {
+					mcd_company_country
+				}
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = peasants_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+			}
+
+			country_rank = rank_county
+			dynasty = kocik_dynasty
+			capital = skołoszyn
+		}
 		TVI = {
 			own_control_core = {
 				borowa
@@ -1154,13 +1304,16 @@ countries = {
                 szydłów 
                 staszów 
                 bogoria 
-                łoniów 
-                klimontów 
-                koprzywnica 
-                samborzec 
-                obrazów 
-                sandomierz 
-                wilczyce 
+				masłów_pierwszy
+				pierzchnica
+				raków
+				daleszyce
+				łagów
+				górno
+				chmielnik_kielce
+				bieliny
+				bodzentyn
+				nowa_słupia
 			}
 			starting_technology_level = 2
 
@@ -1328,7 +1481,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = pua_ziółek
+				ruler = pua_kuk
 				
 			    centralization_vs_decentralization = 50
 				aristocracy_vs_plutocracy = -70
@@ -1387,7 +1540,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			dynasty = surman_dynasty
+			dynasty = kuk_dynasty
 			capital = czarna_dębica
 		}
 		FMB = {
@@ -1574,12 +1727,6 @@ countries = {
 				komańcza
 				zagórz
 			}
-			our_cores_conquered_by_others = {
-			    solina
-				baligród
-				cisna
-				lesko
-		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -1809,285 +1956,6 @@ countries = {
 			dynasty = goldberg_dynasty
 			capital = kolbuszowa
 		}
-		MAL = {
-			own_control_core = {
-				tarnobrzeg
-				baranów_sandomierski
-				nowa_dęba
-				grębów
-				gorzyce
-				bojanów
-				stalowa_wola
-				pysznica
-				zaleszany
-				radomyśl_nad_sanem
-				zaklików
-			}
-			starting_technology_level = 2
-
-			discovered_regions = {
-				custom_region
-			}
-
-			government = {
-				type = steppe_horde
-				heir_selection = cognatic_primogeniture
-				ruler = mal_mikusiwan
-
-				centralization_vs_decentralization = 50
-				aristocracy_vs_plutocracy = -70
-				serfdom_vs_free_subjects = -50
-				traditionalist_vs_innovative = -50
-				spiritualist_vs_humanist = -50
-				mercantilism_vs_free_trade = -20
-				offensive_vs_defensive = -25
-				land_vs_naval = 50
-				quality_vs_quantity = 33
-				belligerent_vs_conciliatory = 0
-				capital_economy_vs_traditional_economy = 95
-				individualism_vs_communalism = 30
-				outward_vs_inward = 30
-				parliament = {
-					parliament_type = estate_parliament
-				}
-
-				#Estate Privileges
-				privilege = {
-					#nobles
-					noble_leaders_only
-					banal_lordship
-					noble_serfdom_rights
-					nobles_land_rights
-					kormlenije
-
-					#clergy
-					clergy_literacy_rights
-					clergy_enforced_unity
-
-					#burghers
-					market_fairs
-					formal_guilds
-					building_roads_rights
-					trade_monopolies
-
-					#Commoners
-					allow_hunting
-					communal_lands
-				}
-
-				laws = {
-					feudal_de_jure_law = by_tradition
-					medieval_levy_law = noble_levies
-					royal_court_customs_law = aristocratic_court_policy
-					patriarchate_law = separated_patriarchate_policy
-					censorship = limited_censorship
-					education_masses_law = basic_religious_education
-					administrative_system = feudal_administration
-					cultural_traditions_law = martial_society
-					marriage_law = monogamous_marriage
-					heir_religion_law = heir_same_religion
-					legal_code_law = russkaya_pravda_policy
-					maritime_law = protect_trade_routes
-					piracy_law = anti_piracy_policy
-					distribution_of_power_law = dop_traditional_distribution_of_power
-					immigration_law = open_borders_law
-					mining_law = nobles_mining_law
-					coin_laws = gold_and_silver_coins
-				}
-
-			}
-
-			country_rank = rank_duchy
-			dynasty = iwanow_dynasty
-			capital = tarnobrzeg
-		}
-		BYD = {
-			own_control_core = {
-				sienawa adamówka wiązownica stary_dzików tryńcza
-				przeworsk laszki jarosław
-				annopol gościeradów trzydnik_duży dzierzkowice
-				kraśnik szastarka urzędów wilkołaz zakrzówek
-				józefów_nad_wisłą łaziska opole_lubelskie
-				chodel wilków karczmiska poniatowa
-				potok_wielki modliborzyce janów_lubelski
-				dzwola godziszów chrzanów_lubelski batorz
-				kazimierz_dolny wąwolnica nałęczów puławy
-				końskowola kurów markuszów żyrzyn baranów
-				abramów michów kamionka firlej ostrówek
-				lubartów niedźwiada serniki ostrów_lubelski
-				czemierniki siemień parczew
-				spiczyn łęczna wółka świdnik piaski jabłonna
-				krczonów rybczewice zakrzew wysokie żółkiewka
-				niemce garbów jastków wojciechów konopnica lublin
-				głusk bełżyce borzechów niedrzwica_duża strzyżewice bychawa
-				turobin goraj radecznica frampol biłgoraj
-				tereszpol księżpol biszcza potok_górny tarnogród
-			}
-			our_cores_conquered_by_others = {
-			    gać
-				kańczuga
-				zarzecze
-				jawornik_polski
-				pruchnik
-				roźwienica
-				rokietnica
-				pawłosiów
-				chłopice
-				radymno
-				dubiecko
-				bircza
-				krzywcza
-				krasiczyn
-				fredropol
-				przemyśl
-				żurawica
-				orły
-		    }
-			starting_technology_level = 2
-
-			discovered_regions = {
-				custom_region
-			}
-
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = byd_kusek
-				
-			    centralization_vs_decentralization = 20
-				traditionalist_vs_innovative = -60
-				spiritualist_vs_humanist = -60
-				aristocracy_vs_plutocracy = -70
-				serfdom_vs_free_subjects = -60
-				mercantilism_vs_free_trade = -70
-				belligerent_vs_conciliatory = -20
-				quality_vs_quantity = -5
-				offensive_vs_defensive = 50
-				land_vs_naval = 20
-				capital_economy_vs_traditional_economy = 60
-				individualism_vs_communalism = -10
-				outward_vs_inward = 70
-
-				privilege = {
-					#Nobles
-					elaborate_court_ceremonies
-					noble_serfdom_rights
-					manorial_courts
-
-					#Clergy
-					embellish_great_works_of_faith
-					clergy_powerful_dioceses
-					clergy_strengthen_faith
-
-					#Burghers
-					formal_guilds
-					land_of_commerce
-					market_fairs
-					sponsor_maritime_contracts
-					control_over_monetary_policy
-					control_over_the_coinage
-
-					#Commoners
-					access_to_royal_and_ecclesiastical_courts
-				}
-				reforms = {
-					autocracy
-				}
-
-				laws = {
-					legal_code_law = byzantine_law
-					distribution_of_power_law = dop_favor_the_ruler
-					feudal_de_jure_law = by_blood
-					administrative_system = feudal_administration
-					patriarchate_law = state_patriarchate_policy
-				}
-			}
-
-			country_rank = rank_empire
-			dynasty = kusek_dynasty
-			capital = lublin
-		}
-		JUD = {
-			own_control_core = {
-				leżajsk
-				nowa_sarzyna
-				kuryłówka
-				grodzisko_dolne
-			}
-			starting_technology_level = 2
-
-			discovered_regions = {
-				custom_region
-			}
-
-			government = {
-				type = republic
-				heir_selection = cognatic_primogeniture
-				ruler = jud_netanyahu
-
-				#Societal Values
-				centralization_vs_decentralization = 60
-				traditionalist_vs_innovative = -30
-				spiritualist_vs_humanist = -50
-				aristocracy_vs_plutocracy = 10
-				serfdom_vs_free_subjects = 10
-				mercantilism_vs_free_trade = 20
-				belligerent_vs_conciliatory = 70
-				quality_vs_quantity = -10
-				offensive_vs_defensive = -10
-				land_vs_naval = 10
-				capital_economy_vs_traditional_economy = 60
-				individualism_vs_communalism = 20
-				outward_vs_inward = -30
-				parliament = {
-					parliament_type = estate_parliament
-				}
-
-				#Estate Privileges
-				privilege = {	
-					#nobles
-					nobles_land_rights
-					noble_fortification_licenses
-
-					#burghers
-					commercial_advisory_council
-					burghers_land_rights
-					building_rights
-					trade_monopolies
-					formal_guilds
-
-					#clergy
-					clergy_literacy_rights
-					clergy_enforced_unity
-					clerical_advisory_council
-
-					#commoners
-					peasants_allowed_weapons_privilege
-					peasants_free_peasantry
-					partial_yield
-				}
-
-				laws = {
-					censorship = limited_censorship
-					republican_foundation_law = republicanism_policy
-					education_masses_law = basic_religious_education
-					administrative_system = central_councils
-					cultural_traditions_law = civil_society
-					marriage_law = monogamous_marriage
-					heir_religion_law = heir_same_religion
-					legal_code_law = civil_law_policy
-					distribution_of_power_law = dop_traditional_distribution_of_power
-					immigration_law = open_borders_law
-					mining_law = burghers_mining_law
-					coin_laws = gold_and_silver_coins
-				}
-
-			}
-
-			country_rank = rank_county
-			dynasty = netanyahu_dynasty
-			capital = leżajsk
-		}
 		WAL = {
 			own_control_core = {
 				kamień
@@ -2111,26 +1979,6 @@ countries = {
 				łańcut
 				markowa
 			}
-			our_cores_conquered_by_others = {
-			    gać
-				kańczuga
-				zarzecze
-				jawornik_polski
-				pruchnik
-				roźwienica
-				rokietnica
-				pawłosiów
-				chłopice
-				radymno
-				dubiecko
-				bircza
-				krzywcza
-				krasiczyn
-				fredropol
-				przemyśl
-				żurawica
-				orły
-		    }
 			starting_technology_level = 2
 
 			discovered_regions = {
@@ -2190,7 +2038,7 @@ countries = {
 					no_labor_sunday
 				}
 		    }
-			country_rank = rank_kingdom
+			country_rank = rank_duchy
 			dynasty = surman_dynasty
 			capital = rzeszów
 		}
@@ -2307,6 +2155,15 @@ countries = {
 				gać
 				zarzecze
 				lesko
+				medyka
+				stubno
+				przeworsk
+				tryńcza
+				jarosław
+				laszki
+				wiązownica
+				sienawa
+				adamówka
 			}
 			starting_technology_level = 2
 
@@ -2454,7 +2311,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
+				ruler = mag_seba
 
 				parliament = {
 					parliament_type = estate_parliament
@@ -2500,17 +2357,12 @@ countries = {
 				hażlach
 				dębowiec_cieszyn
 				skoczów
-				cieszyn
-				goleszów
-				ustroń
-				brenna
-				wisła
+				cieszyn				
 				istebna
 				havirov
 				cesky_tesin
 				trinec
 				jablunkov
-				cieszyn
 	        }
 			starting_technology_level = 2
 
@@ -2521,7 +2373,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
+				ruler = kam_kamiński
 
 				parliament = {
 					parliament_type = estate_parliament
@@ -2557,7 +2409,7 @@ countries = {
 			government = {
 				type = tribe
 				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
+				ruler = szm_szamanek
 
 				parliament = {
 					parliament_type = estate_parliament
@@ -2574,7 +2426,7 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			dynasty = zełenski_dynasty
+			dynasty = szablowski_dynasty
 			capital = gilowice
 		}
 		ADM = {
@@ -2594,7 +2446,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
+				ruler = adm_grubykolega
 
 				parliament = {
 					parliament_type = estate_parliament
@@ -2611,17 +2463,30 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			dynasty = zełenski_dynasty
+			dynasty = warszawa_dynasty
 			capital = wisła
 		}
 		BLG = {
 			own_control_core = {				
-				baćkowice
-				iwaniska
-				sadowie
-				opatów
+				baćkowice 
+				sadowie 
+				opatów 
+				wojciechowice 
+				iwaniska 
 				lipnik 
-				wojciechowice
+				ożarów
+				tarłów
+				waśniów
+				kunów
+				bodzechów
+				ostrów_świętokrzyski
+				ćmielów
+				bałtów
+				pawłów
+				brody
+				starachowice
+				wąchock
+				mirzec
 			}
 			starting_technology_level = 2
 
@@ -2632,7 +2497,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
+				ruler = blg_belg
 
 				parliament = {
 					parliament_type = estate_parliament
@@ -2649,60 +2514,25 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			dynasty = zełenski_dynasty
+			dynasty = brisse_dynasty
 			capital = opatów
-		}
-		BUG = {
-			own_control_core = {				
-				jarocin
-				ulanów
-				harasiuki
-				nisko
-				rudnik_nad_sanem
-				jeżowe
-				krzeszów
-			}
-			starting_technology_level = 2
-
-			discovered_regions = {
-				custom_region
-			}
-
-			government = {
-				type = monarchy
-				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
-
-				parliament = {
-					parliament_type = estate_parliament
-				}
-
-				privilege = {
-					#Clergy
-					clergy_powerful_dioceses
-					#Burghers
-					market_fairs
-					cossack_identity
-				}
-
-			}
-
-			country_rank = rank_duchy
-			dynasty = zełenski_dynasty
-			capital = ulanów
 		}
 		VOI = {
 			own_control_core = {				
-				łopuszno
-				mniów
-				strawczyn
-				riekoszów
-				chęciny
-				nowiny
-				miedziana-góra
-				zagnańsk
-				kielce
-				morawica
+				krasocin
+				kluczewsko
+				włoszczowa
+				radków
+				secemin
+				koniecpol
+				stąporków
+				gowarczów
+				końskie
+				smyków
+				radoszyce
+				ruda_maleniecka
+				słupia_konecka
+				fałków
 			}
 			starting_technology_level = 2
 
@@ -2713,7 +2543,7 @@ countries = {
 			government = {
 				type = monarchy
 				heir_selection = cognatic_primogeniture
-				ruler = ukr_zełenski
+				ruler = void_tomek
 
 				parliament = {
 					parliament_type = estate_parliament
@@ -2730,8 +2560,3266 @@ countries = {
 			}
 
 			country_rank = rank_duchy
-			dynasty = zełenski_dynasty
-			capital = kielce
+			dynasty = jasiński_dynasty
+			capital = koniecpol
+		}
+
+		### IMPERIUM NERDZISKOVIUM ###
+		BYD = {
+			own_control_core = {
+				garbów jastków wojciechów konopnica lublin
+				bełżyce borzechów niedrzwica_duża strzyżewice 
+
+				annopol gościeradów trzydnik_duży dzierzkowice
+				kraśnik szastarka urzędów wilkołaz zakrzówek
+
+				nałęczów markuszów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = byd_kusek
+				
+			    centralization_vs_decentralization = 20
+				traditionalist_vs_innovative = -60
+				spiritualist_vs_humanist = -60
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -60
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = -5
+				offensive_vs_defensive = 50
+				land_vs_naval = 20
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = -10
+				outward_vs_inward = 70
+
+				privilege = {
+					#Nobles
+					elaborate_court_ceremonies
+					noble_serfdom_rights
+					manorial_courts
+
+					#Clergy
+					embellish_great_works_of_faith
+					clergy_powerful_dioceses
+					clergy_strengthen_faith
+
+					#Burghers
+					formal_guilds
+					land_of_commerce
+					market_fairs
+					sponsor_maritime_contracts
+					control_over_monetary_policy
+					control_over_the_coinage
+
+					#Commoners
+					access_to_royal_and_ecclesiastical_courts
+				}
+				reforms = {
+					autocracy
+				}
+
+				laws = {
+					legal_code_law = byzantine_law
+					distribution_of_power_law = dop_favor_the_ruler
+					feudal_de_jure_law = by_blood
+					administrative_system = feudal_administration
+					patriarchate_law = state_patriarchate_policy
+				}
+			}
+
+			country_rank = rank_kingdom
+			dynasty = kusek_dynasty
+			capital = lublin
+		}
+		MAL = {
+			own_control_core = {
+				tarnobrzeg
+				baranów_sandomierski
+				nowa_dęba
+				grębów
+				gorzyce
+				bojanów
+				stalowa_wola
+				pysznica
+				zaleszany
+				radomyśl_nad_sanem
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = steppe_horde
+				heir_selection = cognatic_primogeniture
+				ruler = mal_mikusiwan
+
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -50
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = 50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = 30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {
+					#nobles
+					noble_leaders_only
+					banal_lordship
+					noble_serfdom_rights
+					nobles_land_rights
+					kormlenije
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+					trade_monopolies
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = russkaya_pravda_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = iwanow_dynasty
+			capital = tarnobrzeg
+		}
+		BUG = {
+			own_control_core = {				
+				zaklików potok_wielki modliborzyce janów_lubelski dzwola godziszów chrzanów_lubelski batorz
+
+				jarocin harasiuki krzeszów biszcza potok_górny tarnogród # for daniel after event
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = bug_bugi
+
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#Clergy
+					clergy_powerful_dioceses
+					#Burghers
+					market_fairs
+					cossack_identity
+				}
+
+			}
+
+			country_rank = rank_duchy
+			dynasty = bugajska_dynasty
+			capital = janów_lubelski
+		}
+		KOT = {
+			own_control_core = {
+				ulanów nisko rudnik_nad_sanem
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = nisko
+		}
+		MRD = {
+			own_control_core = {
+				jeżowe nowa_sarzyna
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = jeżowe
+		}
+		ERC = {
+			own_control_core = {
+				kuryłówka 
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = nowa_sarzyna
+		}
+		JUD = {
+			own_control_core = {
+				leżajsk grodzisko_dolne
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = republic
+				heir_selection = cognatic_primogeniture
+				ruler = jud_netanyahu
+
+				#Societal Values
+				centralization_vs_decentralization = 60
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = 10
+				serfdom_vs_free_subjects = 10
+				mercantilism_vs_free_trade = 20
+				belligerent_vs_conciliatory = 70
+				quality_vs_quantity = -10
+				offensive_vs_defensive = -10
+				land_vs_naval = 10
+				capital_economy_vs_traditional_economy = 60
+				individualism_vs_communalism = 20
+				outward_vs_inward = -30
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				#Estate Privileges
+				privilege = {	
+					#nobles
+					nobles_land_rights
+					noble_fortification_licenses
+
+					#burghers
+					commercial_advisory_council
+					burghers_land_rights
+					building_rights
+					trade_monopolies
+					formal_guilds
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+					clerical_advisory_council
+
+					#commoners
+					peasants_allowed_weapons_privilege
+					peasants_free_peasantry
+					partial_yield
+				}
+
+				laws = {
+					censorship = limited_censorship
+					republican_foundation_law = republicanism_policy
+					education_masses_law = basic_religious_education
+					administrative_system = central_councils
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = burghers_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+
+			}
+
+			country_rank = rank_county
+			dynasty = netanyahu_dynasty
+			capital = leżajsk
+		}
+		BYA = {
+			own_control_core = {
+				radecznica turobin goraj
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = radecznica
+		}
+		BYB = {
+			own_control_core = {
+				tereszpol aleksandrów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = tereszpol
+		}
+		BYC = {
+			own_control_core = {
+				księżpol obsza łukowa
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = księżpol
+		}
+		BYE = {
+			own_control_core = {
+				józefów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = józefów
+		}
+		BYF = {
+			own_control_core = {
+				frampol biłgoraj
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = biłgoraj
+		}
+		BYG = {
+			own_control_core = {
+				stary_dzików oleszyce
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = stary_dzików
+		}
+		BYH = {
+			own_control_core = {
+				wielkie_oczy lubaczów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = lubaczów
+		}
+		BYI = {
+			own_control_core = {
+				cieszanów horyniec-zdrój narol
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = cieszanów
+		}
+
+		BAR = {
+			own_control_core = {
+				spiczyn łęczna wółka świdnik piaski jabłonna
+				krczonów rybczewice zakrzew wysokie żółkiewka
+				mełgiew trawniki bychawa głusk fajsławice
+
+				ludwin milejów puchaczów cyców
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = bar_bartosz
+				
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+			}
+
+			country_rank = rank_kingdom
+			dynasty = kusek_dynasty
+			capital = wółka
+		}
+		FRZ = {
+			own_control_core = {
+				zamość stary_zamość sitno łabunie adamów_zamość krasnobród szczebrzeszyn zwierzyniec nielisz sułów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_duchy
+			# dynasty = surman_dynasty
+			capital = zamość
+		}
+		MIŁ = {
+			own_control_core = {
+				dubienka białopole wojsławice dorohusk żmudź leśniowice ruda-huta chełm
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_duchy
+			# dynasty = surman_dynasty
+			capital = chełm
+		}
+		WOD = {
+			own_control_core = {
+				susiec bełżec tomaszów_lubelski tarnawatka krynice
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = tomaszów_lubelski
+		}
+		BAA = {
+			own_control_core = {
+				lubycza_królewska jarczów ulhówek telatyn
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = jarczów
+		}
+		BAB = {
+			own_control_core = {
+				łaszczów tyszowice rachanie
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = tyszowice
+		}
+		BAC = {
+			own_control_core = {
+				dołhobyczów mircze werbkowice hrubieszów horodło
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = hrubieszów
+		}
+		BAD = {
+			own_control_core = {
+				treszczany uchanie 
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = uchanie
+		}
+		BAE = {
+			own_control_core = {
+				rudnik gorzków izbica kraśniczyn
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = rudnik
+		}
+		BAF = {
+			own_control_core = {
+				krasnystaw siennica_różana łopiennik_górny
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = krasnystaw
+		}
+		BAG = {
+			own_control_core = {
+				skierbieszów miączyn komarów-osada grabowiec
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = skierbieszów
+		}
+		BAH = {
+			own_control_core = {
+				kamień_lubelski sawin pokrówka
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = sawin
+		}
+		BAI = {
+			own_control_core = {
+				wierzbica siedliszcze rejowiec_fabryczny rejowiec
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = siedliszcze
+		}
+		BAJ = {
+			own_control_core = {
+				włodawa hanna wola_urhuska
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = hanna
+		}
+		BAK = {
+			own_control_core = {
+				hańsk wyryki
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = wyryki
+		}
+		BAL = {
+			own_control_core = {
+				stary_brus urszulin
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = urszulin
+		}
+
+		DOM = {
+			own_control_core = {
+				abramów michów kamionka firlej ostrówek
+				lubartów niedźwiada serniki ostrów_lubelski
+				jeziorany kock uścimów
+
+				kazimierz_dolny wąwolnica puławy
+				końskowola kurów żyrzyn baranów
+				
+				niemce
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = dom_dominik
+				
+				centralization_vs_decentralization = 50
+				aristocracy_vs_plutocracy = -70
+				serfdom_vs_free_subjects = -50
+				traditionalist_vs_innovative = -25
+				spiritualist_vs_humanist = -50
+				mercantilism_vs_free_trade = -20
+				offensive_vs_defensive = -25
+				land_vs_naval = -50
+				quality_vs_quantity = 33
+				belligerent_vs_conciliatory = 0
+				capital_economy_vs_traditional_economy = 95
+				individualism_vs_communalism = 30
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+				
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#Commoners
+					allow_hunting
+					communal_lands
+				}
+				laws = {
+					feudal_de_jure_law = by_tradition
+					medieval_levy_law = noble_levies
+					royal_court_customs_law = aristocratic_court_policy
+					patriarchate_law = separated_patriarchate_policy
+					censorship = limited_censorship
+					administrative_system = feudal_administration
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+					coin_laws = gold_and_silver_coins
+				}
+			}
+
+			country_rank = rank_kingdom
+			dynasty = kusek_dynasty
+			capital = niemce
+		}
+		RZY = {
+			own_control_core = {
+				krzywda wola_mysłowska stoczek_łukowski stanin
+				kłoczew ryki dęblin stężyca 
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_duchy
+			# dynasty = surman_dynasty
+			capital = dęblin
+		}
+		RUD = {
+			own_control_core = {
+				międrzyrzec_podlaski drelów łomazy rossosz 
+				wisznice tuczna sosnówka piszczac
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_duchy
+			# dynasty = surman_dynasty
+			capital = łomazy
+		}
+		KRC = {
+			own_control_core = {
+				józefów_nad_wisłą łaziska opole_lubelskie chodel
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = opole_lubelskie
+		}
+		DOA = {
+			own_control_core = {
+				wilków karczmiska poniatowa
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = wilków
+		}
+		DOB = {
+			own_control_core = {
+				ułęż nowodwór
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = ułęż
+		}
+		DOC = {
+			own_control_core = {
+				biała_podlaska
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = biała_podlaska
+		}
+		DOD = {
+			own_control_core = {
+				janów_podlaski konstantynów leśna_podlaska 
+				 rokitno 
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = janów_podlaski
+		}
+		DOE = {
+			own_control_core = {
+				adamów_łuków serokomla
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = adamów_łuków
+		}
+		DOF = {
+			own_control_core = {
+				zalesie terespol kodeń sławatycze
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = terespol
+		}
+		DOG = {
+			own_control_core = {
+				 łuków trebieszów
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = łuków
+		}
+		DOH = {
+			own_control_core = {
+				borki ulan-majorat wojcieszków
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = borki
+		}
+		DOI = {
+			own_control_core = {
+				radzyń_podlaski kąkolewnica wohyń komarówka_podlaska
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = radzyń_podlaski
+		}
+		DOJ = {
+			own_control_core = {
+				czemierniki
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = czemierniki
+		}
+		DOK = {
+			own_control_core = {
+				sosnowica podedwórze
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = sosnowica
+		}
+		DOL = {
+			own_control_core = {
+				dębowa_kłoda jabłoń
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = jabłoń
+		}
+		DON = {
+			own_control_core = {
+				milanów parczew siemień
+			}
+			starting_technology_level = 2
+
+			discovered_regions = {
+				custom_region
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				# ruler = wal_mateusz
+					
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = 20
+				spiritualist_vs_humanist = 10
+				aristocracy_vs_plutocracy = -90
+				serfdom_vs_free_subjects = -70
+				mercantilism_vs_free_trade = -70
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -70
+				land_vs_naval = -60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = 0
+
+				reforms = {
+					feudal_nobility
+					agricultural_cultivation
+				}
+
+				laws = {
+					language_of_pleading = language_of_pleading_court
+				}
+
+				privilege = {
+
+					#Nobles
+					nobles_land_rights
+					noble_serfdom_rights
+					nobility_council
+
+					#Clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clergy_papal_emissary
+
+					#Burghers
+					polish_merchant_seal
+					novi_fori
+					urban_development_grants
+					building_rights
+					land_of_commerce
+
+					#Commoners
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					no_labor_sunday
+				}
+		    }
+			country_rank = rank_county
+			# dynasty = surman_dynasty
+			capital = parczew
 		}
 	}
 }

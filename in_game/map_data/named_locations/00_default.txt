@@ -60,9 +60,6 @@ seazone52 = 00A84E
 
 seazone53 = 00B551
 seazone54 = 00C458
-seazone55 = 00D861
-seazone56 = 00ED6A
-seazone57 = 00FF6E
 
 seazone58 = D65D35
 seazone59 = EA603A
@@ -77,11 +74,6 @@ seazone66 = 38150E
 seazone67 = 00FF15
 seazone68 = 005104
 seazone69 = 00EA13
-seazone70 = 00D611
-seazone71 = 00B70F
-seazone72 = 00A30D
-seazone73 = 008E09
-seazone74 = 007007
 
 seazone75 = FF51B3
 seazone76 = EA4BA5
@@ -95,7 +87,6 @@ ocean2 = 68C2E2
 ocean3 = 75DAFF
 ocean4 = 8EE1FF
 ocean5 = BAECFF
-ocean6 = DDF6FF
 
 wasteland1 = 9e0142
 wasteland2 = d53e4f
@@ -146,11 +137,11 @@ osiek_jasielski = 8C8446
 nowy_żmigród = A59C52
 krempna = B2A859
 
-baranów_sandomierski = 7F6E19
-nowa_dęba = 99841E
-tarnobrzeg = B29A23
-grębów = CCB028
-gorzyce = E5C62D
+baranów_sandomierski = 7C6318
+nowa_dęba = 997C1E
+tarnobrzeg = AF8C23
+grębów = CCA328
+gorzyce = E2B52D
 
 majdan_królewski = 7F4C1F
 cmolas = 995B26
@@ -246,6 +237,12 @@ roźwienica = 16E0A7
 pruchnik = 18F4B6
 
 stary_dzików = 197D8E
+oleszyce = 1B8899
+wielkie_oczy = 1D93A5
+lubaczów = 209EB2
+cieszanów = 22AABF
+horyniec-zdrój = 24B5CC
+narol = 27C1D8
 
 besko = 5E6609
 zarszyn = 757F0B
@@ -269,6 +266,8 @@ dubiecko = 0011B2
 krzywcza = 0013BF
 żurawica = 0014CC
 orły = 0015D8
+medyka = 0016E5
+stubno = 0018F2
 
 lutowiska = 4BB22E
 czarna_bieszczady = 55CC35
@@ -489,6 +488,7 @@ jędrzejów = BF82AB
 nagłowice = B279A0
 imielno = 996889
 małogoszcz = CC8AB7
+oksa = E59CCE
 
 sobków = 719964
 kije = 7BA56D
@@ -519,6 +519,8 @@ samborzec = 8FBAD8
 obrazów = 7EA4BF
 sandomierz = 97C4E5
 wilczyce = 86AFCC
+dwikozy = 9FCFF2
+zawichost = A8DAFF
 
 annopol = C014FF
 gościeradów = B112EA
@@ -565,22 +567,38 @@ lubartów = 8F4DC1
 niedźwiada = 603584
 serniki = 4D2B6B
 ostrów_lubelski = 3E2356
+jeziorany = 241533
+kock = 1B1026
+uścimów = 2D1A3F
 
-czemierniki = 40D317
-siemień = 39BF15
-parczew = 32A512
-
-spiczyn = EF7117
-łęczna = E06A16
-wółka = FF7919
-świdnik = 662E0A
+świdnik = EA6B17
+mełgiew = 662E0A
 piaski = 75350B
 jabłonna = D16014
 krczonów = 93440E
 rybczewice = 843C0D
 zakrzew = C15C13
 wysokie = B25411
-żółkiewka = A34D10
+trawniki = 3F1C06
+bychawa = 542508
+głusk = FF7119
+
+żółkiewka = 14CCCC
+rudnik = 13BFBF
+gorzków = 11B2B2
+izbica = 0F9999
+kraśniczyn = 0A6666
+siennica_różana = 0B7272
+krasnystaw = 0E8C8C
+łopiennik_górny = 0C7F7F
+fajsławice = 10A5A5
+
+spiczyn = BFB424
+łęczna = B2A821
+ludwin = A59C1F 
+milejów = 99901D 
+puchaczów = 8C841A
+cyców = 7F7818
 
 niemce = 268E6C
 garbów = 2A9E77
@@ -588,16 +606,14 @@ jastków = 2EAD83
 wojciechów = 3CE0A9
 konopnica = 32BC8E
 lublin = 227F60
-głusk = 175641
 bełżyce = 40EFB5
 borzechów = 44FFC0
 niedrzwica_duża = 38D19E
 strzyżewice = 1C6B51
-bychawa = 134736
+wółka = 0F382A
 
 turobin = 421B5B
 goraj = 502170
-radecznica = 311444
 frampol = 5F2784
 biłgoraj = 7C34AD
 tereszpol = 6E2D99
@@ -605,6 +621,122 @@ księżpol = 8B3AC1
 biszcza = 9A40D6
 potok_górny = B949FF
 tarnogród = A846EA
+aleksandrów = 1B0B26
+łukowa = 240F33
+obsza = 2D133F
+józefów = 37164C
+
+radecznica = 594C11
+sułów = 665714
+szczebrzeszyn = 7F6C19
+zwierzyniec = 8C771C
+nielisz = 726116
+stary_zamość = 4C410F
+zamość = E5C62D
+adamów_zamość = F2D130
+krasnobród = FFDD32
+skierbieszów = CCB028
+sitno = BFA526
+łabunie = D8BB2B
+grabowiec = 99841E
+miączyn = A58F21
+komarów-osada = B29A23
+
+susiec = 737F3D
+bełżec = 7E8C43
+tomaszów_lubelski = 95A54F
+tarnawatka = A1B255
+krynice = ADBF5B
+lubycza_królewska = 8A9949
+jarczów = C4D868
+rachanie = B8CC61
+ulhówek = CFE56E
+telatyn = DBF274
+łaszczów = E6FF7A
+tyszowice = 687238
+
+dołhobyczów = BE66CC
+mircze = B25FBF
+werbkowice = A659B2
+treszczany = 9A52A5
+uchanie = 8E4C99
+hrubieszów = 82468C
+horodło = 763F7F
+
+dubienka = 7F5731
+białopole = 8C6036
+wojsławice = B27A45
+dorohusk = 99683B
+żmudź = A57140
+leśniowice = BF824A
+kamień_lubelski = CC8B4F
+ruda-huta = 593C22
+chełm = D89454
+pokrówka = E59D59
+sawin = 442E1A
+wierzbica = 664527
+siedliszcze = 724E2C
+rejowiec_fabryczny = FFAE63
+rejowiec = F2A55E
+
+wola_urhuska = 613A82
+włodawa = 683F8C
+hanna = 714499
+hańsk = 8450B2
+wyryki = 7B4AA5
+stary_brus = 8E56BF
+urszulin = 975BCC
+
+sosnowica = 5F6661
+podedwórze = 6B726E
+dębowa_kłoda = 9BA59F
+jabłoń = 838C86
+milanów = 8F9992
+parczew = B3BFB7
+siemień = A7B2AB
+
+czemierniki = 6E7F2C
+borki = 7A8C31
+ulan-majorat = 859935
+radzyń_podlaski = 9BB23E
+kąkolewnica = A6BF42
+wohyń = B1CC47
+komarówka_podlaska = BCD84B
+
+serokomla = 7F753A
+adamów_łuków = 8C8040
+krzywda = 998C46
+wola_mysłowska = A5984C
+stoczek_łukowski = B2A452
+stanin = CCBB5D
+wojcieszków = BFAF57
+łuków = D8C763
+trebieszów = E5D269
+
+ułęż = 417F31
+nowodwór = 478C36
+kłoczew = 4E993B
+ryki = 54A540
+dęblin = 65C14B
+stężyca = 5BB245
+
+międrzyrzec_podlaski = 313D59
+drelów = 384566
+łomazy = 3F4E72
+rossosz = 47587F
+wisznice = 4E618C
+sosnówka = 556999
+tuczna = 637BB2
+sławatycze = 5C72A5
+kodeń = 6B84BF
+terespol = 728DCC
+piszczac = 7995D8
+zalesie = 809EE5
+rokitno = 8EB0FF
+biała_podlaska = 87A7F2
+leśna_podlaska = 2A344C
+konstantynów = 232C3F
+janów_podlaski = 1C2333
 
 miedźna = C98E55
 goczałkowice-zdrój = E09E60
@@ -667,6 +799,43 @@ opatów = C18359
 wojciechowice = A8714D
 iwaniska = CE8B5F
 lipnik = B57A53
+ożarów = F2A16F
+tarłów = FFAA75
+
+waśniów = 5D8ED8
+kunów = 5786CC
+bodzechów = 527DBF
+ostrów_świętokrzyski = 4C75B2
+ćmielów = 476DA5
+bałtów = 416499
+
+pawłów = 998D55
+brody = A5995C
+starachowice = B2A563
+wąchock = BFB16B
+mirzec = CCBD72
+
+łączna = 4C3F00
+suchedniów = 594A00
+skarżysko-kamienna = 725F00
+skarżysko_kościelne = 665500
+bliżyn = 7F6A00
+
+stąporków = 54663F
+gowarczów = 5F7247
+końskie = 697F4F
+smyków = 748C56
+radoszyce = 89A566
+ruda_maleniecka = 7E995E
+słupia_konecka = 93B26E
+fałków = 9EBF76
+
+krasocin = 4C0043
+kluczewsko = 59004E
+włoszczowa = 66005A
+radków = 720065
+secemin = 7F0070
+koniecpol = 8C007B
 
 łopuszno = 9DEBF2
 mniów = 8EF2DC
@@ -688,6 +857,4 @@ bieliny = 4B7F75
 nowa_słupia = 3C665E
 łagów = 345952
 raków = 2D4C46
-
-
 

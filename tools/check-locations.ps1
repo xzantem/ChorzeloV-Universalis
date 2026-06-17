@@ -139,6 +139,12 @@ public static class MapColorReader {
         }
     }
 
+    public static int GetWidth(string path) {
+        using (var bmp = new Bitmap(path)) {
+            return bmp.Width;
+        }
+    }
+
     public static string[] ReadUniqueHexColorsChunk(string path, int startY, int rowCount) {
         using (var bmp = new Bitmap(path)) {
             int safeRowCount = Math.Min(rowCount, bmp.Height - startY);
@@ -209,6 +215,96 @@ public static class MapColorReader {
             }
         }
     }
+
+    public static string[] FindFirstOccurrencesChunk(string path, int startY, int rowCount, string[] targetHexes) {
+        using (var bmp = new Bitmap(path)) {
+            int safeRowCount = Math.Min(rowCount, bmp.Height - startY);
+            var rect = new Rectangle(0, startY, bmp.Width, safeRowCount);
+            var data = bmp.LockBits(rect, ImageLockMode.ReadOnly, bmp.PixelFormat);
+            try {
+                int stride = Math.Abs(data.Stride);
+                int len = stride * safeRowCount;
+                byte[] bytes = new byte[len];
+                Marshal.Copy(data.Scan0, bytes, 0, len);
+
+                var targetSet = new HashSet<int>();
+                foreach (string hex in targetHexes) {
+                    if (string.IsNullOrWhiteSpace(hex)) {
+                        continue;
+                    }
+
+                    targetSet.Add(Convert.ToInt32(hex, 16));
+                }
+
+                var found = new Dictionary<int, string>();
+                var palette = bmp.Palette;
+                for (int y = 0; y < safeRowCount; y++) {
+                    int row = y * stride;
+                    if (bmp.PixelFormat == PixelFormat.Format24bppRgb) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            int i = row + x * 3;
+                            int rgb = (bytes[i + 2] << 16) | (bytes[i + 1] << 8) | bytes[i];
+                            if (targetSet.Contains(rgb) && !found.ContainsKey(rgb)) {
+                                found[rgb] = rgb.ToString("X6") + "|" + x + "|" + (startY + y);
+                            }
+                        }
+                    }
+                    else if (
+                        bmp.PixelFormat == PixelFormat.Format32bppArgb ||
+                        bmp.PixelFormat == PixelFormat.Format32bppRgb ||
+                        bmp.PixelFormat == PixelFormat.Format32bppPArgb) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            int i = row + x * 4;
+                            int rgb = (bytes[i + 2] << 16) | (bytes[i + 1] << 8) | bytes[i];
+                            if (targetSet.Contains(rgb) && !found.ContainsKey(rgb)) {
+                                found[rgb] = rgb.ToString("X6") + "|" + x + "|" + (startY + y);
+                            }
+                        }
+                    }
+                    else if (bmp.PixelFormat == PixelFormat.Format8bppIndexed) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            Color c = palette.Entries[bytes[row + x]];
+                            int rgb = (c.R << 16) | (c.G << 8) | c.B;
+                            if (targetSet.Contains(rgb) && !found.ContainsKey(rgb)) {
+                                found[rgb] = rgb.ToString("X6") + "|" + x + "|" + (startY + y);
+                            }
+                        }
+                    }
+                    else if (bmp.PixelFormat == PixelFormat.Format4bppIndexed) {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            int b = bytes[row + (x / 2)];
+                            int index = ((x & 1) == 0) ? ((b >> 4) & 0x0F) : (b & 0x0F);
+                            Color c = palette.Entries[index];
+                            int rgb = (c.R << 16) | (c.G << 8) | c.B;
+                            if (targetSet.Contains(rgb) && !found.ContainsKey(rgb)) {
+                                found[rgb] = rgb.ToString("X6") + "|" + x + "|" + (startY + y);
+                            }
+                        }
+                    }
+                    else {
+                        for (int x = 0; x < bmp.Width; x++) {
+                            Color c = bmp.GetPixel(x, startY + y);
+                            int rgb = (c.R << 16) | (c.G << 8) | c.B;
+                            if (targetSet.Contains(rgb) && !found.ContainsKey(rgb)) {
+                                found[rgb] = rgb.ToString("X6") + "|" + x + "|" + (startY + y);
+                            }
+                        }
+                    }
+                }
+
+                var result = new string[found.Count];
+                int idx = 0;
+                foreach (var item in found) {
+                    result[idx++] = item.Value;
+                }
+                Array.Sort(result, StringComparer.Ordinal);
+                return result;
+            }
+            finally {
+                bmp.UnlockBits(data);
+            }
+        }
+    }
 }
 "@
     }
@@ -230,6 +326,55 @@ public static class MapColorReader {
     }
 
     @($set) | Sort-Object
+}
+
+function Get-FirstImageOccurrences {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Path,
+        [Parameter(Mandatory = $true)]
+        [string[]]$HexValues,
+        [int]$ProgressId = 1,
+        [string]$ProgressActivity = 'Checking locations'
+    )
+
+    $resolvedPath = (Resolve-Path $Path).Path
+    $height = [MapColorReader]::GetHeight($resolvedPath)
+    $width = [MapColorReader]::GetWidth($resolvedPath)
+    $rowChunk = 256
+    $remaining = New-Object 'System.Collections.Generic.HashSet[string]' ([System.StringComparer]::OrdinalIgnoreCase)
+    $found = @{}
+
+    foreach ($hex in $HexValues) {
+        if ($hex) {
+            $null = $remaining.Add($hex.ToUpper())
+        }
+    }
+
+    for ($startY = 0; $startY -lt $height -and $remaining.Count -gt 0; $startY += $rowChunk) {
+        $rows = [Math]::Min($rowChunk, $height - $startY)
+        $chunkMatches = [MapColorReader]::FindFirstOccurrencesChunk($resolvedPath, $startY, $rows, @($remaining))
+        foreach ($match in $chunkMatches) {
+            $parts = $match -split '\|'
+            if ($parts.Count -ne 3) {
+                continue
+            }
+
+            $hex = $parts[0].ToUpper()
+            if (-not $found.ContainsKey($hex)) {
+                $found[$hex] = [PSCustomObject]@{
+                    X = [int]$parts[1]
+                    Y = [int]$parts[2]
+                }
+                $null = $remaining.Remove($hex)
+            }
+        }
+
+        $percent = 55 + [int](20 * (($startY + $rows) / $height))
+        Write-Progress -Id $ProgressId -Activity $ProgressActivity -Status ("Locating missing color pixels ({0}/{1} rows, width {2})" -f ($startY + $rows), $height, $width) -PercentComplete $percent
+    }
+
+    $found
 }
 
 $namedLocationsPath = Join-Path $MapDataPath 'named_locations\00_default.txt'
@@ -259,6 +404,10 @@ $imageHex = @(Get-ImageHexColors -Path $locationsImagePath -ProgressId 1 -Progre
 
 $imageOnly = @($imageHex | Where-Object { $_ -notin $textHex })
 $textOnly = @($textHex | Where-Object { $_ -notin $imageHex })
+$imageOnlyFirstPixels = @{}
+if ($imageOnly.Count -gt 0) {
+    $imageOnlyFirstPixels = Get-FirstImageOccurrences -Path $locationsImagePath -HexValues $imageOnly -ProgressId 1 -ProgressActivity 'Checking locations'
+}
 
 $definitionsNames = @()
 $definitionsOnly = @()
@@ -330,7 +479,15 @@ if ($imageOnly.Count -eq 0) {
 }
 else {
     Write-StatusLine -Level 'ERROR' -Message "Colors in locations.png but missing from 00_default.txt: $($imageOnly.Count)"
-    $imageOnly | ForEach-Object { Write-Output "  $_" }
+    foreach ($hex in $imageOnly) {
+        if ($imageOnlyFirstPixels.ContainsKey($hex)) {
+            $pixel = $imageOnlyFirstPixels[$hex]
+            Write-Output ("  {0} at ({1}, {2})" -f $hex, $pixel.X, $pixel.Y)
+        }
+        else {
+            Write-Output "  $hex"
+        }
+    }
 }
 
 Write-Output ''

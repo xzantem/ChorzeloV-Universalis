@@ -1,0 +1,10 @@
+### LOADING SCREENS IMAGES ###
+
+chorzelove = {
+	illustration_image = {
+		texture_file = "gfx/loading_screen_assets/00/images/chorzelove.dds"
+		priority = 1
+		weight = 1
+	}
+	tag = "chorzelove"
+}

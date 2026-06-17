@@ -1,0 +1,216 @@
+﻿
+on_war_declared = {
+	effect = {
+		if = {
+			limit = {
+				scope:actor = {
+					has_country_modifier = calm_before_the_storm_modifier
+				}
+			}
+			scope:actor = {
+				remove_country_modifier = calm_before_the_storm_modifier
+			}
+		}
+	}
+}
+
+on_ending_war = {
+	effect = {
+		if = {
+			limit = {
+				root = {
+					tag = PUA
+					has_variable = pua_daniel_hunt_pending
+					NOT = { has_variable = pua_daniel_hunt_resolved }
+				}
+				scope:winner ?= root
+				scope:loser = c:BUG
+				scope:war = {
+					casus_belli ?= casus_belli:cb_pua_daniel_hunt
+				}
+			}
+			trigger_event_non_silently = pua_political_events.14
+		}
+	}
+}
+
+monthly_country_pulse = {
+	on_actions = {
+		pua_post_storm_issues_monthly
+		pua_byd_revenge_monthly
+	}
+}
+
+pua_byd_revenge_monthly = {
+	trigger = {
+		tag = BYD
+		country_exists = c:PUA
+		c:PUA ?= {
+			has_variable = pua_byd_revenge_window_open
+		}
+	}
+	effect = {
+		random = {
+			chance = 10
+			trigger_event_non_silently = pua_political_events.15
+		}
+	}
+}
+
+pua_post_storm_issues_monthly = {
+	trigger = {
+		tag = PUA
+		has_variable = pua_post_storm_issues_active
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_variable = pua_femboy_status_resolved }
+				any_owned_location = {
+					OR = {
+						c:FMB ?= { has_core = prev }
+						c:TMB ?= { has_core = prev }
+					}
+				}
+				NOT = { has_country_modifier = pua_unsettled_femboy_status }
+			}
+			add_country_modifier = {
+				modifier = pua_unsettled_femboy_status
+				mode = replace
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = pua_femboy_status_resolved
+					NOT = {
+						any_owned_location = {
+							OR = {
+								c:FMB ?= { has_core = prev }
+								c:TMB ?= { has_core = prev }
+							}
+						}
+					}
+				}
+				has_country_modifier = pua_unsettled_femboy_status
+			}
+			remove_country_modifier = pua_unsettled_femboy_status
+		}
+
+		if = {
+			limit = {
+				NOT = { has_variable = pua_cannabis_question_resolved }
+				any_owned_location = {
+					c:GER ?= { has_core = prev }
+				}
+				NOT = { has_country_modifier = pua_cannabis_legal_uncertainty }
+			}
+			add_country_modifier = {
+				modifier = pua_cannabis_legal_uncertainty
+				mode = replace
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = pua_cannabis_question_resolved
+					NOT = {
+						any_owned_location = {
+							c:GER ?= { has_core = prev }
+						}
+					}
+				}
+				has_country_modifier = pua_cannabis_legal_uncertainty
+			}
+			remove_country_modifier = pua_cannabis_legal_uncertainty
+		}
+
+		if = {
+			limit = {
+				NOT = { has_variable = pua_rabbinic_question_resolved }
+				any_owned_location = {
+					c:YID ?= { has_core = prev }
+				}
+				NOT = { has_country_modifier = pua_unresolved_rabbinic_question }
+			}
+			add_country_modifier = {
+				modifier = pua_unresolved_rabbinic_question
+				mode = replace
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = pua_rabbinic_question_resolved
+					NOT = {
+						any_owned_location = {
+							c:YID ?= { has_core = prev }
+						}
+					}
+				}
+				has_country_modifier = pua_unresolved_rabbinic_question
+			}
+			remove_country_modifier = pua_unresolved_rabbinic_question
+		}
+
+		if = {
+			limit = {
+				NOT = { has_variable = pua_valonian_cavalry_resolved }
+				any_owned_location = {
+					c:WAL ?= { has_core = prev }
+				}
+				NOT = { has_country_modifier = pua_rebellious_valonian_cavalry }
+			}
+			add_country_modifier = {
+				modifier = pua_rebellious_valonian_cavalry
+				mode = replace
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = pua_valonian_cavalry_resolved
+					NOT = {
+						any_owned_location = {
+							c:WAL ?= { has_core = prev }
+						}
+					}
+				}
+				has_country_modifier = pua_rebellious_valonian_cavalry
+			}
+			remove_country_modifier = pua_rebellious_valonian_cavalry
+		}
+
+		if = {
+			limit = {
+				has_variable = pua_rabble_revolt_active
+				NOT = {
+					any_rebel = {
+						rebel_name_key = pua_country_rioters
+					}
+				}
+				has_country_modifier = pua_countrywide_unrest
+			}
+			remove_country_modifier = pua_countrywide_unrest
+			add_country_modifier = {
+				modifier = pua_countrywide_unrest_reduced
+				mode = replace
+			}
+			remove_variable = pua_rabble_revolt_active
+		}
+
+		if = {
+			limit = {
+				has_variable = pua_daniel_hunt_pending
+				NOT = { has_variable = pua_daniel_hunt_resolved }
+				OR = {
+					NOT = { country_exists = c:BUG }
+					c:BUG = {
+						is_subject_of = root
+					}
+				}
+			}
+			trigger_event_non_silently = pua_political_events.14
+		}
+	}
+}

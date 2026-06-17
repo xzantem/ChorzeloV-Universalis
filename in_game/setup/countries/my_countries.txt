@@ -169,6 +169,19 @@ MCD = {
 	description_category = diplomatic
 	difficulty = 3
 }
+MCB = {
+	color = map_MCD
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = tuchowiak
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
 TVI = {
 	color = map_TVI
 
@@ -273,45 +286,6 @@ YID = {
 	description_category = diplomatic
 	difficulty = 3
 }
-MAL = {
-	color = map_MAL
-
-	unit_color0 = rgb {	200 200 200 }
-	unit_color1 = rgb {	157 48 28 }
-	unit_color2 = rgb {	19 20 25 }
-
-	culture_definition = maliniak
-	religion_definition = orthodox
-	
-	description_category = diplomatic
-	difficulty = 3
-}
-BYD = {
-	color = map_BYZ
-
-	unit_color0 = rgb {	200 200 200 }
-	unit_color1 = rgb {	157 48 28 }
-	unit_color2 = rgb {	19 20 25 }
-
-	culture_definition = chorzelowian
-	religion_definition = orthodox
-	
-	description_category = military
-	difficulty = 1
-}
-JUD = {
-	color = map_JUD
-
-	unit_color0 = rgb {	200 200 200 }
-	unit_color1 = rgb {	157 48 28 }
-	unit_color2 = rgb {	19 20 25 }
-
-	culture_definition = mizrahi
-	religion_definition = judaism
-	
-	description_category = diplomatic
-	difficulty = 3
-}
 WAL = {
 	color = map_WAL
 
@@ -385,7 +359,7 @@ KAM = {
 	unit_color2 = rgb {	19 20 25 }
 
 	culture_definition = świebodziniak
-	religion_definition = catholic
+	religion_definition = sunni
 	
 	description_category = diplomatic
 	difficulty = 3
@@ -397,7 +371,7 @@ SZM = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = świebodziniak
+	culture_definition = lesser_polish
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -410,7 +384,7 @@ ADM = {
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = świebodziniak
+	culture_definition = warszawiak
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -429,14 +403,14 @@ BLG = {
 	description_category = diplomatic
 	difficulty = 3
 }
-BUG = {
-	color = map_BUG
+PAU = {
+	color = map_PAU
 
 	unit_color0 = rgb {	200 200 200 }
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = chorzelowian
+	culture_definition = walloon
 	religion_definition = catholic
 	
 	description_category = diplomatic
@@ -451,6 +425,636 @@ VOI = {
 
 	culture_definition = mieleczan
 	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+
+### Imperium Nerdziskovium ###
+
+
+BYD = {
+	color = map_BYZ
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BUG = {
+	color = rgb { 214 110 48 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = catholic
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MAL = {
+	color = rgb { 235 186 82 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = maliniak
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+KOT = {# Kotlet
+	color = rgb { 48 170 96 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MRD = { #Mordziad
+	color = rgb { 208 72 132 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+ERC = { # Ercio
+	color = rgb { 100 76 210 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+JUD = {
+	color = rgb { 214 168 44 } 
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = mizrahi
+	religion_definition = judaism
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BYA = {
+	color = rgb { 40 176 168 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYB = {
+	color = rgb { 186 48 72 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYC = {
+	color =  rgb { 154 180 40 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYE = {
+	color = rgb { 72 190 62 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYF = {
+	color =  rgb { 222 94 56 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYG = {
+	color = rgb { 168 116 34 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYH = {
+	color = rgb { 42 102 198 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+BYI = {
+	color = rgb { 180 92 206 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = military
+	difficulty = 1
+}
+
+BAR = { #Bartosz Kusek
+	color = map_BAR
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+MIŁ = { #Miłosz
+	color = rgb { 38 136 218 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+FRZ = { #Frozen
+	color = rgb { 186 170 34 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+WOD = { #Wodecki
+	color = rgb { 36 180 104 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAA = { #Placeholder przydupas dla Bartosza
+	color =  rgb { 214 68 118 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAB = { #Placeholder przydupas dla Bartosza
+	color = rgb { 112 78 214 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAC = { #Placeholder przydupas dla Bartosza
+	color = rgb { 220 150 34 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAD = { #Placeholder przydupas dla Bartosza
+	color = rgb { 36 170 164 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAE = { #Placeholder przydupas dla Bartosza
+	color = rgb { 178 40 96 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAF = { #Placeholder przydupas dla Bartosza
+	color = rgb { 144 184 38 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAG = { #Placeholder przydupas dla Bartosza
+	color = rgb { 84 150 36 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAH = { #Placeholder przydupas dla Bartosza
+	color = rgb { 218 96 48 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAI = { #Placeholder przydupas dla Bartosza
+	color = rgb { 44 110 192 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAJ = { #Placeholder przydupas dla Bartosza
+	color = rgb { 186 86 214 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAK = { #Placeholder przydupas dla Bartosza
+	color = rgb { 102 178 58 } 
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+BAL = { #Placeholder przydupas dla Bartosza
+	color = rgb { 198 70 42 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+
+DOM = { #DOminik kusek
+	color = map_DOM
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+RZY = { #Rzymonka
+	color = rgb { 214 132 42 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+RUD = { #Rudy seba od kuska
+	color = rgb { 226 82 34 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+KRC = { # Kuruc
+	color = rgb { 186 52 136 } 
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOA = { #Placeholder przydupas dla dominika
+	color = rgb { 88 72 214 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOB = { #Placeholder przydupas dla dominika
+	color = rgb { 214 182 42 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOC = { #Placeholder przydupas dla dominika
+	color = rgb { 32 172 148 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOD = { #Placeholder przydupas dla dominika
+	color = rgb { 198 74 38 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOE = { #Placeholder przydupas dla dominika
+	color = rgb { 150 186 34 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOF = { #Placeholder przydupas dla dominika
+	color = rgb { 42 148 76 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOG = { #Placeholder przydupas dla dominika
+	color = rgb { 214 100 68 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOH = { #Placeholder przydupas dla dominika
+	color = rgb { 122 52 196 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOI = { #Placeholder przydupas dla dominika
+	color = rgb { 54 184 78 } 
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOJ = { #Placeholder przydupas dla dominika
+	color = rgb { 36 122 214 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOK = { #Placeholder przydupas dla dominika
+	color = rgb { 212 82 168 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DOL = { #Placeholder przydupas dla dominika
+	color = rgb { 208 44 44 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
+	
+	description_category = diplomatic
+	difficulty = 3
+}
+DON = { #Placeholder przydupas dla dominika
+	color = rgb { 44 170 112 }
+
+	unit_color0 = rgb {	200 200 200 }
+	unit_color1 = rgb {	157 48 28 }
+	unit_color2 = rgb {	19 20 25 }
+
+	culture_definition = chorzelowian
+	religion_definition = orthodox
 	
 	description_category = diplomatic
 	difficulty = 3

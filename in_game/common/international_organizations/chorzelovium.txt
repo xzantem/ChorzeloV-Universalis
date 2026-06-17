@@ -1,0 +1,39 @@
+﻿hce = {
+    has_target = no
+    unique = yes
+
+    has_leader_country = no
+
+    modifier = {
+        defensive_war_morale = 0.1
+    }
+
+    leader_modifier = {
+        diplomatic_reputation = 1
+    }
+
+    can_join_trigger = {
+        is_neighbor_of_international_organization = scope:recipient
+    }
+
+    can_leave_trigger = {
+        always = no
+    }
+    auto_leave_trigger = {
+        always = no
+    }
+
+    on_joined = {
+        add_prestige = 5
+    }
+
+    ai_desire_to_join = {
+        add = {
+            desc = "THREATENED"
+            if = {
+                limit = { any_neighbor_country = { is_threat_to = root } }
+                value = 50
+            }
+        }
+    }
+}

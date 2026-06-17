@@ -1,0 +1,158 @@
+recent_foreign_claims = {
+	diplomatic_capacity = -1
+	monthly_diplomats = -0.1
+}
+
+internal_consolidation_drive = {
+	monthly_towards_centralization = 0.1
+	global_monthly_control = 0.003
+	global_max_control = 0.05
+}
+
+mielec_administrative_reforms = {
+	country_cabinet_efficiency = 0.1
+	court_spending_cost = -0.05
+	legislative_efficiency = 0.20
+}
+
+pua_great_feast_restraint = {
+	diplomatic_reputation = 2
+}
+
+calm_before_the_storm_modifier = {
+	country_cabinet_efficiency = 0.05
+	global_monthly_control = 0.002
+	global_monthly_prosperity = 0.001
+	tax_income_efficiency = 0.02
+}
+
+pua_unsettled_femboy_status = {
+	legislative_efficiency = -0.20
+	peasants_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+	global_population_growth = -0.0001
+}
+
+pua_cannabis_legal_uncertainty = {
+	tax_income_efficiency = medium_tax_income_efficiency_penalty
+	selling_efficiency = small_trade_efficiency_penalty
+	global_monthly_control = -0.001
+	global_max_control = -0.05
+	burghers_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+}
+
+pua_unresolved_rabbinic_question = {
+	diplomatic_reputation = diplomatic_reputation_mild_penalty
+	clergy_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+	tolerance_heretic = -1
+}
+
+pua_rebellious_valonian_cavalry = {
+	discipline = -0.05
+	land_morale_modifier = -0.10
+	army_cavalry_power = -0.20
+	nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+}
+
+pua_countrywide_unrest = {
+	global_max_control = -0.10
+	global_crown_estate_power = -0.20
+	global_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
+}
+
+pua_countrywide_unrest_reduced = {
+	global_max_control = -0.05
+	global_crown_estate_power = -0.10
+	global_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+}
+
+pua_prepare_the_armies_modifier = {
+	discipline = 0.025
+	land_morale_modifier = 0.05
+	army_movement_speed = 0.10
+	army_maintenance_efficiency = 0.10
+	monthly_towards_belligerent = 0.2
+}
+pua_narodowy_tinder_modifier = {
+	global_population_growth = 0.0005
+	global_pop_promotion_speed_modifier = 0.25
+}
+
+pua_legalizacja_prostytucji_modifier = {
+	burghers_estate_max_tax = 0.1
+	burghers_estate_target_satisfaction = small_privilege_target_satisfaction
+	peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
+}
+
+pua_program_prawiczek_plus_modifier = {
+	peasants_estate_max_tax = -0.05
+	peasants_estate_target_satisfaction = large_privilege_target_satisfaction
+	monthly_towards_free_subjects = societal_value_monthly_move
+}
+
+pua_import_zon_modifier = {
+	global_migration_speed_modifier = 0.2
+	rural_migration_attraction = 1
+	non_rural_migration_attraction = 1
+}
+
+pua_chleb_i_cyrki_modifier = {
+	monthly_peasants_estate_rebel_growth = -0.002
+	peasants_estate_target_satisfaction = large_privilege_target_satisfaction
+}
+
+pua_darmowe_porno_modifier = {
+	peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+	global_crown_estate_power = -0.05
+	monthly_towards_traditionalist = societal_value_monthly_move
+}
+
+pua_seks_roboty_modifier = {
+	monthly_peasants_estate_rebel_growth = -0.002
+	tax_income_efficiency = -0.03
+	global_population_growth = -0.0001
+}
+
+pua_gej_bomba_modifier = {
+	tax_income_efficiency = -0.02
+	monthly_towards_innovative = societal_value_monthly_move
+	research_speed_modifier = 0.25
+}
+
+pua_standardy_wygladu_modifier = {
+	global_crown_estate_power = 0.1
+	global_max_control = 0.1
+	peasants_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+}
+
+pua_testosteron_w_kranowie_modifier = {
+	global_pop_promotion_speed_modifier = 0.1
+	global_life_expectancy = -3
+	levy_combat_efficiency_modifier = 0.1
+}
+
+pua_terapia_genowa_modifier = {
+	global_pop_promotion_speed_modifier = 0.1
+	research_speed_modifier = 0.2
+	country_child_education = 0.2
+	global_population_growth = -0.0001
+}
+pua_tureckie_transplanty_modifier = {
+	burghers_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+	global_pop_promotion_speed_modifier = 0.10
+	global_nobles_city_desired_pop = 0.05
+}
+
+infrastructure_renovation_modifier = {
+	build_gravel_road_cost_modifier = -0.10
+	build_paved_road_cost_modifier = -0.10
+	build_modern_road_cost_modifier = -0.10
+	build_railroad_cost_modifier = -0.10
+	monthly_towards_centralization = 0.1
+}
+
+integration_of_new_peoples_modifier = {
+	global_integration_speed_modifier = 0.20
+	global_pop_assimilation_speed_modifier = 0.20
+	global_pop_conversion_speed_modifier = 0.20
+}
+

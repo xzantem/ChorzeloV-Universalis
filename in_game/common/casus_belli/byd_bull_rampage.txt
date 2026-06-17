@@ -1,0 +1,10 @@
+cb_byczy_rozjazd = {
+	visible = {
+		always = no
+	}
+	allow_creation = {
+		always = no
+	}
+
+	war_goal_type = byczy_rozjazd_goal
+}

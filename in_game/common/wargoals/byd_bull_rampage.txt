@@ -1,0 +1,14 @@
+byczy_rozjazd_goal = {
+	type = take_capital
+
+	war_name = "BYCZY_ROZJAZD_WAR_NAME"
+
+	attacker = {
+		conquer_cost = 0.5
+		subjugate_cost = 0.5
+	}
+
+	defender = {
+	}
+	ticking_war_score = 0.5
+}

@@ -1,0 +1,55 @@
+﻿mcd_company_country = {
+	major = yes
+
+	potential = {
+		country_type = building
+		has_or_had_tag = MCB
+		NOT = { has_reform = government_reform:japanese_clan }
+		NOT = { is_subject_type = trade_company }
+	}
+	allow = {
+	}
+	locked = {
+		is_locked_mechanic = {
+			mechanic = government_reform
+			type = mcd_company_country
+		}
+	}
+	country_modifier = {
+		bank_interest = -0.01
+		monthly_loan_capacity_investment = 10.0
+		monthly_diplomats = 0.4
+		max_diplomats = 4
+		diplomatic_capacity = 1
+	}
+	years = 2
+}
+
+mcd_headquarters_reform = {
+	major = yes
+	government = republic
+
+	potential = { country_has_estate = estate_type:peasants_estate }
+
+	allow = {
+		OR = {
+			has_or_had_tag = MCD
+			has_reform = government_reform:mcd_headquarters_reform
+		}
+	}
+
+	country_modifier = {
+		global_peasants_estate_power = 1
+		global_nobles_estate_power = -0.25
+		global_production_efficiency = large_production_efficiency_bonus
+		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+		nobles_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+		monthly_towards_decentralization = societal_value_monthly_move
+		monthly_towards_free_subjects = societal_value_monthly_move
+		peasants_estate_can_participate_in_parliament = yes
+		government_reform_slots = 1
+		court_language_is_common_language_importance_modifier = 5
+	}
+
+	years = 3
+}

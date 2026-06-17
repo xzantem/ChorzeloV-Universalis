@@ -1,0 +1,77 @@
+﻿pua_repolonization_campaign = {
+	icon = pop_promote_action
+	ability = adm
+	allow_multiple = no
+
+	potential = {
+		tag = PUA
+		modifier:can_repolonize = yes
+		num_locations > 0
+	}
+	select_trigger = {
+		looking_for_a = province
+		source = actor
+		target_flag = target
+		name = "pua_repolonization_select_province"
+		none_available_msg_key = "pua_repolonization_no_provinces"
+		column = {
+			data = name
+		}
+		column = {
+			data = primary_culture_percentage
+		}
+		column = {
+			data = population
+		}
+		default_sort = primary_culture_percentage
+		visible = {
+			any_location_in_province = {
+				any_pop = {
+					NOT = {
+						culture = { has_culture_group = culture_group:polish_group }
+					}
+				}
+			}
+			NOT = {
+				cabinet_already_performing_same_task_on_target = {
+					cabinet_action = pua_repolonization_campaign
+					interaction_target = target
+				}
+			}
+		}
+	}
+
+	is_finished = {
+		scope:target = {
+			"culture_percentage(scope:actor.culture)" >= 1.0
+			NOT = {
+				any_location_in_province = {
+					any_pop = {
+						NOT = {
+							culture = { has_culture_group = culture_group:polish_group }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	location_modifier = {
+		local_pop_assimilation_speed = 0.4
+		local_migration_attraction = 1
+	}
+
+	country_modifier = {
+		global_migration_speed_modifier = 0.5
+	}
+
+	progress = {
+		scope:target = {
+			value = "culture_percentage(scope:actor.culture)"
+		}
+	}
+
+	map_marker = {
+		show_for_owner = yes
+	}
+}

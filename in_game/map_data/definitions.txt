@@ -157,6 +157,12 @@
 				}
 				lubaczów_province = {
 					stary_dzików
+					oleszyce
+					wielkie_oczy
+					lubaczów
+					cieszanów
+					horyniec-zdrój
+					narol
 				}
 				sanok_province = {
 					besko
@@ -183,6 +189,8 @@
 					krzywcza
 					żurawica
 					orły
+					medyka
+					stubno
 				}
 				bieszczady_province = {
 					lutowiska
@@ -198,6 +206,7 @@
                     nagłowice 
                     imielno 
                     małogoszcz 
+					oksa
 				}
 				pińczów_province = {
 					sobków 
@@ -232,6 +241,84 @@
                     obrazów 
                     sandomierz 
                     wilczyce
+					dwikozy
+					zawichost
+				}
+				opatów_province = {
+					baćkowice 
+                    sadowie 
+                    opatów 
+                    wojciechowice 
+                    iwaniska 
+                    lipnik 
+					ożarów
+					tarłów
+				}
+				kielce_province = {
+					łopuszno 
+                    mniów 
+                    strawczyn 
+                    miedziana-góra 
+                    zagnańsk 
+                    riekoszów 
+                    chęciny 
+                    nowiny 
+                    kielce 
+                    masłów_pierwszy 
+                    górno 
+                    morawica 
+                    daleszyce 
+                    pierzchnica 
+                    chmielnik_kielce
+                    bodzentyn 
+                    bieliny 
+                    nowa_słupia 
+                    łagów 
+                    raków 
+				}
+				ostrowiec_province = {
+					waśniów
+					kunów
+					bodzechów
+					ostrów_świętokrzyski
+					ćmielów
+					bałtów
+				}
+
+				starachowice_province = {
+					pawłów
+					brody
+					starachowice
+					wąchock
+					mirzec
+				}
+
+				skarżysko_province = {
+					łączna
+					suchedniów
+					skarżysko-kamienna
+					skarżysko_kościelne
+					bliżyn
+				}
+
+				końskie_province = {
+					stąporków
+					gowarczów
+					końskie
+					smyków
+					radoszyce
+					ruda_maleniecka
+					słupia_konecka
+					fałków
+				}
+
+				włoszczowa_province = {
+					krasocin
+					kluczewsko
+					włoszczowa
+					radków
+					secemin
+					koniecpol
 				}
 			}
 			świebodzin_area = {
@@ -528,36 +615,6 @@
                     krasno 
                     stara_bystrica 
 				}
-				opatów_province = {
-					baćkowice 
-                    sadowie 
-                    opatów 
-                    wojciechowice 
-                    iwaniska 
-                    lipnik 
-				}
-				kielce_province = {
-					łopuszno 
-                    mniów 
-                    strawczyn 
-                    miedziana-góra 
-                    zagnańsk 
-                    riekoszów 
-                    chęciny 
-                    nowiny 
-                    kielce 
-                    masłów_pierwszy 
-                    górno 
-                    morawica 
-                    daleszyce 
-                    pierzchnica 
-                    chmielnik_kielce
-                    bodzentyn 
-                    bieliny 
-                    nowa_słupia 
-                    łagów 
-                    raków 
-				}
 			}
 			lublin_area = {
 				kraśnik_province = { 
@@ -579,21 +636,169 @@
 				lubartowski_province = { 
 					abramów michów kamionka firlej ostrówek
 					lubartów niedźwiada serniki ostrów_lubelski
-				}
-				radzyńsko-parczewski_province = { 
-					czemierniki siemień parczew
+					jeziorany kock uścimów
 				}
 				lublin_wschód_province = { 
 					spiczyn łęczna wółka świdnik piaski jabłonna
 					krczonów rybczewice zakrzew wysokie żółkiewka
+					mełgiew trawniki bychawa głusk
 				}
 				lublin_zachód_province = { 
 					niemce garbów jastków wojciechów konopnica lublin
-					głusk bełżyce borzechów niedrzwica_duża strzyżewice bychawa
+					bełżyce borzechów niedrzwica_duża strzyżewice 
 				}
 				biłgoraj_province = { 
 					turobin goraj radecznica frampol biłgoraj
 					tereszpol księżpol biszcza potok_górny tarnogród
+					aleksandrów łukowa obsza józefów
+				}
+				krasnystaw_province = {
+					rudnik
+					gorzków
+					izbica
+					kraśniczyn
+					siennica_różana
+					krasnystaw
+					łopiennik_górny
+					fajsławice
+				}
+
+				łęczna_province = {
+					ludwin
+					milejów
+					puchaczów
+					cyców
+				}
+
+				zamość_province = {
+					sułów
+					szczebrzeszyn
+					zwierzyniec
+					nielisz
+					stary_zamość
+					zamość
+					adamów_zamość
+					krasnobród
+					skierbieszów
+					sitno
+					łabunie
+					grabowiec
+					miączyn
+					komarów-osada
+				}
+
+				tomaszów_lubelski_province = {
+					susiec
+					bełżec
+					tomaszów_lubelski
+					tarnawatka
+					krynice
+					lubycza_królewska
+					jarczów
+					rachanie
+					ulhówek
+					telatyn
+					łaszczów
+					tyszowice
+				}
+
+				hrubieszów_province = {
+					dołhobyczów
+					mircze
+					werbkowice
+					treszczany
+					uchanie
+					hrubieszów
+					horodło
+				}
+
+				chełm_province = {
+					dubienka
+					białopole
+					wojsławice
+					dorohusk
+					żmudź
+					leśniowice
+					kamień_lubelski
+					ruda-huta
+					chełm
+					pokrówka
+					sawin
+					wierzbica
+					siedliszcze
+					rejowiec_fabryczny
+					rejowiec
+				}
+
+				włodawa_province = {
+					wola_urhuska
+					włodawa
+					hanna
+					hańsk
+					wyryki
+					stary_brus
+					urszulin
+				}
+
+				parczew_province = {
+					sosnowica
+					podedwórze
+					dębowa_kłoda
+					jabłoń
+					milanów
+					parczew
+					siemień
+				}
+
+				radzyń_podlaski_province = {
+					borki
+					ulan-majorat
+					radzyń_podlaski
+					kąkolewnica
+					wohyń
+					komarówka_podlaska
+					czemierniki
+				}
+
+				łuków_province = {
+					serokomla
+					adamów_łuków
+					krzywda
+					wola_mysłowska
+					stoczek_łukowski
+					stanin
+					wojcieszków
+					łuków
+					trebieszów
+				}
+
+				ryki_province = {
+					ułęż
+					nowodwór
+					kłoczew
+					ryki
+					dęblin
+					stężyca
+				}
+
+				biała_podlaska_province = {
+					międrzyrzec_podlaski
+					drelów
+					łomazy
+					rossosz
+					wisznice
+					sosnówka
+					tuczna
+					sławatycze
+					kodeń
+					terespol
+					piszczac
+					zalesie
+					rokitno
+					biała_podlaska
+					leśna_podlaska
+					konstantynów
+					janów_podlaski
 				}
 			}
 
@@ -680,9 +885,6 @@
 				my_sea_province10 = {
 					seazone53
 					seazone54
-					seazone55
-					seazone56
-					seazone57
 				}
 			}
 			my_sea_area5 = {
@@ -711,11 +913,6 @@
 					seazone67
 					seazone60
 					seazone69
-					seazone70
-					seazone71
-					seazone72
-					seazone73
-					seazone74
 				}
 			}
 			my_sea_area7 = {
@@ -732,7 +929,6 @@
 			my_sea_area9 = {
 				my_sea_province16 = {
 					ocean5
-					ocean6
 				}
 			}
 			

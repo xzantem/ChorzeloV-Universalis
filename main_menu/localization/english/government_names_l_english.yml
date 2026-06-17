@@ -1,6 +1,10 @@
 ﻿l_english:
  country_name_construction_name: "$NAME$"
  country_name_construction_name_map: "$NAME$"
+ country_name_construction_mcb_full: "Company of McDonalds"
+ country_name_construction_mcb_full_map: "$NAME$"
+ country_name_construction_mcd_full: "Headquarters of McDonalds"
+ country_name_construction_mcd_full_map: "$NAME$"
  country_name_construction_name_with_article: "$ARTICLE$ $NAME$"
  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank: "$PREFIX$ $RANK$ of $ARTICLE$ $NAME$"
  country_name_construction_prefix_rank_of_name_but_map_is_just_prefix_rank_map: "$PREFIX$ $RANK$"

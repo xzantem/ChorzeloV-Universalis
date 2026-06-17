@@ -1,4 +1,4 @@
-@ratio = 1.5 # how wide the flags are compared to their height
+﻿@ratio = 1.5 # how wide the flags are compared to their height
 @height = 512 
 @width =  @[height*ratio]
 
@@ -392,6 +392,22 @@ ADH = { # Ayodhya
 		color1 = color3
 		color2 = color2
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}		
+}
+ADM = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_cross_patty_wide.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.5 } scale = { 0.95 0.95 } }
+	}
+	textured_emblem = {
+		texture = "adam.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
 	}		
 }
 
@@ -3843,7 +3859,11 @@ BLG = { # Bologna - Republic per pale capitano del popolo (simple, no chief)
 		texture = "ce_divider_per_pale.dds"
 		color1 = color2
 		color2 = color2
-	}		
+	}	
+	textured_emblem = {
+		texture = "wallonia.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
 }
 BLG_pepoli = { # Bologna
 	pattern = "pattern_solid.dds"
@@ -23867,6 +23887,17 @@ MCD = { # McDonalds
 	}	
 }
 
+MCB = { # Company of McDonalds
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	50		10		95	} 
+	color2 = "white"
+	
+	textured_emblem = {
+		texture = "mcd.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}	
+}
+
 MCG = { # Muscogee
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	38		67		82		}
@@ -42620,6 +42651,23 @@ VOL = { # Volhynia
 		instance = { position = { 0.5 0.5 } scale = { 0.95 0.95 } }
 	}
 }
+VOI = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_cross_patty_wide.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.5 } scale = { 0.95 0.95 } }
+	}
+	textured_emblem = {
+		texture = "void.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}		
+}
+
 
 VRD = { # Verden
 	pattern = "pattern_solid.dds"

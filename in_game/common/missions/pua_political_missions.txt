@@ -1,0 +1,2281 @@
+pua_political_mission_pack = {
+	icon = generic_capable_cabinet
+	chance = 1000
+	repeatable = no
+	player_playstyle = diplomatic
+
+	visible = {
+		game_has_missions_enabled = yes
+		tag = PUA
+	}
+
+	on_start = { }
+	on_completion = { }
+	on_abort = {
+		remove_variable = pua_foreign_claim_mission_active
+	}
+
+mission_escape_from_straszecin = {
+		icon = emancipation
+		requires = { }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 180
+
+		on_persistent_completion = {
+			set_capital = location:dębica
+			set_new_ruler = character:pua_ziółek
+		}
+	}
+
+mission_gorzka_pigulka = {
+	icon = internal_conflicts
+	requires = { mission_escape_from_straszecin }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+}
+
+mission_strefy_dupczenia = {
+	icon = generic_capable_cabinet
+	requires = { mission_gorzka_pigulka }
+
+	enabled = {
+		tag = PUA
+		OR = {
+			has_reform = government_reform:pua_redpill_doctrine
+			has_reform = government_reform:pua_blackpill_doctrine
+		}
+		has_unlocked_building_trigger = { type = strefa_dupczenia }
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		unlock_building_effect = { type = strefa_dupczenia }
+	}
+}
+
+mission_redpill = {
+		icon = diplomatic_moves
+		requires = { mission_gorzka_pigulka }
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_chosen_pill }
+		}
+
+		duration = 180
+
+		on_persistent_completion = {
+			unlock_government_reform_effect = { type = pua_redpill_doctrine }
+			add_reform = government_reform:pua_redpill_doctrine
+			set_variable = { name = pua_chosen_pill value = 1 }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_extreme_bonus }
+			add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_mild_bonus }
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_bonus }
+			add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_mild_penalty }
+		}
+	}
+
+mission_obowiazkowa_silka = {
+		icon = mamluk_soldiers
+		requires = { mission_redpill }
+
+		bypass = {
+			has_estate_privilege = estate_privilege:obowiazkowa_silka
+		}
+
+		enabled = {
+			tag = PUA
+			has_reform = government_reform:pua_redpill_doctrine
+			NOT = { has_estate_privilege = estate_privilege:obowiazkowa_silka }
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			unlock_estate_privilege_effect = { type = obowiazkowa_silka }
+			grant_estate_privilege = estate_privilege:obowiazkowa_silka
+			add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_mild_bonus }
+			add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_bonus }
+		}
+	}
+
+mission_akademia_mogwarts = {
+		icon = generic_capable_cabinet
+		requires = { mission_redpill }
+
+		enabled = {
+			tag = PUA
+			has_reform = government_reform:pua_redpill_doctrine
+			gold >= 250
+			capital ?= {
+				NOT = { has_building = building_type:mogwarts }
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_gold = {
+				value = -250
+			}
+			capital ?= {
+				construct_building = {
+					building_type = building_type:mogwarts
+					cost_multiplier = 0
+					payer = root
+				}
+			}
+		}
+	}
+
+mission_kursy_pua = {
+	icon = rural_rgo_traditions
+	requires = { mission_redpill }
+
+	enabled = {
+		tag = PUA
+		has_reform = government_reform:pua_redpill_doctrine
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		unlock_law_effect = {
+			type = pua_pua_course_legality
+		}
+	}
+}
+
+mission_reforma_dupczenia = {
+	icon = female_servants
+	requires = { mission_redpill }
+
+	enabled = {
+		tag = PUA
+		has_reform = government_reform:pua_redpill_doctrine
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_dupczenie_reform }
+		add_reform = government_reform:pua_dupczenie_reform
+		lock_mechanic = {
+			mechanic = government_reform
+			type = pua_reforma_dupczenia_reform
+		}
+	}
+}
+
+mission_narodowy_tinder = {
+	icon = military_revolution_advance
+	requires = { mission_reforma_dupczenia }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		add_country_modifier = {
+			modifier = pua_narodowy_tinder_modifier
+			years = 5
+			mode = replace
+		}
+	}
+}
+
+mission_legalizacja_prostytucji = {
+	icon = military_revolution_advance
+	requires = { mission_reforma_dupczenia }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		add_country_modifier = {
+			modifier = pua_legalizacja_prostytucji_modifier
+			years = 5
+			mode = replace
+		}
+	}
+}
+
+mission_program_prawiczek_plus = {
+	icon = military_revolution_advance
+	requires = { mission_reforma_dupczenia }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		add_country_modifier = {
+			modifier = pua_program_prawiczek_plus_modifier
+			years = 5
+			mode = replace
+		}
+	}
+}
+
+mission_import_zon = {
+	icon = military_revolution_advance
+	requires = { mission_reforma_dupczenia }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		add_country_modifier = {
+			modifier = pua_import_zon_modifier
+			years = 5
+			mode = replace
+		}
+	}
+}
+
+mission_lepsza_reforma_dupczenia = {
+	icon = female_servants
+	requires = { mission_narodowy_tinder mission_legalizacja_prostytucji mission_program_prawiczek_plus mission_import_zon }
+
+	enabled = {
+		tag = PUA
+		has_reform = government_reform:pua_dupczenie_reform
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_lepsze_dupczenie_reform }
+		remove_reform = government_reform:pua_dupczenie_reform
+		add_reform = government_reform:pua_lepsze_dupczenie_reform
+	}
+}
+
+mission_blackpill = {
+	icon = internal_conflicts
+	requires = { mission_gorzka_pigulka }
+
+	enabled = {
+		tag = PUA
+		NOT = { has_variable = pua_chosen_pill }
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_blackpill_doctrine }
+		add_reform = government_reform:pua_blackpill_doctrine
+		set_variable = { name = pua_chosen_pill value = 1 }
+		add_estate_satisfaction = { type = estate_type:nobles_estate value = estate_satisfaction_extreme_bonus }
+		add_estate_satisfaction = { type = estate_type:peasants_estate value = estate_satisfaction_mild_bonus }
+		add_estate_satisfaction = { type = estate_type:clergy_estate value = estate_satisfaction_mild_penalty }
+		add_estate_satisfaction = { type = estate_type:burghers_estate value = estate_satisfaction_extreme_penalty }
+	}
+}
+
+mission_zakaz_dupczenia_sub5 = {
+	icon = female_servants
+	requires = { mission_blackpill }
+
+	enabled = {
+		tag = PUA
+		NOT = { has_variable = pua_chosen_blackpill_version }
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_zakaz_dupczenia_reform }
+		add_reform = government_reform:pua_zakaz_dupczenia_reform
+		set_variable = { name = pua_chosen_blackpill_version value = 1 }
+		lock_mechanic = {
+			mechanic = government_reform
+			type = pua_zakaz_dupczenia_reform
+		}
+	}
+}
+mission_narodowa_hipergamia = {
+	icon = female_servants
+	requires = { mission_zakaz_dupczenia_sub5 }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		set_variable = unlocked_hypergamia
+		add_policy = policy:normalized_hypergamy
+	}
+}
+
+mission_chleb_i_cyrki = {
+	icon = female_servants
+	requires = { mission_zakaz_dupczenia_sub5 }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_chleb_i_cyrki_modifier
+				years = 5
+				mode = replace
+			}
+		}
+}
+mission_darmowe_porno = {
+	icon = female_servants
+	requires = { mission_chleb_i_cyrki }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_darmowe_porno_modifier
+				years = 5
+				mode = replace
+			}
+		}
+}
+mission_inwestycja_w_seks_roboty = {
+	icon = female_servants
+	requires = { mission_chleb_i_cyrki }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_seks_roboty_modifier
+				years = 5
+				mode = replace
+			}
+		}
+}
+mission_badania_nad_gej_bombą = {
+	icon = female_servants
+	requires = { mission_chleb_i_cyrki }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	
+	on_persistent_completion = {
+		add_country_modifier = {
+			modifier = pua_gej_bomba_modifier
+			years = 5
+			mode = replace
+		}
+	}
+}
+mission_zreformowany_zakaz_dupczenia = {
+	icon = female_servants
+	requires = { mission_darmowe_porno mission_inwestycja_w_seks_roboty mission_badania_nad_gej_bombą }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_lepszy_zakaz_dupczenia_reform }
+		remove_reform = government_reform:pua_zakaz_dupczenia_reform
+		add_reform = government_reform:pua_lepszy_zakaz_dupczenia_reform
+	}
+}
+mission_narodowy_looksmaxxing = {
+	icon = female_servants
+	requires = { mission_blackpill }
+
+	enabled = {
+		tag = PUA
+		NOT = { has_variable = pua_chosen_blackpill_version }
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_looksmaxxing_reform }
+		add_reform = government_reform:pua_looksmaxxing_reform
+		set_variable = { name = pua_chosen_blackpill_version value = 1 }
+		lock_mechanic = {
+			mechanic = government_reform
+			type = pua_looksmaxxing_reform
+		}
+	}
+}
+mission_prawne_standardy_wyglądu = {
+	icon = female_servants
+	requires = { mission_narodowy_looksmaxxing }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_standardy_wygladu_modifier
+				years = 5
+				mode = replace
+			}
+		}
+}
+mission_testosteron_w_kranówie = {
+	icon = female_servants
+	requires = { mission_narodowy_looksmaxxing }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_testosteron_w_kranowie_modifier
+				years = 5
+				mode = replace
+			}
+		}
+}
+mission_terapia_genowa = {
+	icon = female_servants
+	requires = { mission_narodowy_looksmaxxing }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_terapia_genowa_modifier
+				years = 5
+				mode = replace
+			}
+		}
+}
+mission_tureckie_transplanty_włosów = {
+	icon = military_revolution_advance
+	requires = { mission_narodowy_looksmaxxing mission_crusade_against_the_hairmans }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 90
+
+	on_persistent_completion = {
+		add_country_modifier = {
+			modifier = pua_tureckie_transplanty_modifier
+		}
+	}
+}
+mission_zreformowany_looksmaxxing = {
+	icon = female_servants
+	requires = { mission_prawne_standardy_wyglądu mission_testosteron_w_kranówie mission_terapia_genowa }
+
+	enabled = {
+		tag = PUA
+	}
+
+	duration = 180
+
+	on_persistent_completion = {
+		unlock_government_reform_effect = { type = pua_lepszy_looksmaxxing_reform }
+		remove_reform = government_reform:pua_looksmaxxing_reform
+		add_reform = government_reform:pua_lepszy_looksmaxxing_reform
+	}
+}
+mission_claim_mcdonalds = {
+		icon = mamluk_soldiers
+		requires = { mission_escape_from_straszecin }
+
+		bypass = {
+			OR = {
+				AND = {
+					NOT = { country_exists = c:MCD }
+					NOT = { country_exists = c:MCB }
+				}
+				c:MCD = {
+					is_subject_of = root
+				}
+				c:MCB = {
+					is_subject_of = root
+				}
+				AND = {
+					country_exists = c:MCD
+					c:MCD = {
+						num_locations = 0
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:MCD
+					type = casus_belli:cb_annex
+				}
+			}
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:MCB
+					type = casus_belli:cb_annex
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			mcd_save_active_country_as = yes
+			if = {
+				limit = {
+					exists = scope:active_mcd_country
+				}
+				add_casus_belli = {
+					target = scope:active_mcd_country
+					type = casus_belli:cb_annex
+					years = 20
+				}
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_great_feast = {
+		icon = grand_banquets
+		requires = { mission_claim_mcdonalds }
+
+		enabled = {
+			tag = PUA
+			OR = {
+				NOT = { country_exists = c:MCD }
+				AND = {
+					country_exists = c:MCD
+					c:MCD = {
+						is_subject_of = root
+					}
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			trigger_event_non_silently = pua_political_events.11
+		}
+	}
+
+mission_claim_bukajstwo = {
+		icon = medieval_military
+		requires = { mission_escape_from_straszecin }
+
+		bypass = {
+			OR = {
+				NOT = { country_exists = c:BUK }
+				c:BUK = {
+					is_subject_of = root
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:BUK
+					type = casus_belli:cb_annex
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:BUK
+				type = casus_belli:cb_annex
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_claim_ger = {
+		icon = expansionism
+		requires = { mission_claim_bukajstwo }
+
+		bypass = {
+			AND = {
+				location:krosno.province = {
+					every_location_in_province = {
+						OR = {
+							owner ?= root
+							owner = {
+								is_subject_of = root
+							}
+						}
+					}
+				}
+				location:jasło.province = {
+					every_location_in_province = {
+						OR = {
+							owner ?= root
+							owner = {
+								is_subject_of = root
+							}
+						}
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			if = {
+				limit = {
+					NOT = {
+						location:krosno.province = {
+							every_location_in_province = {
+								OR = {
+									owner ?= root
+									owner = {
+										is_subject_of = root
+									}
+								}
+							}
+						}
+					}
+				}
+				add_casus_belli = {
+					target = location:krosno.owner
+					type = casus_belli:cb_conquer_province
+					province = location:krosno.province
+					years = 20
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						location:jasło.province = {
+							every_location_in_province = {
+								OR = {
+									owner ?= root
+									owner = {
+										is_subject_of = root
+									}
+								}
+							}
+						}
+					}
+				}
+				add_casus_belli = {
+					target = location:jasło.owner
+					type = casus_belli:cb_conquer_province
+					province = location:jasło.province
+					years = 20
+				}
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+	mission_repair_bridge = {
+		icon = road_building
+		requires = { mission_claim_ger }
+
+		enabled = {
+			tag = PUA
+			location:rymanów = {
+				owner ?= root
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			location:rymanów = {
+				change_building_level_in_location = {
+					building = building_type:repaired_rymanow_bridge
+					value = 1
+				}
+			}
+		}
+	}
+
+mission_ziolentrop_wronotow_pact = {
+		icon = ties_with_the_holy_see
+		requires = { mission_claim_mcdonalds }
+
+		bypass = {
+			OR = {
+				NOT = { country_exists = c:CKZ }
+				NOT = { country_exists = c:AUR }
+				c:CKZ = {
+					is_subject_of = root
+				}
+				NOT = {
+					OR = {
+						location:ryglice = { owner ?= c:CKZ }
+						location:rzepiennik_strzyżewski = { owner ?= c:CKZ }
+						location:szerzyny = { owner ?= c:CKZ }
+						location:bobowa = { owner ?= c:CKZ }
+						location:lużna = { owner ?= c:CKZ }
+						location:moszczenica = { owner ?= c:CKZ }
+						location:biecz = { owner ?= c:CKZ }
+						location:gorlice = { owner ?= c:CKZ }
+						location:ropa = { owner ?= c:CKZ }
+						location:sękowa = { owner ?= c:CKZ }
+						location:uście_gorlickie = { owner ?= c:CKZ }
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			trigger_event_non_silently = pua_political_events.5
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_claim_mielec = {
+		icon = mamluk_soldiers
+		requires = { mission_claim_mcdonalds mission_claim_bukajstwo }
+
+		bypass = {
+			AND = {
+				location:mielec.province = {
+					every_location_in_province = {
+						OR = {
+							owner ?= root
+							owner = {
+								is_subject_of = root
+							}
+						}
+					}
+				}
+				location:ropczyce = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:ostrów = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:wielopole_skrzyńskie = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:sędziszów_małopolski = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:iwierzyce = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:frysztak = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:wiśniowa_strzyżów = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:strzyżów = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				location:czudec = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 2
+				mode = replace
+			}
+			add_casus_belli = {
+				target = location:mielec.owner
+				type = casus_belli:cb_conquer_province
+				province = location:mielec.province
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_fight_femboys = {
+		icon = independence_from_mali
+		requires = { mission_claim_mielec }
+
+		bypass = {
+			OR = {
+				NOT = { country_exists = c:FMB }
+				NOT = { country_exists = c:TMB }
+				c:FMB = {
+					is_subject_of = root
+				}
+				c:TMB = {
+					is_subject_of = root
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			country_exists = c:FMB
+			country_exists = c:TMB
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:FMB
+					type = casus_belli:cb_annex
+				}
+			}
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:TMB
+					type = casus_belli:cb_annex
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 1
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:FMB
+				type = casus_belli:cb_annex
+				years = 20
+			}
+			add_casus_belli = {
+				target = c:TMB
+				type = casus_belli:cb_annex
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_fight_yids = {
+		icon = judaism
+		requires = { mission_claim_mielec }
+
+		bypass = {
+			OR = {
+				NOT = { country_exists = c:YID }
+				c:YID = {
+					is_subject_of = root
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			country_exists = c:YID
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:YID
+					type = casus_belli:cb_annex
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 1
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:YID
+				type = casus_belli:cb_annex
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_calm_before_the_storm = {
+		icon = union_and_security_act
+		requires = { mission_fight_femboys mission_fight_yids }
+
+		enabled = {
+			tag = PUA
+			at_war = no
+			NOT = { has_country_modifier = recent_foreign_claims }
+		}
+
+	duration = 90
+
+	on_persistent_completion = {
+		add_stability = 10
+		add_country_modifier = {
+			modifier = calm_before_the_storm_modifier
+			mode = replace
+		}
+	}
+}
+
+mission_assault_on_the_gates_of_valona = {
+		icon = finest_of_horses
+		requires = { mission_calm_before_the_storm }
+
+		bypass = {
+			location:rzeszów.province = {
+				every_location_in_province = {
+					OR = {
+						owner ?= root
+						owner = {
+							is_subject_of = root
+						}
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				location:rzeszów.province = {
+					every_location_in_province = {
+						OR = {
+							owner ?= root
+							owner = {
+								is_subject_of = root
+							}
+						}
+					}
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			add_casus_belli = {
+				target = location:rzeszów.owner
+				type = casus_belli:cb_conquer_province
+				province = location:rzeszów.province
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+	mission_calm_after_the_storm = {
+		icon = union_and_security_act
+		requires = { mission_assault_on_the_gates_of_valona }
+
+		enabled = {
+			tag = PUA
+			at_war = no
+			NOT = { has_country_modifier = recent_foreign_claims }
+			OR = {
+				NOT = { country_exists = c:WAL }
+				c:WAL = {
+					is_subject_of = root
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_stability = 10
+			set_variable = {
+				name = pua_post_storm_issues_active
+				value = yes
+			}
+			if = {
+				limit = {
+					any_owned_location = {
+						OR = {
+							c:FMB ?= { has_core = prev }
+							c:TMB ?= { has_core = prev }
+						}
+					}
+				}
+				add_country_modifier = {
+					modifier = pua_unsettled_femboy_status
+					mode = replace
+				}
+			}
+			if = {
+				limit = {
+					any_owned_location = {
+						c:GER ?= { has_core = prev }
+					}
+				}
+				add_country_modifier = {
+					modifier = pua_cannabis_legal_uncertainty
+					mode = replace
+				}
+			}
+			if = {
+				limit = {
+					any_owned_location = {
+						c:YID ?= { has_core = prev }
+					}
+				}
+				add_country_modifier = {
+					modifier = pua_unresolved_rabbinic_question
+					mode = replace
+				}
+			}
+			if = {
+				limit = {
+					any_owned_location = {
+						c:WAL ?= { has_core = prev }
+					}
+				}
+				add_country_modifier = {
+					modifier = pua_rebellious_valonian_cavalry
+					mode = replace
+				}
+			}
+		}
+	}
+
+	mission_unrest_in_the_country = {
+		icon = war_bonfires
+		requires = { mission_calm_after_the_storm }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_stability = -30
+			add_legitimacy = -20
+			add_country_modifier = {
+				modifier = pua_countrywide_unrest
+				mode = replace
+			}
+		}
+	}
+
+	mission_crackdown_on_the_rabble = {
+		icon = an_iron_fist
+		requires = { mission_unrest_in_the_country }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			set_variable = {
+				name = pua_rabble_revolt_active
+				value = yes
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_rebel = {
+							rebel_name_key = pua_country_rioters
+						}
+					}
+				}
+				create_rebel = {
+					category = estate
+					estate = peasants_estate
+					name = pua_country_rioters
+				}
+			}
+			random_rebel = {
+				limit = {
+					rebel_name_key = pua_country_rioters
+				}
+				add_rebel_progress = 1.5
+			}
+		}
+	}
+
+	mission_investigation_into_the_riots = {
+		icon = intelligence_agency_advance
+		requires = { mission_unrest_in_the_country }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 180
+
+		on_persistent_completion = {
+			trigger_event_non_silently = pua_political_events.13
+		}
+	}
+
+	mission_prepare_the_armies = {
+		icon = military_revolution_advance
+		requires = { mission_investigation_into_the_riots }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = pua_prepare_the_armies_modifier
+				years = 10
+				mode = replace
+			}
+		}
+	}
+
+	mission_daniel_must_die = {
+		icon = independence_from_mali
+		requires = { mission_prepare_the_armies }
+
+		bypass = {
+			NOT = { country_exists = c:BUG }
+		}
+
+		enabled = {
+			tag = PUA
+			country_exists = c:BUG
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:BUG
+					type = casus_belli:cb_pua_daniel_hunt
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			set_variable = {
+				name = pua_daniel_hunt_pending
+				value = yes
+			}
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:BUG
+				type = casus_belli:cb_pua_daniel_hunt
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+	mission_bull_rodeo = {
+		icon = the_yak
+		requires = { mission_daniel_must_die }
+
+		bypass = {
+			NOT = { country_exists = c:BYD }
+		}
+
+		enabled = {
+			tag = PUA
+			has_variable = pua_byd_revenge_triggered
+			country_exists = c:BYD
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:BYD
+					type = casus_belli:cb_annex
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 5
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:BYD
+				type = casus_belli:cb_annex
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+	mission_ukraine_first = {
+		icon = cossack_raids
+		requires = { mission_prepare_the_armies }
+
+		bypass = {
+			NOT = { country_exists = c:UKR }
+		}
+
+		enabled = {
+			tag = PUA
+			country_exists = c:UKR
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:UKR
+					type = casus_belli:cb_annex
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 3
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:UKR
+				type = casus_belli:cb_annex
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+	mission_repolonization_process = {
+		icon = land_of_promise
+		requires = { mission_ukraine_first }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			unlock_government_reform_effect = { type = pua_repolonization_directorate }
+			add_reform = government_reform:pua_repolonization_directorate
+		}
+	}
+
+	mission_integration_of_new_peoples = {
+		icon = cultural_acceptance_advance
+		requires = { mission_calm_after_the_storm }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = integration_of_new_peoples_modifier
+				years = 10
+				mode = replace
+			}
+		}
+	}
+
+	mission_femboy_legal_status = {
+		icon = legalism_advance
+		requires = { mission_integration_of_new_peoples }
+
+		enabled = {
+			tag = PUA
+			any_owned_location = {
+				OR = {
+					c:FMB ?= { has_core = prev }
+					c:TMB ?= { has_core = prev }
+				}
+			}
+			every_owned_location = {
+				limit = {
+					OR = {
+						c:FMB ?= { has_core = prev }
+						c:TMB ?= { has_core = prev }
+					}
+				}
+				OR = {
+					integration_level = integrated
+					integration_level = core
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			set_variable = {
+				name = pua_femboy_status_resolved
+				value = yes
+			}
+			unlock_law_effect = {
+				type = pua_femboy_legal_status
+			}
+			remove_country_modifier = pua_unsettled_femboy_status
+		}
+	}
+
+	mission_cannabis_question = {
+		icon = rural_rgo_traditions
+		requires = { mission_integration_of_new_peoples }
+
+		enabled = {
+			tag = PUA
+			any_owned_location = {
+				c:GER ?= { has_core = prev }
+			}
+			every_owned_location = {
+				limit = {
+					c:GER ?= { has_core = prev }
+				}
+				OR = {
+					integration_level = integrated
+					integration_level = core
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			set_variable = {
+				name = pua_cannabis_question_resolved
+				value = yes
+			}
+			unlock_law_effect = {
+				type = pua_cannabis_use
+			}
+			remove_country_modifier = pua_cannabis_legal_uncertainty
+		}
+	}
+
+	mission_one_rabbi_will_say = {
+		icon = acceptance_of_old_testament
+		requires = { mission_integration_of_new_peoples }
+
+		enabled = {
+			tag = PUA
+			any_owned_location = {
+				c:YID ?= { has_core = prev }
+			}
+			every_owned_location = {
+				limit = {
+					c:YID ?= { has_core = prev }
+				}
+				OR = {
+					integration_level = integrated
+					integration_level = core
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			set_variable = {
+				name = pua_rabbinic_question_resolved
+				value = yes
+			}
+			unlock_law_effect = {
+				type = pua_jewish_communities_status
+			}
+			remove_country_modifier = pua_unresolved_rabbinic_question
+		}
+	}
+
+	mission_valonian_cavalry = {
+		icon = byz_cataphracts_advance
+		requires = { mission_integration_of_new_peoples }
+
+		enabled = {
+			tag = PUA
+			any_owned_location = {
+				c:WAL ?= { has_core = prev }
+			}
+			every_owned_location = {
+				limit = {
+					c:WAL ?= { has_core = prev }
+				}
+				OR = {
+					integration_level = integrated
+					integration_level = core
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			set_variable = {
+				name = pua_valonian_cavalry_resolved
+				value = yes
+			}
+			unlock_law_effect = {
+				type = pua_walonian_cavalry_law
+			}
+			remove_country_modifier = pua_rebellious_valonian_cavalry
+		}
+	}
+
+	mission_infrastructure_renovation = {
+		icon = road_building
+		requires = { mission_calm_after_the_storm }
+
+		enabled = {
+			tag = PUA
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = infrastructure_renovation_modifier
+				years = 10
+				mode = replace
+			}
+		}
+	}
+
+	mission_second_government_seat = {
+		icon = administrative_leadership
+		requires = { mission_infrastructure_renovation }
+
+		bypass = {
+			location:rzeszów = {
+				has_building = building_type:local_governor
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			location:rzeszów = {
+				owner ?= root
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			location:rzeszów = {
+				change_building_level_in_location = {
+					building = building_type:local_governor
+					value = 1
+				}
+			}
+		}
+	}
+
+	mission_jedzeniot_line = {
+		icon = defenses_of_novgorod
+		requires = { mission_infrastructure_renovation }
+
+		bypass = {
+			AND = {
+				location:wadowice_górne = {
+					OR = {
+						has_building = building_type:bastion
+						has_building = building_type:star_fort
+						has_building = building_type:fortress
+					}
+				}
+				location:straszęcin = {
+					OR = {
+						has_building = building_type:bastion
+						has_building = building_type:star_fort
+						has_building = building_type:fortress
+					}
+				}
+				location:osiek_jasielski = {
+					OR = {
+						has_building = building_type:bastion
+						has_building = building_type:star_fort
+						has_building = building_type:fortress
+					}
+				}
+				location:skołoszyn = {
+					OR = {
+						has_building = building_type:bastion
+						has_building = building_type:star_fort
+						has_building = building_type:fortress
+					}
+				}
+				location:jodłowa = {
+					OR = {
+						has_building = building_type:bastion
+						has_building = building_type:star_fort
+						has_building = building_type:fortress
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			can_pay_price = price:pua_jedzeniot_line_price
+			location:wadowice_górne = {
+				owner ?= root
+			}
+			location:straszęcin = {
+				owner ?= root
+			}
+			location:osiek_jasielski = {
+				owner ?= root
+			}
+			location:skołoszyn = {
+				owner ?= root
+			}
+			location:jodłowa = {
+				owner ?= root
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			pay_price = price:pua_jedzeniot_line_price
+			location:wadowice_górne = {
+				change_building_level_in_location = {
+					building = building_type:bastion
+					value = 1
+				}
+			}
+			location:straszęcin = {
+				change_building_level_in_location = {
+					building = building_type:bastion
+					value = 1
+				}
+			}
+			location:osiek_jasielski = {
+				change_building_level_in_location = {
+					building = building_type:bastion
+					value = 1
+				}
+			}
+			location:skołoszyn = {
+				change_building_level_in_location = {
+					building = building_type:bastion
+					value = 1
+				}
+			}
+			location:jodłowa = {
+				change_building_level_in_location = {
+					building = building_type:bastion
+					value = 1
+				}
+			}
+		}
+	}
+
+	mission_autostradka = {
+		icon = road_building
+		requires = { mission_infrastructure_renovation }
+
+		bypass = {
+			AND = {
+				location:mielec = {
+					has_road_of_type_to = {
+						target = location:przecław
+						type = road_type:modern_road
+					}
+				}
+				location:przecław = {
+					has_road_of_type_to = {
+						target = location:dębica
+						type = road_type:modern_road
+					}
+				}
+				location:dębica = {
+					has_road_of_type_to = {
+						target = location:ostrów
+						type = road_type:modern_road
+					}
+				}
+				location:ostrów = {
+					has_road_of_type_to = {
+						target = location:sędziszów_małopolski
+						type = road_type:modern_road
+					}
+				}
+				location:sędziszów_małopolski = {
+					has_road_of_type_to = {
+						target = location:świlcza
+						type = road_type:modern_road
+					}
+				}
+				location:świlcza = {
+					has_road_of_type_to = {
+						target = location:rzeszów
+						type = road_type:modern_road
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			can_pay_price = price:pua_autostradka_price
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			pay_price = price:pua_autostradka_price
+			if = {
+				limit = {
+					location:mielec = {
+						owner ?= root
+					}
+					location:przecław = {
+						owner ?= root
+					}
+				}
+				location:mielec = {
+					construct_road = {
+						target = location:przecław
+						type = road_type:modern_road
+					}
+				}
+			}
+			if = {
+				limit = {
+					location:przecław = {
+						owner ?= root
+					}
+					location:dębica = {
+						owner ?= root
+					}
+				}
+				location:przecław = {
+					construct_road = {
+						target = location:dębica
+						type = road_type:modern_road
+					}
+				}
+			}
+			if = {
+				limit = {
+					location:dębica = {
+						owner ?= root
+					}
+					location:ostrów = {
+						owner ?= root
+					}
+				}
+				location:dębica = {
+					construct_road = {
+						target = location:ostrów
+						type = road_type:modern_road
+					}
+				}
+			}
+			if = {
+				limit = {
+					location:ostrów = {
+						owner ?= root
+					}
+					location:sędziszów_małopolski = {
+						owner ?= root
+					}
+				}
+				location:ostrów = {
+					construct_road = {
+						target = location:sędziszów_małopolski
+						type = road_type:modern_road
+					}
+				}
+			}
+			if = {
+				limit = {
+					location:sędziszów_małopolski = {
+						owner ?= root
+					}
+					location:świlcza = {
+						owner ?= root
+					}
+				}
+				location:sędziszów_małopolski = {
+					construct_road = {
+						target = location:świlcza
+						type = road_type:modern_road
+					}
+				}
+			}
+			if = {
+				limit = {
+					location:świlcza = {
+						owner ?= root
+					}
+					location:rzeszów = {
+						owner ?= root
+					}
+				}
+				location:świlcza = {
+					construct_road = {
+						target = location:rzeszów
+						type = road_type:modern_road
+					}
+				}
+			}
+		}
+	}
+
+	mission_crusade_against_the_hairmans = {
+		icon = teu_crusader_discipline
+		requires = { mission_assault_on_the_gates_of_valona }
+
+		bypass = {
+			OR = {
+				NOT = { country_exists = c:UWU }
+				c:UWU = {
+					is_subject_of = root
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			country_exists = c:UWU
+			NOT = {
+				c:UWU = {
+					is_subject_of = root
+				}
+			}
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = {
+				has_casus_belli_of_type_on = {
+					target = c:UWU
+					type = casus_belli:cb_deus_vult
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			add_country_modifier = {
+				modifier = recent_foreign_claims
+				years = 1
+				mode = replace
+			}
+			add_casus_belli = {
+				target = c:UWU
+				type = casus_belli:cb_deus_vult
+				province = c:UWU.capital.province
+				years = 20
+			}
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+		}
+	}
+
+mission_maritime_question = {
+		icon = maritime_advance_age_2
+		requires = { mission_administer_mielec }
+
+		bypass = {
+			OR = {
+				has_variable = pua_maritime_question_resolved
+				AND = {
+					OR = {
+						location:szczucin = {
+							owner ?= root
+						}
+						location:szczucin.owner = {
+							is_subject_of = root
+						}
+					}
+					OR = {
+						NOT = { country_exists = c:TVI }
+						c:TVI = {
+							is_subject_of = root
+						}
+						NOT = {
+							location:mielec.province_definition = {
+								any_location_in_province_definition = {
+									owner ?= c:TVI
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		enabled = {
+			tag = PUA
+			location:mielec = {
+				owner ?= root
+			}
+			NOT = { has_variable = pua_foreign_claim_mission_active }
+			NOT = { has_country_modifier = recent_foreign_claims }
+			NOT = { has_variable = pua_maritime_question_resolved }
+			OR = {
+				NOT = {
+					OR = {
+						location:szczucin = {
+							owner ?= root
+						}
+						location:szczucin.owner = {
+							is_subject_of = root
+						}
+					}
+				}
+				AND = {
+					country_exists = c:TVI
+					NOT = {
+						c:TVI = {
+							is_subject_of = root
+						}
+					}
+					location:mielec.province_definition = {
+						any_location_in_province_definition = {
+							owner ?= c:TVI
+						}
+					}
+				}
+			}
+		}
+
+		duration = 180
+
+		on_persistent_start = {
+			set_variable = pua_foreign_claim_mission_active
+		}
+
+		on_persistent_completion = {
+			remove_variable = pua_foreign_claim_mission_active
+			trigger_event_non_silently = pua_political_events.12
+		}
+
+		on_bypass = {
+			remove_variable = pua_foreign_claim_mission_active
+			set_variable = pua_maritime_question_resolved
+		}
+	}
+
+	mission_consolidate_rule = {
+		icon = crown_power_advance_renaissance
+		requires = { mission_claim_mielec }
+
+		enabled = {
+			tag = PUA
+			at_war = no
+			stability >= 30
+			location:mielec = {
+				owner ?= root
+			}
+ 			custom_tooltip = {
+ 				text = pua_consolidate_rule_integrated_conquests_tt
+				trigger_if = {
+					limit = {
+						location:skołoszyn = {
+							owner ?= root
+						}
+					}
+					location:skołoszyn = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:lipniki = {
+							owner ?= root
+						}
+					}
+					location:lipniki = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:brzyska = {
+							owner ?= root
+						}
+					}
+					location:brzyska = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:jasło = {
+							owner ?= root
+						}
+					}
+					location:jasło = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:dębowiec = {
+							owner ?= root
+						}
+					}
+					location:dębowiec = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:osiek_jasielski = {
+							owner ?= root
+						}
+					}
+					location:osiek_jasielski = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:nowy_żmigród = {
+							owner ?= root
+						}
+					}
+					location:nowy_żmigród = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:kołaczyce = {
+							owner ?= root
+						}
+					}
+					location:kołaczyce = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+				trigger_if = {
+					limit = {
+						location:krempna = {
+							owner ?= root
+						}
+					}
+					location:krempna = {
+						OR = {
+							integration_level = integrated
+							integration_level = core
+						}
+					}
+				}
+ 			}
+ 		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = internal_consolidation_drive
+				years = 5
+				mode = replace
+			}
+		}
+	}
+
+	mission_administer_mielec = {
+		icon = smooth_administration
+		requires = { mission_claim_mielec }
+
+		enabled = {
+			tag = PUA
+			location:mielec = {
+				owner ?= root
+				OR = {
+					integration_level = integrated
+					integration_level = core
+				}
+			}
+			location:mielec = {
+				province = {
+					province_average_control >= 0.5
+				}
+			}
+		}
+
+		duration = 90
+
+		on_persistent_completion = {
+			add_country_modifier = {
+				modifier = mielec_administrative_reforms
+				years = 5
+				mode = replace
+			}
+		}
+	}
+}

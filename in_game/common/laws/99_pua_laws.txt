@@ -1,0 +1,246 @@
+pua_walonian_cavalry_law = {
+	unique = yes
+	law_category = socioeconomic
+	potential = {
+		tag = PUA
+		has_unlocked_law_trigger = { type = pua_walonian_cavalry_law }
+	}
+
+	wolne_choragwie_walonskie = {
+		country_modifier = {
+			army_cavalry_power = 0.15
+			land_morale_modifier = 0.05
+			nobles_estate_target_satisfaction = medium_permanent_target_satisfaction
+			global_monthly_control = -0.001
+		}
+		estate_preferences = {
+			nobles_estate
+		}
+		years = 2
+	}
+
+	sluzba_za_nadanie = {
+		country_modifier = {
+			army_cavalry_power = 0.10
+			discipline = 0.025
+			nobles_estate_target_satisfaction = small_permanent_target_satisfaction
+			army_cavalry_maintenance_cost_modifier = 0.10
+		}
+		estate_preferences = {
+			nobles_estate
+			crown_estate
+		}
+		years = 2
+	}
+
+	panstwowa_jazda_walonska = {
+		country_modifier = {
+			discipline = 0.05
+			global_monthly_control = 0.002
+			legislative_efficiency = 0.05
+			nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+		}
+		estate_preferences = {
+			crown_estate
+		}
+		years = 2
+	}
+}
+
+pua_jewish_communities_status = {
+	unique = yes
+	law_category = socioeconomic
+	potential = {
+		tag = PUA
+		has_unlocked_law_trigger = { type = pua_jewish_communities_status }
+	}
+
+	ograniczone_gminy = {
+		country_modifier = {
+			tolerance_heretic = -1
+			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+			diplomatic_reputation = diplomatic_reputation_mild_penalty
+			monthly_towards_traditionalist = societal_value_monthly_move
+		}
+		estate_preferences = {
+			clergy_estate
+		}
+		years = 2
+	}
+
+	tolerowana_odrebnosc = {
+		country_modifier = {
+			diplomatic_reputation = diplomatic_reputation_weak_bonus
+			selling_efficiency = 0.025
+			clergy_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+			monthly_towards_conciliatory = societal_value_monthly_move
+		}
+		estate_preferences = {
+			burghers_estate
+			crown_estate
+		}
+		years = 2
+	}
+
+	chronione_przywileje = {
+		country_modifier = {
+			diplomatic_reputation = diplomatic_reputation_mild_bonus
+			selling_efficiency = 0.05
+			burghers_estate_target_satisfaction = medium_permanent_target_satisfaction
+			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+			monthly_towards_humanist = societal_value_monthly_move
+		}
+		estate_preferences = {
+			burghers_estate
+		}
+		years = 2
+	}
+}
+
+pua_cannabis_use = {
+	unique = yes
+	law_category = socioeconomic
+	potential = {
+		tag = PUA
+		has_unlocked_law_trigger = { type = pua_cannabis_use }
+	}
+
+	pelna_legalizacja = {
+		country_modifier = {
+			research_speed_modifier = 0.05
+			selling_efficiency = 0.05
+			monthly_towards_innovative = societal_value_monthly_move
+			global_estate_target_satisfaction = tiny_permanent_target_satisfaction
+		}
+		estate_preferences = {
+			burghers_estate
+			peasants_estate
+		}
+		years = 2
+	}
+
+	dekryminalizacja = {
+		country_modifier = {
+			selling_efficiency = 0.025
+			global_monthly_control = 0.001
+			monthly_towards_humanist = societal_value_monthly_move
+		}
+		estate_preferences = {
+			burghers_estate
+			crown_estate
+		}
+		years = 2
+	}
+
+	zakaz_konopi = {
+		country_modifier = {
+			global_monthly_control = 0.002
+			monthly_towards_traditionalist = societal_value_monthly_move
+			global_estate_target_satisfaction = tiny_permanent_target_satisfaction_penalty
+		}
+		estate_preferences = {
+			clergy_estate
+			crown_estate
+		}
+		years = 2
+	}
+}
+
+pua_pua_course_legality = {
+	unique = yes
+	law_category = socioeconomic
+	potential = {
+		tag = PUA
+		has_unlocked_law_trigger = { type = pua_pua_course_legality }
+	}
+
+	calkowita_legalizacja = {
+		country_modifier = {
+			global_pop_promotion_speed_modifier = 0.1
+			monthly_towards_spiritualist = societal_value_monthly_move
+			clergy_estate_target_satisfaction = small_permanent_target_satisfaction
+		}
+		estate_preferences = {
+			clergy_estate
+			peasants_estate
+		}
+		years = 2
+	}
+	zakaz_sprzedazy = {
+		country_modifier = {
+			global_pop_promotion_speed_modifier = 0.05
+			country_cabinet_efficiency = 0.05
+			global_monthly_literacy = 0.01
+			monthly_towards_spiritualist = societal_value_tiny_monthly_move
+		}
+		estate_preferences = {
+			peasants_estate
+		}
+		years = 2
+	}
+	calkowity_zakaz = {
+		country_modifier = {
+			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+			burghers_estate_target_satisfaction = large_permament_target_satisfaction
+			monthly_towards_humanist = societal_value_minor_monthly_move
+			country_cabinet_efficiency = 0.05
+			global_pop_promotion_speed_modifier = -0.05
+			global_crown_estate_power = 0.1
+		}
+		estate_preferences = {
+			burghers_estate
+			nobles_estate
+		}
+		years = 2
+	}
+}
+
+pua_femboy_legal_status = {
+	unique = yes
+	law_category = socioeconomic
+	potential = {
+		tag = PUA
+		has_unlocked_law_trigger = { type = pua_femboy_legal_status }
+	}
+
+	pelna_normalizacja = {
+		country_modifier = {
+			monthly_towards_humanist = societal_value_monthly_move
+			global_pop_assimilation_speed_modifier = 0.10
+			global_pop_conversion_speed_modifier = -0.10
+			global_estate_target_satisfaction = tiny_permanent_target_satisfaction
+		}
+		estate_preferences = {
+			peasants_estate
+			burghers_estate
+		}
+		years = 2
+	}
+
+	status_tolerowany = {
+		country_modifier = {
+			monthly_towards_conciliatory = societal_value_monthly_move
+			legislative_efficiency = 0.05
+			global_monthly_control = 0.001
+		}
+		estate_preferences = {
+			crown_estate
+			burghers_estate
+		}
+		years = 2
+	}
+
+	zakaz_obyczajowy = {
+		country_modifier = {
+			monthly_towards_traditionalist = societal_value_monthly_move
+			global_monthly_control = 0.002
+			global_pop_assimilation_speed_modifier = -0.10
+			global_estate_target_satisfaction = tiny_permanent_target_satisfaction_penalty
+		}
+		estate_preferences = {
+			clergy_estate
+			crown_estate
+		}
+		years = 2
+	}
+}

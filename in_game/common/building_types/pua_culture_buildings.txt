@@ -1,0 +1,98 @@
+mogwarts = {
+	is_special = yes
+	is_foreign = no
+	pop_type = clergy
+	max_levels = 1
+
+	category = cultural_category
+	employment_size = religious_building_employment
+
+	town = yes
+	city = yes
+
+	AI_ignore_available_worker_flag = yes
+	expensive = yes
+	build_time = large_cultural_building_time
+	forbidden_for_estates = yes
+
+	country_potential = {
+		tag = PUA
+		has_reform = government_reform:pua_redpill_doctrine
+	}
+
+	location_potential = {
+		is_capital = yes
+	}
+
+	modifier = {
+		local_clergy_estate_power = 1.0
+	}
+
+	capital_country_modifier = {
+		peasants_estate_max_tax = 0.10
+		global_crown_estate_power = 0.10
+		global_peasants_max_literacy = 10
+		global_pop_promotion_speed_modifier = 0.20
+	}
+
+	unique_production_methods = {
+		mogwarts_maintenance = {
+			paper = 0.5
+			books = 0.25
+			glass = 0.25
+			beeswax = 0.05
+
+			category = building_maintenance
+		}
+	}
+
+	construction_demand = university_construction
+}
+strefa_dupczenia = {
+	is_special = yes
+	is_foreign = no
+	pop_type = soldiers
+	max_levels = 1
+
+	category = military_category
+	employment_size = manpower_employment
+
+	town = yes
+	city = yes
+
+	AI_ignore_available_worker_flag = yes
+	expensive = yes
+	build_time = large_cultural_building_time
+	forbidden_for_estates = yes
+
+	country_potential = {
+		tag = PUA
+		OR = {
+			has_reform = government_reform:pua_redpill_doctrine
+			has_reform = government_reform:pua_blackpill_doctrine
+		}
+	}
+
+	build_time = soldier_building
+
+	modifier = {
+		local_manpower = 0.005
+		local_army_levy_size_modifier = 0.1
+		local_population_growth = 0.00025
+	}
+
+	unique_production_methods = {
+		strefa_dupczenia_maintenance = {
+			wheat = 0.30
+			cloth = 0.30
+			liquor = 0.20
+			paper = 0.10
+			glass = 0.05
+			livestock = 0.10
+			category = building_maintenance
+		}
+	}
+
+
+	construction_demand = early_soldier_building_construction
+}

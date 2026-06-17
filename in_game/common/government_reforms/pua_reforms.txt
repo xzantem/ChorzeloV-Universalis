@@ -1,0 +1,193 @@
+﻿pua_repolonization_directorate = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_repolonization_directorate }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		country_cabinet_efficiency = 0.1
+		can_repolonize = yes
+	}
+
+	years = 2
+}
+
+pua_redpill_doctrine = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_redpill_doctrine }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+		clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+		country_cabinet_efficiency = 0.1
+		diplomatic_capacity_modifier = 0.1
+		global_max_control = 0.05
+		monthly_towards_spiritualist = societal_value_monthly_move
+		burghers_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+	}
+
+	years = 2
+}
+
+pua_blackpill_doctrine = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_blackpill_doctrine }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		nobles_estate_target_satisfaction = medium_permanent_target_satisfaction
+		peasants_estate_target_satisfaction = small_permanent_target_satisfaction
+		discipline = 0.025
+		land_morale_modifier = 0.05
+		country_cabinet_efficiency = 0.05
+		global_crown_estate_power = 0.05
+		monthly_towards_humanist = societal_value_monthly_move
+		clergy_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+		burghers_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+	}
+
+	years = 2
+}
+pua_lepsze_dupczenie_reform = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_lepsze_dupczenie_reform }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		global_population_growth = 0.0005
+		global_peasant_enfranchisment = 0.10
+		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+		nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+		clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+		monthly_towards_free_subjects = societal_value_monthly_move
+		monthly_towards_spiritualist = societal_value_monthly_move
+	}
+
+	years = 2
+}
+pua_dupczenie_reform = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_dupczenie_reform }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		global_population_growth = 0.0002
+		global_peasant_enfranchisment = 0.20
+		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction
+		nobles_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
+		burghers_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
+		global_crown_estate_power = -0.20
+		monthly_towards_free_subjects = societal_value_monthly_move
+		monthly_towards_spiritualist = societal_value_monthly_move
+	}
+	lock_mechanic = {
+		mechanic = government_reform
+		type = pua_dupczenie_reform
+	}
+
+	years = 2
+}
+pua_zakaz_dupczenia_reform = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_zakaz_dupczenia_reform }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		peasants_estate_target_satisfaction = estate_satisfaction_extreme_penalty
+		nobles_estate_target_satisfaction = medium_permanent_target_satisfaction
+		monthly_towards_serfdom = societal_value_monthly_move
+		global_crown_estate_power = 0.10
+		country_child_education = 0.25
+		monthly_peasants_estate_rebel_growth = 0.005
+		global_pop_promotion_speed_modifier = -0.25
+	}
+	locked = {
+		is_locked_mechanic = {
+			mechanic = government_reform
+			type = pua_zakaz_dupczenia_reform
+		}
+	}
+
+	years = 2
+}
+pua_lepszy_zakaz_dupczenia_reform = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_lepszy_zakaz_dupczenia_reform }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		peasants_estate_target_satisfaction = large_permanent_target_satisfaction_penalty
+		nobles_estate_target_satisfaction = large_permanent_target_satisfaction
+		monthly_towards_serfdom = societal_value_large_monthly_move
+		global_crown_estate_power = 0.2
+		country_child_education = 0.5
+		global_pop_promotion_speed_modifier = -0.5
+	}
+
+	years = 2
+}
+pua_looksmaxxing_reform = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_looksmaxxing_reform }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		tax_income_efficiency = -0.05
+		global_crown_estate_power = 0.05
+		global_pop_promotion_speed_modifier = 0.10
+		burghers_estate_target_satisfaction = small_permanent_target_satisfaction
+		peasants_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
+		global_production_efficiency = 0.03
+		global_population_growth = -0.0002
+	}
+	locked = {
+		is_locked_mechanic = {
+			mechanic = government_reform
+			type = pua_zakaz_dupczenia_reform
+		}
+	}
+
+	years = 2
+}
+pua_lepszy_looksmaxxing_reform = {
+	unique = yes
+
+	potential = {
+		tag = PUA
+		has_unlocked_government_reform_trigger = { type = pua_lepszy_looksmaxxing_reform }
+	}
+	country_modifier = {
+		government_reform_slots = 1
+		tax_income_efficiency = 0.05
+		global_crown_estate_power = 0.1
+		global_pop_promotion_speed_modifier = 0.20
+		burghers_estate_target_satisfaction = small_permanent_target_satisfaction
+		global_production_efficiency = 0.05
+	}
+
+	years = 2
+}

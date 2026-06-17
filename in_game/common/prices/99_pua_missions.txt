@@ -1,0 +1,11 @@
+﻿pua_buy_twierdza_mielec_price = {
+	scaled_gold = 5
+}
+
+pua_jedzeniot_line_price = {
+	scaled_gold = 10
+}
+
+pua_autostradka_price = {
+	scaled_gold = 10
+}

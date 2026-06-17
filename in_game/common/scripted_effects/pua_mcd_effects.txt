@@ -1,0 +1,21 @@
+mcd_save_active_country_as = {
+	if = {
+		limit = {
+			country_exists = c:MCD
+			c:MCD = {
+				num_locations > 0
+			}
+		}
+		c:MCD = {
+			save_scope_as = active_mcd_country
+		}
+	}
+	else_if = {
+		limit = {
+			country_exists = c:MCB
+		}
+		c:MCB = {
+			save_scope_as = active_mcd_country
+		}
+	}
+}

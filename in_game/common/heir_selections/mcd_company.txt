@@ -1,0 +1,39 @@
+mcd_company_selection = {
+	include_ruler_siblings = yes
+	through_female = no
+	allow_female = yes
+
+	allowed_estates = { nobles_estate burghers_estate }
+	heir_is_allowed = {
+	}
+	potential = {
+		has_reform = government_reform:mcd_company_country
+	}
+
+	locked = {
+		has_reform = government_reform:mcd_company_country
+	}
+	calc = {
+		if = {
+			limit = {
+				exists = root
+			}
+			add = {
+				desc = "HEIR_SELECTION_ADM_DESC"
+				value = root.adm
+			}
+
+			add = {
+				desc = "BANK_OLDER_HEIR_DESC"
+				value = character_age
+			}
+			if = {
+				limit = { modifier:blocked_from_being_ruler = yes }
+				add = {
+					desc = "HEIR_SELECTION_BLOCKED_FROM_RULER_DESC"
+					value = -1000
+				}
+			}
+		}
+	}
+}

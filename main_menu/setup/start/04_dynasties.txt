@@ -275,4 +275,114 @@ dynasty_manager = {
 			
 		}
 	}
+	kamiński_dynasty = {
+		name = { name = kamiński_dynasty }
+		home = świebodzin
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	szablowski_dynasty = {
+		name = { name = szablowski_dynasty }
+		home = święty_świebodzin
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	warszawa_dynasty = {
+		name = { name = warszawa_dynasty }
+		home = puławy
+		dynasty_name_type = location
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	bugajska_dynasty = {
+		name = { name = bugajska_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	jasiński_dynasty = {
+		name = { name = jasiński_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	brisse_dynasty = {
+		name = { name = brisse_dynasty }
+		home = opatów
+		dynasty_name_type = patronym
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	lesiok_dynasty = {
+		name = { name = lesiok_dynasty }
+		home = meszna2
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	kuk_dynasty = {
+		name = { name = kuk_dynasty }
+		home = dębica
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	kocik_dynasty = {
+		name = { name = kocik_dynasty }
+		home = tuchów
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
+	zięba_dynasty = {
+		name = { name = zięba_dynasty }
+		home = mielec
+		dynasty_name_type = descendant
+		male_names = {
+			
+		}
+		female_names = {
+			
+		}
+	}
 }

@@ -1,0 +1,11 @@
+﻿cb_pua_daniel_hunt = {
+	visible = {
+		always = no
+	}
+	allow_creation = {
+		always = no
+	}
+
+	war_goal_type = pua_daniel_hunt_goal
+}
+

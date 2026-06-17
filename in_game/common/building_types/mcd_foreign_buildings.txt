@@ -1,0 +1,42 @@
+mcd_restaurant = {
+	is_special = yes
+	is_foreign = yes
+	need_good_relation = yes
+	pop_type = burghers
+
+	category = trade_category
+
+	max_levels = 1
+	employment_size = foreign_trade_employment
+	pop_size_created = foreign_trade_employment
+
+	rural_settlement = no
+	town = yes
+	city = yes
+
+	build_time = bank_office_build_time
+
+	country_potential = {
+		has_reform = government_reform:mcd_company_country
+	}
+
+	modifier = {
+		merchant_power_from_building = 0.1
+		scaled_gold_to_building_owner = 0.1
+		local_life_expectancy = -5
+		local_peasants_food_consumption = 0.2
+		local_burghers_food_consumption = 0.1
+		local_monthly_food_modifier = 0.1
+	}
+
+	unique_production_methods = {
+		bank_maintenance = {
+			paper = 0.1
+			goods_gold = 0.01
+			silver = 0.01
+			category = building_maintenance
+		}
+	}
+
+	construction_demand = bank_construction
+}

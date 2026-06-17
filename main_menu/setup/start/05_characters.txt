@@ -11,14 +11,51 @@ character_db={
 		culture = chorzelowian
 		religion = orthodox
 		estate = nobles_estate
-		adm = 85 dip = 35 mil = 100
+		adm = 54 dip = 87 mil = 70
 		female = no
 		birth_date = 1313.06.13
 		birth = stary_chorzelów
 		dynasty = kusek_dynasty
 		fertility = 60
 		tag = BYD
-		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	dom_dominik = {
+		first_name = { name = name_dominik }
+		culture = chorzelowian
+		religion = orthodox
+		estate = nobles_estate
+		adm = 71 dip = 45 mil = 50
+		female = no
+		birth_date = 1318.09.29
+		birth = stary_chorzelów
+		dynasty = kusek_dynasty
+		fertility = 60
+		tag = DOM
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	bar_bartosz = {
+		first_name = { name = name_bartosz }
+		culture = chorzelowian
+		religion = orthodox
+		estate = nobles_estate
+		adm = 18 dip = 81 mil = 54
+		female = no
+		birth_date = 1316.08.02
+		birth = stary_chorzelów
+		dynasty = kusek_dynasty
+		fertility = 60
+		tag = BAR
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -31,14 +68,13 @@ character_db={
 		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
-		adm = 85 dip = 35 mil = 100
+		adm = 93 dip = 74 mil = 78
 		female = no
 		birth_date = 1314.02.14
 		birth = mielec
 		dynasty = surman_dynasty
 		fertility = 0
 		tag = PUA
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -46,19 +82,145 @@ character_db={
 			size = 1
 		}
 	}
+	pua_kuk = {
+		first_name = { name = name_profesor }
+		culture = mielczan
+		religion = catholic
+		estate = nobles_estate
+		adm = 94 dip = 88 mil = 42
+		female = no
+		birth_date = 1300.10.16
+		birth = mielec
+		dynasty = kuk_dynasty
+		fertility = 0
+		tag = PUA
+	}
 	aur_wrona = {
 		first_name = { name = name_szymon.latin_language }
 		culture = świebodziniak
 		religion = catholic
 		estate = clergy_estate
-		adm = 22 dip = 83 mil = 14
+		adm = 49 dip = 12 mil = 53
 		female = no
 		birth_date = 1311.03.01
 		birth = święty_świebodzin
 		dynasty = corvinius_dynasty
+		father = aur_rafał
 		fertility = 0
 		tag = AUR
-		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	aur_antek = {
+		first_name = { name = name_antoni.latin_language }
+		culture = świebodziniak
+		religion = catholic
+		estate = crown_estate
+		adm = 46 dip = 25 mil = 48
+		female = no
+		birth_date = 1317.01.14
+		birth = święty_świebodzin
+		dynasty = corvinius_dynasty
+		father = aur_rafał
+		fertility = 0
+		tag = AUR
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	aur_błażej = {
+		first_name = { name = name_błażej.latin_language }
+		culture = świebodziniak
+		religion = catholic
+		estate = clergy_estate
+		adm = 52 dip = 99 mil = 68
+		female = no
+		birth_date = 1315.08.25
+		birth = święty_świebodzin
+		dynasty = corvinius_dynasty
+		father = aur_rafał
+		fertility = 0
+		tag = AUR
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	aur_adam = {
+		first_name = { name = name_adam.latin_language }
+		culture = świebodziniak
+		religion = catholic
+		estate = clergy_estate
+		adm = 98 dip = 62 mil = 48
+		female = no
+		birth_date = 1312.12.08
+		birth = święty_świebodzin
+		dynasty = corvinius_dynasty
+		father = aur_rafał
+		fertility = 0
+		tag = AUR
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	aur_tymek = {
+		first_name = { name = name_tymoteusz.latin_language }
+		culture = świebodziniak
+		religion = catholic
+		estate = clergy_estate
+		adm = 64 dip = 73 mil = 18
+		female = no
+		birth_date = 1314.06.19
+		birth = święty_świebodzin
+		dynasty = corvinius_dynasty
+		father = aur_rafał
+		fertility = 0
+		tag = AUR
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	aur_babka = {
+		first_name = { name = name_babka.latin_language }
+		culture = świebodziniak
+		religion = catholic
+		estate = clergy_estate
+		adm = 81 dip = 77 mil = 20
+		female = yes
+		birth_date = 1258.03.28
+		birth = święty_świebodzin
+		dynasty = corvinius_dynasty
+		fertility = 0
+		tag = AUR
+	}
+	aur_rafał = {
+		first_name = { name = name_rafał.latin_language }
+		culture = świebodziniak
+		religion = catholic
+		estate = clergy_estate
+		adm = 70 dip = 44 mil = 49
+		female = no
+		birth_date = 1286.05.12
+		birth = święty_świebodzin
+		dynasty = corvinius_dynasty
+		mother = aur_babka
+		fertility = 0
+		tag = AUR
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -71,14 +233,13 @@ character_db={
 		culture = meszniak
 		religion = catholic
 		estate = peasants_estate
-		adm = 22 dip = 83 mil = 14
+		adm = 51 dip = 45 mil = 30
 		female = no
 		birth_date = 1309.09.22
 		birth = tuchów
 		dynasty = niacio_dynasty
 		fertility = 76
 		tag = SLD
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -91,14 +252,74 @@ character_db={
 		culture = świebodziniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 80 dip = 76 mil = 31
 		female = no
+		father = swb_sławomir
+		spouse = pau_paulinka
 		birth_date = 1314.07.13
 		birth = świebodzin
 		dynasty = ocłoń_dynasty
 		fertility = 90
 		tag = SWB
-		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	pau_paulinka = {
+		first_name = { name = name_paulina }
+		culture = mielczan
+		religion = catholic
+		estate = nobles_estate
+		adm = 23 dip = 59 mil = 96
+		female = yes
+		spouse = swb_jendru
+		birth_date = 1313.02.26
+		birth = mielec
+		dynasty = zięba_dynasty
+		fertility = 90
+		tag = SWB
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	swb_ukasz = {
+		first_name = { name = name_łukasz }
+		culture = świebodziniak
+		religion = catholic
+		estate = nobles_estate
+		adm = 71 dip = 22 mil = 86
+		female = no
+		father = swb_sławomir
+		birth_date = 1317.02.18
+		birth = świebodzin
+		dynasty = ocłoń_dynasty
+		fertility = 90
+		tag = AUR
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	swb_sławomir = {
+		first_name = { name = name_sławomir }
+		culture = świebodziniak
+		religion = catholic
+		estate = nobles_estate
+		adm = 96 dip = 78 mil = 82
+		female = no
+		birth_date = 1285.11.03
+		birth = pleśna
+		dynasty = ocłoń_dynasty
+		fertility = 90
+		tag = AUR
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -111,14 +332,13 @@ character_db={
 		culture = anglo-mielecka
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 46 dip = 83 mil = 82
 		female = no
 		birth_date = 1313.07.12
 		birth = mielec
 		dynasty = głaz_dynasty
-		fertility = 23
+		fertility = 25
 		tag = TVI
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -131,14 +351,13 @@ character_db={
 		culture = dobryniniak
 		religion = lutheran
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 78 dip = 82 mil = 71
 		female = no
 		birth_date = 1313.06.08
 		birth = mielec
 		dynasty = rzegocki_dynasty
 		fertility = 100
 		tag = GER
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -151,14 +370,13 @@ character_db={
 		culture = szczurman
 		religion = sunni
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 22 dip = 17 mil = 63
 		female = no
 		birth_date = 1317.11.07
 		birth = mielec
 		dynasty = szczur_dynasty
 		fertility = 100
 		tag = UWU
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -171,14 +389,13 @@ character_db={
 		culture = valoniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 90 dip = 67 mil = 92
 		female = no
 		birth_date = 1313.09.11
 		birth = mielec
 		dynasty = surman_dynasty
 		fertility = 0
 		tag = WAL
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -191,14 +408,13 @@ character_db={
 		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 44 dip = 10 mil = 100
 		female = no
 		birth_date = 1313.06.15
 		birth = mielec
 		dynasty = laska_dynasty
 		fertility = 25
 		tag = FMB
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -211,14 +427,13 @@ character_db={
 		culture = maliniak
 		religion = orthodox
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 51 dip = 46 mil = 16
 		female = no
 		birth_date = 1314.09.09
 		birth = mielec
 		dynasty = iwanow_dynasty
 		fertility = 60
 		tag = MAL
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -231,14 +446,32 @@ character_db={
 		culture = dobryniniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 81 dip = 21 mil = 68
 		female = yes
 		birth_date = 1317.06.05
 		birth = mielec
 		dynasty = rzegocki_dynasty
 		fertility = 30
-		tag = MCD
-		ruler_trait = lawgiver
+		tag = MCB
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	mcd_kocik = {
+		first_name = { name = name_wiktoria }
+		culture = tuchowiak
+		religion = catholic
+		estate = nobles_estate
+		adm = 75 dip = 46 mil = 72
+		female = yes
+		birth_date = 1314.10.28
+		birth = mielec
+		dynasty = kocik_dynasty
+		fertility = 30
+		tag = MCB
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -258,7 +491,6 @@ character_db={
 		dynasty = mielec_dynasty
 		fertility = 50
 		tag = MLC
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -271,14 +503,14 @@ character_db={
 		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
-		adm = 12 dip = 73 mil = 9
+		adm = 22 dip = 80 mil = 93
 		female = no
 		birth_date = 1314.05.17
 		birth = mielec
 		dynasty = bukała_dynasty
+		spouse = buk_skowron
 		fertility = 37
 		tag = BUK
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -292,14 +524,13 @@ character_db={
 		culture = ashkenazi
 		religion = judaism
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 28 dip = 91 mil = 76
 		female = no
 		birth_date = 1260.10.21
 		birth = leżajsk
 		dynasty = netanyahu_dynasty
 		fertility = 10
 		tag = JUD
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -312,14 +543,13 @@ character_db={
 		culture = ashkenazi
 		religion = judaism
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 18 dip = 90 mil = 85
 		female = no
 		birth_date = 1253.10.27
 		birth = kolbuszowa
 		dynasty = goldberg_dynasty
 		fertility = 5
 		tag = YID
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -333,14 +563,13 @@ character_db={
 		culture = meszniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 48 dip = 46 mil = 41
 		female = no
 		birth_date = 1314.05.28
 		birth = meszna1
 		dynasty = rempała_dynasty
 		fertility = 77
 		tag = MSZ
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -354,14 +583,13 @@ character_db={
 		culture = skrzyszowiak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 68 dip = 73 mil = 86
 		female = no
 		birth_date = 1317.04.25
 		birth = skrzyszów
 		dynasty = ocłoń_dynasty
 		fertility = 41
 		tag = NOB
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -374,14 +602,13 @@ character_db={
 		culture = lesser_polish
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 79 dip = 40 mil = 81
 		female = no
 		birth_date = 1314.07.24
 		birth = świebodzin
 		dynasty = grabka_dynasty
 		fertility = 47
 		tag = GRA
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -394,14 +621,13 @@ character_db={
 		culture = ruthenian
 		religion = orthodox
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 17 dip = 68 mil = 27
 		female = no
 		birth_date = 1289.01.25
 		birth = lutowiska
 		dynasty = zełenski_dynasty
 		fertility = 55
 		tag = UKR
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -414,14 +640,13 @@ character_db={
 		culture = świebodziniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 67 dip = 49 mil = 50
 		female = no
 		birth_date = 1317.03.16
 		birth = tuchów
 		dynasty = korzec_dynasty
 		fertility = 66
 		tag = RZU
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -434,14 +659,13 @@ character_db={
 		culture = lesser_polish
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 78 dip = 33 mil = 84
 		female = no
 		birth_date = 1291.08.07
 		birth = kraków
 		dynasty = miszalski_dynasty
 		fertility = 50
 		tag = KRK
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -454,14 +678,13 @@ character_db={
 		culture = korean_culture
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 53 dip = 90 mil = 69
 		female = yes
 		birth_date = 1313.11.17
 		birth = mielec
 		dynasty = burdzy_dynasty
 		fertility = 50
 		tag = KOR
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -474,14 +697,13 @@ character_db={
 		culture = tuchowiak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 43 dip = 39 mil = 11
 		female = no
 		birth_date = 1304.04.19
 		birth = tuchów
 		dynasty = stec_dynasty
 		fertility = 50
 		tag = CKZ
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -490,19 +712,17 @@ character_db={
 		}
 	}
 	lił_lesiok = {
-		first_name = { name = name_gerwazy }
-		nickname = { name = lesiok }
+		first_name = { name = name_eryk }
 		culture = meszniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 21 dip = 62 mil = 25
 		female = no
 		birth_date = 1314.01.22
 		birth = tuchów
-		dynasty = germuga_dynasty
+		dynasty = lesiok_dynasty
 		fertility = 50
 		tag = LIŁ
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -516,14 +736,13 @@ character_db={
 		culture = meszniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 70 dip = 32 mil = 91
 		female = no
 		birth_date = 1314.01.22
 		birth = tuchów
 		dynasty = germuga_dynasty
 		fertility = 50
 		tag = LIŁ
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -537,14 +756,13 @@ character_db={
 		culture = świebodziniak
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 86 dip = 86 mil = 39
 		female = no
 		birth_date = 1317.07.27
 		birth = świebodzin
 		dynasty = pękała_dynasty
 		fertility = 50
 		tag = PUA
-		ruler_trait = lawgiver
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1
@@ -557,15 +775,152 @@ character_db={
 		culture = mielczan
 		religion = catholic
 		estate = nobles_estate
-		adm = 50 dip = 50 mil = 50
+		adm = 50 dip = 23 mil = 47
 		female = yes
-		consort = yes
 		birth_date = 1314.08.15
 		birth = mielec
 		dynasty = skowron_dynasty
+		spouse = buk_bukaj
 		fertility = 50
 		tag = BUK
-		ruler_trait = lawgiver
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	mag_seba = {
+		first_name = { name = name_sebastian }
+		nickname = { name = iluzjonista }
+		culture = świebodziniak
+		religion = catholic
+		estate = nobles_estate
+		adm = 75 dip = 72 mil = 71
+		female = no
+		father = swb_sławomir
+		birth_date = 1318.10.16
+		birth = świebodzin
+		dynasty = ocłoń_dynasty
+		fertility = 90
+		tag = MAG
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	kam_kamiński = {
+		first_name = { name = name_paweł }
+		culture = świebodziniak
+		religion = sunni
+		estate = nobles_estate
+		adm = 64 dip = 38 mil = 76
+		female = no
+		birth_date = 1313.05.10
+		birth = świebodzin
+		dynasty = kamiński_dynasty
+		fertility = 50
+		tag = KAM
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	szm_szamanek = {
+		first_name = { name = name_szymon }
+		nickname = { name = szamanek }
+		culture = lesser_polish
+		religion = catholic
+		estate = nobles_estate
+		adm = 82 dip = 12 mil = 57
+		female = no
+		birth_date = 1317.08.13
+		birth = święty_świebodzin
+		dynasty = szablowski_dynasty
+		fertility = 50
+		tag = SZM
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	adm_grubykolega = {
+		first_name = { name = name_adam }
+		nickname = { name = gruby_kolega }
+		culture = warszawiak
+		religion = catholic
+		estate = nobles_estate
+		adm = 26 dip = 84 mil = 53
+		female = no
+		birth_date = 1313.02.14
+		birth = puławy
+		dynasty = warszawa_dynasty
+		fertility = 50
+		tag = ADM
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	bug_bugi = {
+		first_name = { name = name_julia }
+		nickname = { name = bugi }
+		culture = mielczan
+		religion = catholic
+		estate = nobles_estate
+		adm = 63 dip = 15 mil = 89
+		female = yes
+		birth_date = 1313.11.09
+		birth = mielec
+		dynasty = bugajska_dynasty
+		fertility = 24
+		tag = BUG
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	void_tomek = {
+		first_name = { name = name_tomek }
+		culture = mielczan
+		religion = catholic
+		estate = nobles_estate
+		adm = 41 dip = 95 mil = 92
+		female = no
+		birth_date = 1315.02.03
+		birth = mielec
+		dynasty = jasiński_dynasty
+		fertility = 24
+		tag = VOI
+		timed_modifier = {
+			modifier = "destined_to_rule"
+			start_date = 1330.1.1
+			date = 9999.1.1
+			size = 1
+		}
+	}
+	blg_belg = {
+		first_name = { name = name_noa }
+		culture = walloon
+		religion = catholic
+		estate = nobles_estate
+		adm = 78 dip = 92 mil = 100
+		female = no
+		birth_date = 1317.10.27
+		birth = opatów
+		dynasty = brisse_dynasty
+		fertility = 90
+		tag = BLG
 		timed_modifier = {
 			modifier = "destined_to_rule"
 			start_date = 1330.1.1

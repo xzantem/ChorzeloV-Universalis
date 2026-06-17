@@ -1,0 +1,683 @@
+﻿namespace = pua_political_events
+
+pua_political_events.1 = {
+	type = country_event
+	title = pua_political_events.1.title
+	desc = pua_political_events.1.desc
+
+	immediate = {
+		save_scope_as = target_country2
+		c:TVI = {
+			save_scope_as = target_country
+		}
+		location:mielec = {
+			province_definition = {
+				save_scope_as = target_province_definition
+			}
+		}
+	}
+
+	option = {
+		name = pua_political_events.1.a
+		scope:target_country = {
+			trigger_event_non_silently = pua_political_events.2
+		}
+	}
+}
+
+pua_political_events.2 = {
+	type = country_event
+	title = pua_political_events.2.title
+	desc = pua_political_events.2.desc
+
+	option = {
+		name = pua_political_events.2.a
+		historical_option = yes
+		trigger = {
+			scope:target_country2 = {
+				can_pay_price = price:pua_buy_twierdza_mielec_price
+			}
+		}
+
+		scope:target_country2 = {
+			set_variable = {
+				name = pua_twierdza_purchase_price
+				value = price:pua_buy_twierdza_mielec_price
+			}
+			pay_price = price:pua_buy_twierdza_mielec_price
+		}
+		add_gold = scope:target_country2.var:pua_twierdza_purchase_price
+		scope:target_province_definition = {
+			every_location_in_province_definition = {
+				limit = {
+					owner ?= scope:target_country
+					is_ownable = yes
+				}
+				change_location_owner = scope:target_country2
+				change_location_controller = scope:target_country2
+			}
+		}
+		scope:target_country2 = {
+			remove_variable = pua_twierdza_purchase_price
+			trigger_event_non_silently = pua_political_events.3
+		}
+	}
+
+	option = {
+		name = pua_political_events.2.b
+		trigger = {
+			is_ai = no
+		}
+
+		scope:target_country2 = {
+			add_casus_belli = {
+				target = root
+				type = casus_belli:cb_conquer_province
+				province = location:mielec.province
+				years = 20
+			}
+			trigger_event_non_silently = pua_political_events.4
+		}
+	}
+}
+
+pua_political_events.3 = {
+	type = country_event
+	title = pua_political_events.3.title
+	desc = pua_political_events.3.desc
+
+	option = {
+		name = pua_political_events.3.a
+	}
+}
+
+pua_political_events.4 = {
+	type = country_event
+	title = pua_political_events.4.title
+	desc = pua_political_events.4.desc
+
+	option = {
+		name = pua_political_events.4.a
+	}
+}
+
+pua_political_events.5 = {
+	type = country_event
+	title = pua_political_events.5.title
+	desc = pua_political_events.5.desc
+
+	immediate = {
+		save_scope_as = target_country3
+		c:AUR = {
+			save_scope_as = target_country
+		}
+		c:CKZ = {
+			save_scope_as = target_country2
+		}
+	}
+
+	option = {
+		name = pua_political_events.5.a
+		scope:target_country = {
+			trigger_event_non_silently = pua_political_events.6
+		}
+	}
+}
+
+pua_political_events.6 = {
+	type = country_event
+	title = pua_political_events.6.title
+	desc = pua_political_events.6.desc
+
+	option = {
+		name = pua_political_events.6.a
+		historical_option = yes
+		if = {
+			limit = {
+				NOT = {
+					is_allied_with = {
+						target = scope:target_country3
+					}
+				}
+			}
+			create_alliance = {
+				target = scope:target_country3
+			}
+		}
+		if = {
+			limit = {
+				NOT = { country_exists = c:CKZ }
+			}
+			scope:target_country3 = {
+				trigger_event_non_silently = pua_political_events.8
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					OR = {
+						location:ryglice = { owner ?= c:CKZ }
+						location:rzepiennik_strzyżewski = { owner ?= c:CKZ }
+						location:szerzyny = { owner ?= c:CKZ }
+						location:bobowa = { owner ?= c:CKZ }
+						location:lużna = { owner ?= c:CKZ }
+						location:moszczenica = { owner ?= c:CKZ }
+						location:biecz = { owner ?= c:CKZ }
+						location:gorlice = { owner ?= c:CKZ }
+						location:ropa = { owner ?= c:CKZ }
+						location:sękowa = { owner ?= c:CKZ }
+						location:uście_gorlickie = { owner ?= c:CKZ }
+					}
+				}
+			}
+			scope:target_country3 = {
+				trigger_event_non_silently = pua_political_events.8
+			}
+		}
+		else = {
+			scope:target_country2 = {
+				trigger_event_non_silently = pua_political_events.7
+			}
+		}
+	}
+
+	option = {
+		name = pua_political_events.6.b
+		trigger = {
+			is_ai = no
+		}
+
+		scope:target_country3 = {
+			trigger_event_non_silently = pua_political_events.9
+		}
+	}
+}
+
+pua_political_events.7 = {
+	type = country_event
+	title = pua_political_events.7.title
+	desc = pua_political_events.7.desc
+
+	option = {
+		name = pua_political_events.7.a
+		historical_option = yes
+
+		if = {
+			limit = {
+				location:ryglice = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:ryglice = {
+				change_location_owner = scope:target_country
+				change_location_controller = scope:target_country
+			}
+		}
+		if = {
+			limit = {
+				location:rzepiennik_strzyżewski = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:rzepiennik_strzyżewski = {
+				change_location_owner = scope:target_country
+				change_location_controller = scope:target_country
+			}
+		}
+		if = {
+			limit = {
+				location:szerzyny = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:szerzyny = {
+				change_location_owner = scope:target_country
+				change_location_controller = scope:target_country
+			}
+		}
+		if = {
+			limit = {
+				location:bobowa = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:bobowa = {
+				change_location_owner = scope:target_country
+				change_location_controller = scope:target_country
+			}
+		}
+		if = {
+			limit = {
+				location:lużna = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:lużna = {
+				change_location_owner = scope:target_country
+				change_location_controller = scope:target_country
+			}
+		}
+		if = {
+			limit = {
+				location:moszczenica = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:moszczenica = {
+				change_location_owner = scope:target_country
+				change_location_controller = scope:target_country
+			}
+		}
+		if = {
+			limit = {
+				location:biecz = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:biecz = {
+				change_location_owner = scope:target_country3
+				change_location_controller = scope:target_country3
+			}
+		}
+		if = {
+			limit = {
+				location:gorlice = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:gorlice = {
+				change_location_owner = scope:target_country3
+				change_location_controller = scope:target_country3
+			}
+		}
+		if = {
+			limit = {
+				location:ropa = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:ropa = {
+				change_location_owner = scope:target_country3
+				change_location_controller = scope:target_country3
+			}
+		}
+		if = {
+			limit = {
+				location:sękowa = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:sękowa = {
+				change_location_owner = scope:target_country3
+				change_location_controller = scope:target_country3
+			}
+		}
+		if = {
+			limit = {
+				location:uście_gorlickie = {
+					owner ?= root
+					is_ownable = yes
+				}
+			}
+			location:uście_gorlickie = {
+				change_location_owner = scope:target_country3
+				change_location_controller = scope:target_country3
+			}
+		}
+		scope:target_country3 = {
+			trigger_event_non_silently = pua_political_events.8
+		}
+	}
+
+	option = {
+		name = pua_political_events.7.b
+		trigger = {
+			is_ai = no
+		}
+
+		scope:target_country3 = {
+			add_casus_belli = {
+				target = root
+				type = casus_belli:cb_following_through_on_threat
+				province = location:gorlice
+				years = 20
+			}
+		}
+		scope:target_country = {
+			add_casus_belli = {
+				target = root
+				type = casus_belli:cb_following_through_on_threat
+				province = location:ryglice
+				years = 20
+			}
+		}
+		scope:target_country3 = {
+			trigger_event_non_silently = pua_political_events.10
+		}
+	}
+}
+
+pua_political_events.8 = {
+	type = country_event
+	title = pua_political_events.8.title
+	desc = pua_political_events.8.desc
+
+	option = {
+		name = pua_political_events.8.a
+	}
+}
+
+pua_political_events.9 = {
+	type = country_event
+	title = pua_political_events.9.title
+	desc = pua_political_events.9.desc
+
+	option = {
+		name = pua_political_events.9.a
+	}
+
+	option = {
+		name = pua_political_events.9.b
+		trigger = {
+			country_exists = c:CKZ
+			OR = {
+				location:tuchów = { owner ?= c:CKZ }
+				location:ryglice = { owner ?= c:CKZ }
+				location:rzepiennik_strzyżewski = { owner ?= c:CKZ }
+				location:szerzyny = { owner ?= c:CKZ }
+			}
+		}
+
+		add_casus_belli = {
+			target = c:CKZ
+			type = casus_belli:cb_following_through_on_threat
+			province = location:tuchów
+			years = 20
+		}
+		trigger_event_non_silently = pua_political_events.10
+	}
+}
+
+pua_political_events.10 = {
+	type = country_event
+	title = pua_political_events.10.title
+	desc = pua_political_events.10.desc
+
+	option = {
+		name = pua_political_events.10.a
+	}
+}
+
+pua_political_events.11 = {
+	type = country_event
+	title = pua_political_events.11.title
+	desc = pua_political_events.11.desc
+
+	immediate = {
+		mcd_save_active_country_as = yes
+	}
+
+	option = {
+		name = pua_political_events.11.a
+		ruler ?= {
+			add_adm = 5
+			add_dip = 5
+			add_mil = 10
+		}
+		if = {
+			limit = {
+				character:mcd_juleczka = {
+					is_alive = yes
+				}
+			}
+			kill_character_silently = character:mcd_juleczka
+		}
+		if = {
+			limit = {
+				character:mcd_kocik = {
+					is_alive = yes
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:active_mcd_country
+				}
+				scope:active_mcd_country = {
+					set_new_ruler = character:mcd_kocik
+				}
+			}
+		}
+	}
+
+	option = {
+		name = pua_political_events.11.b
+		ruler ?= {
+			add_adm = 10
+			add_dip = 5
+			add_mil = 5
+		}
+		if = {
+			limit = {
+				character:mcd_kocik = {
+					is_alive = yes
+				}
+			}
+			kill_character_silently = character:mcd_kocik
+		}
+	}
+
+	option = {
+		name = pua_political_events.11.c
+		add_stability = 14
+		add_country_modifier = {
+			modifier = pua_great_feast_restraint
+			years = 10
+			mode = replace
+		}
+	}
+}
+
+pua_political_events.12 = {
+	type = country_event
+	title = pua_political_events.12.title
+	desc = pua_political_events.12.desc
+
+	option = {
+		name = pua_political_events.12.a
+		trigger = {
+			NOT = {
+				OR = {
+					location:szczucin = {
+						owner ?= root
+					}
+					location:szczucin.owner = {
+						is_subject_of = root
+					}
+				}
+			}
+		}
+		set_variable = pua_maritime_question_resolved
+		set_variable = pua_maritime_branch_skrzyszow
+		add_country_modifier = {
+			modifier = recent_foreign_claims
+			years = 2
+			mode = replace
+		}
+		add_casus_belli = {
+			target = location:szczucin.owner
+			type = casus_belli:cb_conquer_province
+			province = location:szczucin.province
+			years = 20
+		}
+	}
+
+	option = {
+		name = pua_political_events.12.b
+		trigger = {
+			country_exists = c:TVI
+			NOT = {
+				c:TVI = {
+					is_subject_of = root
+				}
+			}
+			location:mielec.province_definition = {
+				any_location_in_province_definition = {
+					owner ?= c:TVI
+				}
+			}
+		}
+		set_variable = pua_maritime_question_resolved
+		set_variable = pua_maritime_branch_twierdza_war
+		add_country_modifier = {
+			modifier = recent_foreign_claims
+			years = 2
+			mode = replace
+		}
+		add_casus_belli = {
+			target = c:TVI
+			type = casus_belli:cb_conquer_province
+			province = location:mielec.province
+			years = 20
+		}
+	}
+
+	option = {
+		name = pua_political_events.12.c
+		trigger = {
+			country_exists = c:TVI
+			NOT = {
+				c:TVI = {
+					is_subject_of = root
+				}
+			}
+			location:mielec.province_definition = {
+				any_location_in_province_definition = {
+					owner ?= c:TVI
+				}
+			}
+		}
+		set_variable = pua_maritime_question_resolved
+		set_variable = pua_maritime_branch_twierdza_purchase
+		trigger_event_non_silently = pua_political_events.1
+	}
+}
+
+pua_political_events.13 = {
+	type = country_event
+	title = pua_political_events.13.title
+	desc = pua_political_events.13.desc
+
+	option = {
+		name = pua_political_events.13.a
+		add_legitimacy = 10
+	}
+}
+
+pua_political_events.14 = {
+	type = country_event
+	title = pua_political_events.14.title
+	desc = pua_political_events.14.desc
+
+	option = {
+		name = pua_political_events.14.a
+		remove_country_modifier = recent_foreign_claims
+		remove_variable = pua_daniel_hunt_pending
+		set_variable = {
+			name = pua_daniel_hunt_resolved
+			value = yes
+		}
+		if = {
+			limit = {
+				country_exists = c:BYD
+			}
+			set_variable = {
+				name = pua_byd_revenge_window_open
+				value = yes
+			}
+		}
+		if = {
+			limit = {
+				exists = character:bug_bugi
+			}
+			kill_character_silently = character:bug_bugi
+		}
+	}
+
+	option = {
+		name = pua_political_events.14.b
+		remove_country_modifier = recent_foreign_claims
+		remove_variable = pua_daniel_hunt_pending
+		set_variable = {
+			name = pua_daniel_hunt_resolved
+			value = yes
+		}
+		if = {
+			limit = {
+				country_exists = c:BYD
+			}
+			set_variable = {
+				name = pua_byd_revenge_window_open
+				value = yes
+			}
+		}
+	}
+}
+
+pua_political_events.15 = {
+	type = country_event
+	title = pua_political_events.15.title
+	desc = pua_political_events.15.desc
+
+	option = {
+		name = pua_political_events.15.a
+		c:PUA ?= {
+			set_variable = {
+				name = pua_byd_revenge_triggered
+				value = yes
+			}
+			remove_variable = pua_byd_revenge_window_open
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = pua_political_events.15.b
+		c:PUA ?= {
+			set_variable = {
+				name = pua_byd_revenge_triggered
+				value = yes
+			}
+			remove_variable = pua_byd_revenge_window_open
+			trigger_event_non_silently = pua_political_events.16
+		}
+		add_casus_belli = {
+			target = c:PUA
+			type = casus_belli:cb_byczy_rozjazd
+		}
+		ai_chance = {
+			base = 90
+		}
+	}
+}
+
+pua_political_events.16 = {
+	type = country_event
+	title = pua_political_events.16.title
+	desc = pua_political_events.16.desc
+
+	option = {
+		name = pua_political_events.16.a
+	}
+}

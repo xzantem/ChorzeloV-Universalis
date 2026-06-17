@@ -552,12 +552,12 @@ zuni_group = {
 steppe_group = {
 }
 
-świebodzin_group = {
+swiebodzin_group = {
 }
 
-tuchów_group = {
+tuchow_group = {
 }
 mielec_group = {
 }
-chorzelów_group = {
+chorzelow_group = {
 }

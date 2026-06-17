@@ -3093,4 +3093,990 @@ locations={
 		define_pop = {	type = peasants	size = 8.333	culture = meszniak	religion = catholic }
 	}
 
+	ożarów = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.016	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.489	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.896	culture = lesser_polish	religion = catholic }
+	}
+	tarłów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.225	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.551	culture = lesser_polish	religion = catholic }
+	}
+	dwikozy = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.393	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.954	culture = lesser_polish	religion = catholic }
+	}
+	zawichost = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.196	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.96	culture = lesser_polish	religion = catholic }
+	}
+	waśniów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.306	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.189	culture = lesser_polish	religion = catholic }
+	}
+	kunów = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.441	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.92	culture = lesser_polish	religion = catholic }
+	}
+	bodzechów = {
+		define_pop = {	type = nobles	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.019	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.601	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 12.167	culture = lesser_polish	religion = catholic }
+	}
+	ostrów_świętokrzyski = {
+		define_pop = {	type = nobles	size = 0.019	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.097	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 3.045	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 61.634	culture = lesser_polish	religion = catholic }
+	}
+	ćmielów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.325	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.578	culture = lesser_polish	religion = catholic }
+	}
+	bałtów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.152	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.085	culture = lesser_polish	religion = catholic }
+	}
+	pawłów = {
+		define_pop = {	type = nobles	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.022	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.703	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 14.223	culture = lesser_polish	religion = catholic }
+	}
+	brody = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.016	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.491	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.942	culture = lesser_polish	religion = catholic }
+	}
+	starachowice = {
+		define_pop = {	type = nobles	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.069	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 2.175	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 44.012	culture = lesser_polish	religion = catholic }
+	}
+	wąchock = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.307	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.205	culture = lesser_polish	religion = catholic }
+	}
+	mirzec = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.012	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.38	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.686	culture = lesser_polish	religion = catholic }
+	}
+	łączna = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.236	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.776	culture = lesser_polish	religion = catholic }
+	}
+	suchedniów = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.449	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.084	culture = lesser_polish	religion = catholic }
+	}
+	skarżysko-kamienna = {
+		define_pop = {	type = nobles	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.065	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 2.024	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 40.965	culture = lesser_polish	religion = catholic }
+	}
+	skarżysko_kościelne = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.266	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.384	culture = lesser_polish	religion = catholic }
+	}
+	bliżyn = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.011	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.36	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.277	culture = lesser_polish	religion = catholic }
+	}
+	stąporków = {
+		define_pop = {	type = nobles	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.024	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.748	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 15.144	culture = lesser_polish	religion = catholic }
+	}
+	gowarczów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.211	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.267	culture = lesser_polish	religion = catholic }
+	}
+	końskie = {
+		define_pop = {	type = nobles	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.05	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 1.576	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 31.89	culture = lesser_polish	religion = catholic }
+	}
+	smyków = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.174	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.517	culture = lesser_polish	religion = catholic }
+	}
+	radoszyce = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.394	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.965	culture = lesser_polish	religion = catholic }
+	}
+	ruda_maleniecka = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.139	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.808	culture = lesser_polish	religion = catholic }
+	}
+	słupia_konecka = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.146	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.953	culture = lesser_polish	religion = catholic }
+	}
+	fałków = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.192	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.883	culture = lesser_polish	religion = catholic }
+	}
+	krasocin = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.015	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.483	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.785	culture = lesser_polish	religion = catholic }
+	}
+	kluczewsko = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.235	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.755	culture = lesser_polish	religion = catholic }
+	}
+	włoszczowa = {
+		define_pop = {	type = nobles	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.028	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.892	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 18.061	culture = lesser_polish	religion = catholic }
+	}
+	radków = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.111	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.254	culture = lesser_polish	religion = catholic }
+	}
+	secemin = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.219	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.428	culture = lesser_polish	religion = catholic }
+	}
+	koniecpol = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.421	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.523	culture = lesser_polish	religion = catholic }
+	}
+	oksa = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.209	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.236	culture = lesser_polish	religion = catholic }
+	}
+	medyka = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.296	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.995	culture = lesser_polish	religion = catholic }
+	}
+	stubno = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.176	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.557	culture = lesser_polish	religion = catholic }
+	}
+	oleszyce = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.292	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.901	culture = lesser_polish	religion = catholic }
+	}
+	wielkie_oczy = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.174	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.517	culture = lesser_polish	religion = catholic }
+	}
+	lubaczów = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.425	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.6	culture = lesser_polish	religion = catholic }
+	}
+	cieszanów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.325	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.583	culture = lesser_polish	religion = catholic }
+	}
+	horyniec-zdrój = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.211	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.261	culture = lesser_polish	religion = catholic }
+	}
+	narol = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.012	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.361	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.316	culture = lesser_polish	religion = catholic }
+	}
+	susiec = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.011	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.336	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.808	culture = lesser_polish	religion = catholic }
+	}
+	bełżec = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.151	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.062	culture = lesser_polish	religion = catholic }
+	}
+	tomaszów_lubelski = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.017	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.521	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 10.539	culture = lesser_polish	religion = catholic }
+	}
+	tarnawatka = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.18	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.642	culture = lesser_polish	religion = catholic }
+	}
+	krynice = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.145	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.943	culture = lesser_polish	religion = catholic }
+	}
+	lubycza_królewska = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.271	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.487	culture = lesser_polish	religion = catholic }
+	}
+	jarczów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.152	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.068	culture = lesser_polish	religion = catholic }
+	}
+	rachanie = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.225	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.552	culture = lesser_polish	religion = catholic }
+	}
+	ulhówek = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.197	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.989	culture = lesser_polish	religion = catholic }
+	}
+	telatyn = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.173	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.504	culture = lesser_polish	religion = catholic }
+	}
+	łaszczów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.266	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.387	culture = lesser_polish	religion = catholic }
+	}
+	tyszowice = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.25	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.063	culture = lesser_polish	religion = catholic }
+	}
+	radecznica = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.246	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.98	culture = lesser_polish	religion = catholic }
+	}
+	sułów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.199	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.023	culture = lesser_polish	religion = catholic }
+	}
+	szczebrzeszyn = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.016	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.51	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 10.33	culture = lesser_polish	religion = catholic }
+	}
+	zwierzyniec = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.298	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.024	culture = lesser_polish	religion = catholic }
+	}
+	nielisz = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.246	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.985	culture = lesser_polish	religion = catholic }
+	}
+	stary_zamość = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.234	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.732	culture = lesser_polish	religion = catholic }
+	}
+	zamość = {
+		define_pop = {	type = nobles	size = 0.018	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.09	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 2.827	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 57.213	culture = lesser_polish	religion = catholic }
+	}
+	adamów_zamość = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.212	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.299	culture = lesser_polish	religion = catholic }
+	}
+	krasnobród = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.321	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.489	culture = lesser_polish	religion = catholic }
+	}
+	skierbieszów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.229	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.625	culture = lesser_polish	religion = catholic }
+	}
+	sitno = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.309	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.259	culture = lesser_polish	religion = catholic }
+	}
+	łabunie = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.282	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.713	culture = lesser_polish	religion = catholic }
+	}
+	grabowiec = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.175	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.533	culture = lesser_polish	religion = catholic }
+	}
+	miączyn = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.249	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.048	culture = lesser_polish	religion = catholic }
+	}
+	komarów-osada = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.216	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.38	culture = lesser_polish	religion = catholic }
+	}
+	dołhobyczów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.231	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.666	culture = lesser_polish	religion = catholic }
+	}
+	mircze = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.303	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.133	culture = lesser_polish	religion = catholic }
+	}
+	werbkowice = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.408	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.264	culture = lesser_polish	religion = catholic }
+	}
+	treszczany = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.445	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.015	culture = lesser_polish	religion = catholic }
+	}
+	uchanie = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.199	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.03	culture = lesser_polish	religion = catholic }
+	}
+	hrubieszów = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.445	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.015	culture = lesser_polish	religion = catholic }
+	}
+	horodło = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.233	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.721	culture = lesser_polish	religion = catholic }
+	}
+	dubienka = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.101	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.047	culture = lesser_polish	religion = catholic }
+	}
+	białopole = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.135	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.736	culture = lesser_polish	religion = catholic }
+	}
+	wojsławice = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.167	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.374	culture = lesser_polish	religion = catholic }
+	}
+	dorohusk = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.284	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.739	culture = lesser_polish	religion = catholic }
+	}
+	żmudź = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.135	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.73	culture = lesser_polish	religion = catholic }
+	}
+	leśniowice = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.16	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.24	culture = lesser_polish	religion = catholic }
+	}
+	kamień_lubelski = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.194	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.917	culture = lesser_polish	religion = catholic }
+	}
+	ruda-huta = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.2	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.04	culture = lesser_polish	religion = catholic }
+	}
+	chełm = {
+		define_pop = {	type = nobles	size = 0.018	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.089	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 2.799	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 56.64	culture = lesser_polish	religion = catholic }
+	}
+	pokrówka = {
+		define_pop = {	type = nobles	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.022	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.703	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 14.227	culture = lesser_polish	religion = catholic }
+	}
+	sawin = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.252	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.107	culture = lesser_polish	religion = catholic }
+	}
+	wierzbica = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.227	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.59	culture = lesser_polish	religion = catholic }
+	}
+	siedliszcze = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.309	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.253	culture = lesser_polish	religion = catholic }
+	}
+	rejowiec_fabryczny = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.193	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.907	culture = lesser_polish	religion = catholic }
+	}
+	rejowiec = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.287	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.811	culture = lesser_polish	religion = catholic }
+	}
+	wola_urhuska = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.174	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.518	culture = lesser_polish	religion = catholic }
+	}
+	włodawa = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.27	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.467	culture = lesser_polish	religion = catholic }
+	}
+	hanna = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.123	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.486	culture = lesser_polish	religion = catholic }
+	}
+	hańsk = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.166	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.367	culture = lesser_polish	religion = catholic }
+	}
+	wyryki = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.111	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.245	culture = lesser_polish	religion = catholic }
+	}
+	stary_brus = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.09	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 1.818	culture = lesser_polish	religion = catholic }
+	}
+	urszulin = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.195	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.944	culture = lesser_polish	religion = catholic }
+	}
+	sosnowica = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.112	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.271	culture = lesser_polish	religion = catholic }
+	}
+	podedwórze = {
+		define_pop = {	type = nobles	size = 0.0	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.073	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 1.486	culture = lesser_polish	religion = catholic }
+	}
+	dębowa_kłoda = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.174	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.519	culture = lesser_polish	religion = catholic }
+	}
+	jabłoń = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.17	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.45	culture = lesser_polish	religion = catholic }
+	}
+	milanów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.167	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.376	culture = lesser_polish	religion = catholic }
+	}
+	borki = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.276	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.579	culture = lesser_polish	religion = catholic }
+	}
+	ulan-majorat = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.265	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.37	culture = lesser_polish	religion = catholic }
+	}
+	radzyń_podlaski = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.012	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.373	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.547	culture = lesser_polish	religion = catholic }
+	}
+	kąkolewnica = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.012	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.364	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.361	culture = lesser_polish	religion = catholic }
+	}
+	wohyń = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.297	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.014	culture = lesser_polish	religion = catholic }
+	}
+	komarówka_podlaska = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.187	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.779	culture = lesser_polish	religion = catholic }
+	}
+	międrzyrzec_podlaski = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.015	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.483	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.777	culture = lesser_polish	religion = catholic }
+	}
+	drelów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.241	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.873	culture = lesser_polish	religion = catholic }
+	}
+	łomazy = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.221	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.465	culture = lesser_polish	religion = catholic }
+	}
+	rossosz = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.1	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.026	culture = lesser_polish	religion = catholic }
+	}
+	wisznice = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.216	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.38	culture = lesser_polish	religion = catholic }
+	}
+	sosnówka = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.105	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.134	culture = lesser_polish	religion = catholic }
+	}
+	tuczna = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.135	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.731	culture = lesser_polish	religion = catholic }
+	}
+	sławatycze = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.108	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.177	culture = lesser_polish	religion = catholic }
+	}
+	kodeń = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.157	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.18	culture = lesser_polish	religion = catholic }
+	}
+	terespol = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.292	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.909	culture = lesser_polish	religion = catholic }
+	}
+	piszczac = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.321	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.501	culture = lesser_polish	religion = catholic }
+	}
+	zalesie = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.197	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.985	culture = lesser_polish	religion = catholic }
+	}
+	rokitno = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.132	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.681	culture = lesser_polish	religion = catholic }
+	}
+	biała_podlaska = {
+		define_pop = {	type = nobles	size = 0.017	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.083	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 2.605	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 52.724	culture = lesser_polish	religion = catholic }
+	}
+	leśna_podlaska = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.191	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.873	culture = lesser_polish	religion = catholic }
+	}
+	konstantynów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.183	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.713	culture = lesser_polish	religion = catholic }
+	}
+	janów_podlaski = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.236	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.776	culture = lesser_polish	religion = catholic }
+	}
+
+	aleksandrów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.151	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.063	culture = lesser_polish	religion = catholic }
+	}
+	łukowa = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.191	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.864	culture = lesser_polish	religion = catholic }
+	}
+	obsza = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.192	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.894	culture = lesser_polish	religion = catholic }
+	}
+	józefów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.307	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.223	culture = lesser_polish	religion = catholic }
+	}
+	żółkiewka = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.238	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.821	culture = lesser_polish	religion = catholic }
+	}
+	rudnik = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.133	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.691	culture = lesser_polish	religion = catholic }
+	}
+	gorzków = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.158	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.192	culture = lesser_polish	religion = catholic }
+	}
+	izbica = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.012	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.371	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.502	culture = lesser_polish	religion = catholic }
+	}
+	kraśniczyn = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.167	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.384	culture = lesser_polish	religion = catholic }
+	}
+	siennica_różana = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.184	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.732	culture = lesser_polish	religion = catholic }
+	}
+	krasnystaw = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.392	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.943	culture = lesser_polish	religion = catholic }
+	}
+	łopiennik_górny = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.172	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.481	culture = lesser_polish	religion = catholic }
+	}
+	fajsławice = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.213	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.318	culture = lesser_polish	religion = catholic }
+	}
+	uścimów = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.144	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.906	culture = lesser_polish	religion = catholic }
+	}
+	mełgiew = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.016	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.493	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.968	culture = lesser_polish	religion = catholic }
+	}
+	trawniki = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.407	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.23	culture = lesser_polish	religion = catholic }
+	}
+	ludwin = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.263	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.316	culture = lesser_polish	religion = catholic }
+	}
+	milejów = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.013	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.412	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.329	culture = lesser_polish	religion = catholic }
+	}
+	puchaczów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.008	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.261	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.273	culture = lesser_polish	religion = catholic }
+	}
+	cyców = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.012	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.365	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.384	culture = lesser_polish	religion = catholic }
+	}
+	jeziorany = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.121	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.44	culture = lesser_polish	religion = catholic }
+	}
+	kock = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.009	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.278	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 5.623	culture = lesser_polish	religion = catholic }
+	}
+	serokomla = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.177	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.578	culture = lesser_polish	religion = catholic }
+	}
+	adamów_łuków = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.212	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.299	culture = lesser_polish	religion = catholic }
+	}
+	krzywda = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.015	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.468	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 9.478	culture = lesser_polish	religion = catholic }
+	}
+	wola_mysłowska = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.211	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.267	culture = lesser_polish	religion = catholic }
+	}
+	stoczek_łukowski = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.011	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.347	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 7.021	culture = lesser_polish	religion = catholic }
+	}
+	stanin = {
+		define_pop = {	type = nobles	size = 0.003	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.014	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.44	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 8.896	culture = lesser_polish	religion = catholic }
+	}
+	wojcieszków = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.311	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.292	culture = lesser_polish	religion = catholic }
+	}
+	łuków = {
+		define_pop = {	type = nobles	size = 0.005	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.027	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.859	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 17.378	culture = lesser_polish	religion = catholic }
+	}
+	trebieszów = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.011	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.337	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.825	culture = lesser_polish	religion = catholic }
+	}
+	ułęż = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.136	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 2.754	culture = lesser_polish	religion = catholic }
+	}
+	nowodwór = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.186	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 3.754	culture = lesser_polish	religion = catholic }
+	}
+	kłoczew = {
+		define_pop = {	type = nobles	size = 0.002	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.01	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.326	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 6.599	culture = lesser_polish	religion = catholic }
+	}
+	ryki = {
+		define_pop = {	type = nobles	size = 0.006	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.029	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.919	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 18.592	culture = lesser_polish	religion = catholic }
+	}
+	dęblin = {
+		define_pop = {	type = nobles	size = 0.004	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.022	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.695	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 14.069	culture = lesser_polish	religion = catholic }
+	}
+	stężyca = {
+		define_pop = {	type = nobles	size = 0.001	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = clergy	size = 0.007	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = burghers	size = 0.23	culture = lesser_polish	religion = catholic }
+		define_pop = {	type = peasants	size = 4.663	culture = lesser_polish	religion = catholic }
+	}
+
 }
